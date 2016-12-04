@@ -85,6 +85,9 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left {
     margin-top: 20px;
     margin-left: 20px;
 }
+.col-md-6 {
+    width: 41%;
+}
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left .teamimage-left, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right .teamimage-right {    height: 210px;
     margin-top: -80px;
     background-size: 105%;
