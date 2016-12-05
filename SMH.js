@@ -369,18 +369,6 @@ function tickOut(){
 setInterval(function(){ tickOut () }, 7500);
 
 
-function scorelist(){
-	
-var scorelist= $("ol li:first-child");
-  
-$(scorelist).animate({height:0},400,     function scorelist(){
-	$('ol').append(this);
-	$(this).animate({height:68},400);
-	});
-}
-
-
-setInterval(scorelist, 6000);
 
 
 ;$('.standings .data-table1 tbody td:nth-child(5n)').remove();
