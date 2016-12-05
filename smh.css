@@ -4430,13 +4430,13 @@ span.title {
     color: #1f2d48;
     animation: fade-in 3850ms ease-in;
 }
-div#header {     padding-top: 21px;
-    position: absolute;
+div#header {      padding-top: 21px;
+    position: RELATIVE;
     text-align: center;
     box-shadow: none;
     width: 100%;
     background-color: white;
-    height: 131px;
+    height: 62px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0px 26px;
@@ -4671,7 +4671,7 @@ ul.menu img {      width: 19%;
 .menu {      width: 100%;
     font-family: NFLEndzoneSansCondMedium;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 20px; height: 95px;
     line-height: 15px;
     position: absolute;
     padding: 0 0 0 0px; z-index: 270;
