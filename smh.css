@@ -337,12 +337,6 @@ sb3 {
     width: 84%;
 }
 
-span.TITLES {
-    FONT-SIZE: 17PX;
-    letter-spacing: .2em;
-    COLOR: #807F7F;
-    TEXT-DECORATION: UNDERLINE;
-}
 span.SBYEAR {       font-size: 22px;
     font-family: NFLEndzoneSansCondMedium;
     color: #e8ecf1;
@@ -4420,12 +4414,12 @@ span.title {
     padding-top: 0px;
     padding-right: 12px;
     position: absolute;
-    top: -17px; font-style: italic;
+    top: -17px;
     text-align: center;
     letter-spacing: -.05em;
     width: 100%;
     box-shadow: none;
-    left: -89px;
+    left: -245px;
     height: 176px;
     color: #1f2d48;
     animation: fade-in 3850ms ease-in;
