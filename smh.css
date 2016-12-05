@@ -4191,16 +4191,18 @@ span.min-away {
 }
 /****scorelist***/
 
-.scorelist {       display: block;
+.scorelist {   
+    display: block;
     list-style: none;
-    height: 45px;
+    height: 118px;
     overflow: hidden;
     BACKGROUND-COLOR: rgba(255, 255, 255, 0);
-    margin: 0 auto;
-    width: 100%;
-    top: 62px;
+    margin: 0px auto;
+    width: 73%;
+    top: 105px;
+    MARGIN-LEFT: 27PX;
     left: 0%;
-    z-index: 293;
+    z-index: 0;
     position: absolute;
 }
 
@@ -4230,13 +4232,16 @@ span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-
 .yui3-scorestrip-tile-index-0 {
     width: 62px;
 }
-.yui3-scorestrip-tile {      cursor: pointer; border-right:solid 0px white;
+.yui3-scorestrip-tile {   
+    cursor: pointer;
     float: left;
     font: bold 18px/26px NFLEndzoneSansCondMedium;
     width: 124px;
     height: 60px;
     top: -2px;
     left: -2px;
+    BORDER-TOP: .5PX SOLID rgba(128, 128, 128, 0.23);
+    BORDER-RIGHT: .5PX SOLID rgba(128, 128, 128, 0.46);
     overflow: hidden;
     position: relative;
     text-align: left;
@@ -4430,7 +4435,7 @@ div#header {      padding-top: 21px;
     box-shadow: none;
     width: 100%;
     background-color: white;
-    height: 62px;
+    height: 45px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0px 26px;
@@ -4662,14 +4667,17 @@ ul.menu img {      width: 19%;
     left: 27px;
 }
 
-.menu {      width: 100%;
+.menu {   
+    width: 100%;
     font-family: NFLEndzoneSansCondMedium;
     font-weight: 400;
-    font-size: 20px; height: 95px;
+    font-size: 20px;
+    height: 60px;
     line-height: 15px;
     position: absolute;
-    padding: 0 0 0 0px; z-index: 270;
-    top: 60px;
+    padding: 0 0 0 0px;
+    z-index: 270;
+    top: 27px;
     margin: 0;
     border-top: solid 3px #bd0a0a;
     border-bottom: solid 1px gray;
@@ -4683,12 +4691,12 @@ ul.menu img {      width: 19%;
     color: #bd0a0a;
     text-decoration: none;
 }
-.menu > li {
-    display: inline-block;
+.menu > li {    display: inline-block;
     text-align: center;
     margin-left: -4px;
     border-left: 1px solid rgba(255, 255, 255, 0.11);
-    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1);     top: 37px;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1);
+    top: 1px;
 }
 .menu > li > a {
     padding:20px 18px;
