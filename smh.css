@@ -4198,7 +4198,7 @@ span.min-away {
     overflow: hidden;
     BACKGROUND-COLOR: rgba(255, 255, 255, 0);
     margin: 0px auto;
-    width: 73%;
+    width: 100%;
     top: 105px;
     MARGIN-LEFT: 27PX;
     left: 0%;
@@ -4214,15 +4214,15 @@ span.min-away {
     color: #D50000 !important;
     text-decoration: none;
 }
-span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-score {     position: absolute;
-    width: 100px;
-    text-align: left;
+span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-score {      position: absolute;
+    width: 29px;
+    text-align: right;
     top: 1px;
-    left: 115%;
+    left: 81%;
 }
-.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {        top: 29px;
+.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {      top: 29px;
     width: 21px;
-    left: 86px;
+    left: 52px;
     height: 25px;
 }
 .yui3-scorestrip-tile-score {
@@ -4247,17 +4247,17 @@ span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-
     text-align: left;
     text-transform: uppercase;
 }
-a.yui3-scorestrip-tile-content {        background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+a.yui3-scorestrip-tile-content {  background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
     color: #2b4069;
     height: 71%;
     left: 6px;
     position: absolute;
     text-decoration: none;
-    width: 86px;
-    background-image: url('http://www.daddyleagues.com/img/nfl/game-details-at.png');
+    width: 55px;
+    background-image: url(http://www.daddyleagues.com/img/nfl/game-details-at.png);
     background-repeat: no-repeat;
     background-size: 32%;
-    background-position: 59px 15px;
+    background-position: 19px 19px;
 }
 /***tabs***/
 
