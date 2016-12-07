@@ -4217,12 +4217,12 @@ span.min-away {
 span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-score {    position: absolute;
     width: 20px;
     text-align: right;
-    top: 1px;
-    left: 96%;
+    top: 0px;
+    left: 78%;
 }
 .yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {       top: 19px;
     width: 21px;
-    left: 38px;
+    left: 31px;
     height: 18px;
 }
 .yui3-scorestrip-tile-score {
@@ -4236,8 +4236,8 @@ span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-
     cursor: pointer;
     float: left;
     font: bold 13px/19px NFLEndzoneSansCondMedium;
-    width: 72px;
-    height: 60px;
+    width: 62px;
+    height: 43px;
     top: -2px;
     left: -2px;
     BORDER-TOP: .5PX SOLID rgba(128, 128, 128, 0.23);
