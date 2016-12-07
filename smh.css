@@ -4199,7 +4199,7 @@ span.min-away {
     BACKGROUND-COLOR: rgba(255, 255, 255, 0);
     margin: 0px auto;
     width: 100%;
-    top: 105px;
+    top: 129px;
     MARGIN-LEFT: 27PX;
     left: 0%;
     z-index: 0;
@@ -4656,11 +4656,11 @@ ins#aswift_0_expand {
     padding: 20px 0;
 }
 
-ul.menu img {   width: 12%;
+ul.menu img {      width: 11%;
     position: absolute;
-    top: -26px;
+    top: -39px;
     z-index: 4;
-    left: 47px;
+    left: 37px;
 }
 
 .menu {   
@@ -4673,7 +4673,7 @@ ul.menu img {   width: 12%;
     position: absolute;
     padding: 0 0 0 0px;
     z-index: 270;
-    top: 27px;
+    top: 41px;
     margin: 0;
     border-top: solid 3px #bd0a0a;
     border-bottom: solid 1px gray;
@@ -4687,12 +4687,14 @@ ul.menu img {   width: 12%;
     color: #bd0a0a;
     text-decoration: none;
 }
-.menu > li {    display: inline-block;
+.menu > li {  
+    display: inline-block;
     text-align: center;
     margin-left: -4px;
     border-left: 1px solid rgba(255, 255, 255, 0.11);
     box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1);
     top: 1px;
+    left: -76px;
 }
 .menu > li > a {
     padding:20px 18px;
@@ -5081,7 +5083,7 @@ b, strong {
 }
 span.text1{    
     FONT-SIZE: 24PX;
-    top: 236px;
+    top: 178px;
     position: absolute;
     text-align: left;
     left: 0px;
