@@ -2698,7 +2698,7 @@ div#dplayeroftheweek-container {
     top: -9px;
     height: 100%;
     z-index: 6;
-    left: 46px;
+    left: 4px;
     width: 194px;
     text-align: left;
 }
@@ -2749,6 +2749,11 @@ div#potw {          position: relative;
 }
 .panel-body {
     padding: 0px;
+}
+.pow-team-logo {
+    width: 203px;
+    margin: -210px 28px 0;
+    float: right;
 }
 /***dropdown menu***/
 .dropdown1-text, .dropdown-content a {
@@ -4199,7 +4204,7 @@ span.min-away {
     BACKGROUND-COLOR: rgba(255, 255, 255, 0);
     margin: 0px auto;
     width: 100%;
-    top: 132px;
+    top: 125px;
     MARGIN-LEFT: 27PX;
     left: 0%;
     z-index: 0;
