@@ -105,25 +105,6 @@ $('.data-table1 td:contains("Redskins")').prepend('<img src="http://www.mghelmet
 $('.data-table1 td:contains("Explorers")').prepend('<img src="http://i1178.photobucket.com/albums/x364/garza21lions/Heavy%20Hitters/explorer-logo3_zpspjzfxuvo.png" width="25" height="19" border="0" alt="Team logo" class="teamLogo">').addClass("kc");
 
 
-
-	// Twitch.tv Include
-    $('#twitchList li').each(function () {
-        var twitch = $(this).data('twitch');
-        var team = $(this).data('team');
-        var user = $(this);
-        var imgUrl = "http://i.nflcdn.com/static/site/6.2/img/logos/teams-matte-80x53/";
-        $.getJSON("https://api.twitch.tv/kraken/streams/"+twitch+".json?callback=?", function(c) {
-            if (c.stream == null) {
-                user.remove();
-                if ( ! $('#twitchList li').length ){
-                   $('#twitchList').html('<li class="online">No HeavyHitter games are currently being broadcasted...a link with each team logo will appear when a user is broadcasting</li>');
-                }   
-            } else {
-                user.addClass("online");
-                user.append( '<a href="http://www.twitch.tv/'+twitch+'"><img src="'+imgUrl+team+'.png"/><i>'+twitch+'</i></a>' );                
-            }
-        });
-    });
     
     
 	$('.maincontent>h1:contains("Arizona Cardinals")').replaceWith('<img src="http://i.nflcdn.com/static/site/6.3/img/subheaders/arz.png" class="subheader" />');
