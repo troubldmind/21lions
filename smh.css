@@ -1,4 +1,6 @@
-
+li.list-group-item {
+    color: #7590c5;
+}
 div#news-container {
     width: 55%;
     position: ABSOLUTE;
