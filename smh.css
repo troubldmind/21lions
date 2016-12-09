@@ -5029,11 +5029,13 @@ white-space: nowrap;
     border-bottom: solid 24px #1f2d48;
     left: 113px;
 }
-.twitchList #twitchList {    margin: 0;
+.twitchList #twitchList {  margin: 0;
     padding: 0;
     position: absolute;
     top: -6px;
     LEFT: 108PX;
+    width: 87%;
+    height: 29px;
 }
 .twitchList #twitchList li { display:none; padding:-1px 8px; border-right:0px solid #000;}
 .twitchList #twitchList li:last-of-type { border-right:0px;}
