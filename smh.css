@@ -226,7 +226,9 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {
     float: left;
     font-size: 15px;
 }
+
 /***forms***/
+
 .col-md-5 {
     width: 37%;
     position: relative;
@@ -867,21 +869,18 @@ clear: both;
 overflow: hidden;
 font-family: NFLEndzoneTechBold, sans-serif;
 }
+
 /***schedule***/
+
 .teamlogo {
     overflow-y: hidden;
     height: 76px;
-}.scheduleweek .teamlogo img {
+}
+.scheduleweek .teamlogo img {
        top: -66px;
-    position: relative;width: 100%;
+    position: relative; width: 100%;
 }
 
-.scheduleweek .hometeam .name {
-    margin: -17px 0 0 -108px;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
 span.users {
     top: -2px;
     z-index: 1;
