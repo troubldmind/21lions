@@ -1050,14 +1050,6 @@ span.susers {      top: -2px;
     background-size: 100%;
 }
 
-.col-md-5 {
-    width: 39.67%;
-    position: absolute;
-    z-index: 2;
-    height: 50%;
-    left: 29px;
-    text-align: left;
-}
 .col-md-9.col-xs-9.col-sm-9 {
     float: left;
 }
