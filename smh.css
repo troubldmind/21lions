@@ -228,8 +228,8 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {
 }
 /***forms***/
 .col-md-5 {
-    width: 39.67%;
-    position: absolute;
+    width: 37%;
+    position: relative;
     z-index: 0;
     height: 20%;
     left: 29px;
