@@ -237,6 +237,9 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {
     left: 29px;
     text-align: left;
 }
+.col-md-6 {
+    width: 41%;
+}
 .help-block {
     display: block;
     margin-top: -52px;
@@ -879,7 +882,7 @@ font-family: NFLEndzoneTechBold, sans-serif;
 .scheduleweek .teamlogo img {
           top: -53px;
     position: relative;
-    width: 100%;
+    width: 100%; height: 220px;
 }
 
 span.users {
@@ -1056,7 +1059,7 @@ span.susers {      top: -2px;
 
 .scheduleweek .at {         padding: 0px 0px 0px;
     text-align: center;
-    left: 43px;
+    left: 32px;
     top: 33px;
     line-height: 26px;
     width: 150px;
@@ -1089,7 +1092,7 @@ span.susers {      top: -2px;
     text-shadow: 0 0px 52px #51A5FA;
 }
 .scheduleweek .awayteam .record {
-       margin-left: 78px;
+       margin-left: 50px;
     color: #ffb300;
     font-size: 15px;
 }
@@ -1098,9 +1101,10 @@ span.susers {      top: -2px;
     color: #e9ae03;
     font-size: 15px;
 }
-.scheduleweek .awayteam .name {margin-left: 90px;
+.scheduleweek .awayteam .name {margin-left: -39px;
     margin-top: 11px;
     font-size: 32px;
+    text-align: right;
     font-weight: 700;
     text-transform: uppercase;
 }
