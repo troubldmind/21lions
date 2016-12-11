@@ -2067,11 +2067,12 @@ span.oa2 {        font-size: 21px;
     z-index: 1;
 }
 
-afcwest{      position: absolute;
+afcwest{    position: absolute;
     width: 384px;
-    top: 633px;     margin-top: 3%;
+    top:715px;
+    margin-top: 3%;
     overflow: hidden;
-    left: 677px;
+    left: 664px;
     color: white;
     font-size: 58px;
     font-style: italic;
@@ -2081,7 +2082,7 @@ afcwest{      position: absolute;
 afceast{      position: absolute;
     width: 530px;
     height: 300px;    margin-top: 3%;
-       top: 770px;
+       top: 847px;
     left: 595px;
     color: white;
     font-size: 58px;
@@ -2093,7 +2094,7 @@ afceast{      position: absolute;
 afcnorth{       position: absolute;
     width: 530px;
     height: 300px;
-       top: 989px;
+       top: 1061px;
     left: 601px;   margin-top: 3%;
     color: white;
     font-size: 58px;
@@ -2102,11 +2103,12 @@ afcnorth{       position: absolute;
     padding-right: 215px;
     transform: rotateZ(-59Deg);
 }
-afcsouth{     position: absolute;
+afcsouth{       position: absolute;
     width: 530px;
     height: 300px;
-    top: 1216px;    margin-top: 3%;
-    left: 606px;
+    top: 1301px;
+    margin-top: 3%;
+    left: 600px;
     color: white;
     font-size: 58px;
     font-style: italic;
@@ -2145,7 +2147,7 @@ span.nfc{        display: block;
 nfcwest{     position: absolute;
     width: 530px;
     height: 300px;    margin-top: 3%;
-        top: 1461px;
+        top: 1522px;
     left: 597px;
     color: white;
     font-size: 58px;
@@ -2157,7 +2159,7 @@ nfcwest{     position: absolute;
 nfceast{    position: absolute;
     width: 530px;
     height: 300px;
-        top: 1701px;
+        top: 1779px;
     margin-top: 3%;
     left: 590px;
     color: white;
@@ -2171,7 +2173,7 @@ nfcnorth{
     position: absolute;
     width: 530px;
     height: 300px;
-       top: 1912px;
+       top: 1995px;
     left: 606px;   margin-top: 3%;
     color: white;
     font-size: 58px;
@@ -2183,7 +2185,7 @@ nfcnorth{
 nfcsouth{     position: absolute;
     width: 530px;
     height: 300px;
-      top: 2158px;    margin-top: 3%;
+      top:2231px;    margin-top: 3%;
     left: 599px;
     color: white;
     font-size: 58px;
@@ -2286,15 +2288,49 @@ article.accordion section h2
 	transition: all 1s ease;
 }
 /***tables***/
+table.data-table1 tr:hover {
+    background-color: rgba(245, 245, 245, 0);
+}
+.data-table1 td.tbdy1, table.data-table1 .tbdy1 td {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px dotted #ddd;
+    color: #caa455;
+}
+table.data-table1 tr:nth-child(odd) {
+    background-color: rgba(242, 242, 242, 0);
+}
 table.data-table1 {
     border-collapse: separate;
     line-height: 20px;
-    padding: 5px;
+    padding: 5px;     border: 0px solid #ccc;
 }
 .data-table1 .tbdy1 td, .data-table1 td.tbdy1 {
     background-color: #fff;
     border-bottom: 1px dotted rgba(221, 221, 221, 0);
     color: #2b4069;
+}
+table.data-table1 .thd1 td {
+    background-color: #caa455;
+    color: #fff;
+    font-weight: 700;
+}
+
+table.data-table1 .thd1 td, table.data-table1 .thd1 th {
+    color: #fff;
+    text-align: left;
+    padding: 2px 3px;
+    font-size: 12px;
+    font-weight: 700;
+}
+table.data-table1 .thd2 td {
+    background-color: #6f0000;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    padding: 0px 3px;
+}
+.data-table1 th, table.data-table1 td {
+    font-size: 17px;
+    padding: 6px 3px;
 }
 .data-table1 .thd1 td {
     background-color: rgba(0, 82, 148, 0);
@@ -2719,11 +2755,11 @@ table.data-table1 {
 div#dplayeroftheweek-container {
     margin-bottom: 0px;
 }
-.panel-player .playeroftheweek-name {       text-transform: uppercase;
-    color: #202f4d;
+.panel-player .playeroftheweek-name {          text-transform: uppercase;
+    color: #cea85c;
     font-size: 24px;
     position: absolute;
-    top: -9px;
+    top: 196px;
     height: 100%;
     z-index: 6;
     left: 4px;
@@ -2742,12 +2778,12 @@ div#dplayeroftheweek-container {
     font-size: 19px;
 }
 .playeroftheweek-name, .playeroftheweek-name a {
-    color: #005580;
+    color: #ce9828;
     font-size: 23px;
     font-weight: 700;
     line-height: 53px;
 }
-.panel-player .text {          background-color: white;
+.panel-player .text {       background-color: rgba(0, 0, 0, 0);
     height: 55px;
     width: 282px;
     left: 0px;
@@ -4712,10 +4748,10 @@ span.bottomtext {
 }
 
 /***** rules*****/
-.acc-btn {
-    background-color: lightgray;
+.acc-btn {    background-color: #d2ac65;
     border-radius: 10px;
-    border-bottom: solid 3px white;
+    border-bottom: solid 3px black;
+}
 }
 .acc-content {
       margin-bottom: 39px;
@@ -4875,7 +4911,7 @@ body {
     background-position: 0px -36px;
 } 
 .container {
-color: #2b4069;
+color:#d2ac65;
 }
 
 .form-control 
