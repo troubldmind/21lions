@@ -210,43 +210,6 @@ $('.Count').each(function () {
   });
 });
 
-$('.oplayeroftheweek .playeroftheweek-name').prependTo('.oplayeroftheweek .text');
-	$('.dplayeroftheweek .playeroftheweek-name').prependTo('.dplayeroftheweek .text');
-
-	$('.playeroftheweek .avatar[style*="ari.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/ARI.svg" alt="">').addClass("ari");
-	$('.playeroftheweek .avatar[style*="atl.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/ATL.svg" alt="">').addClass("atl");
-	$('.playeroftheweek .avatar[style*="bal.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BAL.svg" alt="">').addClass("bal");
-	$('.playeroftheweek .avatar[style*="buf.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BUF.svg" alt="">').addClass("buf");
-	$('.playeroftheweek .avatar[style*="car.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CAR.svg" alt="">').addClass("car");
-	$('.playeroftheweek .avatar[style*="chi.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CHI.svg" alt="">').addClass("chi");
-	$('.playeroftheweek .avatar[style*="cin.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CIN.svg" alt="">').addClass("cin");
-	$('.playeroftheweek .avatar[style*="cle.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CLE.svg" alt="">').addClass("cle");
-	$('.playeroftheweek .avatar[style*="dal.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DAL.svg" alt="">').addClass("dal");
-	$('.playeroftheweek .avatar[style*="den.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DEN.svg" alt="">').addClass("den");
-	$('.playeroftheweek .avatar[style*="det.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DET.svg" alt="">').addClass("det");
-	$('.playeroftheweek .avatar[style*="gb.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/GB.svg" alt="">').addClass("gb");
-	$('.playeroftheweek .avatar[style*="hou.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/HOU.svg" alt="">').addClass("hou");
-	$('.playeroftheweek .avatar[style*="ind.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/IND.svg" alt="">').addClass("ind");
-    $('.playeroftheweek .avatar[style*="jac.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/JAC.svg" alt="">').addClass("jac");
-	$('.playeroftheweek .avatar[style*="kc.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg" alt="">').addClass("kc");
-	$('.playeroftheweek .avatar[style*="mia.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/MIA.svg" alt="">').addClass("mia");
-	$('.playeroftheweek .avatar[style*="MIN.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/MIN.svg" alt="">').addClass("min");
-	$('.playeroftheweek .avatar[style*="ne.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NE.svg" alt="">').addClass("ne");
-	$('.playeroftheweek .avatar[style*="no.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NO.svg" alt="">').addClass("no");
-	$('.playeroftheweek .avatar[style*="nyg.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NYG.svg" alt="">').addClass("nyg");
-	$('.playeroftheweek .avatar[style*="nyj.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NYJ.svg" alt="">').addClass("nyj");
-	$('.playeroftheweek .avatar[style*="oak.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/OAK.svg" alt="">').addClass("oak");
-	$('.playeroftheweek .avatar[style*="phi.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PHI.svg" alt="">').addClass("phi");
-	$('.playeroftheweek .avatar[style*="pit.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PIT.svg" alt="">').addClass("pit");
-	$('.playeroftheweek .avatar[style*="sd.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SD.svg" alt="">').addClass("sd");
-	$('.playeroftheweek .avatar[style*="sf.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SF.svg" alt="">').addClass("sf");
-	$('.playeroftheweek .avatar[style*="sea.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SEA.svg" alt="">').addClass("sea");
-	$('.playeroftheweek .avatar[style*="stl.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/STL.svg" alt="">').addClass("stl");
-	$('.playeroftheweek .avatar[style*="tb.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/TB.svg" alt="">').addClass("tb");
-	$('.playeroftheweek .avatar[style*="TEN.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/TEN.svg" alt="">').addClass("ten");
-	$('.playeroftheweek .avatar[style*="was.png"]').attr( "style", "" ).prepend('<img class="teamLogo" src="http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/WAS.svg" alt="">').addClass("was");
-
-
 
 
 
