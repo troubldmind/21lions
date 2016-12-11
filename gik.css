@@ -874,7 +874,24 @@ font-family: NFLEndzoneTechBold, sans-serif;
 }
 
 /***schedule***/
-
+.scheduleweek .teamsos .label {
+    margin-left: 15px;
+    font-size: 12px;
+    top: -70px;
+    position: relative;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
 .teamlogo {
     overflow-y: hidden;
     height: 76px;
@@ -3000,7 +3017,7 @@ span.score.ng-binding {    position: absolute;
     overflow: hidden;
     line-height: 30px;
     border-bottom: 2px solid #ffffff;
-    background: #fff url(.);
+    background: black url(.);
 }
 span.use {    top: -36px;
     z-index: 69;
@@ -4889,8 +4906,7 @@ span.headings {     FONT-SIZE: 21PX;
     font-size: 17px;
     text-transform: uppercase;
 }
-body {      
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), -webkit-linear-gradient(top, rgb(31, 45, 72), rgb(31, 45, 72)), url();
+body {        background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), -webkit-linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0)), url();
     background-color: transparent;
     color: #747474;
     background-size: auto, 100%, auto, cover;
