@@ -874,11 +874,12 @@ font-family: NFLEndzoneTechBold, sans-serif;
 
 .teamlogo {
     overflow-y: hidden;
-    height: 76px;
+    height: 206px;
 }
 .scheduleweek .teamlogo img {
-       top: -66px;
-    position: relative; width: 100%;
+          top: -53px;
+    position: relative;
+    width: 100%;
 }
 
 span.users {
@@ -1055,7 +1056,7 @@ span.susers {      top: -2px;
 
 .scheduleweek .at {         padding: 0px 0px 0px;
     text-align: center;
-    left: 16px;
+    left: 43px;
     top: 33px;
     line-height: 26px;
     width: 150px;
