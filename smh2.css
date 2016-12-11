@@ -899,6 +899,12 @@ span.users {
     color: #C2ECFF;
     text-shadow: 1px -1px 12px #74C1F8;
 }
+.scheduleweek .teamlogo img {
+    top: -53px;
+    position: relative;
+    width: 200px;
+    height: 220px;
+}
 .scheduleweek .name { 
     font-size: 42px;
     text-shadow: 4px -10px 0px #FFFFFF;
