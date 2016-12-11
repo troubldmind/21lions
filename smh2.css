@@ -912,9 +912,9 @@ span.users {
     text-shadow: 1px -1px 12px #74C1F8;
 }
 .scheduleweek .teamlogo img {
-    top: -53px;
+   top: -62px;
     position: relative;
-    width: 200px;
+    width: 220px;
     height: 220px;
 }
 .scheduleweek .name { 
