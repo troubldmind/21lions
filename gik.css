@@ -3233,6 +3233,25 @@ span.ind {
     text-shadow: 0px 3px 6px #000000;
     overflow: hidden;
 }
+span.lon {
+    background-image: url(/img/nfl/teams/right/144.png),linear-gradient(90deg, #262b57, rgba(0, 0, 0, 0));
+    background-size: 100%, 100%;
+    background-position: 0px 1px, 12px 1px;
+    background-repeat: no-repeat;
+    font-size: 62px;
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    font-style: italic;
+    height: 139px;
+    text-transform: uppercase;
+    left: 408px;
+    width: 417px;
+    padding-top: 57px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
 span.dal {
     background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/cowboys.png),linear-gradient(90deg, #0f2347, rgba(0, 0, 0, 0));
     background-size: 100%, 100%;
