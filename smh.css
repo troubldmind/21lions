@@ -35,7 +35,7 @@ div#tab3 {        width: 100%;
     HEIGHT: 461px;
 }
 /***game recap***/
-div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap {      background-image: url('http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png');
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap {     background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png);
     height: 190px;
     width: 100%;
     z-index: 1;
@@ -48,7 +48,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap {      bac
     border-bottom: none;
     background-size: auto, 100%;
     background-repeat: no-repeat, no-repeat;
-    background-position: 50% 80px;
+    background-position: 50% 137px;
 }
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.recap-container {
     overflow: hidden;
@@ -98,7 +98,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left .teamimage-left
 }
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .button {
     float: left;
-    margin-top: 12px;
+    margin-top: 86px;
     margin-left: 41px;
     width: 88px;
     height: 27px;
@@ -159,11 +159,11 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right {
     position: relative;
 }
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .statictisc-title {
-    float: left;
+      float: left;
     font-size: 21px;
     margin-left: 22px;
     margin-right: 255px;
-    margin-top: -1px;
+    margin-top: 78px;
     text-transform: uppercase;
 }
 
