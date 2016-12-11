@@ -877,12 +877,13 @@ font-family: NFLEndzoneTechBold, sans-serif;
 
 .teamlogo {
     overflow-y: hidden;
-    height: 206px;
+    height: 74px;
 }
 .scheduleweek .teamlogo img {
-          top: -53px;
+         top: -53px;
     position: relative;
-    width: 100%; height: 220px;
+    width: 200px;
+    height: 220px;
 }
 
 span.users {
