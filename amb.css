@@ -4250,7 +4250,7 @@ span.min-away {
     BACKGROUND-COLOR: rgba(255, 255, 255, 0);
     margin: 0px auto;
     width: 100%;
-    top: 125px;
+    top: 136px;
     MARGIN-LEFT: 27PX;
     left: 0%;
     z-index: 0;
@@ -4707,11 +4707,11 @@ ins#aswift_0_expand {
     padding: 20px 0;
 }
 
-ul.menu img {      width: 11%;
+ul.menu img {  width: 14%;
     position: absolute;
-    top: -42px;
+    top: -49px;
     z-index: 4;
-    left: 37px;
+    left: 15px;
 }
 
 .menu {   
@@ -4745,7 +4745,7 @@ ul.menu img {      width: 11%;
     border-left: 1px solid rgba(255, 255, 255, 0.11);
     box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1);
     top: 1px;
-    left: -61px;
+    left: -14px;
 }
 .menu > li > a {
     padding:20px 18px;
