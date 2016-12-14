@@ -1788,13 +1788,15 @@ body {     background-image: url(http://www.easports.com/madden-nfl/connected-fr
 
 
 /***scorelist***/
-.scorelist {
-    clear: both;
+.scorelist {      clear: both;
     margin: 0;
     display: table;
     padding: 5px;
     position: relative;
-    top: 73px;z-index: 1;
+    top: 99px;
+    left: 16px;
+    width: 1050px;
+    z-index: 1;
 }
 .yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor, .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home {
     color: #2B4069;
@@ -1815,15 +1817,15 @@ span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-
     text-align: right;
 }
 .yui3-scorestrip-tile-index-0 {
-    width: 62px;
+    width: 63px;
 }
-.yui3-scorestrip-tile {
-    border-right: 1px solid #4465A2;
+.yui3-scorestrip-tile {    border-right: 1px solid rgba(92, 128, 195, 0.36);
     cursor: pointer;
     display: inline;
-    float: right;
-    font: bold 8px/9px Verdana,sans-serif;
-    height: 35px;
+    float: left;
+    font: bold 9px/17px Verdana,sans-serif;
+    height: 44px;
+    top: -6px;
     overflow: hidden;
     position: relative;
     text-align: left;
@@ -1831,7 +1833,7 @@ span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-
 }
 a.yui3-scorestrip-tile-content {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
-    color: #2B4069;
+    color: #007eb5;
     height: 100%;
     left: 0;
     position: absolute;
