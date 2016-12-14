@@ -874,6 +874,12 @@ font-family: NFLEndzoneTechBold, sans-serif;
 }
 
 /***sche***/
+.teamlogo {
+    overflow-y: hidden;
+    height: 73px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 .scheduleweek .teamsos .label {
     margin-left: 37px;
     font-size: 11px;
