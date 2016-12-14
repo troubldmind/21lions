@@ -3301,7 +3301,7 @@ span.nyg {
     text-shadow: 0px 3px 6px #000000;
     overflow: hidden;
 }
-span.jac {
+span.jax {
     background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/jaguars.png),linear-gradient(90deg, #0e4755, rgba(0, 0, 0, 0));
     background-size: 100%, 100%;
     background-position: 0px 1px, 12px 1px;
@@ -3911,7 +3911,7 @@ span.nyg-away {
     text-shadow: 0px 3px 6px #000000;
     overflow: hidden;
 }
-span.jac-away {
+span.jax-away {
     background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/jaguars.png),linear-gradient(-90deg, #a6812c, rgba(0, 0, 0, 0));
     background-size: 100%, 100%;
     background-position: 0px 1px, 12px 1px;
