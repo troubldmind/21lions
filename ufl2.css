@@ -313,19 +313,6 @@ img.subheader {
     top: 184px;
     width: 1050px;
 }
-
-logo {
-position: absolute;
-    top: 3px;
-    width: 950px;
-    left: 0px;
-    height: 184px;
-    background-image: url(http://web3ks.com/wp-content/uploads/2015/02/tne_logo-844x864.png);
-    background-repeat: no-repeat;
-    background-size: 11%;
-    background-color: rgb(201, 201, 201);
-    z-index: 1;
-}
 div#creative_65677945_0 {
     position: relative;
     top: 333px;
