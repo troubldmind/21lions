@@ -693,6 +693,11 @@ background: -webkit-gradient(linear, left bottom, left top, from(white), to(grey
     width: 515px;
     position: relative;
 }
+#nav span {
+    position: relative;
+    top: -4px;
+    text-transform: uppercase;
+}
 #team-main-nav li {
     float: left;
     margin: 0 0 0 5px;
@@ -1799,7 +1804,7 @@ body {     background-image: url(http://www.easports.com/madden-nfl/connected-fr
     z-index: 1;
 }
 .yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor, .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home {
-    color: #2B4069;
+    color: #81bc3d;
 }
 .yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-content, .yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-alert-box, .yui3-scorestrip-tile-content:hover, .yui3-scorestrip-tile-content:hover > span {    background: none repeat scroll 0 0 rgba(255, 255, 255, 0) !important;
     color: #83bd3d !important;
@@ -1807,10 +1812,10 @@ body {     background-image: url(http://www.easports.com/madden-nfl/connected-fr
 }
 span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-score {
     position: absolute;
-    top: 5px;
+    top: 2px;
 }
 .yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {
-    top: 22px;
+    top: 20px;
 }
 .yui3-scorestrip-tile-score {
     right: 1px;
@@ -1833,7 +1838,7 @@ span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-
 }
 a.yui3-scorestrip-tile-content {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
-    color: #007eb5;
+    color: #81bc3d;
     height: 100%;
     left: 0;
     position: absolute;
