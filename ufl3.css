@@ -1057,9 +1057,14 @@ b3 {
 /***other***/
 .data-table1 td.tbdy1, table.data-table1 .tbdy1 td {
     background-color: rgba(255, 255, 255, 0);
-    border-bottom: 1px dotted rgba(221, 221, 221, 0.47);
+    border-bottom: 0px dotted rgba(221, 221, 221, 0.47);
     color: #86bf3d;
     font-size: 11px;
+}
+table.data-table1 {
+    border-collapse: collapse;
+    border: 0px solid #ccc;
+    width: 100%;
 }
 table.data-table1 tr:hover {
     background-color: rgba(245, 245, 245, 0);
@@ -1462,7 +1467,7 @@ li a:focus {
     background: rgba(43, 64, 105, 0.26);
 }
 a:hover, a:focus {
-    color: #86bf3d;
+    color: #009ddc;
 }
 
 /***banner title***/
