@@ -648,28 +648,7 @@ background: -webkit-gradient(linear, left bottom, left top, from(white), to(grey
     width: 297px;
     text-transform: uppercase;
     left: -14px;
-    height: 70px;
-}
-.scheduleweek .awayteamlogo {     margin-right: 25px;
-    height: 70px;
-    width: 100px;
-    float: right;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: 13% 43%;
-    background-size: 197px;
-}
-.scheduleweek .hometeamlogo {    margin-left: 0px;
-    height: 70px;
-    width: 100px;
-    float: left;
-    overflow: hidden;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: 84% 36%;
-    background-size: 175px;
-    line-height: 13px;
-}
+
 /*****player profiles*****/
 .pinto .nameskills {
     font-weight: bold;
