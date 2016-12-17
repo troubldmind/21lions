@@ -321,7 +321,7 @@ span.na {
     position: relative;
     top: -15px;
     left: 11px;
-    color: #2B4069;
+    color: white;
     text-transform: uppercase;
 }
     
@@ -1000,17 +1000,17 @@ b3 {     position: absolute;
     z-index: 1;
 }
 
-.outer { 
-    width: 761px;
+.outer {     width: 761px;
     margin: 156px auto;
     position: absolute;
     top: -150px;
     left: 1px;
     height: 189px;
     overflow: hidden;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/depth-chart-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -115px;
     background-size: 100%;
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-gradient.jpg);
-    background-position: 102%;
 }
 
 .inner {    display: inline-block;
@@ -1731,10 +1731,11 @@ div#powerrankings-container {
 }
 .col-sm-9 {
     width: 75%;
-    z-index: 0;
+    z-index: 12;
     background-color: rgba(255, 255, 255, 0.02);
     float: right;
-    border-top: 1px solid #98999A;
+    top: 21px;
+    border-top: 1px solid #82bd3d;
 }
 .col-sm-3 {
     width: 25%; float:left; z-index:2;
@@ -2082,7 +2083,7 @@ span.big-leaguename {    font-size: 27px;
     background-color: rgba(255, 255, 255, 0.02);
     width: 244px;
 }
-.year{     font-size: 17px;
+.year{    font-size: 17px;
     font-family: NFLEndzoneTechBold, sans-serif;
     text-align: left;
     background-color: transparent;
@@ -2093,7 +2094,7 @@ span.big-leaguename {    font-size: 27px;
     LEFT: 5PX;
     width: 260px;
     text-transform: uppercase;
-    border-bottom: 1px solid #98999A;
+    border-bottom: 1px solid #85be3d;
     animation: slide-in-right 3250ms ease-out;
 }
 @keyframes slide-in-right{
