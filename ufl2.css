@@ -1784,15 +1784,6 @@ div#transactions-container {
     top: -9500px;
 }
 
-body {     background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), -webkit-linear-gradient(top, #272727, rgb(201, 201, 201)), url();
-    background-color: transparent;
-    color: ##747474;
-    background-size: auto, 132%, auto, cover;
-    background-position: 0% 0%, -118px 36px, 0% 0%, 1% -15px;
-    font-family: 'NFLEndzoneTechBold';
-    font-size: 11px;
-    background-repeat: no-repeat, no-repeat, no-repeat,no-repeat;
-}
 
 
 /***scorelist***/
