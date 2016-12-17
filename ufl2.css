@@ -1891,17 +1891,17 @@ span.membercount { position: absolute;
 }
 span.membercount2 {      position: absolute;
     top: 55px;
+    right: 9px;
     color: #FFFFFF;
     font-family: NFLEndzoneTechBold, sans-serif;
     text-transform: uppercase;
-    width: 108px;
+    width: 251px;
     font-size: 11px;
     padding-top: 0px;
     padding-bottom: 5px;
     overflow-y: scroll;
     overflow-x: hidden;
     height: 80%;
-    animation: slide-in-right 8250ms ease-out;
 }
 span.availableteam {
     position: relative;
