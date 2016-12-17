@@ -1615,14 +1615,14 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     z-index: 5;
 }
-.panel-body {     background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), -webkit-linear-gradient(left, #272727, rgb(55, 82, 25));
+.panel-body {   background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), -webkit-linear-gradient(top, #272727, rgb(14, 12, 12)), url();
     background-color: transparent;
     color: ##747474;
-    background-size: cover,auto, cover;
+    background-size: auto, auto, 285%;
     background-position: 0% 0%, -118px 36px, 0% 0%, 1% -15px;
     font-family: 'NFLEndzoneTechBold';
     font-size: 11px;
-    background-repeat: no-repeat, no-repeat, repeat;
+    background-repeat: repeat, no-repeat, repeat;
 }
 div#nfc-playoff-container {
     position: relative;
