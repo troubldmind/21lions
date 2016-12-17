@@ -951,7 +951,8 @@ teamlogo {
     right: -269px;
     top: -96px;
 }
-b1 {    position: absolute;
+b1 {   
+    position: absolute;
     z-index: 1;
     top: -13px;
     left: -18px;
@@ -959,8 +960,8 @@ b1 {    position: absolute;
     padding-top: 5px;
     width: 399px;
     height: 236px;
-    color: #2B4069;
-    background: -webkit-gradient(linear, right center, left center, from(rgba(246, 246, 247, 0)), to(rgb(250, 250, 251)));
+    color: #86bf3d;
+    background: -webkit-gradient(linear, right center, left center, from(rgba(246, 246, 247, 0)), to(rgb(0, 0, 0)));
     font-family: NFLEndzoneSansCondMedium;
     font-size: 99px;
     text-transform: uppercase;
@@ -969,15 +970,13 @@ b1 {    position: absolute;
     letter-spacing: -3px;
 }
 
-b2 {       position: absolute;
-    top: 72px;
+b2 {     
+    position: absolute;
+    top: 76px;
     left: -7px;
     width: 441px;
     height: 85px;
-    color: red;
-    background: -webkit-gradient(linear, left center, RIGHT CENTER, from(rgb(176, 6, 6)), to(rgb(255, 52, 52)));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #0093dc;
     font-family: NFLEndzoneSansCondMedium;
     font-size: 45px;
     display: block;
@@ -986,14 +985,15 @@ b2 {       position: absolute;
     margin: -10px 0 0px;
 }
 
-b3 {     position: absolute;
-    top: 113px;
+b3 {   
+    position: absolute;
+    top: 116px;
     left: -3px;
-    width:275px;
+    width: 275px;
     height: 25px;
-    color: #2B4069;
+    color: #ffffff;
     font-family: NFLEndzoneSansCondMedium;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     line-height: 1.2em;
     display: block;
