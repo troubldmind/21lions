@@ -1052,7 +1052,7 @@ b3 {
 .css-tabs {
     overflow-x: hidden;
     height: 311px;
-}
+} 
 
 .css-tabs input#tab-03:checked ~ #tabs-content div.tabs-content-03,
 .css-tabs input#tab-02:checked ~ #tabs-content div.tabs-content-02,
