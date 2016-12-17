@@ -1892,17 +1892,16 @@ span.membercount { position: absolute;
 span.membercount2 {      position: absolute;
     top: 55px;
     color: #FFFFFF;
-    right: -21px;
     font-family: NFLEndzoneTechBold, sans-serif;
     text-transform: uppercase;
     width: 108px;
     font-size: 11px;
-    text-align: center;
     padding-top: 0px;
     padding-bottom: 5px;
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 161px;     animation:slide-in-right 8250ms ease-out;
+    height: 80%;
+    animation: slide-in-right 8250ms ease-out;
 }
 span.availableteam {
     position: relative;
@@ -1936,13 +1935,11 @@ span.oa4 {
     padding-top: 14px;
     left: 0px;
 }
-span.open {    position: absolute;
+span.open {     position: relative;
     top: 16px;
     text-transform: uppercase;
-    left: 661px;
-    width: 102px;
+    left: 78px;
     font-size: 14px;
-    text-align: center;
     color: #009ddc;
 }
 .playeroftheweek {     position: relative;
