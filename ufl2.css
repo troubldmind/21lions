@@ -1035,7 +1035,7 @@ b3 {
     z-index: -100;
     width: 100%;
     top: 60px;
-    border: 1px solid #eee;
+    border: 0px solid #eee;
     transition: all 0.3s ease-in;
     color: #86bf3d;
 		  			
