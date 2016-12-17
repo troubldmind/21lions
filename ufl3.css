@@ -1055,6 +1055,18 @@ b3 {
     z-index: 100;
 }
 /***other***/
+.data-table1 td.tbdy1, table.data-table1 .tbdy1 td {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px dotted rgba(221, 221, 221, 0.47);
+    color: #86bf3d;
+    font-size: 11px;
+}
+table.data-table1 tr:hover {
+    background-color: rgba(245, 245, 245, 0);
+}
+table.data-table1 tr:nth-child(odd) {
+    background-color: rgba(242, 242, 242, 0);
+}
 div#header {    background-image: url(http://i1178.photobucket.com/albums/x364/garza21lions/Heavy%20Hitters/ufl_zpszvhuxdqr.png);
     background-repeat: no-repeat;
     background-size: 12%;
