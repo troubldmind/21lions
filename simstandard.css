@@ -1316,6 +1316,15 @@ span.susers {      top: -2px;
 span.sname {
     font-size: 42px;
     text-shadow: 4px -10px 0px #FFFFFF;
+    left: 378px;
+    background-image: url('http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png');
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: 21px 13px;
+}
+span.sname {
+    font-size: 42px;
+    text-shadow: 4px -10px 0px #FFFFFF;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     width: 192px;
