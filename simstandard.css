@@ -1065,6 +1065,15 @@ font-family: NFLEndzoneTechBold, sans-serif;
 }
 /***schedule***/
 
+.teamlogo {
+    overflow-y: hidden;
+    height: 76px;
+}
+.scheduleweek .teamlogo img {
+       top: -66px;
+    position: relative; width: 100%;
+}
+
 span.users {
     top: -2px;
     z-index: 1;
@@ -1232,44 +1241,15 @@ span.susers {      top: -2px;
     border-radius: 10px;
     background-size: 100%;
 }
-.scheduleweek .hometeam {
-    margin-right: 4px;
-    margin-top: -13px;
-}
-.scheduleweek .hometeam .record {
-    margin-left: -175px;
-    color: #777;
-    font-size: 16px;
-    top: 51
-.scheduleweek .hometeam .name {
-    margin: -20px 0 0 -119px;
-    font-size: 42px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.scheduleweek .awayteam .record {
-    margin-left: -87px;
-    color: #777;
-    font-size: 15px;
-    top: 49px;
-}
-.scheduleweek .awayteam .name {
-    margin-left: -18px;
-    margin-top: -19px;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
 
 .col-md-9.col-xs-9.col-sm-9 {
     float: left;
 }
 
-.scheduleweek .at {   
-    padding: 0px 0px 0px;
+.scheduleweek .at {         padding: 0px 0px 0px;
     text-align: center;
-    left: 24px;
-    top: 36px;
+    left: 16px;
+    top: 33px;
     line-height: 26px;
     width: 150px;
     font-size: 12px;
@@ -1300,22 +1280,34 @@ span.susers {      top: -2px;
     color: #FFFFFF;
     text-shadow: 0 0px 52px #51A5FA;
 }
-
+.scheduleweek .awayteam .record {
+    color: #67baec;
+    font-size: 18px;
+    top: 13px;
+}
+.scheduleweek .hometeam .record {
+    color: #63baec;
+    font-size: 18px;
+    top: 13px;
+    left: 13px;
+}
+.scheduleweek .awayteam .name {
+    margin-left: 20%;
+    margin-top: 0%;
+    font-size: 31px;
+    text-transform: uppercase;
+}
+.scheduleweek .hometeam .name {
+    margin: 0% 0px 0 -40%;
+    font-size: 31px;
+    text-transform: uppercase;
+}
 .scheduleweek .away-team {         text-align: left;
     top: 0px;
     padding-top: 0px;
     position: absolute;
     height: 50%;
     width: 455px;
-    left: 378px;
-    background-image: url('http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png');
-    background-repeat: no-repeat;
-    background-size: 7%;
-    background-position: 21px 13px;
-}
-span.sname {
-    font-size: 42px;
-    text-shadow: 4px -10px 0px #FFFFFF;
     left: 378px;
     background-image: url('http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png');
     background-repeat: no-repeat;
