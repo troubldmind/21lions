@@ -1063,15 +1063,29 @@ clear: both;
 overflow: hidden;
 font-family: NFLEndzoneTechBold, sans-serif;
 }
-/***schedule***/
-
+/***sche***/
 .teamlogo {
     overflow-y: hidden;
-    height: 76px;
+    height: 73px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-.scheduleweek .teamlogo img {
-       top: -66px;
-    position: relative; width: 100%;
+.scheduleweek .teamsos .label {
+    margin-left: 37px;
+    font-size: 11px;
+    top: -69px;
+    position: relative;
+}
+.label-default {
+    background-color: #999;
+    font-size: 12px;
+    position: relative;
+    top: 9px;
+    left: 6px;
+}
+.teamlogo {
+    overflow-y: hidden;
+    height: 73px;
 }
 
 span.users {
@@ -1092,6 +1106,12 @@ span.users {
     padding-left: 16px;
     color: #C2ECFF;
     text-shadow: 1px -1px 12px #74C1F8;
+}
+.scheduleweek .teamlogo img {
+   top: -62px;
+    position: relative;
+    width: 220px;
+    height: 220px;
 }
 .scheduleweek .name { 
     font-size: 42px;
@@ -1248,7 +1268,7 @@ span.susers {      top: -2px;
 
 .scheduleweek .at {         padding: 0px 0px 0px;
     text-align: center;
-    left: 16px;
+    left: 32px;
     top: 33px;
     line-height: 26px;
     width: 150px;
@@ -1281,25 +1301,26 @@ span.susers {      top: -2px;
     text-shadow: 0 0px 52px #51A5FA;
 }
 .scheduleweek .awayteam .record {
-    color: #67baec;
-    font-size: 18px;
-    top: 13px;
+       margin-left: 50px;
+    color: #ffb300;
+    font-size: 15px;
 }
 .scheduleweek .hometeam .record {
-    color: #63baec;
-    font-size: 18px;
-    top: 13px;
-    left: 13px;
+       margin-left: -205px;
+    color: #e9ae03;
+    font-size: 15px;
 }
-.scheduleweek .awayteam .name {
-    margin-left: 20%;
-    margin-top: 0%;
-    font-size: 31px;
+.scheduleweek .awayteam .name {margin-left: -39px;
+    margin-top: 11px;
+    font-size: 32px;
+    text-align: right;
+    font-weight: 700;
     text-transform: uppercase;
 }
 .scheduleweek .hometeam .name {
-    margin: 0% 0px 0 -40%;
-    font-size: 31px;
+    margin: 12px 0 0 -144px;
+    font-size: 32px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 .scheduleweek .away-team {         text-align: left;
