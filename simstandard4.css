@@ -4236,50 +4236,6 @@ span.min-away {
 }
 /****scorelist***/
 
-.scorelist {   
-    display: block;
-    list-style: none;
-    height: 118px;
-    overflow: hidden;
-    BACKGROUND-COLOR: rgba(255, 255, 255, 0);
-    margin: 0px auto;
-    width: 100%;
-    top: 125px;
-    MARGIN-LEFT: 27PX;
-    left: 0%;
-    z-index: 0;
-    position: absolute;
-}
-
-.yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor, .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home {
-    color: #2b4069;
-}
-.yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-content, .yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-alert-box, .yui3-scorestrip-tile-content:hover, .yui3-scorestrip-tile-content:hover > span {
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0) !important;
-    color: #D50000 !important;
-    text-decoration: none;
-}
-span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-score {    position: absolute;
-    width: 20px;
-    text-align: right;
-    top: 0px;
-    left: 78%;
-}
-.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {       top: 19px;
-    width: 21px;
-    left: 31px;
-    height: 18px;
-}
-.yui3-scorestrip-tile-score {
-    right: 1px;
-    text-align: right;
-}
-.yui3-scorestrip-tile-index-0 {
-    width: 62px;
-}
-.yui3-scorestrip-tile {  
-/****scorelist***/
-
 .scorelist {       display: block;
     list-style: none;
     height: 56px;
@@ -4532,7 +4488,7 @@ span.toptext {
     font-style: italic;
     text-align: center;
     width: 703px;
-    left: -79px;
+    left: -79px; }
 /***header***/
 span.title {  
     FONT-SIZE: 54PX;
