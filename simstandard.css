@@ -1,0 +1,49 @@
+li.list-group-item {
+    color: #7590c5;
+}
+div#news-container {
+    width: 55%;
+    position: ABSOLUTE;
+    top: 726px;
+    height: 762px;
+    background-color: white;
+    left: 36%;
+}
+
+div#transactions-container {
+    text-align: center;
+}
+span.transactionsfull {
+       text-align: center;
+    position: absolute;
+    right: 226px;
+}
+
+/***tabs***/
+div#tab4 {
+    width: 985px;
+    position: relative;
+    left: -27px;
+}
+
+div#tab1, div#tab2, div#tab3, div#tab4, div#tab5, div#tab6, div#tab7 {
+    border-bottom: solid 1px #2b4069;
+    margin-bottom: 47px;
+}
+div#tab3 {        width: 100%;
+    overflow: hidden;
+    HEIGHT: 461px;
+}
+/***game recap***/
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap {      background-image: url('http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png');
+    height: 190px;
+    width: 100%;
+    z-index: 1;
+    top: 131px;
+    position: absolute;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    background-size: auto, 100%;
