@@ -3880,6 +3880,25 @@ span.kc-away {
     text-shadow: 0px 3px 6px #000000;
     overflow: hidden;
 }
+span.hou-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/texans.png),linear-gradient(-90deg, #23304f, rgba(0, 0, 0, 0));
+    background-size: 100%, 100%;
+    background-position: 0px 1px, 12px 1px;
+    background-repeat: no-repeat;
+    font-size: 62px;
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    font-style: italic;
+    height: 139px;
+    text-transform: uppercase;
+    left: 0px;
+    width: 417px;
+    padding-top: 57px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
 span.ind-away {
     background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/colts.png),linear-gradient(-90deg, #e4e4e4, rgba(0, 0, 0, 0));
     background-size: 100%, 100%;
