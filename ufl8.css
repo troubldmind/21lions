@@ -2972,7 +2972,32 @@ figcaption {      position: absolute;
 }
 
 /***sche***/
+.scheduleweek .week {
+    float: left;
+    height: 20px;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin: 20% 265%;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: 20% 265%;
+    transform: rotate(-90deg);
+    transform-origin: 20% 265%;
+    width: 80px;
+    background: #f6f6f6 none repeat scroll 0 0;
+    color: #414141;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #ccc;
+    position: relative;
+    top: -2px;
+    LEFT: 21PX;
+    BORDER-RADIUS: 5PX;
+    PADDING-TOP: 0PX;
+}
 
+.col-md-5 {
+    width: 40.666667%;
+}
 .scheduleweek .teamsos .label {
     margin-left: 37px;
     font-size: 11px;
@@ -3172,7 +3197,7 @@ span.susers {      top: -2px;
 .scheduleweek .at {         padding: 0px 0px 0px;
     text-align: center;
     left: 32px;
-    top: 33px;
+    top: -2px;
     line-height: 26px;
     width: 150px;
     font-size: 12px;
@@ -3196,32 +3221,35 @@ span.susers {      top: -2px;
     left: 197px;
     position: absolute;
     font-size: 14px;
-    top: 26px;
+    top: 33px;
 }
-.scheduleweek .score {    font-size: 36px;
+.scheduleweek .score {    font-size: 25px;
     font-weight: bold;
     color: #FFFFFF;
     text-shadow: 0 0px 52px #51A5FA;
 }
-.scheduleweek .awayteam .record {
-       margin-left: 50px;
+.scheduleweek .awayteam .record {    margin-left: 160px;
     color: #ffb300;
     font-size: 15px;
 }
 .scheduleweek .hometeam .record {
-       margin-left: -205px;
+    margin-left: -215px;
     color: #e9ae03;
     font-size: 15px;
+    TOP: 26PX;
 }
-.scheduleweek .awayteam .name {margin-left: -39px;
-    margin-top: 11px;
+.scheduleweek .hometeam {
+    margin-right: -27px;
+    margin-top: -10px;
+}
+.scheduleweek .awayteam .name {    margin-left: 81px;
+    margin-top: -29px;
     font-size: 32px;
     text-align: right;
     font-weight: 700;
     text-transform: uppercase;
 }
-.scheduleweek .hometeam .name {
-    margin: 12px 0 0 -144px;
+.scheduleweek .hometeam .name {    margin: 10px 0 0 -156px;
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
