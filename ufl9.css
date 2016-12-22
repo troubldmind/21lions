@@ -1,4 +1,8 @@
-
+.sub-menu ul li.selected {
+    color: #80bb3c;
+    cursor: default;
+    text-decoration: none;
+}
 
 /*****superbowl history*****/
 sb2 {
