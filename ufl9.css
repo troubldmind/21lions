@@ -3015,9 +3015,10 @@ figcaption {      position: absolute;
     top: 9px;
     left: 6px;
 }
-.teamlogo {
-    overflow-y: hidden;
+.teamlogo {    overflow-y: hidden;
     height: 73px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 span.users {
