@@ -688,10 +688,10 @@ gow {    position: absolute;
     left: 398px;
     height: 300px;
 }
-.standingbox {
-    position: relative;
-    top: 29px;
-    padding-bottom: 40px;
+.standingbox {       position: relative;
+    top: 208px;
+    padding-top: 8px;
+    padding-bottom: 29px;
 }
 
 div#storyline-container {
