@@ -1,0 +1,1711 @@
+/***top slideshow***/
+.outer {      width: 584px;
+    margin: 0 auto;
+    position: relative;
+    top: -134px;
+    left: 163px;
+    height: 169px;
+    overflow: hidden;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise-15/bundles/maddenccm/images/packages-bg.png), url(), -webkit-linear-gradient(top, rgba(247, 248, 248, 0), rgba(0, 0, 0, 0)), url();
+    background-position: -293px -58px;
+    background-repeat: no-repeat;
+    background-size: 165%;
+}
+
+.inner {     display: block;
+    position: relative;
+    right: -2%;
+    top: 0%;
+    overflow: hidden;
+    width: 100%;
+    height: 204px;
+}
+
+pic img { 
+    object-fit: contain;
+    width: 168px;
+    height: 169px;
+    overflow: hidden;
+    animation: fadein-slideup ease 3s;
+}
+b1 {     position: relative;
+    top: -152px;
+    right: -169px;
+    display: block;
+    width: 404px;
+    height: 193px;
+    background: -webkit-gradient(linear, left top,left bottom, from(#ccc), to(rgb(0, 35, 102)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: -3px;
+    animation: fadein-slideup ease 3s;
+}
+
+b2 {     position: relative;
+    top: -307px;
+    display: block;
+    width: 441px;
+    height: 85px;
+    color: #005edc;
+    background: -webkit-gradient(linear, left top,left bottom, from(#ccc), to(rgb(0, 35, 102)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: -10px 0 0px;
+    text-align: left;
+    left: 171px;
+    animation: fadein-slidedown ease 4s;
+}
+
+b3 {       position: relative;
+    top: -356px;
+    display: block;
+    width: 377px;
+    height: 85px;
+    color: #0068dc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: -10px 0 0px;
+    text-align: left;
+    left: 173px;
+    animation: fadein-slidedown ease 4s;
+}
+
+@keyframes fadein-slideup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/***menu***/
+a {color:#999;
+    text-decoration: none;
+    -moz-transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+#nav {      height: 30px; line-height:30px;
+    width: 100%;
+    position: absolute;
+    top: 203px;
+    left: 20px;
+    z-index: 300;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {   background: #333;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(125, 125, 125)),color-stop(1, #f5f5f5));
+    float: left;
+    position: relative;
+    width: 16%;
+    height: 30px;
+}
+
+#nav li:first-child, #nav li:first-child a { 
+    -webkit-border-radius: 3px 0 0 3px; 
+    -moz-border-radius: 3px 0 0 3px; 
+    border-radius: 3px 0 0 3px; 
+}
+#nav li:last-child, #nav li:last-child a { 
+    -webkit-border-radius: 0 3px 3px 0; 
+    -moz-border-radius: 0 3px 3px 0; 
+    border-radius: 0 3px 3px 0; 
+}
+
+#nav a {      border-right: 0px solid #222;
+    border-left: 1px solid #574007;
+    color: #555;
+    position: relative;
+    font-family: NFLEndzoneTechBold;
+    display: block;
+    font-size: 14px;
+    letter-spacing: -.05em;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    -webkit-box-shadow: inset 0 0 10px transparent;
+    -moz-box-shadow: inset 0 0 10px transparent;}
+
+#nav a:after {
+    background: rgba(255,255,255,.07);
+    content: "";
+    height: 15px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#nav li:hover > a {
+    background: #333;
+    border-left-color: #222;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    -webkit-box-shadow: inset 0 0 10px #111;
+    -moz-box-shadow: inset 0 0 10px #111;
+    box-shadow: inset 0 0 10px #111;     height: 30px;
+}
+#nav span {
+    position: relative;    
+}
+
+#nav a:active span {
+    color: #ffd;
+    position: relative;
+    top: 1px;
+}
+
+#nav li:first-child a {
+    border-left: none;    
+}
+
+#nav li:last-child a {
+    border-right: none;    
+}
+
+.dropdown > a span:after {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid red;
+    content: "";
+    right: -13px;
+    position: absolute;
+    top: 3px;
+}
+
+.dropdown:hover > a span:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content: "";
+    right: -15px;
+    position: absolute;
+    top: 6px;
+}
+
+#nav ul ul {
+    opacity: 0;
+    position: absolute;
+    top: 39px;
+    visibility: hidden;
+    width: 0;
+    -moz-transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out; 
+    -ms-transition: all 300ms ease-out; 
+    transition: all 300ms ease-out;
+}
+
+#nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+#nav ul ul li {
+    background: #f3f3f3;
+    float: none;
+    line-height: 0;
+    width: 100%;
+    position: relative;
+    top: -9px;          
+}
+ 
+    -webkit-border-radius: 0; 
+    -moz-border-radius: 0; 
+    border-radius: 0; 
+}
+#nav ul ul li:last-child, #nav ul ul li:last-child a { 
+    -webkit-border-radius: 0 0 3px 3px; 
+    -moz-border-radius: 0 0 3px 3px; 
+    border-radius: 0 0 3px 3px; 
+}
+
+#nav ul ul li a {
+    border-top: 1px solid #fff;    border-left: 0px solid rgba(85, 85, 85, 0.42);
+    color:b;acl;
+    font-size: 12px;
+    height: 36px;
+    line-height: 32px;
+    padding: 0 3px 0 5px;
+    text-align: left;
+    text-shadow: 0 -1px 0 #eee;
+}
+
+#nav ul li ul li a:after {
+    background: rgba(0,0,0,.02);
+    content: "";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 19px;
+    width: 100%;
+}
+a:hover, a:focus {
+    color: #ec1616;
+}
+
+#nav ul ul li a:hover {
+    background: #E1E1E1; font-size:14px;
+    color: red;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#nav ul ul a:active span {
+    color: #111;
+    position: relative;
+    top: 1px;
+}
+/***tabs***/
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a
+ {    cursor: text;
+    color: #FCFBFB;
+    text-shadow: 0 1px 4px black;
+    font-style: italic;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(3, 27, 48)),color-stop(1, rgba(126, 121, 121, 0.98)));
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #EFEFEE;
+    text-shadow: 0 1px 0px black;
+    font-family: NFLEndzoneSlabBold;
+    text-transform: uppercase;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgba(56, 65, 73, 0.98)),color-stop(1, rgba(178, 173, 173, 0.97)));
+}
+
+.ui-widget {
+    font-family: NFLEndzoneTechBold;
+    font-size: 1.3em;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1em 1.4em;
+    background: none;
+    -webkit-animation: makebig 1.0s ease-in-out;
+    animation: makebig 1.0s ease-in-out;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0;
+    font-size: 12px;
+}
+/*****Scorelist*****/
+@-webkit-keyframes game-{
+	0%   {margin-top: 0;}
+	25%  {margin-top: -26px;}
+	50%  {margin-top: -52px;}
+	75%  {margin-top: -78px;}
+	100% {margin-top: -100px;}
+}
+@-moz-keyframes game-{
+	0%   {margin-top: 0;}
+	25%  {margin-top: -26px;}
+	50%  {margin-top: -52px;}
+	75%  {margin-top: -78px;}
+	100% {margin-top: -100px;}
+}
+@-ms-keyframes game-{
+	0%   {margin-top: 0;}
+	25%  {margin-top: -26px;}
+	50%  {margin-top: -52px;}
+	75%  {margin-top: -78px;}
+	100% {margin-top: -100px;}
+}
+@keyframes game-{
+	0%   {margin-top: 0;}
+	25%  {margin-top: -26px;}
+	50%  {margin-top: -52px;}
+	75%  {margin-top: -78px;}
+	100% {margin-top: -100px;}
+}
+
+.yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-content, .yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-alert-box, .yui3-scorestrip-tile-content:hover, .yui3-scorestrip-tile-content:hover > span {    background: none repeat scroll 0 0 rgba(198, 234, 253, 0.02) !important;
+    color: #FA9595 !important;
+    text-shadow: 1px 1px 5px red;
+}
+.yui3-scorestrip-tile-content > span {
+    position: absolute;
+    top: 1%; right:1%;
+}
+.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {
+    top: 20px;
+}
+span.home {
+    position: absolute;
+    left: 14%;
+    top: 13%;
+}
+span.visitor {
+    position: absolute;
+    width: 70px;
+    left: -71%;
+    top: 57%;
+}
+.scorelist {      margin-right: auto;
+    margin-left: auto;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    height: 38px;
+    z-index: 5;
+    top: 160px;
+    left: 3px;
+    padding: 5px;
+    position: absolute;
+    width: 970px;
+    border-top: 1px solid #ccc;
+}
+.yui3-scorestrip-tile {       border-right: 0px solid rgba(218, 165, 32, 0.01);
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-family: NFLEndzoneTechBold;
+    font-size: 9px;
+    height: 36px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    width: 58px;
+    margin-left: 0px;
+    margin-right: 2px;
+}
+.yui3-scorestrip-tile-final a {    background: none repeat scroll 0 0 rgba(204, 204, 204, 0);
+    color: #ccc;
+    border-right: solid 1px white;
+    height: 33px;
+}
+.yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor, .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home {   
+    background: none repeat scroll 0 0 rgba(204, 204, 204, 0);
+    color: #ccc;
+    position: absolute;
+    top: 16px;
+    right: 1%;
+}
+/***** forum*****/
+tr#comment- {
+    color: red;
+    font-size: 16px;
+    font-style: italic;
+}
+.idx .idx-content .forum-title, .vfx .vfx-content .topic-title {
+    font-size: 0.7em;
+    font-weight: bold;
+    margin: 0;
+}
+.idx .idx-content .forum-title {
+    line-height: 2.0em;
+    margin-bottom: -0.5em;
+}
+.idx > .row, .vfx > .row {
+    margin: 0;
+    height: 70px;
+}
+.idx, .vfx {    background-image: -webkit-gradient( linear, right bottom, left top, color-stop(0, rgb(186, 49, 49)), color-stop(1, rgb(79, 2, 2)) );
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: large;
+}
+.author-name h4 {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.post-content {    min-height: 4em;
+    font-size: large;
+    background-size: 100%;
+}
+.vtx .topic-title {
+    background-image: -webkit-gradient(linear,left center,left top,color-stop(0, rgb(135, 7, 7)),color-stop(1, #FA6077));
+    border: 1px solid #cad7e1;
+    border-radius: 0.15em 0.15em 0 0;
+    color: #fff;
+    font-size: 2.5em;
+    font-family: NFLEndzoneTechBold;
+    margin: 0;
+    padding: 0.5em 1em;
+}
+/***** other*****/
+
+.accordion-inner {
+    padding-top: 208px;
+}
+/* POTW */ 
+div#dplayeroftheweek-container {
+    position: relative;
+    left: 35px;
+}
+div#oplayeroftheweek-container {
+    position: relative;
+    left: 35px;
+}
+.playeroftheweek {margin: 0;
+    width: 205px;
+    text-align: center;} 
+.panel-player { width:100%; display:block; float:left; background:none; border:none; box-shadow:none; margin-bottom:0;} 
+.panel-player a { color:inherit;} 
+.panel-player .panel-heading { 
+    color: #ff8f00;
+    background: none;
+    border-radius: 0;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    padding: 5px 10px 0px 10px;
+    text-align: center;
+    position: relative;
+    z-index: 60;
+    padding-left: 9px;
+    top: -7px;
+    width: 305px;
+    text-transform: uppercase;} 
+.panel-body {
+    padding: 0px;
+}
+.panel-player .panel-body { margin:5px; padding:5px; background:none; margin-top:0; padding-top:0;} 
+.panel-player .avatar {width: 203px;height:203px;position:relative;background:url("http://gridironracers.com/static/images/wgWhite.jpg");-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;} 
+.panel-player .avatar img {width: 100%;height: 100%;position: absolute;bottom: 0;left: 0;z-index: 6;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;background: -ms-linear-gradient(bottom, rgba(35,35,35,0.5) 0%, rgba(153,153,153,0) 80%);background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, rgba(35,35,35,0.5)), color-stop(80%, rgba(153,153,153,0)));background-image: -webkit-linear-gradient(bottom, rgba(35,35,35,0.5) 0%, rgba(153,153,153,0) 80%);background-image: -moz-linear-gradient(bottom, rgba(35,35,35,0.5) 0%, rgba(153,153,153,0) 80%);background-image: -o-linear-gradient(bottom, rgba(35,35,35,0.5) 0%, rgba(153,153,153,0) 80%);background-image: linear-gradient(bottom, rgba(35,35,35,0.5) 0%,rgba(153,153,153,0) 80%);} 
+.panel-player .avatar img.teamLgfmlo {display: block;filter: prgfmlid:DXImageTransform.Microsoft.Alpha(Opacity=20);opacity: 0.2; background:none;} 
+.panel-player .playeroftheweek-name {    font-family: NFLEndzoneTechBold, sans-serif;
+    margin-bottom: 0px;
+    color: #002366;
+    position: absolute;
+    top: 204px;} 
+.panel-player .text .stat-value {
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #c10b0b;
+    position: absolute;
+    width: 203px;
+    text-align: center;
+    left: 0px;
+}
+.stat-value {
+    font-size: 10px;
+    font-weight: 700;
+    top: 200px;
+    z-index: 33;
+}
+.panel-player .text { padding:0px 10px;}
+.panel {   
+    margin-bottom: 31px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding-left: 0px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-player .playeroftheweek-name {
+    font-family: NFLEndzoneTechBold, sans-serif;
+    margin-bottom: 0px;
+    color: #bf093a;
+}
+.playeroftheweek-name, .playeroftheweek-name a {      font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 36;
+    text-align: center;
+    height: 20px;
+    padding-left: 118px;
+    position: absolute;
+    width: 355px;
+    left: -77px;
+}
+.panel-gir.potw>.panel-body { 
+position: relative; 
+background: #fcfcfc; 
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodâ€¦EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); 
+background: -moz-linear-gradient(top, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(25%, #f8f8f8), color-stop(44%, #f3f3f3), color-stop(65%, #f8f8f8), color-stop(100%, #e8e8e8)); 
+background: -webkit-linear-gradient(top, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%); 
+background: -o-linear-gradient(top, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%); 
+background: -ms-linear-gradient(top, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%); 
+background: linear-gradient(to bottom, #fcfcfc 0%,#f8f8f8 25%,#f3f3f3 44%,#f8f8f8 65%,#e8e8e8 100%); 
+filter: prgfmlid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#e8e8e8',GradientType=0 ); 
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+-ms-border-radius: 4px; 
+-o-border-radius: 4px; 
+border-radius: 4px; 
+border: 1px solid #e4e4e4; 
+}
+
+div#afc-east-container, div#afc-west-container, div#afc-north-container, div#afc-south-container  {
+    position: relative;
+    width: 100%;     background-color: rgba(255, 255, 255, 0);
+}
+div#nfc-east-container, div#nfc-west-container, div#nfc-north-container, div#nfc-south-container  {
+    position: relative;
+    width: 100%;     background-color: rgba(255, 255, 255, 0);
+}
+span.afcteamname {
+    position: relative;
+    top: -76px;
+    letter-spacing: -.05em;
+    left: 62px;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 1.4em;
+    background: -webkit-gradient(linear, left bottom, left top, from(white), to(silver));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+a.accordion-toggle {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Super_Bowl_logo.svg/843px-Super_Bowl_logo.svg.png);
+    background-size: 77%;
+    background-repeat: no-repeat;
+    background-position: 70px -460px;
+    position: absolute;
+    top: 1250px;
+    color: white;
+    left: 393px;
+    padding: 21px;
+    height: 78px;
+    font-size: 11px;
+    width: 557px;
+    letter-spacing: .3em;
+    padding-left: 187px;
+    padding-top: 41px;
+}
+span.SBYEAR {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+span.sblogos {
+    position: relative;
+    top: 17px;
+    line-height: 3.1;
+}
+span.afcrepresentative {
+    position: relative;
+    top: -69px;
+    left: 63px;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 0.7em;
+    color: red;
+    text-transform: uppercase;
+}
+span.afcrepresentative {
+    position: relative;
+    top: -69px;
+    left: 63px;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 0.7em;
+    color: red;
+    text-transform: uppercase;
+}
+span.afcscore {
+    position: relative;
+    top: -75px;
+    letter-spacing: -.05em;
+    left: 70px;
+    text-align: right;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 1.4em;
+    background: -webkit-gradient(linear, left bottom, left top, from(white), to(silver));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+span.nfcrepresentative {
+    position: relative;
+    top: -72px;
+    left: 63px;
+    color: #62a1e6;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+span.nfcteamname {
+    position: relative;
+    top: -80px;
+    letter-spacing: -.05em;
+    left: 62px;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 1.4em;
+    background: -webkit-gradient(linear, left bottom, left top, from(white), to(silver));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+span.nfcscore {
+    position: relative;
+    top: -80px;
+    letter-spacing: -.05em;
+    left: 72px;
+    text-align: right;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 1.4em;
+    background: -webkit-gradient(linear, left bottom, left top, from(white), to(silver));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+img.twitch {
+    position: absolute;
+    object-fit: contain;
+    top: -45px;
+    width: 100%;
+}
+img.ban {
+    position: absolute;
+    top: -339px;
+}
+gow {    position: absolute;
+    top: 752px;
+    object-fit: contain;
+    width: 57%;
+    left: 398px;
+    height: 300px;
+}
+.standingbox {
+    position: relative;
+    top: 29px;
+    padding-bottom: 40px;
+}
+
+div#storyline-container {
+    position: absolute;
+    left: 70%;
+    top: 68%;
+    width: 232px;
+}
+#tweets, #storyline {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    background-color: rgba(39, 48, 56, 0.01);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;     font-family: NFLEndzoneTechBold;
+}
+#player-profile-tabs {
+    background-image: -webkit-linear-gradient(#E8D48E, #AF923B);
+    border-top: 1px solid #63572B;
+    height: 36px;
+}
+#team-main-nav {
+    background: -moz-linear-gradient(100% 100% 90deg, #DBDBDB, #F2F1F1) repeat scroll 0 0 #AAAAAA;
+    border-top: 1px solid #63572B;
+    height: 40px;
+}
+.ChargersLink, .SDLink {
+    color: #ffd80a!important;
+}
+.BillsLink, .BUFLink {
+    color: #ff0000!important;
+}
+.ATLLink, .FalconsLink {
+    color: #AE1212 !important;
+}
+.STLLink, .RamsLink {
+    color: #d2a704 !important;
+}
+.SEALink, .SeahawksLink {
+    color: #54993C !important;
+}
+.OAKLink, .RaidersLink {
+    color: #8F8E8E !important;
+}
+.PITLink, .SteelersLink {
+    color: #F8AA04 !important;
+}
+.CHILink, .BearsLink {
+    color: #BE4B0B !important;
+}
+.DENLink, .BroncosLink {
+    color: #DD430B !important;
+}
+.MINLink, .VikingsLink, .BALLink, .RavensLink {
+    color: #d486ff !important;
+}
+
+, h2, h3, h5, h6 {
+color: #870E20;
+font-family: NFLEndzoneTechBold, sans-serif;
+font-size: 15px; line-height:14px;
+text-transform: uppercase;
+}
+h4{
+          color: #870E20;
+    font-family: NFLEndzoneSlabBold;
+    font-size: 30px;
+    position: relative;
+    line-height: 25px;
+    text-transform: uppercase;}
+li.item {
+    position: relative;
+    left: 0px;
+}
+.data-table1 .thd1 td {    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #f5f5f5), color-stop(1, rgb(180, 180, 180)) );
+    color: #002366;
+    line-height: 5px;
+    font-family: NFLEndzoneTechBold, sans-serif;
+}
+.data-table1 td, .data-table1 th {
+    padding: 5px 4px;
+}
+.data-table1 .tbdy1 td, .data-table1 td.tbdy1 {         background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.18);
+    color: #055ddc;
+    FONT-FAMILY: NFLEndzoneTechBold;
+    line-height: 12px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.data-table1 .thd2 td, .data-table1 .thd2 {
+background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255, 255, 255)), color-stop(1, rgb(111, 111, 111)) );
+color: #000000;
+font-family: NFLEndzoneTechBold, sans-serif;
+line-height: 5px;
+}
+/***hsfl layout***/
+div#tab1 {
+    height: 800px;
+}
+.post-box {
+    background: rgba(79, 73, 73, 0);
+    border-radius: 0.25em;
+    min-height: 18em;
+    padding: 1em 1.5em 8em 1.5em;
+    position: relative;
+}
+.new-topic-message {
+    background: rgba(90, 68, 13, 0.43);
+    border: 0;
+    border-radius: 0.25em;
+    color: #222;
+    letter-spacing: .07em;
+    min-height: 20em;
+    outline: none;
+    width: 100%;
+}
+div#commentcontainer {
+    background-color: white;
+    padding: 1px;
+}
+element.style {
+    font-family: NFLEndzoneTechBold;
+    color: rgb(255, 254, 254);
+}
+.header .weekSelector ul > li a.selected {
+    color: #F60404;
+    cursor: default;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+body {    background-image: url('http://i1178.photobucket.com/albums/x364/garza21lions/HHBG5_zpsc7e4609e.png');
+    font-family: NFLEndzoneTechBold, sans-serif;
+    background-repeat: yes;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: 70.5%;
+    background-position: 0px 52px;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: rgba(249, 249, 249, 0);
+}
+table.table.table-striped.table-bordered.table-condensed {
+    width: 83%;
+}
+.maincontent.clearfix {
+    padding-top: 60px;
+}
+#daddyleagues-navbar .navbar .nav > li > a {
+    font-size: 12px !important;
+}
+#adunit {
+    background-color: #ffffff;
+    height: 90px;
+    width: 728px;
+    margin: 0;
+    position: relative;
+    top: -2430px;
+}
+.adsense {
+    margin: 0;
+    position: relative;
+    top: -4430px;
+}
+body > div.container {      width: 975px;
+    padding: 45px 25px 0px;
+    font-size: 15px;
+    box-shadow: 0 0 178px #ccc;
+    background: #002366;
+    position: relative;
+    color: #999;
+    font-family: NFLEndzoneTechBold;
+}
+/***adcover****/
+span.bg {
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+    top: -24px;
+    background-color: #002366;
+    width: 975px;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise-15/bundles/maddenccm/images/packages-bg.png);
+    background-size: 100%;
+    height: 222px;
+    background-position: 130px -45px;
+}
+leaguenamebottom2 {
+    font-family: NFLEndzoneTechBold, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    font-style: italic;
+    -webkit-text-stroke-color: initial;
+    background: -webkit-gradient(linear, left bottom, left top, from(#cad7e1), to(#ffffff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    LETTER-SPACING: .2EM;
+    top: 128px;
+    left: 16px;
+    z-index: 3;
+}
+span.hsfl {    position: absolute;
+    left: 14px;
+    BACKGROUND-IMAGE: URL(http://i1178.photobucket.com/albums/x364/garza21lions/HSFL-LOGO_zpse2lxqjdq.png);
+    top: 14px;
+    background-size: 85%;
+    height: 141px;
+    z-index: 8;
+    width: 460px;
+    background-repeat: no-repeat;
+}
+/*****Original DL Menu [hidden]*****/
+ #daddyleagues-menu {
+margin: 0;position: relative;top: -215px;
+}
+/***banner****/
+#slideshow2{      position: absolute;
+    width: 531px;
+    left: 443px;
+    height: 230px;
+    top: 0px;
+    z-index: 3;
+    overflow: hidden;
+    border: 0px solid #ccc;
+}
+
+#slideshow2 img {    position: absolute;
+    width: 580px;
+    height: 157px;
+    top: 10%;
+    left: 5%;
+    margin-left: -20px;
+    margin-top: -20px;
+    opacity: 0;
+    -webkit-transition-property: opacity, -webkit-transform;
+    -webkit-transition-duration: 3s, 10s;
+    -moz-transition-property: opacity, -moz-transform;
+    -moz-transition-duration: 3s, 10s;
+    -ms-transition-property: opacity, -ms-transform;
+    -ms-transition-duration: 3s, 10s;
+    -o-transition-property: opacity, -o-transform;
+    -o-transition-duration: 3s, 10s;
+    transition-property: opacity, transform;
+    transition-duration: 3s, 10s;
+}
+#slideshow2 img  {
+    -webkit-transform-origin: bottom left;
+       -moz-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+         -o-transform-origin: bottom left;
+            transform-origin: bottom left;
+}
+#slideshow2 :nth-child(2n+1/3) {
+    -webkit-transform-origin: top right;
+       -moz-transform-origin: top right;
+        -ms-transform-origin: top right;
+         -o-transform-origin: top right;
+            transform-origin: top right;
+}
+#slideshow2 :nth-child(3n+2/1) {
+    -webkit-transform-origin: top left;
+       -moz-transform-origin: top left;
+        -ms-transform-origin: top left;
+         -o-transform-origin: top left;
+            transform-origin: top left;
+}
+#slideshow2 :nth-child(4n+1) {
+  -webkit-transform-origin: bottom right;
+     -moz-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+       -o-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+#slideshow2 .fx:first-child + img ~ img  {
+    z-index:-1;
+}
+
+#slideshow2 .fx {
+    opacity:1;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+/***fonts***/
+@font-face {
+    font-family: 'NFLEndzoneTechBold';
+    src: url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.eot');
+}
+
+@font-face {
+    font-family:'NFLEndzoneTechBold';src:url('//:') format('no404'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.eot?#iefix') format('eot'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.woff') format('woff'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.ttf') format('truetype'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.svg#webfont9DqcIwJf') format('svg');font-weight:normal;font-style:normal;
+}
+
+@font-face {
+    font-family:'NFLEndzoneSlabBold';src:url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.eot');
+}
+
+@font-face {
+    font-family:'NFLEndzoneSlabBold';src:url('//:') format('no404'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.eot?iefix') format('eot'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.woff') format('woff'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.ttf') format('truetype'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.svg#EndzoneSlab-Bold') format('svg');font-weight:normal;font-style:normal;
+}
+@font-face {
+    font-family:'NFLEndzoneTechBold';src:url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.eot');
+}
+
+@font-face {
+    font-family:'NFLEndzoneTechBold';src:url('//:') format('no404'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.eot') format('eot'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.woff') format('woff'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.ttf') format('truetype'),
+url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.svg#EndzoneTech-Bold') format('svg');font-weight:normal;font-style:normal;
+}
+/***player of the week***/
+
+.stat-value {
+     color: #005580;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    margin-bottom: .55em;
+    top: 217px;
+    right: 25px;
+}
+#admin-main-nav .nav>li>a {
+    display: block;
+    font-size: 11px;
+}
+/*****schedules*****/
+
+.sub-menu ul li.selected {
+    color: #F4F4F4;
+    cursor: default;
+    text-decoration: none;
+}
+.sub-menu {
+    color: #B3B3B3;
+    font-style: italic;
+    overflow: hidden;
+    padding-top: 6px;
+    width: 100%;
+}
+.avatar {
+    position: absolute;
+    top: 12px;
+    right: 38px;
+    width: 265px;
+}
+.form-control {
+display: block;
+width: 100%;
+height: 22px;
+padding: 1px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.scheduleweek .record { 
+    padding-bottom: 0px;
+    color: #07AAFF;
+    font-size: 12px;
+    top: 18px;
+    left: 127px;
+    width: 52px;
+    position: absolute;
+    text-align: left;
+}
+.weekSelector.clearfix {
+position: relative;
+left: 57px;
+}
+
+gik2 {
+    width: 45%;
+    position: absolute;
+    bottom: 58px;
+    left: 25%;
+}
+
+afccontactlist {
+    color: #FCFBFB;
+    font-size: 18px;
+    letter-spacing: -.05em;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    background: -webkit-gradient(linear, left bottom, left top, from(#640707), to(#F26B6B));
+    padding: 4px;
+    border-radius: 3px;
+    position: absolute;
+      width: 50%;
+    top: 1%;
+    text-align: center;
+    left: 25%;
+}
+nfccontactlist {    color: #FCFBFB;
+    font-size: 18px;
+    letter-spacing: -.05em;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    background: -webkit-gradient(linear, left bottom, left top, from(#2C4169), to(#2C416A));
+    padding: 4px;
+    border-radius: 3px;
+    position: absolute;
+    width: 50%;
+    top: 1%;
+    text-align: center;
+    left: 25%;
+}
+
+player {
+    position: relative;
+    top: -4px;
+    padding: 5px;
+    color: #FFFEFE;
+    letter-spacing: .02em;
+}
+phone {
+    position: relative;
+    left: 27%;
+    color: #FFFFFF;
+    text-shadow: 0 0 14px red;
+}
+username {
+     text-transform: uppercase;
+    text-decoration: underline;
+    color: #EFEEE9;
+    padding: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#CDB580), to(#4D3304));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+div#backgroundn {
+  background-color: rgba(43, 64, 105, 0.99);
+    position: absolute;
+    left: 59%;
+    width: 184px;
+    height: 173px;
+    border-top: 5px solid rgb(11, 75, 200);
+    top: 6%;
+}
+div#background2n {
+background-color: rgba(43, 64, 105, 0.99);    position: absolute;
+    left: 59%;
+    width: 184px;
+    height: 173px;
+    border-top: 5px solid rgb(11, 75, 200);
+    top: 29%;
+}
+div#background3n {
+background-color: rgba(43, 64, 105, 0.99);    position: absolute;
+    left: 59%;
+    width: 184px;
+    height: 173px;
+    border-top: 5px solid rgb(11, 75, 200);
+    top: 77%;
+}
+div#background4n{
+background-color: rgba(43, 64, 105, 0.99);     position: absolute;
+    left: 59%;
+    width: 184px;
+    height: 173px;
+    border-top: 5px solid rgb(11, 75, 200);
+    top: 53%;
+}
+p {
+    margin: 0px 0px 0px;
+}
+div#nfcstandings {
+    width: 462px;
+    position: relative;
+    right: -468px;
+    height: 788px;
+    top: -1572px;
+    background-image: url('http://i1178.photobucket.com/albums/x364/garza21lions/garza21lions152/gikstandings4_zpsjbjkqh90.png');
+}
+
+player {
+    position: relative;
+    top: -4px;
+    padding: 5px;
+    color: #FFFEFE;
+    letter-spacing: .02em;
+}
+phone {
+     position: relative;
+    left: 29px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 0 0 14px red;
+}
+username {
+     text-transform: uppercase;
+    text-decoration: underline;
+    color: #EFEEE9;
+    padding: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#CDB580), to(#4D3304));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+div#background {
+    background-color: #6E0808;   position: absolute;
+    left: 59%;
+    width: 184px;
+    height: 173px;
+    border-top: 5px solid rgb(188, 2, 2);
+    top: 6%;
+}
+div#background2 {
+background-color: #6E0808;    position: absolute;
+    left: 59%;
+    width: 184px;
+    height: 173px;
+    border-top: 5px solid rgb(188, 2, 2);
+    top: 29%;
+}
+div#background3 {
+background-color: #6E0808;    position: absolute;
+    left: 59%;
+    width: 184px;
+    height: 173px;
+    border-top: 5px solid rgb(188, 2, 2);
+    top: 77%;
+}
+div#background4 {
+background-color: #6E0808;     position: absolute;
+    left: 59%;
+    width: 184px;
+    height: 173px;
+    border-top: 5px solid rgb(188, 2, 2);
+    top: 53%;
+}
+p {
+    margin: 0px 0px 0px;
+}
+
+div#afcstandings {width: 462px;
+    position: relative;
+    height: 788px;
+    top: -784px;
+    background-image: url('http://i1178.photobucket.com/albums/x364/garza21lions/garza21lions152/gikstandings3_zpstdwsnsak.png');
+}
+
+playoffrace {
+    position: relative;
+    top: -797px;
+    right: 0%;
+}
+standings {
+    position: relative;
+    top: -773px;
+}
+div#nfc-playoff-container {     overflow-x: hidden;
+    position: relative;
+    border-bottom: 1px solid rgb(10, 110, 233);
+    top: -15px;
+}
+div#afc-playoff-container {
+    overflow-x: hidden;
+    position: relative;
+    border-bottom: 1px solid rgb(203, 42, 42);
+    top: -15px;
+}
+.slides {    padding: 0;
+    width: 428px;
+    top: 552px;
+    height: 208px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 468px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: black;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:none;
+    border-radius: 0px;
+    background-color:;
+}
+ 
+::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+    -webkit-box-shadow: inset 1px 1px 5px #F60000;
+    background-color: #BE3737;
+}
+fulltransactions {
+    position: relative;
+    top: -165px;
+    left: 56%;
+    text-transform: uppercase;
+}
+.blogpost {
+    background-color: white;
+}
+.blogpostimage {
+    float: left;
+    margin: -4px 5px;
+    width: 162px;
+}
+div#transactions-container {     overflow-x: hidden;
+    width: 372px;
+    max-height: 100%;
+    position: relative;
+    top: -117px;
+    left: 4px;
+}
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {    top: 10px;
+    opacity: 0;
+    width: 329px;
+    left: 51px;
+    height: 270px;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {    width: 50px;
+    height: 35%;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .8s;
+    color: #FFF;
+    font-size: 27pt;
+    text-align: center;
+    line-height: 160px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 28px rgb(0, 0, 0);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+.slide-container {
+    display: block;
+    position: relative;
+    top: -70px;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+    width: 100%;
+    bottom: 9px;
+    top: -102px;
+    left: 8px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.data-table1 .tbdy1 td, .data-table1 td.tbdy1 {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.18);
+    color: #98c5ff;
+    FONT-FAMILY: NFLEndzoneTechBold;
+    line-height: 13px;
+    font-size: 11px;
+}
+stattitles {     text-transform: uppercase;
+    letter-spacing: .2em;
+    position: relative;
+    left: 75%;
+    font-size: 11px;
+    top: -435px;
+}
+div#powerrankings-container {      width: 276px;
+    max-height: 203px;
+    position: relative;
+    top: -104px;
+    margin-bottom: 38px;
+    left: 2%;
+}
+span.statspics {    position: absolute;
+    top: 51px;
+    left: 44%;
+    background-image: url('http://i1178.photobucket.com/albums/x364/garza21lions/garza21lions144/statspicbg_zps0o7tkiek.png');
+    background-size: 100%;
+    background-position: 0px -47px;
+    background-repeat: no-repeat;
+}
+a.button {
+    text-transform: uppercase;
+    font-size: 22px;
+    position: absolute;
+    right: 35%;
+}
+.blogpostfooter {
+    margin-bottom: 13%;
+}
+div#news-stream-container {
+        background-color: white;
+    padding: 5px;
+    padding-left: 10px;
+    overflow-y: scroll;
+    width: 520px;
+    height: 600px;
+}
+div#tweets-container {
+    position: absolute;
+    width: 30%;
+    top: 4%;
+    right: 1%;
+    padding-left: 10px;
+}
+#tweets .text, #storyline .text {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    line-height: 18px;
+    margin-left: 74px;
+    font-size: large;    font-family: NFLEndzoneTechBold;
+}
+#tweets .header .name, #storyline .header .name {
+    color: #F80534;
+    margin-right: 8px;
+    text-transform: uppercase;
+    font-size: larger;
+}
+span.handle.ng-binding {
+    color: yellow;
+    font-size: larger;
+    font-style: italic;
+}
+div#hp-recentarticles {      font-family: NFLEndzoneTechBold;
+    TEXT-TRANSFORM: UPPERCASE;
+    font-size: large;
+    font-style: italic;
+    box-shadow: inset -24px 0 113px #B2B2B2;
+    padding: 7px;
+    position: absolute;
+    height: 176px;
+    width: 520px;
+    left: 20px;
+    top: 102%;
+}
+
+
+/***gow***/
+div#gameoftheweek-container {
+    position: absolute;
+    top: 137px;
+}
+span.gow.team.top { 
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 77px;
+    font-weight: bolder;
+    width: 254px;
+    right: -200px;
+}
+.gameoftheweek .cfm-table tr td .score {     font-size: 27px;
+    color: white;
+    padding-bottom: 4px;
+    width: 69px;
+    border-radius: 10px;
+    top: 200px;
+    text-align: center;
+    position: absolute;
+    left: -20px;
+}
+.record { 
+    line-height: 66px;
+    color: #999;
+    position: relative;
+    width: 333px;
+    right: -191px;
+    top: -92px;
+    font-size: 12px;
+    text-align: left;
+}
+span.big-gowtitle {    position: absolute;
+    left: 18px;
+    top: 304px;
+    width: 66%;
+    opacity: 1;
+}
+
+.gameoftheweek .cfm-table tr td.cfm-at {       width: 7%;
+    background-image: url('/img/at.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    position: absolute;
+    top: 371px;
+    right: 443px;
+}
+.gameoftheweek {
+width: 100%;
+line-height: 47px;
+border-bottom: 0px solid #273038;
+background: rgba(255, 255, 255, 0) url('');
+}
+.cfm-table tbody tr th > div.align-right, .cfm-table tbody tr td > div.align-right {
+text-align: right;
+background-repeat: no-repeat;
+}
+.clickable.ng-scope {      background-repeat: no-repeat;
+    background-position: center;
+    width: 242px;
+    background-size: 45%;
+    position: absolute;
+    left: 291px;
+    top: 321px;
+}
+.align-right.clickable.ng-scope {    position: absolute;
+    top: 243px;
+    background-size: 45%;
+}
+.team {     position: absolute;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: left;
+    top: 63px;
+    width: 254px;
+    right: -202px;
+    color: rgb(0, 139, 255);
+    background: -webkit-gradient(linear, left bottom, left top, from(#009DDC), to(#005581));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span.big-leaguename {    font-size: 27px;
+    font-style: italic;
+    width: 33%;
+    font-family: NFLEndzoneTechBold;
+    left: 40px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 20;
+    text-decoration: underline;
+    top: 247px;
+    font-weight: bolder;
+    letter-spacing: -.05em;
+}
+
+commish {    position: relative;
+    top: -48px;
+    font-size: 12px;
+    z-index: 1;
+    text-shadow: 0px 0px 27px #F4F3EC;
+    color: #97aace;
+    right: 0%;
+    text-transform: uppercase;
+}
+span.gik2 {       position: absolute;
+    left: 53px;
+    top: 316px;
+    z-index: 8;
+    opacity: .4;
+    width: 222px;
+}
+year {     position: absolute;
+    top: 247px;
+    left: 3%;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+    padding-top: -1px;
+    height: 169PX;
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 19px;
+    z-index: 9;
+}
+week {    
+    position: relative;
+    top: -15px;
+    left: 0%;
+    z-index: 9;
+    letter-spacing: -.03em;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: rgba(0, 11, 33, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 0px 0px 33px #f5f5f5;
+    font-size: 34px;
+}
+nextadvance {    position: relative;
+    top: -19px;
+    left: 1%;
+    z-index: 14;
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+    letter-spacing: -.01em;
+}
+.countdownHolder { width: 200px;
+    position: absolute;
+    top: 352px;
+    left: 34px;
+    background-color: rgba(244, 15, 15, 0);
+    font: 11px/1.5 'NFLEndzoneTechBold';
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffa900;
+    z-index: 10;
+}
+.digit {    position: relative;
+    display: block;
+    width: 0em;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px red;
+    background-color: rgba(68, 68, 68, 0.01);
+    left: 1px;
+}
+.countHead {
+float: left;
+width: 50px;
+}
+.countPosition {
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: -7px;
+    height: 1.3em;
+    overflow: hidden;
+    position: relative;
+    width: 20px;
+    left: 10px; top: 5px;
+}
+.digit.static {    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 10px;
+}
+.ui-widget-content a {
+    color: red;
+}
+legend {
+display: block;
+width: 100%;
+padding: 0;
+margin-bottom: 20px;
+font-size: 21px;
+line-height: inherit;
+color: #ADACAC;
+border: 0;
+border-bottom: 1px solid #e5e5e5;
+}
+span.homepagepics {      position: relative;
+    width: 316px;
+   }
