@@ -2263,7 +2263,7 @@ article.accordion section h2
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    background-color: #c5c5c5;
+    background-color: #c5c5c5; z-index: 1;
 }
 
 article.accordion section h2 a
