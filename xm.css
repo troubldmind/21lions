@@ -1,3 +1,252 @@
+.button {
+   border: 1px solid #DDD;
+   border-radius: 3px;
+   text-shadow: 0 1px 1px white;
+   -webkit-box-shadow: 0 1px 1px #fff;
+   -moz-box-shadow:    0 1px 1px #fff;
+   box-shadow:         0 1px 1px #fff;
+   font: bold 11px Sans-Serif;
+   padding: 6px 10px;
+   white-space: nowrap;
+   vertical-align: middle;
+   color: #666;
+   background: WHITE;
+   cursor: pointer;
+}
+.button:hover, .button:focus {
+   border-color: #999;
+   background: -webkit-linear-gradient(top, white, #E0E0E0);
+   background:    -moz-linear-gradient(top, white, #E0E0E0);
+   background:     -ms-linear-gradient(top, white, #E0E0E0);
+   background:      -o-linear-gradient(top, white, #E0E0E0);
+   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 0 3px #fff;
+   -moz-box-shadow:    0 1px 2px rgba(0,0,0,0.25), inset 0 0 3px #fff;
+   box-shadow:         0 1px 2px rgba(0,0,0,0.25), inset 0 0 3px #fff;
+}
+.button:active {
+   border: 1px solid #AAA;
+   border-bottom-color: #CCC;
+   border-top-color: #999;
+   -webkit-box-shadow: inset 0 1px 2px #aaa;
+   -moz-box-shadow:    inset 0 1px 2px #aaa;
+   box-shadow:         inset 0 1px 2px #aaa;
+   background: -webkit-linear-gradient(top, #E6E6E6, gainsboro);
+   background:    -moz-linear-gradient(top, #E6E6E6, gainsboro);
+   background:     -ms-linear-gradient(top, #E6E6E6, gainsboro);
+   background:      -o-linear-gradient(top, #E6E6E6, gainsboro);
+}
+.blogpost.clearfix {
+    position: relative;
+    text-align: left;
+}
+span.Single.full {
+    position: absolute;
+    z-index: 3;
+    display: block;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    right: -34px;
+    letter-spacing: .1em;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background: rgb(189, 10, 10);
+    border-radius: 50px;
+    margin: 0 0 0 10px;
+    border-top: #a1003e 1px solid;
+    border-left: #d60041 1px solid;
+    border-right: #a94442 1px solid;
+    border-bottom: #a1003e 1px solid;
+}
+span.line {    position: absolute;
+    width: 366px;
+    height: 2px;
+    background-color: rgba(173, 173, 173, 0.59);
+    top: 130px;
+    left: 2px;
+    z-index: 156;
+}
+span.teamlist {
+    background-size: 100%;
+    padding-left: 40px;
+    text-align: center;
+    background-position: 0px -10px;
+    color: yellow;
+    text-transform: uppercase;
+}
+span.open {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 5px;
+    width: 32px;
+    height: 44px;
+    display: block;
+    background-image: url('http://www.clnsolution.com/wp-content/uploads/2015/03/non-va.png');
+    background-size: 34%;
+    background-repeat: no-repeat;
+    background-position: 1px 1px;
+}
+span.taken{
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    padding-left: 5px;
+    width: 32px;
+    height: 44px;
+    display: block;
+    background-image: url('http://findicons.com/files/icons/1254/flurry_system/256/users.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: -4px -2px
+}
+
+
+
+
+
+.news-holder {    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 21px;
+    line-height: 19px;
+    background: white;
+}
+p.news {
+    width: 75%;
+}
+.news-holder * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; text-align: left;
+}
+
+.news-headlines {
+  list-style: none;
+  position: relative;
+}
+.news-headlines li:hover, a:hover {
+    cursor: pointer;
+}
+li.nh-anim.selected {
+    color: #ffcc00;
+}
+.news-headlines li { 
+    padding: 12px;
+    position: relative;
+    z-index: 20;
+    border-bottom: solid 1px #ccc;
+    color: #ddd;
+    width: 100%;
+    background: #888888;
+    min-height: 49px;
+    font-size: 20px;
+}
+.nh-anim {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+.news-headlines .highlight {
+     width: 100%;
+     background: #888888;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 10;
+  }
+.news-headlines {
+   float: left;
+   width: 30%;
+}
+.news-preview {
+   float: left;
+   width: 70%;
+   position: relative;
+   z-index: 5;
+   position: relative;
+}
+
+.news-preview img {
+    object-fit: fill;
+    width: 540px;
+    height: 360px;
+    margin: 0 auto 5px auto;
+  } 
+
+.news-content {    position: absolute;
+    background: #ffffff;
+    z-index: 10;
+    padding: 10px;
+    top: 46px;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.resume{    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    background-image: linear-gradient(90deg, #e8ecf1, rgba(245, 245, 245, 0.62));
+    padding: 20px;
+    color: #2b4069;
+}
+a.title {       display: block;
+    color: #ca0000;
+    margin: 0 0 8px 0;
+    font-size: 38px;
+    text-align: left;
+    width: 100%;     line-height: 30px;
+    text-transform: uppercase;
+}
+a.title:hover{
+  background:none;
+  text-decoration: none;
+}
+.top-content {
+    display: block;
+}
+
+
+img.subheader {
+    position: absolute;
+    top: 122px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: solid 2px;
+}
+.team-info {    float: left;
+    position: relative;
+    width: 250px;
+    line-height: .75;
+    left: 153px;
+    top: -5px;
+}
+.team-bio {
+    float: left;
+    position: relative;
+    z-index: 200;
+    left: 27px;
+}
+span.text2img {    background-image: url(https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png);
+    position: absolute;
+    height: 55px;
+    width: 82px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: -19px;
+    left: 127px;
+}
+
 li.list-group-item {
     color: #7590c5;
 }
