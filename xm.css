@@ -4970,8 +4970,7 @@ span.headings {     FONT-SIZE: 21PX;
     font-size: 17px;
     text-transform: uppercase;
 }
-body {      
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), -webkit-linear-gradient(top, rgb(31, 45, 72), rgb(31, 45, 72)), url();
+body {          background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), -webkit-linear-gradient(top, rgb(84, 84, 84), rgb(0, 0, 0)), url();
     background-color: transparent;
     color: #747474;
     background-size: auto, 100%, auto, cover;
