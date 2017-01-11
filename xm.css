@@ -2560,7 +2560,7 @@ article.accordion section h2
 }
 /***tables***/
 table.data-table1 .thd1 td {
-    background-color: #ce2f2a;
+  background-image: -webkit-linear-gradient(#000000 24%, rgb(82, 82, 82) 55%, #424242 90%);
     color: #fff;
     font-weight: 700;
 }
@@ -2573,10 +2573,11 @@ table.data-table1 .thd1 td, table.data-table1 .thd1 th {
     font-weight: 700;
 }
 table.data-table1 .thd2 td {
-    background-color: #333;
+      background-image: -webkit-linear-gradient(#ff0033 24%, rgb(175, 0, 35) 55%, rgb(255, 0, 51) 90%);
     border-bottom: 0px solid #ccc;
-    color: #fff;
-    padding: 2px 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0px 0px;
 }
 
 .data-table1 th, table.data-table1 td {
@@ -4767,21 +4768,6 @@ b3 {      position: relative;
   }
 }
 /***header***/
-span.title {  
-    FONT-SIZE: 48PX;
-    padding-top: 0px;
-    padding-right: 12px;
-    position: absolute;
-    top: -9px;
-    text-align: center;
-    letter-spacing: -.05em;
-    width: 100%;
-    box-shadow: none;
-    left: -148px;
-    height: 176px;
-    color: #1f2d48;
-    animation: fade-in 3850ms ease-in;
-}
 div#header {      padding-top: 21px;
     position: RELATIVE;
     text-align: center;
@@ -4795,15 +4781,14 @@ div#header {      padding-top: 21px;
 }
 span.toptext {  
     text-transform: uppercase;
-    font-size: 47px;
+    font-size: 68px;
     position: absolute;
     top: -8px;
-    font-style: italic;
-    text-align: center;
-    width: 703px;
-    left: -138px;
+    text-align: right;
+    width: 536px;
+    left: -6px;
     padding-left: 20px;
-    color: #bd0a0a;
+    color: #000000;
     z-index: 2;
     animation: fade-in 2850ms ease-in;
 }
@@ -4811,12 +4796,10 @@ span.bottomtext {
     text-transform: uppercase;
     font-size: 23px;
     position: absolute;
-    top: 17px;
-    text-align: center;
-    font-style: italic;
+    top: 21px;
+    text-align: left;
     width: 361px;
-    margin-left: 33%;
-    left: -12PX;
+    left: 544PX;
     color: #bd0a0a;
     z-index: 2;
     animation: fade-in 4850ms ease-in;
@@ -5013,9 +4996,9 @@ ins#aswift_0_expand {
     padding: 20px 0;
 }
 
-ul.menu img {     width: 8%;
+ul.menu img {     width: 15%;
     position: absolute;
-    top: -32px;
+    top: -63px;
     z-index: 4;
     left: 15px;
 }
@@ -5030,14 +5013,14 @@ ul.menu img {     width: 8%;
     position: absolute;
     padding: 0 0 0 0px;
     z-index: 270;
-    top: 43px;
+    top: 66px;
     margin: 0;
-    border-top: solid 3px #bd0a0a;
+    border-top: solid 3px black;
     border-bottom: solid 1px gray;
     background-image: -webkit-linear-gradient(#efeeee 50%, rgb(216, 214, 214) 55%, rgb(191, 191, 191) 90%);
 }
 .menu a, .menu a:link, .menu a:visited, .menu a:focus {
-    color: #111942;
+    color: black;
     text-decoration: none;
 }
 .menu a:hover {
@@ -5451,7 +5434,7 @@ span.text1{
     height: 32px;
     color: #ffffff;
     text-shadow: 0px 2px 5px black;
-    background-image: -webkit-linear-gradient(#950000 24%, rgb(235, 45, 25) 55%, #e52d1d 90%);
+    background-image: -webkit-linear-gradient(#000000 24%, rgb(82, 82, 82) 55%, #424242 90%);
 }
 span.text2{  FONT-SIZE: 18PX;
     font-style: italic;
