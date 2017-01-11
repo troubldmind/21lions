@@ -1,3 +1,6 @@
+.blogpost.clearfix h4 strong {
+    font-size: 46px;
+}
 .button {
    border: 1px solid #DDD;
    border-radius: 3px;
