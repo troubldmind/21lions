@@ -4848,7 +4848,7 @@ f1 {
     color: red;
 }
 f3 {      text-transform: uppercase;
-    color: #2b4069;
+    color: #ca032b;
     font-size: 30px;
     letter-spacing: -.02em;
 }
@@ -4856,7 +4856,7 @@ f4, f42 {
     color: #d60303; font-size:22px;
 }
 f2 {
-    font-size: 20px;
+    font-size: 19px; color: black;
 }
 .sliders {    display: block;
     POSITION: relative;
