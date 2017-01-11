@@ -431,6 +431,44 @@ span.recap {
     TOP: -296PX;
 }
 
+/***relocated super bowl helmets****/
+span.mounties.sblogos-left, span.mounties.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/168.png);
+    background-size: 100%;
+}
+span.wizards.sblogos-left, span.wizards.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/186.png);
+    background-size: 100%;
+}
+span.reddragons.sblogos-left, span.reddragons.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/137.png);
+    background-size: 100%;
+}
+span.beats.sblogos-left, span.beats.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/141.png);
+    background-size: 100%;
+}
+span.riverhogs.sblogos-left, span.riverhogs.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/177.png);
+    background-size: 100%;
+}
+span.bulldogs.sblogos-left, span.bulldogs.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/144.png);
+    background-size: 100%;
+}
+span.conquistadors.sblogos-left, span.conquistadors.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/148.png);
+    background-size: 100%;
+}
+span.nighthawks.sblogos-left, span.nighthawks.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/169.png);
+    background-size: 100%;
+}
+span.tigers.sblogos-left, span.tigers.sblogos-right {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/left/183.png);
+    background-size: 100%;
+}
+
 /***left and right super bowl helemets***/
 span.arizona.sblogos-right {
     background-image: url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/ARI.svg);
@@ -3157,7 +3195,63 @@ span.tor {
     text-shadow: 0px 3px 6px #000000;
     overflow: hidden;
 }
-
+span.bk {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/right/141.png),linear-gradient(90deg, #6f1656, rgb(0, 0, 0));
+    background-size: 87%, 100%;
+    background-position: 105px -108px, 12px 1px;
+    background-repeat: no-repeat;
+    font-size: 62px;
+    position: absolute;
+    top: 23px;
+    padding-left: 44px;
+    text-align: left;
+    height: 147px;
+    text-transform: uppercase;
+    left: 405px;
+    width: 429px;
+    padding-top: 57px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.chic {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/right/183.png),linear-gradient(90deg, #e2a37d, rgb(0, 0, 0));
+    background-size: 74%, 100%;
+    background-position: 180px -78px, 12px 1px;
+    background-repeat: no-repeat;
+    font-size: 62px;
+    position: absolute;
+    top: 22px;
+    padding-left: 44px;
+    text-align: left;
+    height: 149px;
+    text-transform: uppercase;
+    left: 405px;
+    width: 421px;
+    padding-top: 61px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.okc {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/right/169.png),linear-gradient(90deg, #67a0e3, rgb(0, 0, 0));
+    background-size: 87%, 100%;
+    background-position: 180px -111px, 12px 1px;
+    background-repeat: no-repeat;
+    font-size: 62px;
+    position: absolute;
+    top: 22px;
+    padding-left: 44px;
+    text-align: left;
+    height: 149px;
+    text-transform: uppercase;
+    left: 405px;
+    width: 421px;
+    padding-top: 61px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
 span.ari {    background-image: url(http://www.daddyleagues.com/img/nfl/teams/right/6.png),linear-gradient(90deg, #b72953, rgb(0, 0, 0));
     background-size: 87%, 100%;
     background-position: 182px -126px, 12px 1px;
@@ -3859,6 +3953,63 @@ span.orl-away {
     background-image: url(http://www.daddyleagues.com/img/nfl/teams/right/186.png),linear-gradient(90deg, #595a87, rgb(0, 0, 0));
     background-size: 87%, 100%;
     background-position: 174px -79px, 12px 1px;
+    background-repeat: no-repeat;
+    font-size: 62px;
+    position: absolute;
+    top: 23px;
+    padding-left: 44px;
+    text-align: left;
+    height: 147px;
+    text-transform: uppercase;
+    left: -12px;
+    width: 429px;
+    padding-top: 57px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.okc-away {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/right/169.png),linear-gradient(90deg, #68a1e3, rgb(0, 0, 0));
+    background-size: 87%, 100%;
+    background-position: 183px -118px, 12px 1px;
+    background-repeat: no-repeat;
+    font-size: 62px;
+    position: absolute;
+    top: 23px;
+    padding-left: 44px;
+    text-align: left;
+    height: 147px;
+    text-transform: uppercase;
+    left: -12px;
+    width: 429px;
+    padding-top: 57px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.chic-away {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/right/183.png),linear-gradient(90deg, #e4a680, rgb(0, 0, 0));
+    background-size: 72%, 100%;
+    background-position: 174px -79px, 12px 1px;
+    background-repeat: no-repeat;
+    font-size: 62px;
+    position: absolute;
+    top: 23px;
+    padding-left: 44px;
+    text-align: left;
+    height: 147px;
+    text-transform: uppercase;
+    left: -12px;
+    width: 429px;
+    padding-top: 57px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.bk-away {
+    background-image: url(http://www.daddyleagues.com/img/nfl/teams/right/141.png),linear-gradient(90deg, #6f1656, rgb(0, 0, 0));
+    background-size: 87%, 100%;
+    background-position: 105px -108px, 12px 1px;
     background-repeat: no-repeat;
     font-size: 62px;
     position: absolute;
@@ -4652,7 +4803,7 @@ b1 {        position: relative;
     right: -209px; display: block;
     width: 535px;
     height: 193px;
-    color: #ca0000;
+    color:#c8a251;
     font-family: NFLEndzoneSansCondMedium;
     font-size: 51px;
     text-transform: uppercase;
@@ -4667,7 +4818,7 @@ b2 {
     display: block;
     width: 441px;
     height: 85px;
-    color: #ca0000;
+    color: #c8a251;
     font-family: NFLEndzoneSansCondMedium;
     font-size: 30px;
     text-transform: uppercase;
@@ -4682,7 +4833,7 @@ b3 {      position: relative;
     width: 441px;
     display: block;
     height: 110px;
-    color: #2b4069;
+    color: white;
     font-size: 19px;
     text-transform: uppercase;
     line-height: 1.2em;
@@ -4925,7 +5076,8 @@ body {        background-image: url(http://www.easports.com/madden-nfl/connected
 #daddyleagues-navbar .navbar .nav > li > a {
     font-size: 10px !important;
 }
-.container {    width: 1050px;
+.container {     width: 1050px;
+    box-shadow: 0px 0px 69px #d2ac65;
     background-color: black;
     POSITION: RELATIVE;
     background-repeat: no-repeat;
