@@ -1514,7 +1514,7 @@ span.superbowls1 {background-image: url(http://www.easports.com/madden-nfl/conne
     background-size: 9%;
     width: 100%;
     height: 100%;
-    background-position: 113px 10px;
+    background-position: 98px 10px;
     position: absolute;
     top: 0px;
     z-index: 1;
@@ -1534,7 +1534,7 @@ span.superbowls3 {background-image: url(http://www.easports.com/madden-nfl/conne
     background-size: 9%;
     width: 100%;
     height: 100%;
-    background-position: 153px 10px;
+    background-position: 170px 10px;
     position: absolute;
     top: 0px;
     z-index: 1;
@@ -1544,7 +1544,7 @@ span.superbowls4 {background-image: url(http://www.easports.com/madden-nfl/conne
     background-size: 9%;
     width: 100%;
     height: 100%;
-    background-position: 173px 10px;
+    background-position: 209px 10px;
     position: absolute;
     top: 0px;
     z-index: 1;
@@ -1554,7 +1554,7 @@ span.superbowls5 {background-image: url(http://www.easports.com/madden-nfl/conne
     background-size: 9%;
     width: 100%;
     height: 100%;
-    background-position: 193px 10px;
+    background-position: 123px 54px;
     position: absolute;
     top: 0px;
     z-index: 1;
@@ -1564,7 +1564,7 @@ span.superbowls6 {background-image: url(http://www.easports.com/madden-nfl/conne
     background-size: 9%;
     width: 100%;
     height: 100%;
-    background-position: 203px 10px;
+    background-position: 183px 54px;
     position: absolute;
     top: 0px;
     z-index: 1;
@@ -5060,7 +5060,7 @@ ins#aswift_0_expand {
 
 ul.menu img {     width: 15%;
     position: absolute;
-    top: -63px;
+    top: -67px;
     z-index: 4;
     left: 15px;
 }
