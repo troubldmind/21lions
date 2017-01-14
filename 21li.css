@@ -60,7 +60,7 @@ width: 1178px;
 }
 .panel.panel-hh.nopad.potw {
     height: 199px;
-    overflow: hidden;
+    overflow: hidden; width: 582px;
 }
 .panel-player .panel-body { margin:5px; padding:5px; background:none; margin-top:0; padding-top:0;}
 .panel-player .avatar .panel-player .avatar {
