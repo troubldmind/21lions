@@ -1,3 +1,12 @@
+.col-md-15 {
+width: 1178px;
+    float: left;
+    left: -407px;
+    padding-top: 17px;
+    position: relative;
+    padding-bottom: 17px;
+}
+
 /***gow***/
 .away-team.team {    position: absolute;
     text-transform: uppercase;
