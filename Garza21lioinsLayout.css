@@ -6,7 +6,159 @@ width: 1178px;
     position: relative;
     padding-bottom: 0px;
 }
+/***potw***/
+.pow-player-logo img {
+    width: 134%;
+    position: relative;
+    top: -58px;
+    left: 72px;
+}
+.pow-player-logo {
+    width: 276px!important;
+    height: 203px!important;
+    margin-top: -25px;
+    margin-left: -68px;
+}
+.playeroftheweek {        margin: 0;
+    margin-top: 0px;
+    top: -82px;
+    left: -86px;
+    border-left: solid 40px #363d45;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://fs1.directupload.net/images/150831/ws2ylmkq.jpg);
+    position: relative;
+    height: 262px;
+    width: 586px;
+    margin-left: 41%;
+    overflow: hidden;
+    background-repeat: repeat, no-repeat;
+    background-size: 6px, 100%;
+    background-position: 0px 0px, 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.panel-player { width:35%; display:block; float:left; background: transparent; border:none; box-shadow:none; margin-bottom:0;}
+.panel-player a { color:inherit;}
+.panel-player .panel-heading {      background: -webkit-linear-gradient(#ef4733, #a83a30);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    padding-top: 4px;
+    font-size: 38px;
+    font-style: italic;
+    position: relative;
+    top: 276px;
+    LETTER-SPACING: -.01em;
+    height: 49px;
+    width: 271px;
+    line-height: 38px;
+    z-index: 105;
+    right: 2px;
+    text-align: right;
+    padding-right: 9px;
+    padding-bottom: 0px;
+}
+.panel.panel-hh.nopad.potw {
+    height: 199px;
+    overflow: hidden;
+}
+.panel-player .panel-body { margin:5px; padding:5px; background:none; margin-top:0; padding-top:0;}
+.panel-player .avatar .panel-player .avatar {
+  width: 167px;
+  height: 167px;
+  position: relative;
+  border-radius: 5px;
+}
+.panel-player .avatar img {       width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: -78px;
+    top: -48px;
+    z-index: 0;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    height: 256px;
+    overflow: hidden;
+    margin: 10px;
+}
+.panel-player .avatar img.teamLogo {
+    position: absolute;
+    top: 194px;
+    background-color: rgba(255, 255, 255, 0.01);
+    left: -9px;
+    height: 27%;
+    z-index: 118;
+    width: 15%;
+}
 
+div#dplayeroftheweek-container {
+    margin-bottom: 0px;
+}
+.panel-player .playeroftheweek-name {           text-transform: uppercase;
+    color: #ffffff;
+    font-size: 70px;
+    position: absolute;
+    top: 60px;
+    height: 21%;
+    z-index: 6;
+    left: 334px;
+    width: 162px;
+    text-align: right;
+}
+.panel-player .text .stat-value {    letter-spacing: 0px;
+    margin-bottom: 0;
+    position: absolute;
+    color: #9c9c9c;
+    top: -32px;
+    text-align: right;
+    left: 296px;
+    z-index: 6;
+    line-height: 10px;
+    width: 70%;
+    font-size: 20px;
+}
+.playeroftheweek-name, .playeroftheweek-name a {
+color: #9c9c9c;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 37px;
+}
+.panel-player .text {          background-color: transparent;
+    height: 55px;
+    width: 282px;
+    left: 0px;
+    top: 208px;
+    z-index: 1;
+    position: absolute;
+    overflow: visible;
+}
+.panel-player .text { padding: 0px 10px;}
+
+.panel-heading {
+  padding: 0px 75px;
+  border-bottom: 1px solid rgba(247, 9, 9, 0);
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+div#potw {          position: relative;
+    top: -27px;
+    right: 0px;
+    background-color: white;
+    height: 228px;
+    overflow: hidden;
+}
+.panel-hh.potw>.panel-body {      position: relative;
+    background: transparent;
+    padding-top: 0px;
+}
+.panel-body {
+    padding: 0px;
+}
+.pow-team-logo {        width: 388px;
+    margin: -244px 237px 0;
+    float: right;
+}
 /***gow***/
 .away-team.team {    position: absolute;
     text-transform: uppercase;
@@ -583,7 +735,7 @@ padding: 10px 5px;
 
 /***tables***/
 .data-table1 th, table.data-table1 td {
-    font-family: inherit;
+    font-family: inherit; font-size:14px;
 }
 table.data-table1 .thd1 td, table.data-table1 .thd1 th {
     text-align: left;
