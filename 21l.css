@@ -746,7 +746,7 @@ table.data-table1 .thd1 td, table.data-table1 .thd1 th {
 }
 table.data-table1 .thd2 td {
     border-bottom: 1px solid #ccc;
-    color: #fff;
+    color: #fff;     padding: 0px 3px;
 }
 table.data-table1 {
     border-collapse: collapse;
