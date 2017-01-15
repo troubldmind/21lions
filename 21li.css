@@ -6,6 +6,66 @@ width: 1178px;
     position: relative;
     padding-bottom: 0px;
 }
+/***standings panels***/
+img.teamLogo {
+    position: relative;
+    left: -2px;
+}
+.panel-afc > .panel-heading, .panel-afc > .panel-footer, afc1 
+ {    color: #fff;
+    border-color: rgba(137, 23, 26, 0);
+    border-radius: 0;
+    margin-bottom: -10px;
+    margin-top: 15px;
+    padding-top: 4px;
+    height: 36px;
+    text-transform: uppercase;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), -webkit-linear-gradient(top, rgb(206, 0, 0), rgba(185, 0, 0, 0.55));
+    background-repeat: repeat, repeat;
+    background-size: auto, contain;
+    background-position: 0px 0px, 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.panel-nfc > .panel-heading, .panel-nfc > .panel-footer, nfc1 {
+     color: #fff;
+    border-color: rgba(137, 23, 26, 0);
+    border-radius: 0;
+    margin-bottom: -10px;
+    margin-top: 15px;
+    padding-top: 4px;
+    height: 36px;
+    text-transform: uppercase;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), -webkit-linear-gradient(top, rgb(12, 0, 218), rgba(9, 14, 200, 0.37));
+    background-repeat: repeat, repeat;
+    background-size: auto, contain;
+    background-position: 0px 0px, 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+/***tables***/
+.data-table1 th, table.data-table1 td {
+ font-size: 16px;
+}
+td.bubble {
+    background: #323b44 none repeat scroll 0 0!important;
+    border: medium none!important;
+    color: #fff!important;
+    text-align: center;
+}
+table.data-table1 .thd2 td {
+    background-color: #ef4733;
+    color: #fff; text-align: left;
+}
+table.data-table1 tr:nth-child(odd):hover, table.data-table1 tr:hover {
+    background-color: rgba(245, 245, 245, 0.14);
+}
+table.data-table1 tr:nth-child(odd) {
+    background-color: rgba(242, 242, 242, 0.05);
+}
+.data-table1 td.tbdy1, table.data-table1 .tbdy1 td {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px dotted rgba(221, 221, 221, 0.12);
+    color: #d0d0d0;
+}
 /***potw***/
 .pow-player-logo img {
     width: 134%;
@@ -1037,3 +1097,359 @@ a.yui3-scorestrip-tile-content {
     text-decoration: none;
     width: 53px;
 }
+/***stats***/
+.panel-heading.stats3 {
+    background: -webkit-linear-gradient(#ef4733, #a83a30);
+    COLOR: WHITE;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    transform-origin: left bottom 0;
+    padding-top: 13px;
+    font-size: 75px;
+    position: relative;
+    top: -60px;
+    LETTER-SPACING: -.01em;
+    height: 60px;
+    width: 271px;
+    line-height: 38px;
+    z-index: 105;
+    left: 401px;
+    text-align: left;
+    padding-right: 9px;
+    padding-bottom: 0px;
+}
+.panel-heading.stats2 {
+    background: -webkit-linear-gradient(#ef4733, #a83a30);
+    COLOR: WHITE;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    transform-origin: left bottom 0;
+    padding-top: 13px;
+    font-size: 75px;
+    position: relative;
+    top: -60px;
+    LETTER-SPACING: -.01em;
+    height: 60px;
+    width: 271px;
+    line-height: 38px;
+    z-index: 105;
+    left: 489px;
+    text-align: left;
+    padding-right: 9px;
+    padding-bottom: 0px;
+}
+.panel-heading.stats {    background: -webkit-linear-gradient(#ef4733, #a83a30);
+    COLOR: WHITE;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    transform-origin: left bottom 0;
+    padding-top: 12px;
+    font-size: 75px;
+    position: relative;
+    top: 210px;
+    LETTER-SPACING: -.01em;
+    height: 60px;
+    width: 271px;
+    line-height: 38px;
+    z-index: 105;
+    left: 0px;
+    text-align: left;
+    padding-right: 9px;
+    padding-bottom: 0px;
+}
+.portfolio-box2{    display: block;
+    position: relative;
+    margin: 0 auto;
+    left: -259px;
+    width: 400px;
+    height: 270px;
+    top: 15px;
+    BACKGROUND-IMAGE: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://interactives.dallasnews.com/embeds/zeke-tracker/images/_elliott_cut_small.png), url(http://media.gettyimages.com/videos/dramatic-soccer-stadium-full-of-spectators-video-id494935136?s=640x640);
+    background-repeat: repeat,no-repeat, no-repeat;
+    background-size: 7PX, 82%,200%;
+    background-position: 0px 0px, 74PX  1px, -248px -143px;
+}
+.portfolio-box2 .portfolio-box2-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 270px; top:0px;
+  text-align: center;
+  opacity: 0;
+    background-image: -webkit-linear-gradient(top, rgb(48, 54, 63), rgba(54, 60, 69, 0.92)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);  transition: all 0.4s;
+}
+.portfolio-box3{      display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 200px;
+    width: 490px;
+    height: 269px;
+    top: -256px;
+    BACKGROUND-IMAGE: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://2.bp.blogspot.com/-2Lw217O57MM/Tmgdgqbq8cI/AAAAAAAACFk/oFbuz1ULi74/s1600/aaron+rodgers.png), url(http://media.gettyimages.com/videos/dramatic-soccer-stadium-full-of-spectators-video-id494935136?s=640x640);
+    background-repeat: repeat,no-repeat, no-repeat;
+    background-size: auto, 82%, auto;
+    background-position: 0px -39px, 68% -32px, -142px -75px;
+}
+.portfolio-box3 .portfolio-box3-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 270px; top:0px;
+  text-align: center;
+  opacity: 0;
+    background-image: -webkit-linear-gradient(top, rgb(48, 54, 63), rgba(54, 60, 69, 0.92)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);  transition: all 0.4s;
+}
+.portfolio-box4{      display: block;
+    position: relative;
+    margin: 0 auto;
+    left: -216px;
+    width: 490px;
+    height: 270px;
+    top: -243px;
+    BACKGROUND-IMAGE: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://i137.photobucket.com/albums/q239/Friartown/AnBrown.png), url(http://media.gettyimages.com/videos/dramatic-soccer-stadium-full-of-spectators-video-id494935136?s=640x640);
+    background-repeat: repeat,no-repeat, no-repeat;
+    background-size: auto, 82%, auto;
+    background-position: 0px -39px, 65% 1px, -5px -2px;
+}
+.portfolio-box4 .portfolio-box4-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 270px; top:0px;
+  text-align: center;
+  opacity: 0;
+    background-image: -webkit-linear-gradient(top, rgb(48, 54, 63), rgba(54, 60, 69, 0.92)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);  transition: all 0.4s;
+}
+.portfolio-box5{        display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 243px;
+    width: 400px;
+    height: 270px;
+    top: -510px;
+    BACKGROUND-IMAGE: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://jetsrant.com/wp-content/uploads/2014/02/Watt2.png), url(http://media.gettyimages.com/videos/dramatic-soccer-stadium-full-of-spectators-video-id494935136?s=640x640);
+    background-repeat: repeat,no-repeat, no-repeat;
+    background-size: 7PX, 82%,200%;
+    background-position: 0px 0px, 74PX 1px, -315px -23px;
+}
+.portfolio-box5 .portfolio-box5-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 270px; top:0px;
+  text-align: center;
+  opacity: 0;
+    background-image: -webkit-linear-gradient(top, rgb(48, 54, 63), rgba(54, 60, 69, 0.92)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);  transition: all 0.4s;
+}
+.portfolio-box6{           display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 199px;
+    width: 487px;
+    height: 270px;
+    top: -497px;
+    BACKGROUND-IMAGE: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i137.photobucket.com/albums/q239/Friartown/Mathieu3.png), url(http://media.gettyimages.com/videos/dramatic-soccer-stadium-full-of-spectators-video-id494935136?s=640x640);
+    background-repeat: repeat,no-repeat, no-repeat;
+    background-size: 7PX, 90%,185%;
+    background-position: 0px 0px, 27PX 7px, -105px -210px;
+}
+.portfolio-box6 .portfolio-box6-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 270px; top:0px;
+  text-align: center;
+  opacity: 0;
+    background-image: -webkit-linear-gradient(top, rgb(48, 54, 63), rgba(54, 60, 69, 0.92)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);  transition: all 0.4s;
+}
+.portfolio-box7{    display: block;
+    position: relative;
+    margin: 0 auto;
+    left: -262px;
+    width: 400px;
+    height: 270px;
+    top: -771px;
+    BACKGROUND-IMAGE: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://media.easports.com/content/dam/ea/easports/madden/home/hero-images/2016/august/18/presentation/madden17-presentation-fg-xs.png), url(http://media.gettyimages.com/videos/dramatic-soccer-stadium-full-of-spectators-video-id494935136?s=640x640);
+    background-repeat: repeat,no-repeat, no-repeat;
+    background-size: 7PX, 145%,200%;
+    background-position: 0px 0px, -1PX -96px, -248px -150px;
+}
+.portfolio-box7 .portfolio-box7-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 270px; top:0px;
+  text-align: center;
+  opacity: 0;
+    background-image: -webkit-linear-gradient(top, rgb(48, 54, 63), rgba(54, 60, 69, 0.92)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);  transition: all 0.4s;
+}
+span.transactionsfull2 {
+      position: relative;
+    top: 2px;
+    left: 7px; line-height:2;
+    text-align: left;
+    padding-right: 26px;
+}
+
+.portfolio-box {       display: block;
+    position: relative;
+    margin: 0 auto;
+    left: -101px;
+    width: 525px;
+    height: 238px;
+    top: 15px;
+    BACKGROUND-IMAGE: url(http://i1178.photobucket.com/albums/x364/garza21lions/POW_zpsdgikhsea.gif), url(http://centrosportivomarasca.it/fw/view/layout/00/images/trophy.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: 40%, 55%,100%;
+    background-position: 0px 0px, 107% -29px, 0px 0px;
+}
+
+.portfolio-box .portfolio-box-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 233px; top:0px;
+  text-align: center;
+  opacity: 0;
+ background-image: url("http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png"),url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+  transition: all 0.4s;
+}
+
+
+/* Here's the trick below. Hover on parent and affect the child's property */
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box2:hover .portfolio-box2-caption {
+  opacity: 1;
+}
+.portfolio-box2 .portfolio-box2-caption .portfolio-box2-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box3:hover .portfolio-box3-caption {
+  opacity: 1;
+}
+.portfolio-box3 .portfolio-box3-caption .portfolio-box3-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box4:hover .portfolio-box4-caption {
+  opacity: 1;
+}
+.portfolio-box4 .portfolio-box4-caption .portfolio-box4-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box5:hover .portfolio-box5-caption {
+  opacity: 1;
+}
+.portfolio-box5 .portfolio-box5-caption .portfolio-box5-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box7:hover .portfolio-box7-caption {
+  opacity: 1;
+}
+.portfolio-box7 .portfolio-box7-caption .portfolio-box7-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box6:hover .portfolio-box6-caption {
+  opacity: 1;
+}
+.portfolio-box6 .portfolio-box6-caption .portfolio-box6-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+@keyframes slide-in-right{
+  from { margin-left: 10%; }
+  to { margin-left: 0%; }
+}
+@keyframes slide-in-left{
+  from { margin-right: 10%; }
+  to { margin-right: 0%; }
+}
+@keyframes fadein-slide-in-left{
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadein-slide-in-right{
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadein-slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+@keyframes fadein-slideup{
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
