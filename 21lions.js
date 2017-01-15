@@ -1,4 +1,6 @@
-
+$(document).ready(function(){document.title='RNB';if($('.nav.pull-right li a:contains("Register")').length>0){if(document.URL.toLowerCase().indexOf("daddyleagues.com/RNB/coaches")>=0){$('.data-table1').remove();}}
+$('.maincontent').addClass('clearfix');
+			     
 $("#slideshow > div:gt(0)").hide();setInterval(function() {
 $('#slideshow > div:first')
 .fadeOut(3000)
