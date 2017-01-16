@@ -255,6 +255,7 @@ img.teamLogo {
 /***tables***/
 
 .data-table1 th, table.data-table1 td {
+    font-family: inherit;
     font-size: 16px;
 }
 td.bubble {
