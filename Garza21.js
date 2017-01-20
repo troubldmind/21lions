@@ -112,69 +112,69 @@ $('a>span:contains("WAS")').replaceWith('<img src="http://i.nflcdn.com/static/si
 /***GOW HOME TEAMS***/
 $('.gameoftheweek .ng-scope').wrapInner('<div class="record"></div>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/0.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">chicago</div><span class="chi">bears</span><span class="home use">xZodiac10</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/0.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">chicago</div><span class="chi gowh">bears</span><span class="home use">xZodiac10</span>');
 	
-$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/1.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team ">Cincinnati</div><span class="cin">bengals</span><span class="home use">Coach_Lombardi</span>');
+$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/1.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team ">Cincinnati</div><span class="cin gowh">bengals</span><span class="home use">Coach_Lombardi</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/2.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team ">buffalo</div><span class="buf">bills</span><span class="home use">Jada215</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/2.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team ">buffalo</div><span class="buf gowh">bills</span><span class="home use">Jada215</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/3.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">denver</div><span class="den">broncos</span><span class="home use">Skills 40</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/3.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">denver</div><span class="den gowh">broncos</span><span class="home use">Skills 40</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/4.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Cleveland</div><span class="cle">browns</span><span class="home use">ImJustSaying27</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/4.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Cleveland</div><span class="cle gowh">browns</span><span class="home use">ImJustSaying27</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/5.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">tampa bay</div><span class="tb">buccaneers</span><span class="home use">A Very High Guy</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/5.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">tampa bay</div><span class="tb gowh">buccaneers</span><span class="home use">A Very High Guy</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/6.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">arizona</div><span class="ari">cardinals</span><span class="home use">newBrett</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/6.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">arizona</div><span class="ari gowh">cardinals</span><span class="home use">newBrett</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/7.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">San Diego</div><span class="sd">chargers</span><span class="home use">Nhameless</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/7.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">San Diego</div><span class="sd gowh">chargers</span><span class="home use">Nhameless</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/8.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Kansas City</div><span class="kc">Chiefs</span><span class="home use">Gus2k3</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/8.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Kansas City</div><span class="kc gowh">Chiefs</span><span class="home use">Gus2k3</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/9.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Indianapolis</div><span class="ind">colts</span><span class="cpu">wildboyschell</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/9.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Indianapolis</div><span class="ind gowh">colts</span><span class="cpu">wildboyschell</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/10.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">dallas</div><span class="dal">cowboys</span><span class="home use">Barack</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/10.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">dallas</div><span class="dal gowh">cowboys</span><span class="home use">Barack</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/11.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">miami</div><span class="mia">dolphins</span><span class="home use">xTuff 2 Beatx</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/11.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">miami</div><span class="mia gowh">dolphins</span><span class="home use">xTuff 2 Beatx</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/12.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">philadelphia</div><span class="phi">eagles</span><span class="home use">Huskie97</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/12.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">philadelphia</div><span class="phi gowh">eagles</span><span class="home use">Huskie97</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/13.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">atlanta</div><span class="atl">falcons</span></span><span class="home use">Mark n12</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/13.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">atlanta</div><span class="atl gowh">falcons</span></span><span class="home use">Mark n12</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/14.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">San Francisco</div><span class="sf">49ers</span><span class="home use">Lightsout93</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/14.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">San Francisco</div><span class="sf gowh">49ers</span><span class="home use">Lightsout93</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/15.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">new york</div><span class="nyg">giants</span><span class="home use">xBlackx0xJESUSx</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/15.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">new york</div><span class="nyg gowh">giants</span><span class="home use">xBlackx0xJESUSx</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/16.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Jacksonville</div><span class="jac">Jaguars</span><span class="home use">Killakilla01</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/16.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Jacksonville</div><span class="jac gowh">Jaguars</span><span class="home use">Killakilla01</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/17.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">new york</div><span class="nyj">jets</span><span class="home use">xXunderoathzXx</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/17.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">new york</div><span class="nyj gowh">jets</span><span class="home use">xXunderoathzXx</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/18.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Detroit</div><span class="det">Lions</span><span class="home use">Stobo</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/18.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">Detroit</div><span class="det gowh">Lions</span><span class="home use">Stobo</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/19.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="team">green bay</div><span class="gb ">packers</span><span class="home use">IUHoosiers1987</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/19.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="team">green bay</div><span class="gb gowh">packers</span><span class="home use">IUHoosiers1987</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/20.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">carolina</div><span class="car">panthers</span></span><span class="home use">gameemasterrke</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/20.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">carolina</div><span class="car gowh">panthers</span></span><span class="home use">gameemasterrke</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/21.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">new england</div><span class="ne">patriots</span><span class="home use">Shizauny Mac</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/21.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">new england</div><span class="ne gowh">patriots</span><span class="home use">Shizauny Mac</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/22.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">oakland</div><span class="oak">raiders</span><span class="home use">Big Red Lucky80</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/22.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">oakland</div><span class="oak gowh">raiders</span><span class="home use">Big Red Lucky80</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/23.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">St. Louis</div><span class="stl">rams</span><span class="home use">RVA Furmanator</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/23.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">St. Louis</div><span class="stl gowh">rams</span><span class="home use">RVA Furmanator</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/24.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">baltimore</div><span class="bal">ravens</span><span class="home use">KMattD</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/24.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">baltimore</div><span class="bal gowh">ravens</span><span class="home use">KMattD</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/25.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">washington</div><span class="was">redskins</span><span class="home use">PPLife</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/25.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">washington</div><span class="was gowh">redskins</span><span class="home use">PPLife</span>');
 
 	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/26.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">new orleans</div><span class="no gowh">saints</span><span class="home use">Bcur1</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/27.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">seattle</div><span class="sea">seahawks</span><span class="home use">King Dukesanity</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/27.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">seattle</div><span class="sea gowh">seahawks</span><span class="home use">King Dukesanity</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/28.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">pittsburgh</div><span class="pit">steelers</span><span class="home use">PMONEY18 SL</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/28.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">pittsburgh</div><span class="pit gowh">steelers</span><span class="home use">PMONEY18 SL</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/29.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">tennessee</div><span class="ten">titans</span><span class="home use">BPSLM</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/29.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">tennessee</div><span class="ten gowh">titans</span><span class="home use">BPSLM</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/30.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">minnesota</div><span class="min">vikings</span><span class="home use">XxMoneybazXx</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/30.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">minnesota</div><span class="min gowh">vikings</span><span class="home use">XxMoneybazXx</span>');
 
-	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/31.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">houston</div><span class="hou">texans</span><span class="home use">Emmittzone99</span>');
+	$('.gameoftheweek .ng-scope[style*="/img/nfl/teams/right/31.png"]').attr( "style", "" ).css( 'background-image', 'url("")').prepend('<div class="home team">houston</div><span class="hou gowh">texans</span><span class="home use">Emmittzone99</span>');
 
 	
 /***GOW Vistor teams***/
