@@ -1,3 +1,252 @@
+
+.portfolio-box2{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    left: -204px;
+    width: 301px;
+    height: 238px;
+    top: 15px;
+    BACKGROUND-IMAGE: url(http://i1178.photobucket.com/albums/x364/garza21lions/RUSHING_zpsksv1122h.png), url(http://interactives.dallasnews.com/embeds/zeke-tracker/images/_elliott_cut_small.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: 105%, 82%,186%;
+    background-position: 0px 0px, 135% 1px, -198px 0px;
+}
+.portfolio-box2 .portfolio-box2-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 238px; top:0px;
+  text-align: center;
+  opacity: 0;
+ background-image: url("http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png"),url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+  transition: all 0.4s;
+}
+.portfolio-box3{  
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 165px;
+    width: 425px;
+    height: 238px;
+    top: -223px;
+    BACKGROUND-IMAGE: url(http://i1178.photobucket.com/albums/x364/garza21lions/Heavy%20Hitters/PASSING_zps5gujnpct.png), url(http://2.bp.blogspot.com/-2Lw217O57MM/Tmgdgqbq8cI/AAAAAAAACFk/oFbuz1ULi74/s1600/aaron+rodgers.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: 87%, 82%,144%;
+    background-position: 0px -39px, 68% -32px, -3px -70px;
+}
+.portfolio-box3 .portfolio-box3-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 238px; top:0px;
+  text-align: center;
+  opacity: 0;
+ background-image: url("http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png"),url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+  transition: all 0.4s;
+}
+.portfolio-box4{  
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    left: -119px;
+    width: 349px;
+    height: 238px;
+    top: -218px;
+    BACKGROUND-IMAGE: url(http://i1178.photobucket.com/albums/x364/garza21lions/heavy%20%20hitters/RECEIVING_zpsbqpkkh8i.png), url(http://static.nfl.com/static/content/public/static/img/up/Antonio%20Brown/Antonio-Brown.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: 95%, 113%,188%;
+    background-position: 0px -8px, 1% -27px, -3px -7px;
+}
+.portfolio-box4 .portfolio-box4-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 238px; top:0px;
+  text-align: center;
+  opacity: 0;
+ background-image: url("http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png"),url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+  transition: all 0.4s;
+}
+.portfolio-box5{      display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 200px;
+    width: 272px;
+    height: 239px;
+    top: -457px;
+    BACKGROUND-IMAGE: url(http://i1178.photobucket.com/albums/x364/garza21lions/Heavy%20Hitters/SACKS_zpsjuiicgmi.png), url(http://jetsrant.com/wp-content/uploads/2014/02/Watt2.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: 95%, 93%,188%;
+    background-position: 0px 44px, 36% 5px, -170px -7px;
+}
+.portfolio-box5 .portfolio-box5-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 240px; top:0px;
+  text-align: center;
+  opacity: 0;
+ background-image: url("http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png"),url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+  transition: all 0.4s;
+}
+.portfolio-box6{        display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 122px;
+    width: 446px;
+    height: 239px;
+    top: -450px;
+    BACKGROUND-IMAGE: url(http://i137.photobucket.com/albums/q239/Friartown/Mathieu3.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/Heavy%20Hitters/PICKS_zpsevffwuiq.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: 100%, 88%,188%;
+    background-position: -1px 5px, -27% -51px, -297px -6px;
+}
+.portfolio-box6 .portfolio-box6-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 240px; top:0px;
+  text-align: center;
+  opacity: 0;
+ background-image: url("http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png"),url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+  transition: all 0.4s;
+}
+.portfolio-box7{        display: block;
+    position: relative;
+    margin: 0 auto;
+    left: -235px;
+    width: 245px;
+    height: 239px;
+    top: -689px;
+    BACKGROUND-IMAGE: url(http://i1178.photobucket.com/albums/x364/garza21lions/Heavy%20Hitters/TACKLES_zpsfx9pdlnm.png), url(http://static.nfl.com/static/content/public/static/img/up/Luke%20Kuechly/Kuechly-up-reflection.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: 95%, 116%,205%;
+    background-position: 0px 63px, -20% -15px, -233px -7px;
+}
+.portfolio-box7 .portfolio-box7-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 240px; top:0px;
+  text-align: center;
+  opacity: 0;
+ background-image: url("http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png"),url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+  transition: all 0.4s;
+}
+
+.portfolio-box {       display: block;
+    position: relative;
+    margin: 0 auto;
+    left: -101px;
+    width: 525px;
+    height: 238px;
+    top: 15px;
+    BACKGROUND-IMAGE: url(http://i1178.photobucket.com/albums/x364/garza21lions/POW_zpsdgikhsea.gif), url(http://centrosportivomarasca.it/fw/view/layout/00/images/trophy.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: 40%, 55%,100%;
+    background-position: 0px 0px, 107% -29px, 0px 0px;
+}
+
+.portfolio-box .portfolio-box-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 233px; top:0px;
+  text-align: center;
+  opacity: 0;
+ background-image: url("http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png"),url(http://i1178.photobucket.com/albums/x364/garza21lions/background%20pic_zpsivsbeaw9.jpg);
+  transition: all 0.4s;
+}
+
+
+/* Here's the trick below. Hover on parent and affect the child's property */
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box2:hover .portfolio-box2-caption {
+  opacity: 1;
+}
+.portfolio-box2 .portfolio-box2-caption .portfolio-box2-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box3:hover .portfolio-box3-caption {
+  opacity: 1;
+}
+.portfolio-box3 .portfolio-box3-caption .portfolio-box3-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box4:hover .portfolio-box4-caption {
+  opacity: 1;
+}
+.portfolio-box4 .portfolio-box4-caption .portfolio-box4-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box5:hover .portfolio-box5-caption {
+  opacity: 1;
+}
+.portfolio-box5 .portfolio-box5-caption .portfolio-box5-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box7:hover .portfolio-box7-caption {
+  opacity: 1;
+}
+.portfolio-box7 .portfolio-box7-caption .portfolio-box7-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.portfolio-box6:hover .portfolio-box6-caption {
+  opacity: 1;
+}
+.portfolio-box6 .portfolio-box6-caption .portfolio-box6-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
 @keyframes slide-in-right{
   from { margin-left: 10%; }
   to { margin-left: 0%; }
