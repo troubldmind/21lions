@@ -665,18 +665,17 @@ span.home.use {
     background-repeat: no-repeat, no-repeat;
     background-size: 7%;
     background-position: 0px 34px;
-    FONT-SIZE: 15PX;
+    FONT-SIZE: 13PX;
     text-transform: uppercase;
     text-align: left;
     position: absolute;
-    padding-top: 30px;
+    padding-top: 27px;
     padding-left: 25px;
     color: #f4feff;
     text-shadow: 0px 1px 6px #4ed2e6;
     animation: slide-in-right 2600ms ease-out;
 }
-span.away.use {
-    top: 37px;
+span.away.use {    top: 37px;
     z-index: 69;
     left: 289px;
     width: 300px;
@@ -687,11 +686,11 @@ span.away.use {
     background-repeat: no-repeat, no-repeat;
     background-size: 7%;
     background-position: 271px 34px;
-    FONT-SIZE: 15PX;
+    FONT-SIZE: 12PX;
     text-transform: uppercase;
     text-align: right;
     position: absolute;
-    padding-top: 30px;
+    padding-top: 27px;
     padding-right: 35px;
     color: #f4feff;
     text-shadow: 0px 1px 6px #4ed2e6;
@@ -1321,7 +1320,7 @@ a {
 }
 
 #nav ul ul li a:hover {
-    font-size: 12px;
+    font-size: 11px;
     color: #f16025;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
