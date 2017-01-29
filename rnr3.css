@@ -6,6 +6,12 @@
     background-color: rgba(249, 249, 249, 0.07);
 }
 /***player search***/
+#teamspage-wrapper li {
+    background-color: rgba(255, 255, 255, 0);
+}
+legend {
+    color: #8d0f0f;
+}
 #playerSearchContainer {
     color: #485461;
 }
@@ -125,9 +131,9 @@ width: 1178px;
     border: 1px solid #ccc;
 }
 .scheduleweek .teamsos .label {
-    margin-left: 37px;
+   margin-left: -4px;
     font-size: 11px;
-    top: -69px;
+    top: -11px;
     position: relative;
 }
 .label-default {
@@ -251,7 +257,7 @@ span.teamname {
 .scheduleweek .hometeam .record {
        margin-left: -154px;
     color: #e9ae03;
-    font-size: 15px;
+    font-size: 13px;
 }
 .scheduleweek .awayteam {
     float: left;
@@ -261,7 +267,7 @@ span.teamname {
 .scheduleweek .awayteam .record {
     margin-left: 180px;
     color: #ffb300;
-    font-size: 15px;
+    font-size: 13px;
 }
 .scheduleweek .awayteam .name {margin-left: 91px;
     margin-top: 11px;
@@ -271,7 +277,7 @@ span.teamname {
     text-transform: uppercase;
 }
 .scheduleweek .hometeam .name {
-    margin: 12px 0 0 -144px;
+    margin: 12px 0 0 -91px;
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
@@ -306,6 +312,11 @@ span.teamname {
     background-position: 45% -43px;
     background-size: 157px;
     line-height: 13px;
+}
+.scheduleweek .game {
+    float: left;
+    height: 70px;
+    width: 66px;
 }
 /***standings panels***/
 img.teamLogo {
@@ -1189,7 +1200,7 @@ a {
     text-shadow: 0px 1px 7px black;
     position: relative;
     display: block;
-    font-size: 11px;
+    font-size: 10px;
     letter-spacing: .05em;
     height: 34px;
     overflow: hidden;
@@ -1301,7 +1312,7 @@ a {
 #nav ul ul li a {
     border-top: 1px solid #fff;    border-left: 0px solid rgba(85, 85, 85, 0.42);
     color:bacl;
-    font-size: 11px;
+    font-size: 10px;
     height: 36px;
     line-height: 36px;
     padding: 0 3px 0 5px;
@@ -1320,7 +1331,7 @@ a {
 }
 
 #nav ul ul li a:hover {
-    font-size: 11px;
+    font-size: 10px;
     color: #f16025;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
