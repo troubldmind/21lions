@@ -270,16 +270,14 @@ width: 1178px;
     width: 220px;
     height: 220px;
 }
-.scheduleweek .name { 
-    font-size: 42px;
+.scheduleweek .name {     font-size: 42px;
     text-shadow: 4px -10px 0px #FFFFFF;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    width: 192px;
+    width: 276px;
     text-transform: uppercase;
     height: 70px;
     top: 25px;
-    font-style: italic;
     left: 136px;
     position: absolute;
 }
@@ -386,16 +384,17 @@ span.teamname {
     color: #ffb300;
     font-size: 13px;
 }
-.scheduleweek .awayteam .name {margin-left: 91px;
-    margin-top: 11px;
-    font-size: 32px;
+.scheduleweek .awayteam .name {
+    margin-left: 16px;
+    margin-top: 13px;
+    font-size: 26px;
     text-align: right;
     font-weight: 700;
     text-transform: uppercase;
 }
 .scheduleweek .hometeam .name {
     margin: 12px 0 0 -91px;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
     text-transform: uppercase;
 }
