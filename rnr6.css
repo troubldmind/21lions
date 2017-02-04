@@ -1034,11 +1034,9 @@ span.det{
 url(http://cdn.fansided.com/wp-content/blogs.dir/53/files/2014/08/dominic-raiola-brandon-pettigrew-nfl-chicago-bears-detroit-lions.jpg );}
 
 span.car-away {
-    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/packers.png),linear-gradient(-90deg, #f7c615, rgba(0, 0, 0, 0)),
-url(http://www.charlotteobserver.com/sports/f2sqhw/picture39718932/ALTERNATES/FREE_640/Panthers%20Seahawks%20Football.JPG );}
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/panthers.png),linear-gradient(-90deg, #15baf7, rgba(0, 0, 0, 0)), url(http://www.charlotteobserver.com/sports/f2sqhw/picture39718932/ALTERNATES/FREE_640/Panthers%20Seahawks%20Football.JPG);}
 span.car{
-    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/packers.png),linear-gradient(-90deg, #f7c615, rgba(0, 0, 0, 0)),
-url(http://www.charlotteobserver.com/sports/f2sqhw/picture39718932/ALTERNATES/FREE_640/Panthers%20Seahawks%20Football.JPG );}
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/panthers.png),linear-gradient(-90deg, #15baf7, rgba(0, 0, 0, 0)), url(http://www.charlotteobserver.com/sports/f2sqhw/picture39718932/ALTERNATES/FREE_640/Panthers%20Seahawks%20Football.JPG);}
 
 span.ne-away {
      background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/patriots.png),linear-gradient(-90deg, #1a2f5a, rgba(0, 0, 0, 0)), url(http://www1.pictures.zimbio.com/gi/Tom+Brady+New+England+Patriots+v+Pittsburgh+9vqHi_NMwIll.jpg);
