@@ -1,14 +1,4 @@
 
-function scorelist(){
-	
-var scorelist= $("ol li:first-child");
-  
-$(scorelist).animate({height:0},400,     function scorelist(){
-	$('ol').append(this);
-	$(this).animate({height:68},400);
-	});
-}
-setInterval(scorelist, 6000);
 
 $('a>span:contains("ARI")').replaceWith('<img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/ari.png" width="35" height="25"" class="scoreboard">ARI</span>');
 $('a>span:contains("ATL")').replaceWith('<img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/atl.png" width="35" height="25"" class="scoreboard">ATL</span>');
