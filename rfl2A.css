@@ -1,0 +1,1537 @@
+
+/***gow***/
+div#gameoftheweek-container {
+    position: relative;
+}
+.gameoftheweek .cfm-table tr td .score {       color: #fff;
+    font-size: 41px;
+    z-index: 1;
+    line-height: 45px;
+    text-shadow: 0px 1px 20px #000000;
+    top: -104px;
+    left: -154px;
+}
+span.score.ng-binding {
+    position: relative;
+    height: 33px;
+    text-align: left;
+    top: 182px;
+    left: 89px;
+}
+span.use {    top: -36px;
+    z-index: 69;
+    left: -6px;
+    width: 421px;
+    height: 58px;
+    display: block;
+    letter-spacing: .09em;
+    background-image: url('http://findicons.com/files/icons/1254/flurry_system/256/users.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 5%;
+    background-position: 384px 35px;
+    FONT-SIZE: 15PX;
+    text-transform: uppercase;
+    text-align: right;
+    position: relative;
+    font-style: italic;
+    padding-top: 30px;
+    padding-right: 41px;
+    color: #f4feff;
+    text-shadow: 0px 1px 6px #4ed2e6;
+    animation: slide-in-right 2600ms ease-out;
+}
+.team {     position: absolute;
+    text-transform: uppercase;
+   font-size: 11px; letter-spacing: .6em;
+    top: 22px;
+    padding-top: 103px;
+    text-align: right;
+    width: 222px;
+    height: 162px;
+    right: 0px;
+    color: rgb(156, 156, 156);
+    overflow: hidden;
+    z-index: 1;
+    animation: fadein-slidedown ease 5s;
+}
+.away.team {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 11px; letter-spacing: .6em;
+    top: 22px;
+    padding-top: 103px;
+    text-align: left;
+    width: 222px;
+    right: 226px;
+    height: 162px;
+    color: rgb(156, 156, 156);
+    overflow: hidden;
+    z-index: 1;
+    animation: fadein-slidedown ease 5s;
+}
+.record {
+    top: 0px;
+    left: 223px;
+    height: 100%;
+    text-shadow: 0px 2px 11px red;
+    color: #ffd5d5; font-size: 11px; letter-spacing: .6em;
+    width: 224px;
+    position: absolute;
+    text-align: right;
+    padding-top: 92px;
+}
+.clickable ng-scope, span.score.ng-binding {
+    TOP: 116PX;
+    left: -23px;
+}
+.align-right.clickable.ng-scope .record {
+top: 0px;
+    left: 0px;
+    text-shadow: 0px 2px 11px red;
+    color: #ffd5d5;
+    height: 100%;
+    letter-spacing: .6em;
+    font-size: 11px;
+    width: 224px;
+    position: absolute;
+    text-align: left;
+    padding-top: 92px;
+}
+.align-right.clickable.ng-scope span.score.ng-binding {
+    TOP: -105PX;
+    left: 158px;
+}
+.gameoftheweek .cfm-table tr td.cfm-at { 
+    width: 448px;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    left: 0px;
+    position: absolute;
+    top: 67px;
+    animation: fadein-slideup ease 5s;
+}
+/***gow home team images***/
+
+span.ari {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/cardinals.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.sf {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/49ers.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.chi {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/bears.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.cin {background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/bengals.png);
+    background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+    animation: fadein-slide-in-left ease 5s;
+}
+span.buf {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/bills.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.den {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/broncos.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.cle {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/browns.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.tb {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/buccaneers.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.sd {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/chargers.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.kc {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/chiefs.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.ind {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/colts.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.dal {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/cowboys.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+
+span.mia {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/dolphins.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.phi {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/eagles.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.atl {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/falcons.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.nyg {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/giants.png);
+        background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.jac {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/jaguars.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.nyj {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/jets.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.gb {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/packers.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.det {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/lions.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.car {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/panthers.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.ne {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/patriots.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.oak {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/raiders.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.stl {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/rams.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.bal {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/ravens.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.was {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/redskins.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.no {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/saints.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.sea {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/seahawks.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.pit {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/steelers.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.ten {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/titans.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.hou {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/texans.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.min {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/vikings.png);
+    background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.jac {
+    background-image: url(url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/jaguars.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.nyj {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/jets.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.det {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/lions.png);
+    background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.gb { 
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/packers.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.car { background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/panthers.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.ne {  background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/patriots.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.oak {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/raiders.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.stl {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/rams.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.bal {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/ravens.png);
+       background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.was {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/redskins.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.no {background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/saints.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.sea {  background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/seahawks.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.pit {    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/steelers.png);
+     background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.hou {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/texans.png);
+    background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.ten {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/titans.png);
+      background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.min {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-right-weather-mascot-311x292/day/sunny/vikings.png);
+    background-size: 71%, auto, 100%;
+    background-position: 65px 0px,0px 0px, 12px 1px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: -1px;
+    text-align: right;
+    height: 187px;
+    text-transform: uppercase;
+    left: 222px;
+    width: 226px;
+    padding-top: 149px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+
+/***gow away team images***/
+span.ari-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/cardinals.png);
+      background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.sf-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/49ers.png);
+       background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.chi-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/bears.png);
+         background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.cin-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/bengals.png);
+       background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.buf-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/bills.png);
+         background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.den-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/broncos.png);
+         background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.cle-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/browns.png);
+      background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.tb-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/buccaneers.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.sd-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/chargers.png);
+     background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.kc-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/chiefs.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.ind-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/colts.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.dal-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/cowboys.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.mia-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/dolphins.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.phi-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/eagles.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.atl-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/falcons.png);
+     background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.nyg-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/giants.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.jac-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/jaguars.png);
+       background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.nyj-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/jets.png);
+     background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.gb-away {
+    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/packers.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.det-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/lions.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.car-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/panthers.png);
+      background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.ne-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/patriots.png);
+      background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.oak-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/raiders.png);
+      background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+
+span.stl-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/rams.png);
+     background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.bal-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/ravens.png);
+    background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.was-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/redskins.png);
+       background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.no-away {      background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/saints.png);
+     background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.sea-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/seahawks.png);
+      background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.pit-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/steelers.png);
+     background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.ten-away {    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/titans.png);
+      background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.hou-away {    background-image:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/texans.png);
+     background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
+span.min-away {
+    background-image: url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/vikings.png);
+     background-size: 70%, auto,100%;
+    background-position: 2px 0px, 0px 0px, 2px 0px;
+    background-repeat: no-repeat, repeat, no-repeat;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    height: 186px;
+    text-transform: uppercase;
+    right: 225px;
+    width: 225px;
+    padding-top: 148px;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    overflow: hidden;
+}
