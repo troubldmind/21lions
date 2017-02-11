@@ -1,3 +1,246 @@
+h1, h2, h3, h4, h5, h6, #storyline ul li, #tweets ul li, #storyline .text, #tweets .text, #storyline .header .name, #tweets .header .name, p, .panel-player .panel-heading, .panel-player .playeroftheweek-name, .cfm-table, .gameoftheweek .cfm-table tr td .score, .panel-dl-main > .panel-heading, .panel-dl-main > .panel-footer, .panel-dl-stats > .panel-heading, table.data-table1 .thd1 td, table.data-table1 .thd1 th, .data-table1 th, table.data-table1 td, #daddyleagues-menu .navbar *, .nav-collapse *, b1, b3 {
+    font-family: DLSansCondMedium,sans-serif; text-transform:uppercase;  background: -webkit-linear-gradient(#636363, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+    width: 1275px;
+    background: #fff;
+}
+.homepagepics {
+       position: absolute;
+    width: 500px;
+    float: right;
+    right: 55px;
+    height: 400px;
+    overflow: hidden;
+}
+.homepagepics img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: right;
+    padding: 4px;
+    object-fit: contain;
+    background-image: url(http://i1178.photobucket.com/albums/x364/garza21lions/MADDEN%2017/XFL2_zps3ssjgf9u.png);
+    background-size: 100%;
+    background-repeat: no-repeat;    animation: fadein-slide-in-left ease 3s;
+}
+.panel-body img {
+    width: 100%;
+    height: 407px;
+    display: block;
+    float: left;
+    padding: 14px;
+    position: relative; animation: fadein 3s;
+}
+/***top slideshow***/
+.outer {       width: 770px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 1px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.inner {     display: block;
+    position: relative;
+    top: 0%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+b1, b2, b3 {       position: relative;
+    left: -24px;
+    padding-right: 20px;
+    text-align: right;
+    width: 700px;
+    font-family: DLSansCondMedium,sans-serif;
+    font-style: italic;
+    display: inline-block;
+}
+b1 {      top: 71px;
+    height: 193px;
+    font-size: 81px;
+    text-transform: uppercase;
+    line-height: 1em;
+       animation: fadein 4s;
+}
+
+b2 {      top: -34px;
+    height: 50px;
+    color: #d62027;
+    font-size: 48px;
+    text-transform: uppercase;
+    animation: fadein 5s;
+}
+
+b3 {          top: -43px;
+    height: 110px;
+    font-size: 21px;
+    WIDTH: 630PX;
+    PADDING-RIGHT: 51PX;
+    FLOAT: RIGHT;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    animation: fadein 6s;
+}
+
+@keyframes fadein-slide-in-left{
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes fadein-slide-in-right{
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadein-slideup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/***scorelist***/
+.yui3-scorestrip-tile-content>span {
+    position: absolute;
+    width: 74px;
+    padding-top: 18px;
+    top: 4px;
+    left: 85px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 4px 7px black;
+    height: 47px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(31, 36, 40, 0.35)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);
+    background-repeat: repeat, repeat;
+    background-size: contain, 6px;
+    background-position: 0px 0px, 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.maincontent {
+    BACKGROUND: #fff url(http://static.nfl.com/static/content/public/static/img/head/nov-30-2016-background.jpg) no-repeat top center;
+    margin-top: 25px;
+}
+#menu li img {
+    position: relative;
+    opacity: 1;
+    right: -10px;
+    float: right;
+    width: 17%;
+}
+/***banner****/
+#slideshow2{      position: absolute;
+    width: 531px;
+    left: 443px;
+    height: 230px;
+    top: 0px;
+    z-index: 3;
+    overflow: hidden;
+    border: 0px solid #ccc;
+}
+
+#slideshow2 img {    position: absolute;
+    width: 580px;
+    height: 157px;
+    top: 10%;
+    left: 5%;
+    margin-left: -20px;
+    margin-top: -20px;
+    opacity: 0;
+    -webkit-transition-property: opacity, -webkit-transform;
+    -webkit-transition-duration: 3s, 10s;
+    -moz-transition-property: opacity, -moz-transform;
+    -moz-transition-duration: 3s, 10s;
+    -ms-transition-property: opacity, -ms-transform;
+    -ms-transition-duration: 3s, 10s;
+    -o-transition-property: opacity, -o-transform;
+    -o-transition-duration: 3s, 10s;
+    transition-property: opacity, transform;
+    transition-duration: 3s, 10s;
+}
+#slideshow2 img  {
+    -webkit-transform-origin: bottom left;
+       -moz-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+         -o-transform-origin: bottom left;
+            transform-origin: bottom left;
+}
+#slideshow2 :nth-child(2n+1/3) {
+    -webkit-transform-origin: top right;
+       -moz-transform-origin: top right;
+        -ms-transform-origin: top right;
+         -o-transform-origin: top right;
+            transform-origin: top right;
+}
+#slideshow2 :nth-child(3n+2/1) {
+    -webkit-transform-origin: top left;
+       -moz-transform-origin: top left;
+        -ms-transform-origin: top left;
+         -o-transform-origin: top left;
+            transform-origin: top left;
+}
+#slideshow2 :nth-child(4n+1) {
+  -webkit-transform-origin: bottom right;
+     -moz-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+       -o-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+#slideshow2 .fx:first-child + img ~ img  {
+    z-index:-1;
+}
+
+#slideshow2 .fx {
+    opacity:1;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
 
 /***footer***/
 .footer img {
