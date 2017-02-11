@@ -1,0 +1,655 @@
+ 
+.panel-nfc.stats .hm-table-caption td { background:#000000!important;}
+
+/***schedule***/
+.teamlogo {
+    overflow-y: hidden;
+    height: 73px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.scheduleweek .week {
+    float: left;
+    height: 20px;
+    position: relative;
+    left: 22px;
+    border-radius: 4px;
+    top: -2px;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin: 20% 265%;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: 20% 265%;
+    transform: rotate(-90deg);
+    transform-origin: 20% 265%;
+    width: 80px;
+    background: #f6f6f6 none repeat scroll 0 0;
+    color: #414141;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.scheduleweek .teamsos .label {
+   margin-left: -4px;
+    font-size: 11px;
+    top: -11px;
+    position: relative;
+}
+.label-default {
+    background-color: #999;
+    font-size: 12px;
+    position: relative;
+    top: 9px;
+    left: 6px;
+}
+.teamlogo {
+    overflow-y: hidden;
+    height: 73px;
+}
+.scheduleweek .teamlogo img {
+   top: -62px;
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+.scheduleweek .name {     font-size: 42px;
+    text-shadow: 4px -10px 0px #FFFFFF;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    width: 276px;
+    text-transform: uppercase;
+    height: 70px;
+    top: 25px;
+    left: 136px;
+    position: absolute;
+}
+.sub-menu {
+    color: #B3B3B3;
+    font-style: italic;
+    overflow: hidden;
+    padding-top: 6px;
+    width: 100%;
+}
+.weekSelector.clearfix {
+position: relative;
+left: 57px;
+}
+span.sch {
+font-family: NFLEndzoneTechBold, sans-serif;
+font-weight: bold;
+position: absolute; top: 5px;
+text-transform: uppercase;
+font-size: 26px;
+letter-spacing: -0.05em;
+background: -webkit-gradient(linear, left bottom, left top, from(white), to(grey));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: .4px;
+-webkit-text-stroke-color: black;
+}
+span.teamname {
+    font-size: 26px;
+    text-shadow: 4px -11px 0px #D0CDCD;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    width: 307px;
+    text-transform: uppercase;
+    top: -40px;
+    left: 96PX;
+    position: relative;
+}
+.scheduleweek {
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/stadium.png);
+    font-size: 12px;
+    border-top: #E4E3E3 3px solid;
+    border-left: #6E6E6E 3px solid;
+    border-right: #898888 3px solid;
+    border-bottom: #8B8A8A 3px solid;
+    padding-left: 0px;
+    padding-right: 5px;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+    background-size: 100%;
+}
+
+.col-md-9.col-xs-9.col-sm-9 {
+    float: left;
+}
+
+.scheduleweek .at {         padding: 0px 0px 0px;
+    text-align: center;
+    left: 32px;
+    top: 33px;
+    line-height: 26px;
+    width: 129px;
+    font-size: 12px;
+}
+.scheduleweek .awayteamlogo{       height: 70px;
+    width: 150px;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 157px;
+    line-height: 13px;
+    position: absolute;
+    left: 284px;
+}
+.scheduleweek .record {    line-height: 0px;
+    color: #FFC500;
+    text-shadow: 0px 2px 5px black;
+    display: inline-block;
+    width: 62px;
+    text-align: center;
+    left: 197px;
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+}
+.scheduleweek .score {    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 0 0px 52px #51A5FA;
+}
+.scheduleweek .hometeam .record {
+        margin-left: -33px;
+    color: #e9ae03;
+    font-size: 13px;
+    top: -15px;
+}
+.scheduleweek .awayteam {
+    float: left;
+    width: 220px;
+    margin: -10px 0 0 -49px;
+}
+.scheduleweek .awayteam .record {
+    margin-left: 83px;
+    color: #ffb300;
+    font-size: 13px;
+    top: 19px;
+}
+.scheduleweek .awayteam .name {
+    margin-left: -82px;
+    margin-top: 13px;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.scheduleweek .hometeam {
+    margin-right: -118px;
+    margin-top: -44px;
+}
+.scheduleweek .hometeam .name {
+    margin: -21px 0 0 -58px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.scheduleweek .away-team {         text-align: left;
+    top: 0px;
+    padding-top: 0px;
+    position: absolute;
+    height: 50%;
+    width: 455px;
+    left: 378px;
+    background-image: url('http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png');
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: 21px 13px;
+}
+.scheduleweek .awayb1{      margin-right: 6px;
+    height: 70px;
+    width: 100px;
+    float: left;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 83% 11px;
+    background-size: 52px;
+}
+.scheduleweek .hometeamlogo {      height: 70px;
+    width: 150px;
+    float: left;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 45% -43px;
+    background-size: 157px;
+    line-height: 13px;
+}
+.scheduleweek .game {
+    float: left;
+    height: 70px;
+    width: 66px;
+}
+.col-xs-22 {
+    position: relative;
+    min-height: 570px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 33%;
+}
+/***scrollbar***/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:none;
+    border-radius: 0px;
+    background-color:;
+}
+ 
+::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+    -webkit-box-shadow: inset 1px 1px 5px #F60000;
+    background-color: #BE3737;
+}
+
+/* Table Overrides */
+table.data-table1:hover {
+    background-color: rgba(245, 245, 245, 0);
+}
+table.data-table1 .thd2 td {
+    background-color: #12171b;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    padding: 0px 3px;
+}
+.data-table1 tbody tr:nth-child(odd) td { background:#fff;}
+.data-table1 tbody tr:nth-child(even) td { background:#eee;}
+.data-table1 tbody tr:hover td { background:rgba(245, 245, 245, 0);}
+
+.panel-body .data-table1 tbody tr:nth-child(odd) td { background:rgba(255,255,255,.0);}
+.panel-body .data-table1 tbody tr:nth-child(even) td { background:rgba(255,255,255,.5);}
+.panel-body .data-table1 tbody tr:hover td {  background:rgba(245, 245, 245, 0);}
+
+.standings .panel-body { padding:0;}
+.nopad .panel-body { padding:0;}
+
+
+ .panel-footer { color: #fff; text-shadow: 1px 1px 0px #222; background:url("http://i1298.photobucket.com/albums/ag59/Mike888/Gris_1_zpsxbkb05iu.jpg"); border-color: #222; border-radius:0; font-family:DLTechBold,sans-serif;}
+.panel-heading + .panel-collapse > .panel-body { border-top-color: #bfbfbf;}
+ .panel-heading .badge { color: #fff; background-color: #222;}
+
+
+.panel-afc {border-radius:0px; border-color: rgba(0, 0, 0, 0);}
+.panel-afc > .panel-heading,
+.panel-afc > .panel-footer  { color: #fff; text-shadow: 1px 1px 0px #000000; background:url("http://i1298.photobucket.com/albums/ag59/Mike888/Rouge_1_zpsj6jnrqwy.jpg"); border-color: #000000; border-radius:0; font-family: DLTechBold,sans-serif;}
+.panel-afc > .panel-heading + .panel-collapse > .panel-body { border-top-color: #000000;}
+.panel-afc > .panel-heading .badge { color: #000000; background-color: #fff;}
+
+
+.panel-nfc {border-radius:0px; border-color: rgba(0, 0, 0, 0);}
+.panel-nfc > .panel-heading,
+.panel-nfc > .panel-footer { color: #fff; text-shadow: 1px 1px 0px #000000; background:url("http://i1298.photobucket.com/albums/ag59/Mike888/Bleu_1_zpsycpxxcsd.jpg"); border-color: #000000; border-radius:0; font-family: DLTechBold,sans-serif;}
+.panel-nfc > .panel-heading + .panel-collapse > .panel-body { border-top-color: #000000;}
+.panel-nfc > .panel-heading .badge { color: #000000; background-color: #fff;}
+
+/* Standings */
+.standings .data-table1 td, .standings .data-table1 th { font-size:11px; line-height:13px; padding:0 0px;}
+
+.standings #afc-east-container,
+.standings #afc-north-container,
+.standings #afc-south-container,
+.standings #afc-west-container,
+.standings #nfc-east-container,
+.standings #nfc-north-container,
+.standings #nfc-south-container,
+.standings #nfc-west-container {width:25%; float:left; border-right:0px solid;}
+
+.standings #afc-west-container, .standings #nfc-west-container { border-right:0px solid;}
+
+.panel-afc .data-table1 .thd1 td { background:#000000;}
+.standings #afc-east-container,
+.standings #afc-north-container,
+.standings #afc-south-container,
+.standings #afc-west-container { border-color: transparent;}
+
+.panel-nfc .data-table1 .thd1 td { background:#000000;}
+.standings #nfc-east-container,
+.standings #nfc-north-container,
+.standings #nfc-south-container,
+.standings #nfc-west-container { border-color:transparent;}
+
+
+.standings img { height:12px; width:12px; margin-right:2px;}
+.teamLogo { margin-right:2px;}
+
+/* transactions */
+.transactions .data-table1 td, .transactions .data-table1 th { font-size:11px; line-height:12px; padding:2px 4px;}
+.transactions img { height:12px; width:12px; margin-right:2px;}
+
+/* Countdown */
+.countdownHolder { width:200px; height:auto;}
+.countdownHolder .countText { color:#777; font-family: DLTechBold,sans-serif;}
+
+
+/* Playoffs */
+.playoffs .data-table1 td, .standings .data-table1 th { padding:0 4px;}
+
+.panel-afc.playoffs td.bubble { background:#000000!important; color:#fff!important; border:none!important;}
+.panel-nfc.playoffs td.bubble { background:#000000!important; color:#fff!important; border:none!important;}
+
+	#daddyleagues-menu {}
+
+	#daddyleagues-menu .navbar {
+		background-image: url("http://i1298.photobucket.com/albums/ag59/Mike888/BarreGris_1_zpsmjoedfec.png");
+		background-repeat: repeat-x;
+		text-align: center;
+		border-radius: 0px;}
+
+	#daddyleagues-menu ul.nav{
+		margin: 0 auto;
+		width: 100%;
+		display:flex;
+		justify-content: center;
+		font-size: 0;
+	}
+	
+	#daddyleagues-menu div.navbar {
+		border-style: none;
+		border:none!important;
+	}
+
+	#daddyleagues-menu ul li{
+
+		display: inline;
+		border-left: 1px solid #A1A1A1;
+	}
+	
+	
+	#daddyleagues-menu .navbar ul li a{    vertical-align: middle;
+    font-weight: normal;
+    font-size: 11px!important;
+    text-transform: uppercase;
+		}
+		#daddyleagues-menu .navbar .caret { margin-left:4px;}
+		
+	
+	#daddyleagues-menu .navbar .nav > li > a, #daddyleagues-menu .navbar .nav > li > a:visited {
+		color: #222!important;
+		text-shadow: 1px 1px 0px rgba( 255, 255, 255,.5 )!important;
+		padding: 14px 10px;
+		display: block;
+		font-weight: normal;
+	}
+#daddyleagues-menu .navbar .nav > li > a .caret,
+#daddyleagues-menu .navbar .nav > li > a:visited .caret {border-top-color: #222 !important; border-bottom-color: #222 !important;}
+	
+	#daddyleagues-menu .nav-pills>li+li {
+		margin-left: 0px;
+	}
+	
+	#daddyleagues-menu .navbar .nav > li > a:hover {
+		background-image: url("http://i1298.photobucket.com/albums/ag59/Mike888/BarreJaune_1_zpssa5byjps.png");
+		background-repeat: repeat-x;
+		color: #222222!important;
+		text-shadow: 1px 1px 0px rgba( 255, 255, 255,.5 )!important;
+		border-bottom: none;
+	}
+	
+	#daddyleagues-menu .navbar .nav > li > a:hover .caret { border-top-color: #222 !important; border-bottom-color: #222 !important;}
+	
+	#daddyleagues-menu .navbar .nav > li.active > a, #daddyleagues-menu .navbar .nav > li.active > a:hover {
+	background: #850506;
+		background-repeat: repeat-x!important;
+		color: #ffffff!important;
+		text-shadow: 1px 1px 0px rgba( 0, 0, 0,.5 )!important;
+	}
+	#daddyleagues-menu .navbar .nav > li.active > a .caret {border-top-color: #fff !important; border-bottom-color: #fff !important;}
+	
+	#daddyleagues-menu .dropdown-menu li { border:0px!important;}
+	
+	#player-profile { position:relative;}
+	#player-team-overlay-container { margin:0;}
+
+/*player of the week*/
+.stat-value {
+    color: rgb(239, 190, 190);
+    text-shadow: 0px 0px 8px #d00000;
+    letter-spacing: .03em;
+    font-size: 11px;
+    font-family: DLTechBold,sans-serif;
+    font-weight: 700;
+    z-index: 222;
+    top: 534px;
+    width: 188px;
+    position: absolute;
+    text-align: right;
+}
+.panel-player .playeroftheweek-name {
+    text-transform: uppercase;
+    text-shadow: 0px 1px 6px black;
+    padding: 4px;
+    height: 54px;
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+    top: 506px;
+    width: 42%;
+    background-color: rgba(90, 90, 90, 0.63);
+    text-align: right;
+}
+.playeroftheweek {
+    margin: 0;
+    overflow: hidden;
+    display: block;border-left: 1px solid red;
+}
+.pow-team-logo {
+    width: 120%;
+    margin: -183px -35px 0px;
+    float: right;
+}
+
+.pow-player-logo img {
+    width: 179%;
+    position: relative;
+    top: -40px;
+    left: -126px;
+}
+/* Daddy League Overrides */
+#daddyleagues-navbar { margin-bottom:20px;}
+.maincontent { padding-top:20px;}
+.headerWrapper { width:960px;}
+.container { width: 960px; background: black;}
+
+.scorelist {background: #F0F0F0;width: 100%; padding-left:3%}
+.scorelist .yui3-scorestrip-tile {font-family: DLTechBold,sans-serif;}
+
+
+.yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor, .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home { color:#222;}
+
+/* Bootstrap Overrides */
+ .panel-heading, .panel-afc .panel-heading, .panel-nfc .panel-heading  { text-transform:uppercase; padding:10px;}
+ .panel-body, .panel-afc .panel-body, .panel-nfc .panel-body  { padding:10px; background:url("");}
+ .panel-footer, .panel-afc .panel-footer, .panel-nfc .panel-footer  { font-size: 10px; padding: 4px 10px;}
+
+ .panel-heading a, .panel-afc .panel-heading a, .panel-nfc .panel-heading a,
+ .panel-footer a, .panel-afc .panel-footer a, .panel-nfc .panel-footer a { color:#888;}
+
+body {
+    text-align: center;
+    background-image: url(/img/nfl/stadiumbg.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-color: #000000;
+    font-size: 11px;
+    font-family: DLTechBold,sans-serif; color:#8e8c8c;
+}
+
+.panel-dl-stats  .panel-body {
+    padding: 0;
+}
+.panel-dl-stats {
+border-color: #000000;
+    border-radius: 0;
+}
+.panel-dl-stats > .panel-heading {  
+    background: transparent;
+    color: #a71e23;
+    letter-spacing: .4em;
+    font-size: 11px;
+    font-family: DLTechBold,sans-serif;
+    text-shadow: 1px 4px 10px #ff0c0c;
+    border-bottom: 1px solid rgba(134, 14, 14, 0.55);
+}
+.gameoftheweek {
+    width: 100%;
+    height: 194px;
+    overflow: hidden;
+    line-height: 30px;
+    border-bottom: 0px solid #ffffff;
+    background: transparent;
+}
+.panel-dl-main {
+    border-color: #222;
+    border-radius: 0;
+}	
+.panel-dl-main .panel-body {
+    background: transparent;
+    padding: 10px;    color: #860404;
+  font-weight:700; 
+}
+.panel-dl-main > .panel-heading, .panel-dl-main > .panel-footer {
+    background: transparent;
+    color: #860308;
+    letter-spacing: .4em;
+    font-size: 15px;
+    font-family: DLTechBold,sans-serif;
+    text-shadow: 8px 2px 16px #ff0c0c;
+    border-bottom: 1px solid rgba(134, 14, 14, 0.55);
+}
+ .panel-dl-stats .data-table1 td, .panel-dl-stats .data-table1 th {
+   font-size: 11px;
+   font-weight:700; 
+}
+.panel-dl-stats  .hm-table-caption td {
+    background: #000000 none repeat scroll 0 0 !important;
+}
+ 
+ 
+.nopad .panel-body {
+    padding: 0;
+}
+.playoffsrace .data-table1 td, .standings .data-table1 th {
+    padding: 0 4px;
+}
+  
+.panel-body .data-table1 tbody tr:nth-child(2n+1) td {
+    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+}
+.panel-body .data-table1 tbody tr:nth-child(2n) td {
+    background:transparent;
+}
+.panel-body .data-table1 tbody tr:hover td {
+    background: transparent;
+}
+.data-table1 tbody tr.thd2 td, .data-table1 tbody tr.thd2 td:hover {
+    background: transparent;
+    color: #860308 !important;
+    font-familY: inherit;
+    border-bottom: 1px solid rgba(47, 47, 47, 0.9);
+    font-size: 9px;
+    text-transform: uppercase;
+}
+ .data-table1 td.tbdy1, table.data-table1 .tbdy1 td {
+        border-bottom: 0px dotted #ddd;    font-size: 11px;    font-family: inherit;
+    color: #fff;
+}
+table.data-table1 .thd1 td {
+    color: #8c8c8c;
+}
+table.data-table1 .thd1 td, table.data-table1 .thd1 th {
+    text-align: left;
+    padding: 10px 3px;
+    font-family: inherit;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.playeroftheweek {
+    margin: 0;
+}
+.panel-player {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    display: block;
+    float: left;
+    margin-bottom: 0;
+    width: 50%;
+}
+a {
+    color: #ffffff;
+}
+a:hover, a:focus {
+    color: #ba1229;
+    background: rgba(128, 128, 128, 0.33);
+    padding: 1px;
+    text-decoration: underline;
+}
+.panel-player a {
+    color: inherit;
+}
+.panel-player .panel-heading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-radius: 0;
+    color: rgba(195, 195, 195, 0.34);
+    font-family: DLTechBold,sans-serif;
+    padding: 5px 10px 0;
+    text-align: center;
+    top: 23px;
+    z-index: 22;
+    letter-spacing: .7em;
+    position: relative;
+}
+.panel-player .panel-body {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin: 0px 2px 5px;
+    padding: 0 0px 5px;
+}
+.panel-player .avatar {
+    background: rgba(0, 0, 0, 0) url("http://i.imgur.com/cp2BfmB.jpg") repeat scroll 0 0;
+    border-radius: 5px;
+    height: 203px;
+    position: relative;
+    width: 203px;
+}
+.panel-player .avatar img {
+    background-image: -moz-linear-gradient(center bottom , rgba(35, 35, 35, 0.5) 0%, rgba(153, 153, 153, 0) 80%);
+    border-radius: 5px;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+}
+.panel-player .avatar img.teamLogo {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: block;
+    opacity: 0.2;
+}
+.panel-player .playeroftheweek-name {
+    color: #e0e0e0;
+    font-family: DLTechBold,sans-serif;
+    margin-bottom: 0;
+}
+.panel-player .text {
+    padding: 0 10px;
+}
+.panel {
+    background-color: rgba(0, 0, 0, 0);
+}
+table.data-table1 {
+    border: 1px solid rgba(204, 204, 204, 0);
+}
+table.data-table1 tr:nth-child(odd) {
+    background-color: rgba(242, 242, 242, 0);
+}
+table.data-table1 tr:hover {
+    background-color: rgba(245, 245, 245, 0);
+}
