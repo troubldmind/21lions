@@ -1,5 +1,121 @@
 
-
+.ari.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/ARI.svg);
+}
+.atl.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/ATL.svg);
+}
+.bal.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BAL.svg);
+}
+.buf.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BUF.svg);
+}
+.car.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CAR.svg);
+}
+.chi.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CHI.svg);
+}
+.cin.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CIN.svg);
+}
+.cle.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CLE.svg);
+}
+.dal.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DAL.svg);
+}
+.den.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DEN.svg);
+}
+.det.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DET.svg);
+}
+.gb.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/GB.svg);
+}
+.hou.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/HOU.svg);
+}
+.ind.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/IND.svg);
+}
+.jac.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/JAC.svg);
+}
+.kc.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg);
+}
+.mia.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/MIA.svg);
+}
+.min.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/MIN.svg);
+}
+.ne.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NE.svg);
+}
+.no.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NO.svg);
+}
+.nyg.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NYG.svg);
+}
+.nyj.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NYJ.svg);
+}
+.oak.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/OAK.svg);
+}
+.phi.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PHI.svg);
+}
+.pit.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PIT.svg);
+}
+.sd.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SD.svg);
+}
+.sf.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SF.svg);
+}
+.sea.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SEA.svg);
+}
+.la.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/STL.svg);
+}
+.tb.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/TB.svg);
+}
+.ten.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/TEN.svg);
+}
+.was.member {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b2/Pro_Football_Hall_of_Fame_logo.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/WAS.svg);
+}
+  
+.hof {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://www.profootballhof.com/assets/1/6/HOF_Gallery_Visit-1.jpg);
+    background-repeat: repeat,no-repeat;
+    background-size: 6px, 100%;
+    background-position: 0px 0px, 6px 2px;
+    background-color: rgba(255, 255, 255, 0.19);
+    line-height: 17px;
+    height: 299px;
+    box-shadow: inset 0px 0px 333px black;
+    padding: 10px;overflow-y: scroll;
+}
+.member {  margin: 0 0 10px;
+    text-shadow: 1px 1px 47px gold;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 11%,11%;
+    background-position: 12PX 3PX, 356px 3px;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: white;
+    font-size: 11px; width: 100%;
+}
 /***player search***/
 	#playerSearchContainer {
 	    color: #485461;
