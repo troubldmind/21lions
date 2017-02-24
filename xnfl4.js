@@ -1,79 +1,43 @@
 
-$('.data-table1 td:contains("Barrons")').prepend('<img src="http://www.daddyleagues.com/img/nfl/teams/left/187.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("bkn");
+$('a:contains("New Orleans Saints")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/no"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/no.png"  class="teamlogo">SAINTS</a>');
+$('a:contains("New York Jets")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/nyj"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/nyj.png"  class="teamlogo">JETS</a>');
+$('a:contains("Miami Dolphins")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/mia"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/mia.png"  class="teamlogo"> dolphins</a>');
+$('a:contains("Cleveland Browns")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/cle"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/cle.png"  class="teamlogo"> browns</a>');
+$('a:contains("Cincinnati Bengals")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/cin"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/cin.png"  class="teamlogo">bengals</a>');
+$('a:contains("Baltimore Ravens")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/bal"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/bal.png"  class="teamlogo">ravens</a>');
+$('a:contains("Tennessee Titans")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/ten"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/ten.png"  class="teamlogo"> titans</a>');
+$('a:contains("Indianapolis Colts")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/ind"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/ind.png"  class="teamlogo"> colts</a>');
+$('a:contains("Houston Texans")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/hou"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/hou.png"  class="teamlogo">texans</a>');
+$('a:contains("Oakland Raiders")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/oak"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/oak.png"  class="teamlogo"> raiders</a>');
+$('a:contains("Denver Broncos")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/den"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/den.png"  class="teamlogo">broncos</a>');
+$('a:contains("Kansas City Chiefs")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/kc"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/kc.png"  class="teamlogo">chiefs</a>');
+$('a:contains("Dallas Cowboys")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/dal"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/dal.png"  class="teamlogo">cowboys</a>');
+$('a:contains("New York Giants")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/nyg"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/nyg.png"  class="teamlogo">giants</a>');
+$('a:contains("Detroit Lions")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/det"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/det.png"  class="teamlogo">lions</a>');
+$('a:contains("Green Bay Packers")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/GB"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/gb.png"  class="teamlogo">packers</a>');
+$('a:contains("Minnesota Vikings")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/min"><img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/min.png"  class="teamlogo">vikings</a>');
+$('a:contains("Chicago Bears")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/chi"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/chi.png"  class="teamlogo">bears</a>');
+$('a:contains("Carolina Panthers")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/car"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/car.png"  class="teamlogo">panthers</a>');
+$('a:contains("Atlanta Falcons")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/atl"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/atl.png"  class="teamlogo">falcons</a>');
+$('a:contains("Los Angeles Rams")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/la"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/stl.png"  class="teamlogo">rams</a>');
+$('a:contains("Seattle Seahawks")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/sea"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/sea.png"  class="teamlogo">seahawks</a>');
+$('a:contains("Arizona Cardinals")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/ari"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/ari.png"  class="teamlogo">cardinals</a>');
+$('a:contains("Buffalo Bills")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/buf"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/buf.png"  class="teamlogo">bills</a>');
+$('a:contains("Pittsburgh Steelers")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/pit"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/pit.png"  class="teamlogo">steelers</a>');
+$('a:contains("San Francisco 49ers")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/sf"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/sf.png"  class="teamlogo">49ers</a>');
+$('a:contains("Washington Redskins")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/was"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/was.png"  class="teamlogo">redskins</a>');
+$('a:contains("San Diego Chargers")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/sd"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/sd.png"  class="teamlogo">chargers</a>');
+$('a:contains("Jacksonville Jaguars")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/jac"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/jac.png"  class="teamlogo">jaguars</a>');
+$('a:contains("New England Patriots")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/ne"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/ne.png"  class="teamlogo">patriots</a>');
+$('a:contains("Tampa Bay Buccaneers")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/tb"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/tb.png"  class="teamlogo">bucs</a>');
+$('a:contains("Philadelphia Eagles")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/phi"> <img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/phi.png"  class="teamlogo">eagles</a>');
+$('a:contains("London Black Knights")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/ldn"> <img src="http://i1178.photobucket.com/albums/x364/garza21lions/loncopy_zps1e944b9b.jpg"  class="teamlogo">knights</a>');
+$('a:contains("Brooklyn Barons")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/bkn"> <img src="http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/brooklyn_zpslfwdrvgj.png"  class="teamlogo">barrons</a>');
+$('a:contains("San Antonio Marshalls")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/sat"> <img src="http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/san-antonio_zpsykj8dvym.png"  class="teamlogo">Marshalls</a>');
+$('a:contains("Mexico City Diablos")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/mex"> <img src="http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/mexicocity_zpstxndzxhs.png"  class="teamlogo">Diablos</a>');
+$('a:contains("Portland Lumberjacks")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/pdx"> <img src="http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/portland_zpsq0jkbhid.png"  class="teamlogo">lumberjacks</a>');
+$('a:contains("Los Angeles Aftershocks")').replaceWith('<a href="http://daddyleagues.com/xnfl/team/los"> <img src="http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/LOSANGELES_zps8tapym5b.png"  class="teamlogo">aftershocks</a>');
 
-$('.data-table1 td:contains("Black Knights")').prepend('<img src="http://www.daddyleagues.com/img/nfl/teams/left/163.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("ldn");
-
-$('.data-table1 td:contains("Aftershocks")').prepend('<img src="http://www.daddyleagues.com/img/nfl/teams/left/136.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("los");
-
-$('.data-table1 td:contains("Diablos")').prepend('<img src="http://www.daddyleagues.com/img/nfl/teams/left/152.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("mex");
-
-$('.data-table1 td:contains("Lumberjacks")').prepend('<img src="http://www.daddyleagues.com/img/nfl/teams/left/164.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("pdx");
-
-$('.data-table1 td:contains("Marshalls")').prepend('<img src="http://www.daddyleagues.com/img/nfl/teams/left/165.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("sat");
-
-$('.data-table1 td:contains("Cardinals")').prepend('<img src="http://www.mghelmets.com/logos/az-cardinals.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("arz");
-
-$('.data-table1 td:contains("Falcons")').prepend('<img src="http://www.mghelmets.com/logos/atl-falcons.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("atl");
-
-$('.data-table1 td:contains("Ravens")').prepend('<img src="http://www.mghelmets.com/logos/blt-ravens.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("bal");
-
-$('.data-table1 td:contains("Bills")').prepend('<img src="http://www.mghelmets.com/logos/buf-bills.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("buf");
-
-$('.data-table1 td:contains("Panthers")').prepend('<img src="http://www.mghelmets.com/logos/ca-panthers.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("car");
-
-$('.data-table1 td:contains("Bears")').prepend('<img src="http://www.mghelmets.com/logos/chi-bears.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("chi");
-
-$('.data-table1 td:contains("Bengals")').prepend('<img src="http://www.mghelmets.com/logos/cin-bengals.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("cin");
-
-$('.data-table1 td:contains("Browns")').prepend('<img src="http://www.mghelmets.com/logos/clv-browns.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("cle");
-
-$('.data-table1 td:contains("Cowboys")').prepend('<img src="http://www.mghelmets.com/logos/dal-cowboys.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("dal");
-
-$('.data-table1 td:contains("Broncos")').prepend('<img src="http://www.mghelmets.com/logos/den-broncos.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("den");
-
-$('.data-table1 td:contains("Lions")').prepend('<img src="http://www.mghelmets.com/logos/det-lions.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("det");
-
-$('.data-table1 td:contains("Packers")').prepend('<img src="http://www.mghelmets.com/logos/gb-packers.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("gb");
-
-$('.data-table1 td:contains("Texans")').prepend('<img src="http://www.mghelmets.com/logos/hou-texans.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("hou");
-
-$('.data-table1 td:contains("Colts")').prepend('<img src="http://www.mghelmets.com/logos/ind-colts.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("ind");
-
-$('.data-table1 td:contains("Jaguars")').prepend('<img src="http://www.mghelmets.com/logos/jax-jaguars.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("jac");
-
-$('.data-table1 td:contains("Chiefs")').prepend('<img src="http://www.mghelmets.com/logos/kc-chiefs.png" width="25" height="19" border="0" alt="Team logo" class="teamLogo">').addClass("kc");
-
-$('.data-table1 td:contains("Dolphins")').prepend('<img src="http://www.mghelmets.com/logos/miami-dolphins.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("mia");
-
-$('.data-table1 td:contains("Vikings")').prepend('<img src="http://www.mghelmets.com/logos/min-vikings.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("min");
-
-$('.data-table1 td:contains("Patriots")').prepend('<img src="http://www.mghelmets.com/logos/ne-patriots.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("ne");
-
-$('.data-table1 td:contains("Saints")').prepend('<img src="http://www.mghelmets.com/logos/no-saints.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("no");
-
-$('.data-table1 td:contains("Giants")').prepend('<img src="http://www.mghelmets.com/logos/ny-giants.png" width="20" height="16" border="0" alt="Team logo" class="teamLogo">').addClass("nyg");
-
-$('.data-table1 td:contains("Jets")').prepend('<img src="http://www.mghelmets.com/logos/ny-jets.png" width="25" height="21"border="0" alt="Team logo" class="teamLogo">').addClass("nyj");
-
-$('.data-table1 td:contains("Raiders")').prepend('<img src="http://www.mghelmets.com/logos/oak-raiders.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("oak");
-
-$('.data-table1 td:contains("Eagles")').prepend('<img src="http://www.mghelmets.com/logos/phi-eagles.png" width="19" height="15" border="0" alt="Team logo" class="teamLogo">').addClass("phi");
-
-$('.data-table1 td:contains("Steelers")').prepend('<img src="http://www.mghelmets.com/logos/pit-steelers.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("pit");
-
-$('.data-table1 td:contains("Chargers")').prepend('<img src="http://www.mghelmets.com/logos/sd-chargers.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("sd");
-
-$('.data-table1 td:contains("49ers")').prepend('<img src="http://www.mghelmets.com/logos/sf-49ers.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("sf");
-
-$('.data-table1 td:contains("Seahawks")').prepend('<img src="http://www.mghelmets.com/logos/sea-seahawks.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("sea");
-
-$('.data-table1 td:contains("Rams")').prepend('<img src="http://www.mghelmets.com/logos/stl-rams.png" width="25" height="21"border="0" alt="Team logo" class="teamLogo">').addClass("stl");
-
-$('.data-table1 td:contains("Buccaneers")').prepend('<img src="http://www.mghelmets.com/logos/tb-bucs.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("tb");
-
-$('.data-table1 td:contains("Titans")').prepend('<img src="http://www.mghelmets.com/logos/ten-titans.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("ten");
-
-$('.data-table1 td:contains("Redskins")').prepend('<img src="http://www.mghelmets.com/logos/wash-redskins.png" width="25" height="21" border="0" alt="Team logo" class="teamLogo">').addClass("was");
 
 function scorelist(){
 	
