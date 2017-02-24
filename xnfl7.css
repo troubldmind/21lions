@@ -1,0 +1,1661 @@
+p {
+    margin: 0px 0px 10px;
+    line-height: 21px;
+    text-align: left;
+    font-size: 17px;
+}
+#menu-overlay {
+    z-index: -1;
+}
+
+/*standings*/
+img.teamlogo {
+    position: relative;
+    left: -3px;
+    top: -3px;
+    width: 22px;
+    height: 17px;
+}
+div#afc-east-container , div#nfc-east-container {
+    ANIMATION: fadein-slideup 1500ms ease-out;
+}
+div#afc-west-container , div#nfc-west-container {
+    ANIMATION: fadein-slideup 1600ms ease-out;
+}
+div#afc-south-container , div#nfc-south-container {
+    ANIMATION: fadein-slideup 1700ms ease-out;
+}
+div#afc-north-container ,div#nfc-north-container {
+    ANIMATION: fadein-slideup 1800ms ease-out;
+}
+td.standings {
+    position: relative;
+    top: 40px;
+    padding-bottom: 85px;
+}
+table.nfc {
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(left, rgba(255, 255, 255, 0.73) 0%, rgb(255, 255, 255)53%);
+    width: 1138px;
+    ANIMATION: fadein 1300ms ease-out;
+}
+table.afc{
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(right, rgba(255, 255, 255, 0.73) 0%, rgb(255, 255, 255)53%);
+    width: 1138px;
+    ANIMATION: fadein 1300ms ease-out;
+}
+div#nfc-playoff-container {
+    position: relative;
+    top: 56px;
+    border-left: 1px solid rgb(28, 90, 195);   ANIMATION: fadein-slideup 1900ms ease-out;
+}
+div#afc-playoff-container {
+    position: relative;
+    top: 56px;
+    border-left: 1px solid red;   ANIMATION: fadein-slideup 1900ms ease-out;
+}
+ul#standings {      list-style: none;
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.36) , rgba(255, 255, 255, 0.01)),url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/nfc-logohh_zps4vajdcsb.png), url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/afclogohh_zpsccslf2fu.png), no-repeat 0 0;
+    position: relative;
+    width: 1153px;
+    left: 140px;
+    height: 604px;
+    display: block;
+    overflow: hidden;
+    margin-top: 0;
+    padding: 0;
+    background-repeat: repeat,repeat, no-repeat,no-repeat;
+    background-size: 8px ,auto,52%,52%;
+    background-position: 0px 65px, 549px 65px;
+    animation: fadein-ease 3s;
+}
+
+ul#standings li {
+	position: absolute;
+}
+
+ul#standings li a{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+
+#afc {       width: 581px;
+    height: 602px;
+    top: 1px;
+    right: 0px;
+}
+
+#nfc {         width: 577px;
+    height: 602px;
+    top: 1px;
+    left: 1px;
+}
+
+ul#standings li a {
+    display: block;
+    height: 100%;
+    font-familY: inherit;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.3em;
+}
+
+ul#standings li a span {
+	display: none;
+}
+
+ul#standings li a:hover span.afc {
+    left: -572px;
+}
+
+ul#standings li a:hover span {     display: block;
+    padding: 5px;
+    width: 580px;
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    top: 0%;
+    left: 0px;
+    height: 603px;
+    font-size: 11px;
+    font-family: DLSansCondMedium,sans-serif;
+    opacity: 1;
+    filter: alpha(opacity=75);
+    color: #FFF;
+}
+span.afc {
+    right: 133px;
+}
+span.nfc {
+    left: 133px;
+}
+
+ul#standings li a:hover span strong {
+	display: block;
+	margin-bottom: 2px;
+	font-size: 12px;
+	text-decoration: underline;
+}
+/***gow***/
+.clickable.ng-scope {    width: 576px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    BORDER-TOp: 1PX SOLID LIGHTGRAY;
+    BORDER-BOTTOM: 1PX SOLID #929292;
+    background-color: transparent;
+    animation: fadein-slide-in-right ease 5s;
+}
+.cfm-table tbody tr td>div.align-right, .cfm-table tbody tr th>div.align-right {
+    width: 576px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    BORDER-TOp: 1PX SOLID LIGHTGRAY;
+    BORDER-BOTTOM: 1PX SOLID #929292;
+    background-color: transparent;
+    animation: fadein-slide-in-left ease 5s;
+}
+.home.ari, .home.atl,  .home.bal, .home.buf, .home.car, .home.chi, .home.cin, .home.cle, .home.dal, .home.den, .home.det, .home.gb, .home.hou, .home.ind, .jac, .home.kc, .home.mia, .home.min, .home.ne, .home.no, .home.nyg, .home.nyj, .home.oak, .home.phi, .home.pit, .home.sd, .home.sf, .home.sea, .home.la, .home.tb, .home.ten, .home.was, .home.mc, .home.por, .home.ldn, .home.sat,  .home.bkn, .home.los{
+    ANIMATION: slide-in-left 3500ms ease-out;
+    width: 100%;
+    height: 400px;
+    PADDING: 15PX;
+    position: absolute;
+    z-index: 2;
+    font-size: 54px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: DLSansCondMedium;
+    padding-top: 98px;    color: black;
+    overflow: hidden;
+}
+.ari,.atl, .bal, .buf, .car, .chi, .cin, .cle, .dal, .den, .det, .gb, .hou, .ind, .jac, .kc, .mia, .min, .ne, .no, .nyg, .nyj, .oak, .phi, .pit, .sd, .sf, .sea, .la, .tb, .ten, .was, .mc, .por, .ldn, .sat, .bkn, .los {
+      ANIMATION: slide-in-right 3500ms ease-out;
+  width: 100%;
+    height: 400px;
+    PADDING: 15PX;
+    position: absolute;
+    z-index: 2;
+    font-size: 54px;
+    text-align: RIGHT;
+    text-transform: uppercase;
+    font-family: DLSansCondMedium;
+    padding-top: 98px;    color: #000000;
+    overflow: hidden;
+}
+
+.away.team { 
+    position: absolute;
+    background-color: rgba(205, 206, 208, 0);
+    width: 100%;
+    TOP: 61PX;
+    z-index: 3;
+    text-transform: uppercase;
+    letter-spacing: .71em;
+    text-align: RIGHT;
+    font-family: DLSansCondMedium;
+    padding: 5px;
+    font-size: 16px;
+    color: #696969;
+    text-shadow: 0px 1px 6px rgba(0, 0, 0, 0);
+    ANIMATION: slide-in-left 3800ms ease-out;
+}
+.gowh {width: 498px;    animation: fadein-slidedown 4800ms ease-out;
+    height: 100%;
+    position: absolute;
+    right: -73px;
+    z-index: 1;
+    background-position: 0 , 0, 0 ,0;
+    BACKGROUND-SIZE: 8PX,100%,100%;
+    background-repeat: REPEAT,REPEAT, no-repeat, REPEAT;
+}
+.gowa {  width: 498px;     ANIMATION: fadein-slidedown 4800ms ease-out;
+    height: 100%;
+    position: absolute;
+    left: -73px;
+    z-index: 1;
+    background-position: 0 , 0, 0 ,0;
+    BACKGROUND-SIZE: 8PX,100%,100%;
+    background-repeat: REPEAT,REPEAT, no-repeat, REPEAT;
+}
+.align-right.clickable.ng-scope span.score.ng-binding {
+    TOP: 143PX;
+    position: absolute;
+    width: 576px;
+    text-align: right;
+    padding-right: 37px;
+}
+.clickable ng-scope, span.score.ng-binding {    TOP: 143PX;
+    left: -23px;
+    position: absolute;
+    width: 576px;
+    text-align: left;
+}
+.team {
+    font-size: 16px;
+    text-shadow: 0px 1px 6px black;
+}
+
+div#gameoftheweek-container {
+    margin-bottom: 0%;
+}
+.gameoftheweek .cfm-table tr td .score {     color: #fdfdfd;
+    background: linear-gradient(0deg, #c70303 20%, rgba(222, 7, 7, 0.34) 54%, #ff0000 50%, rgba(152, 5, 5, 0.29) 27%, #f75e5e 86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(132, 2, 2, 0.28);
+    font-size: 50px;
+    z-index: 1;
+    font-familY: DLSansCondMedium;
+    line-height: 45px;
+}
+.clickable.ng-scope .record {    color: #000000;
+    position: ABSOLUTE;
+    top: -4px;
+    z-index: 1;
+    left: 44px;
+    padding-left: 1px;
+    letter-spacing: .1em;
+    text-align: left;
+    font-size: 14px; 
+    animation: fadein-slidedown ease 12s;
+}
+.align-right.clickable.ng-scope .record {      color: #000000;
+    position: ABSOLUTE;
+    top: -4px;
+    z-index: 1;
+    RIGHT: 52px;
+    padding-left: 1px;
+    letter-spacing: .1em;
+    text-align: right;
+    font-size: 14px; 
+    animation: fadein-slidedown ease 12s;
+}
+.gameoftheweek {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    line-height: 30px;
+    border-bottom: 0px solid #ffffff;
+    background: rgba(255, 255, 255, 0) url(.);
+}
+span.home.use {
+     background-image: url(http://findicons.com/files/icons/1254/flurry_system/256/users.png);
+    text-align: left;
+    background-position: 0px 30px;
+    padding-left: 30px;
+    top: -29px;
+    left: 14px;
+}
+span.away.use {    
+    left: 35px;     animation: slide-in-left 2600ms ease-out;
+    background-image: url(http://findicons.com/files/icons/1254/flurry_system/256/users.png);
+}
+span.use {       top: -32px;
+    z-index: 69;
+    width: 100%; right: -46px;
+    height: 90px;
+    display: block;
+    letter-spacing: .09em;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 5%;
+    background-position: 499px 34px;
+    FONT-SIZE: 15PX;
+    text-transform: uppercase;
+    text-align: right;
+    position: absolute;
+    padding-top: 35px;
+    padding-right: 80px;
+    color: #8c8c8c;
+    animation: slide-in-right 2600ms ease-out;
+}
+.home.team {    position: absolute;
+    background-color: rgba(205, 206, 208, 0);
+    width: 100%;
+    TOP: 61PX;
+    z-index: 3;left: 12px;
+    text-transform: uppercase;
+    letter-spacing: .71em;
+    text-align: left;
+    font-family: DLSansCondMedium;
+    padding: 5px;
+    font-size: 16px;
+    color: #696969;
+    text-shadow: 0px 1px 6px rgba(0, 0, 0, 0);
+    ANIMATION: slide-in-right 3800ms ease-out;
+}
+.gameoftheweek .cfm-table tr td.cfm-at { 
+    width: 21px;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png);
+    background-repeat: no-repeat;
+    background-size: 128%;
+    background-position: center;
+    z-index: 1;
+    display: block;
+    position: relative;
+    left: 3px;
+    top: 80px;
+    animation: fadein ease 8s;
+}
+
+/***GOW  images***arizona cardinals*/
+span.ari {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/ARI.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    background-position: 0 , 0, 0px -173px ,0;
+}
+span.ari.gowh 
+{-moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*atlanta falcons*/
+span.atl{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/ATL.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));     background-position: 0 , 0, 0px -104px ,0;
+}
+span.atl.gowh
+{   -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*baltimore*/
+span.bal {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BAL.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.bal.gowh
+{      background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/baltimore_zpsgwuicflu.png),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));}
+
+/*buffalo*/
+span.buf{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/ATL.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));  
+}
+span.buf.gowh
+{   -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*carolina*/
+span.car {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CAR.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));    background-position: 0 , 0, 0px -123px ,0;
+}
+span.car.gowh
+{    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CAR.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));    background-position: 0 , 0, 0px -123px ,0;
+   -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*chicago*/
+span.chi {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CHI.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*cincinnatti*/
+span.cin {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CIN.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*cleveland*/
+span.cle {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CLE.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.cle.gowh {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CLE.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));-moz-transform: scaleX(-1); -o-transform: scaleX(-1);
+ -webkit-transform: scaleX(-1);   transform: scaleX(-1);   filter: FlipH; -ms-filter: "FlipH";
+}
+
+/*dallas*/
+span.dal {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DAL.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+/*denver*/
+span.den {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DEN.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.den.gowh {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DEN.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);  transform: scaleX(-1);filter: FlipH; -ms-filter: "FlipH";
+}
+
+/*detroit*/
+span.det{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/DET.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));   background-position: 0 , 0, 0px -123px ,0;
+}
+span.det.gowh
+ {    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;  -ms-filter: "FlipH";}
+
+/*green bay*/
+span.gb {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/GB.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*houston*/
+span.hou {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/HOU.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*indianapolis*/
+span.ind {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/IND.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*jacksonville*/
+span.jac {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/JAC.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0)); background-position: 0 , 0, 0px -143px ,0;
+}
+span.jac.gowh {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+/*kansas city*/
+span.kc {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.kc.gowh {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/kcright_zpsbcbuntkb.png),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    BACKGROUND-SIZE: 8PX,100%,90%;
+    background-position: 0 , 0, 24px -41px,0;
+}
+
+/*dolplins*/
+span.mia  {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/MIA.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.mia.gowh 
+{   -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);  transform: scaleX(-1);   filter: FlipH;-ms-filter: "FlipH";}
+
+/*minnesota*/
+span.min {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/MIN.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.min.gowh 
+{   -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);  transform: scaleX(-1);    filter: FlipH;  -ms-filter: "FlipH";}
+
+/*new england*/
+span.ne {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NE.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.ne.gowh 
+{    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);-webkit-transform: scaleX(-1);   transform: scaleX(-1);  filter: FlipH;    -ms-filter: "FlipH";}
+
+/*new oreleans*/
+span.no {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NO.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*new york giants*/
+span.nyg {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NYG.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));    background-position: 0 , 0, 0px -101px ,0;
+}
+
+/*new york jets*/
+span.nyj{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/NYJ.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*oakland*/
+span.oak{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/OAK.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));     background-position: 0 , 0, 0px -174px ,0;
+}
+
+/*philadelphia*/
+span.phi {
+background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PHI.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";    background-position: 0 , 0, 0px -200px ,0;
+}
+span.phi.gowh
+ {    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*pittsburght*/
+span.pit {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PIT.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*san diego*/
+span.sd {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SD.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));     background-position: 0 , 0, 0px -105px ,0;
+}
+span.sd.gowh 
+{    -moz-transform: scaleX(-1);   -o-transform: scaleX(-1);  -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*sf*/
+span.sf {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SF.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+
+/*sea*/
+span.sea{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SEA.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.sea.gowh
+ {    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*los angeles*/
+span.la{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/STL.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));background-position: 0 , 0, 0px -211px ,0;
+}
+span.la.gowh
+ {    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*tampa bay*/
+span.tb {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/TB.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";    background-position: 0 , 0, 0px -123px ,0;}
+
+span.tb.gowh {
+    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*tennessee*/
+span.ten {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/TEN.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+}
+span.ten.gowh 
+{   -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*washington*/
+span.was {
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/WAS.svg),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));    background-position: 0 , 0, 0px -72px ,0;
+}
+span.was.gowh 
+{    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*mexico city diablos*/
+span.mc{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://www.daddyleagues.com/img/nfl/teams/right/152.png),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0)); 
+}
+span.mc.gowa
+{    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*portland lumberjacks*/
+span.por{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://www.daddyleagues.com/img/nfl/teams/left/164.png),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    background-position: 0 , 0, 0px -79px ,0;
+}
+span.por.gowh
+ {    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*san antonio marshalls*/
+span.sat{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://www.daddyleagues.com/img/nfl/teams/left/165.png),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    background-position: 0 , 0, 0px -149px ,0;
+}
+
+/*los angeles after shocks*/
+span.los{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://www.daddyleagues.com/img/nfl/teams/left/136.png),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    background-position: 0 , 0, 0px -169px ,0;
+}
+span.los.gowh
+ {    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*brooklyn barrons*/
+span.bkn{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://www.daddyleagues.com/img/nfl/teams/left/187.png),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    background-position: 0 , 0, 0px -159px ,0;
+}
+span.bkn.gowh
+ {    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*london black knights*/
+span.ldn{
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.11), rgb(255, 255, 255)),url(http://www.daddyleagues.com/img/nfl/teams/left/163.png),linear-gradient(0deg, rgba(171, 173, 175, 0), rgba(182, 183, 186, 0));
+    background-position: 0 , 0, 0px -99px ,0;
+}
+span.ldn.gowh
+ {    -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
+
+/*teampages*/
+.Teamcolors {
+    background: url(http://i1178.photobucket.com/albums/x364/garza21lions/MADDEN%2017/XFL2_zps3ssjgf9u.png), url(http://static.nfl.com/static/content/public/static/img/head/nov-30-2016-background.jpg) no-repeat top center;
+    background-size: 7%, 132%;
+    color: #FFFFFF !important;
+    background-repeat: no-repeat;
+    background-position: 862px 60px, -89px 0;
+}
+
+/*other*/
+h1, h2, h3, h4, h5, h6, #storyline ul li, #tweets ul li, #storyline .text, #tweets .text, #storyline .header .name, #tweets .header .name, p, .panel-player .panel-heading, .panel-player .playeroftheweek-name, .panel-dl-main > .panel-heading, .panel-dl-main > .panel-footer, .panel-dl-stats > .panel-heading, table.data-table1 .thd1 td, table.data-table1 .thd1 th, .data-table1 th, table.data-table1 td, #daddyleagues-menu .navbar *, .nav-collapse *, b1, b3 {
+    font-family: DLSansCondMedium,sans-serif;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#636363, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    width: 1275px;
+    background: #fff;
+}
+.homepagepics {
+    position: relative;
+    width: 500px;
+    float: right;
+    right: 55px;
+    height: 400px;
+    overflow: hidden;
+}
+.homepagepics img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: right;
+    padding: 4px;
+    object-fit: contain;
+    background-image: url(http://i1178.photobucket.com/albums/x364/garza21lions/MADDEN%2017/XFL2_zps3ssjgf9u.png);
+    background-size: 100%;
+    background-repeat: no-repeat;    animation: fadein-slide-in-left ease 3s;
+}
+.panel-body img {
+    width: 100%;
+    height: 407px;
+    display: block;
+    float: right;
+    padding: 14px;
+    position: relative; animation: fadein 3s;
+}
+/***top slideshow***/
+.outer {
+    width: 675px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 1px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.inner {     display: block;
+    position: relative;
+    top: 0%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+b1, b2, b3 {       position: relative;
+    left: -139px;
+    padding-right: 20px;
+    text-align: right;
+    width: 700px;
+    font-family: DLSansCondMedium,sans-serif;
+    font-style: italic;
+    display: inline-block;
+}
+b1 {      top: 71px;
+    height: 193px;
+    font-size: 81px;
+    text-transform: uppercase;
+    line-height: 1em;
+       animation: fadein 4s;
+}
+
+b2 {      top: -34px;
+    height: 50px;
+    color: #d62027;
+    font-size: 48px;
+    text-transform: uppercase;
+    animation: fadein 5s;
+}
+
+b3 { top: -43px;
+    height: 110px;
+    font-size: 21px;
+    WIDTH: 439PX;
+    PADDING-RIGHT: 3PX;
+    FLOAT: RIGHT;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    animation: fadein 6s;
+}
+
+@keyframes fadein-slide-in-left{
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes fadein-slide-in-right{
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadein-slideup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/***scorelist***/
+.yui3-scorestrip-tile-content>span {
+    position: absolute;
+    width: 74px;
+    padding-top: 18px;
+    top: 4px;
+    left: 85px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 4px 7px black;
+    height: 47px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(31, 36, 40, 0.35)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);
+    background-repeat: repeat, repeat;
+    background-size: contain, 6px;
+    background-position: 0px 0px, 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.maincontent {
+    BACKGROUND: #fff url(http://static.nfl.com/static/content/public/static/img/head/nov-30-2016-background.jpg) no-repeat top center;
+    margin-top: 25px;
+}
+#menu li img {
+    position: relative;
+    opacity: 1;
+    right: -10px;
+    float: right;
+    width: 17%;
+}
+/***banner****/
+#slideshow2{      position: absolute;
+    width: 531px;
+    left: 443px;
+    height: 230px;
+    top: 0px;
+    z-index: 3;
+    overflow: hidden;
+    border: 0px solid #ccc;
+}
+
+#slideshow2 img {    position: absolute;
+    width: 580px;
+    height: 157px;
+    top: 10%;
+    left: 5%;
+    margin-left: -20px;
+    margin-top: -20px;
+    opacity: 0;
+    -webkit-transition-property: opacity, -webkit-transform;
+    -webkit-transition-duration: 3s, 10s;
+    -moz-transition-property: opacity, -moz-transform;
+    -moz-transition-duration: 3s, 10s;
+    -ms-transition-property: opacity, -ms-transform;
+    -ms-transition-duration: 3s, 10s;
+    -o-transition-property: opacity, -o-transform;
+    -o-transition-duration: 3s, 10s;
+    transition-property: opacity, transform;
+    transition-duration: 3s, 10s;
+}
+#slideshow2 img  {
+    -webkit-transform-origin: bottom left;
+       -moz-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+         -o-transform-origin: bottom left;
+            transform-origin: bottom left;
+}
+#slideshow2 :nth-child(2n+1/3) {
+    -webkit-transform-origin: top right;
+       -moz-transform-origin: top right;
+        -ms-transform-origin: top right;
+         -o-transform-origin: top right;
+            transform-origin: top right;
+}
+#slideshow2 :nth-child(3n+2/1) {
+    -webkit-transform-origin: top left;
+       -moz-transform-origin: top left;
+        -ms-transform-origin: top left;
+         -o-transform-origin: top left;
+            transform-origin: top left;
+}
+#slideshow2 :nth-child(4n+1) {
+  -webkit-transform-origin: bottom right;
+     -moz-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+       -o-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+#slideshow2 .fx:first-child + img ~ img  {
+    z-index:-1;
+}
+
+#slideshow2 .fx {
+    opacity:1;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+/***footer***/
+.footer img {
+    width: 0%;
+    display: block;
+    float: right;
+    opacity: 0;
+}
+/***frames***/
+@keyframes slide-in-right{
+  from { margin-left: 100%; }
+  to { margin-left: 0%; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadein-slideup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/***footer***/
+.footer img {
+    width: 35px;
+}
+/****scorelist***/
+.scorelist img {
+    width: 81px;
+    height: 54px;
+    display: block;
+    float: left;
+    padding: 4px;
+}
+
+.scorelist {      display: block;
+    list-style: none;
+    height: 58px;
+    overflow: hidden;
+    BACKGROUND-COLOR: rgba(255, 255, 255, 0.39);
+    margin: 0 auto;
+    width: 251px;
+    top: 78px;
+    right: 43px;
+    z-index: 99;
+    position: fixed;
+}
+
+.yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor, .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home {
+    position: absolute;
+    width: 74px;
+    padding-top: 18px;
+    top: 4px;
+    left: 85px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 4px 7px black;
+    height: 47px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(31, 36, 40, 0.35)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);
+    background-repeat: repeat, repeat;
+    background-size: contain, 6px;
+    background-position: 0px 0px, 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-content, .yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-alert-box, .yui3-scorestrip-tile-content:hover, .yui3-scorestrip-tile-content:hover > span {
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.32) !important;
+    color: #ffffff !important;
+    text-decoration: none;
+    height: 55px;
+}
+span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-score {       position: absolute;
+    width: 74px;
+    padding-top: 16px;
+    top: 4px;
+    text-shadow: 1px 3px 6px black;
+    left: 4px;
+    font-size: 20px;
+    color: white;
+    height: 47px;
+    text-align: center;
+    background-image:-webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(31, 36, 40, 0.35)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);
+    background-repeat: repeat, repeat;
+    background-size: contain, 6px;
+    background-position: 0px 0px, 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {        top: 29px;
+    width: 21px;
+    left: 86px;
+    height: 25px;
+}
+.yui3-scorestrip-tile-score {
+    right: 1px;
+    text-align: right;
+}
+.yui3-scorestrip-tile-index-0 {
+    width: 62px;
+}
+.yui3-scorestrip-tile {       cursor: pointer;
+    border-right: solid 0px white;
+    float: left;
+    font: bold 18px/26px NFLEndzoneSansCondMedium;
+    width: 278px;
+    height: 60px;
+    top: 0px;
+    left: -2px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+}
+a.yui3-scorestrip-tile-content {    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+    color: #909090;
+    height: 55px;
+    left: 6px;
+    position: absolute;
+    text-decoration: none;
+    width: 249px;
+}
+/***scrollbar***/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:none;
+    border-radius: 0px;
+    background-color:;
+}
+ 
+::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+    -webkit-box-shadow: inset 1px 1px 5px #F60000;
+    background-color: #BE3737;
+}
+
+span.homepagepics {      position: relative;
+    width: 316px;
+   }
+#daddyleagues-navbar .navbar .nav>li>a {
+    text-shadow: none!important;
+    color: #fff!important;
+    -webkit-transition: background 1s ease;
+    transition: background 1s ease;
+    font-size: 11px!important;
+}
+/***container****/
+.maincontent {
+    BACKGROUND: #fff url(http://static.nfl.com/static/content/public/static/img/head/nov-30-2016-background.jpg) no-repeat top center;
+}
+.container {
+    width: 1153px;
+    background: #fff;
+}
+div#header {
+    position: relative;
+    margin-bottom: -192px;
+    width: 100%;
+    height: 127px;
+    background-color: white; 
+}
+#daddyleagues-menu {
+    margin: 0;
+    top: -16px;
+    position: relative;
+}
+body {
+    font-family: DLSansCondMedium,sans-serif; font-size: 15px;
+    padding-top: 50px;
+    margin: 0;
+    background: white;
+    position: relative;
+    text-align: center;
+}
+.bg-1 {
+    background: url(http://i1178.photobucket.com/albums/x364/garza21lions/MADDEN%2017/bg1_zpsahamvhxb.png) no-repeat left fixed;
+    background-size: 50%;
+    background-position: 0% 20%;
+    width: 100%;
+    height: 233px;
+}
+/***font***/
+b, strong {
+    font-weight: 700;
+    letter-spacing: .6em;
+    padding: 10px;
+}
+h2, h4 {
+    animation: fadein-slideup ease 9s;
+}
+h1, h2, h3, h4, h5, h6, #storyline ul li, #tweets ul li, #storyline .text, #tweets .text, #storyline .header .name, #tweets .header .name, p, .panel-player .panel-heading, .panel-player .playeroftheweek-name, .panel-dl-main > .panel-heading, .panel-dl-main > .panel-footer, .panel-dl-stats > .panel-heading, table.data-table1 .thd1 td, table.data-table1 .thd1 th, .data-table1 th, table.data-table1 td, #daddyleagues-menu .navbar *, .nav-collapse *, .yui3-scorestrip-tile {
+    font-family: DLSansCondMedium,sans-serif;
+}
+
+img.logo {
+   width: 16%;
+    margin-bottom: -36px;
+    position: relative;
+    top: -21px;
+    float: left;
+}
+
+/* MENU TOGGLE STYLES */
+img.menu {
+   width: 14%;
+    margin-top: -4px;
+    padding-left: 4px;
+}
+#menu > .parent.open > ul > .parent.open > ul {
+    left: 0;
+    TOP: 52PX;
+}
+#menu-toggle {       position: fixed;
+    padding: 20px 20px 20px 65px;
+    width: 100%;
+    left: 0px;
+    top: 51px;
+    HEIGHT: 124PX;
+    background: url(http://i1178.photobucket.com/albums/x364/garza21lions/MADDEN%2017/XFL2_zps3ssjgf9u.png), url(http://static.nfl.com/static/content/public/static/img/head/nov-30-2016-background.jpg) no-repeat top center;
+    background-size: 21%,100%;
+       background-position: 84px -24px,0px 0px;
+    background-repeat: no-repeat, no-repeat;
+    border-bottom: 1px solid red;
+    color: #444444;
+    z-index: 80;
+}
+
+#menu-toggle.open {
+  left:400px;
+}
+
+#menu-icon {
+  width: 45px;
+  height: 35px;
+  position: absolute;
+  left:10px;
+  top:33%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#menu-icon span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 50%;
+  background: #d62027;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#menu-icon span:nth-child(even) {
+  left: 50%;
+}
+
+#menu-icon span:nth-child(odd) {
+  left:0px;
+}
+
+#menu-icon span:nth-child(1), #menu-icon span:nth-child(2) {
+  top: 5px;
+}
+
+#menu-icon span:nth-child(3), #menu-icon span:nth-child(4) {
+  top: 15px;
+}
+
+#menu-icon span:nth-child(5), #menu-icon span:nth-child(6) {
+  top: 25px;
+}
+
+#menu-icon.open span:nth-child(1),#menu-icon.open span:nth-child(6) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#menu-icon.open span:nth-child(2),#menu-icon.open span:nth-child(5) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#menu-icon.open span:nth-child(1) {
+  left: 5px;
+  top: 8px;
+}
+
+#menu-icon.open span:nth-child(2) {
+  left: calc(50% - 5px);
+  top: 8px;
+}
+
+#menu-icon.open span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+
+#menu-icon.open span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+
+#menu-icon.open span:nth-child(5) {
+  left: 5px;
+  top: 21px;
+}
+
+#menu-icon.open span:nth-child(6) {
+  left: calc(50% - 5px);
+  top: 21px;
+}
+
+/* MENU STYLES */
+ul#menu, #menu ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+
+#menu {    background-image: linear-gradient( #d62027, #98151a );
+    width: 400px;
+    position: fixed;
+    top: 8%;
+    bottom: 0;
+    left: -400px;
+    z-index: 4;
+}
+
+#menu li{
+  position:relative;
+  opacity:1;
+  left:0;   top: 12px;
+}
+
+#menu li.disabled {
+  opacity:0;
+  left:-400px;
+}
+
+#menu li a {
+  position:relative;
+  left:0;
+}
+
+#menu.open {
+  left:0; top:52px; Z-INDEX: 200PX;
+}
+
+#menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#fff, #5d5d5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    FONT-FAMILY: DLSansCondMedium,sans-serif;
+    FONT-SIZE: 1.75EM;
+    TEXT-ALIGN: RIGHT;
+    MARGIN-RIGHT: 10%;
+}
+
+#menu a:hover {
+  color:white;
+}
+
+#menu > .parent > ul {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: -400px;
+    width: 355px;
+    background-image:linear-gradient( #000000, #e8ecf1 );
+}
+
+#menu > .parent > ul > .parent > ul {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:-400px;
+  width:310px;
+  background:#444444;
+}
+
+#menu > .parent.open > ul {
+  left:0;
+}
+
+#menu > .parent.open > ul > .parent.open > ul {
+  left:0;
+}
+
+.submenu-toggle {
+  position:absolute;
+  z-index:1;
+  right:0px;
+  top:0px;
+  cursor:pointer;
+  width:45px;
+  height:45px;
+  text-indent:-5000px;
+  overflow:hidden;
+}
+
+.submenu-toggle.open {
+  background:rgba(255,255,255,.1);
+  height:100%;
+  z-index:5000;
+  top:0;
+}
+
+.submenu-toggle:before,.submenu-toggle:after {
+  -webkit-transition:.5s ease-in-out;
+}
+
+.submenu-toggle:before {
+  content:'';
+  display:block;
+  position:absolute;
+  height:16px;
+  width:16px;
+  top:12px;
+  right:15px;
+  border-top:5px solid #929292;
+  border-right:5px solid #929292;
+  -webkit-transform:rotate(45deg);
+}
+
+.submenu-toggle:after {
+  content:'';
+  display:block;
+  position:absolute;
+  height:16px;
+  width:16px;
+  top:12px;
+  left:50px;
+  border-top:5px solid #929292;
+  border-right:5px solid #929292;
+  -webkit-transform:rotate(-135deg);
+}
+
+.submenu-toggle:hover:before, .submenu-toggle:hover:after {
+  border-color:white;
+}
+
+.submenu-toggle.open:before {
+  right:23px;
+}
+
+.submenu-toggle.open:after {
+  left:23px;
+}
+
+#menu-overlay {
+  position:fixed;
+  width:100%;
+  background:red;
+  top:55px;
+  bottom:0;
+  left:0;
+  z-index:0;
+  background:rgba(255,255,255,.0);
+}
+
+#menu-overlay.open {
+      z-index: 1;
+    background: rgba(255,255,255,.9);
+}
+
+/* CONTENT AREA STYLES */
+
+#page-content {
+  padding:20px;
+  max-width:960px;
+  margin:0 auto;
+  position:relative;
+  left:0;
+  z-index:1;
+}
+
+#page-content.open {
+  left:400px;
+}
+
+#page-content h1 {
+  font-size:30px;
+  font-weight:100;
+  padding-bottom:20px;
+}
+
+#page-content p {
+  font-size:14px;
+  line-height:22px;
+}
+/*tables*/
+table.data-table1 .thd1 td, table.data-table1 .thd1 th {
+    font-size: 15px;
+}
+.data-table1 th, table.data-table1 td {
+    font-size: 16px;
+}
+table.data-table1 tr:nth-child(odd) {
+    background-color: transparent;
+}
+table.data-table1 tr:hover {
+    background-color: rgba(245, 245, 245, 0);
+}
+.data-table1 td.tbdy1, table.data-table1 .tbdy1 td {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-bottom: 0px dotted #ddd;     background: -webkit-linear-gradient(#797979, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+table.data-table1 .tbdy1 td {
+    border-bottom: 0px solid #ddd;
+    padding: 6px 20px;
+}
+table.data-table1 .thd2 td {
+    text-align: left;
+      padding: 11px 21px;
+}
+table.data-table1 {
+    border: 0px solid #ccc;
+}
+table.data-table1 tr:nth-child(1) {
+   animation: fadein-slideup ease 1s;
+}
+table.data-table1 tr:nth-child(2) {
+   animation: fadein-slideup ease 2s;
+}
+table.data-table1 tr:nth-child(3) {
+   animation: fadein-slideup ease 3s;
+}
+table.data-table1 tr:nth-child(4) {
+   animation: fadein-slideup ease 4s;
+}
+table.data-table1 tr:nth-child(5) {
+   animation: fadein-slideup ease 5s;
+}
+table.data-table1 tr:nth-child(6) {
+   animation: fadein-slideup ease 6s;
+}
+table.data-table1 tr:nth-child(7) {
+   animation: fadein-slideup ease 7s;
+}
+table.data-table1 tr:nth-child(8) {
+   animation: fadein-slideup ease 8s;
+}
+table.data-table1 tr:nth-child(9) {
+   animation: fadein-slideup ease 9s;
+}
+table.data-table1 tr:nth-child(10) {
+   animation: fadein-slideup ease 10s;
+}
+table.data-table1 tr:nth-child(11) {
+   animation: fadein-slideup ease 11s;
+}
+table.data-table1 tr:nth-child(11), table.data-table1 tr:nth-child(12), table.data-table1 tr:nth-child(13), {
+   animation: fadein-slideup ease 11s;
+}
+/*keyframe*/
+@keyframes slide-in-right{
+  from { margin-left: 100%; }
+  to { margin-left: 0%; } 
+
+@keyframes fade-in-slide-in-right{
+  from { margin-left: 100%; }
+  to { margin-left: 0%; }  from { opacity: 0; }
+  to { opacity: 1; }
+}}
+@keyframes slide-in-left{
+  from { margin-left: -100%; }
+  to { margin-left: 0%; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadein-slideup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*stats hub*/
+
+
+ul#players {
+	    list-style: none;
+    background: url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/statsbg_zpsczvbuhuh.png) no-repeat 0 0;
+    position: relative;
+    width: 100%;
+    height: 300px; display:block;
+    margin: 0;
+    padding: 0;
+    background-position: 82px -313px;     animation: fadein-ease 3s;
+}
+
+ul#players li {
+	position: absolute;
+}
+
+ul#players li a{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+
+#passing {     width: 164px;
+    height: 243px;
+    top: 36px;
+    left: 104px;
+}
+
+#rushing {    width: 142px;
+    height: 243px;
+    top: 36px;
+    left: 269px;
+}
+
+#tackles {
+    width: 152px;
+    height: 261px;
+    top: 32px;
+    left: 879px;
+}
+
+#ints {
+    width: 160px;
+    height: 259px;
+    top: 33px;
+    left: 718px;
+}
+
+#catches {
+    width: 142px;
+    height: 262px;
+    top: 35px;
+    left: 413px;
+}
+
+#sacks {
+    width: 160px;
+    height: 250px;
+    top: 34px;
+    left: 556px;
+}
+ul#players li a {
+    display: block;
+    height: 100%;
+    font-familY: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+ul#players li a:hover {
+	background: url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/statsbg_zpsczvbuhuh.png) no-repeat 0 0;
+}
+
+ul#players li#passing a:hover {      background-image: url(http://i115.photobucket.com/albums/n319/mr187_2006/Renders/Matt_Ryan2_zps327bf45a.png);
+    background-position: -1px 0px;
+    animation: fadein-slideup-ease 5s;
+    background-size: 107%;
+}
+
+
+ul#players li#rushing a:hover {    background-image: url(http://media-s3-us-east-1.ceros.com/dallas-cowboys/images/2016/09/26/da64212a49b55af6e2e781d36e2825f3/elliott-full.png);
+    background-position: -7px -5px;
+    animation: fadein-slideup-ease 5s;
+    background-size: 107%;
+}
+
+ul#players li#tackles a:hover {
+    background-image: url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/bobby_zpsextjje8l.png);
+    background-repeat: no-repeat;
+    background-size: 97%;     animation: fadein-slideup-ease 5s;
+    background-position: -8px 0px;
+}
+
+ul#players li#ints a:hover {
+    background-image: url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/pat%20p_zpso7hrr5my.png);
+    background-repeat: no-repeat;
+    background-size: 121%;
+    background-position: -24px 26px;  animation: fadein-slideup-ease 5s;
+}
+
+ul#players li#catches a:hover {
+background-image: url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/odb_zpsj9zap0go.png);
+    background-repeat: no-repeat;
+    background-size: 102%;
+    background-position: -3px 5px;
+    animation: fadein-slideup-ease 5s;
+}
+
+ul#players li#sacks a:hover {
+    background-image: url(http://i1178.photobucket.com/albums/x364/garza21lions/since%202-17/von_zpsjpaofmi5.png);
+    background-repeat: no-repeat;
+    background-position: -65px 16px;
+    background-size: 140%;   animation: fadein-slideup-ease 5s;
+}
+
+ul#players li a span {
+	display: none;
+}
+
+ul#players li a:hover span {
+	display: block;
+}
+
+ul#players li a:hover span {
+    display: block;
+    padding: 5px;
+    width: 580px;
+    background: rgba(255, 255, 255, 0.78);
+    position: relative;
+    top: 0%;
+    height: 260px;
+    font-size: 11px;
+    font-family: DLSansCondMedium,sans-serif;
+    opacity: .85;
+    filter: alpha(opacity=75);
+    color: #FFF;
+}
+span.passing {
+    left: 163px;
+}
+span.rushing {
+    left: 133px;
+}
+span.catches {
+    left: 140px;
+}
+span.sacks {
+    right: 579px;
+}
+span.ints {
+    right: 576px;
+}
+span.tackles {
+    right: 572px;
+}
+ul#players li a:hover span strong {
+	display: block;
+	margin-bottom: 2px;
+	font-size: 12px;
+	text-decoration: underline;
+}
