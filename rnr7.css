@@ -733,18 +733,7 @@ div#potw {          position: relative;
     font-size: 16px;
     text-shadow: 0px 1px 6px black;
 }
-.record {
-    color: #ffd600;
-    text-shadow: 0px 2px 11px #000000;
-    position: relative;
-    top: -43px;
-    z-index: 1;
-    right: -32x;
-    padding-left: 1px;
-    letter-spacing: .1em;
-    text-align: left;
-    font-size: 16px;
-}
+
 div#gameoftheweek-container {
     margin-bottom: 0%;
 }
