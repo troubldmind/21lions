@@ -784,9 +784,6 @@ div#powerrankings-container, div#news-stream-container, div#transactions-contain
 h1, h2, h3, h4, h5, h6, #storyline ul li, #tweets ul li, #storyline .text, #tweets .text, #storyline .header .name, #tweets .header .name, p, .panel-player .panel-heading, .panel-player .playeroftheweek-name, .panel-dl-main > .panel-heading, .panel-dl-main > .panel-footer, .panel-dl-stats > .panel-heading, table.data-table1 .thd1 td, table.data-table1 .thd1 th, .data-table1 th, table.data-table1 td, #daddyleagues-menu .navbar *, .nav-collapse *, b1, b3 {
     font-family: DLSansCondMedium,sans-serif;
     text-transform: uppercase;
-    background: -webkit-linear-gradient(#636363, #000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .container {
