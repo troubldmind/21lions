@@ -26,6 +26,42 @@ background: black;
 }
 
 
+/*Sections*/
+.section{
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  opacity: 0;   transition: all 1.2s; overflow:hidden; 
+}
+.active,
+.section:first-child{
+  opacity: 1;
+}
+
+
+.section {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+.one{
+    height: 38vh;
+    width: 1275px;
+    margin: 0px auto;
+}
+.one { 
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.68)), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.economiaesport.it/wp-content/uploads/2017/06/fantasy-sports.jpg);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: contain, 6px, 100%;
+    background-position: 0px 0px, 0px 0px, 0 -125px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.two{
+  height: 40vh;
+  padding: 20px;
+} 
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
@@ -753,6 +789,37 @@ img.menu {    width: 14%;
 }
 
 /*Homepage League Status Box*/
+.star {
+  position: absolute;
+  background: url(https://dl.dropbox.com/u/1488103/julie-logo-sparkle.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+.star.star-1 {
+  width: 50px;
+  height: 34px;
+  top: 133px;
+  left: 146px;
+}
+.star.star-2 {
+  width: 83px;
+  height: 77px;
+  top: -16px;
+  left: 321px;
+}
+.star.star-3 {
+  width: 83px;
+  height: 77px;
+  top: -4px;
+  left: 1069px;
+}
+.star.star-4 {
+  width: 83px;
+  height: 77px;
+  top: 86px;
+  left: 849px;
+}
+
 year {    position: absolute;
     top: 16PX;
     font-size: 18px;
