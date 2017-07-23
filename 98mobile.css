@@ -1,0 +1,576 @@
+/*RESPONSIVE LAYOUT/ 
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 420px) 
+
+/* start of desktop styles */
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+}
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+}
+@media screen and (max-width: 700px) {
+     /* start of phone styles */
+.playerskills {
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+    min-height: 1px;
+}
+.col-xs-6.col-sm-6.col-md-6 span.pull-right {
+    text-align: right;
+    position: absolute;
+    top: 12px;
+    max-width: 937px;
+    width: 94%;
+}
+.gameoftheweek .cfm-table tr td .score {
+    font-size: 3.5em;
+}
+.cfm-table {
+    font-size: 28px;
+}
+#menu li a {
+  position:relative;
+  left:0; font-size: 1.2em;
+}
+.scorelist {    display: block;
+    list-style: none;
+    height: 52px;
+    overflow: hidden;
+    BACKGROUND-COLOR: rgba(255, 255, 255, 0);
+    margin: 0 auto;
+    width: 165px;
+    top: 13px;
+    right: 11px;
+    z-index: 99;
+    position: fixed;
+}
+
+.data-table1 th, table.data-table1 td {
+    font-size: 20px;
+}
+#menu-toggle {    max-width: 962px;     
+    position: fixed;
+    width: 100%; max-width: 1177px;
+    left: 0;
+    HEIGHT: 146PX;
+}
+/***fix***/
+#menu a {
+    line-height: 38px;
+}
+
+/***scorelist***/
+.yui3-scorestrip-tile-visitor {
+    top: 15px;
+}
+.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {
+    top: 45%;
+}
+.yui3-scorestrip-tile-index-0 {
+    width: 12%;
+    font-size: 25px;
+    padding: 5%;
+}
+
+.panel-dl-stats .data-table1 td, .panel-dl-stats .data-table1 th {
+    font-size: 20px;
+}
+.panel-dl-main .panel-body {
+    overflow: hidden;
+}
+
+.playeroftheweek-name, .playeroftheweek-name a {
+    font-size: 21px; text-align: center; margin-bottom: 5%;
+}
+.cfm-player-bio {
+    color: #fff;
+    left: -31px;
+    position: relative;
+}
+.panel-player .text .stat-value {
+    color: #020202;
+    letter-spacing: 0;
+    font-size: 26px;
+    text-align: center;
+    margin: -25% 13%;
+    position: absolute;
+}
+.pow-team-logo {
+    width: 100%;
+    margin: -178px 0px 0;
+    float: right;
+    height: 294px;
+}
+.pow-player-logo {
+    width: 100%!important;
+    position: relative;
+    height: 203px!important;
+    margin-top: 0%;
+    top: -83px;
+}
+
+table.data-table1 .tbdy1 td {
+    font-size: 25px;     padding: 2px 3px;
+}
+.col-xs-6 {
+    width: 102%;
+}
+.col-xs-10 {
+    width: 102%;
+}
+body {
+font-size: 30px;
+}
+.col-xs-3 {
+    width: 102%; 
+}
+h6, .h6 {
+    font-size: 25px;
+}
+/*team page*/
+.cfm-player-attributes-item {
+    background: #fff;
+    margin: 0 0 10px 10px;
+    border: 1px solid #adadad;
+    width: 23%;
+    height: 68px;
+    float: left;
+}
+.teamprofileright {
+    width: 50%;
+    float: left;
+}
+#team-main-nav {
+    height: 60px;
+}
+.cfm-player-profile {
+    width: 100%;
+    height: 200px;
+    background-color: #001532;
+}
+.cfm-team-logo img {
+    height: 299px;
+    margin: auto;
+    position: relative;
+}
+.cfm-player-team, .cfm-team-logo {
+    width: 295px;
+    float: left;
+    margin-top: -55px;
+}
+/*search player*/
+legend {
+    font-size: 40px;
+}
+.form-control {
+    width:100%;
+    height: 52px; color:black;
+    font-size: 30px;
+}
+.players-add-filter-select button {
+    width: 332px;
+    height: 50px;
+    font-size: 30px;
+}
+.btn {
+    font-size: 30px;
+}
+/*admin*/
+#admin-main-nav .nav>li>a {
+    display: block;
+    font-size: 25px;
+}
+/*player profile*/
+.cfm-player-info {
+    width: 62%;
+    left: 45px;
+    top: -16px;
+    position: relative;
+    float: left;
+    height: 106px;
+    font-size: 25px;
+    overflow: hidden;
+}
+.cfm-player-profile {
+    width: 100%;
+    height: 175px; overflow:hidden;
+}
+.cfm-player-team img {
+    height: 330px;
+}
+.cfm-player-attributes-item-header {
+    font-size: 30px;
+    padding-top: 8px;
+}
+.cfm-player-attributes-item-level {
+    font-size: 30px;
+}
+.cfm-player-img {
+    height: 22px;
+    float: left;
+    margin-left: -247px;
+    margin-top: -20px;
+    position: relative;
+
+}
+h1.cfm-player-name {
+    color: #fff;
+    position: relative;
+    left: 77px;
+    width: 85%;
+    top: -12px;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.cfm-player-wrapper #player-profile-tabs {
+    margin-bottom: 20px!important;
+    font-size: 23px;
+}
+.cfm-player-wrapper .panel-heading .salary-info {
+    margin-left: -3px;
+    font-size: 20px;
+    top: -15px;
+    position: relative;
+}
+h1.cfm-player-name span.pull-right {
+    top: 3px;
+    left: 625px;
+}
+#player-profile-tabs {
+    height: 53px;
+}
+.pull-right {
+    float: left! important;
+    font-size: 20px;
+    position: absolute;
+    top: 199px;
+    left: 28px;
+}
+.cfm-player-img img {
+    width: 400px;
+    height: 400px;
+    margin: -115px -124px;
+}
+/*schedules*/
+.scheduleweek .week {
+    float: left;
+    height: 20px;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin: 20% 265%;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: 20% 265%;
+    transform: rotate(-90deg);
+    transform-origin: 20% 265%;
+    top: 56px;
+    left: -11px;
+    position: relative;
+    width: 154px;
+    background: #f6f6f6 none repeat scroll 0 0;
+    color: #414141;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.scheduleweek .hometeam .record {
+    margin: -52px 242px;
+    color: #2b4069;
+    width: 21%;
+    font-size: 18px;
+    position: absolute;
+}
+.scheduleweek .at {
+    padding: 42px 26px 0;
+}
+.scheduleweek {
+    height: 150px;
+    width: 100%;
+}
+.teamlogo {
+    overflow: hidden;
+    width: 100%;
+    height: 148px;
+}
+.scheduleweek .teamlogo img {
+    height: 130%;
+    width: 80%;
+    position: relative;
+    top: -43px;
+}
+.scheduleweek .awayteam .name {
+    margin-left: 90px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    color: #2b4069;
+}
+.scheduleweek .hometeam {
+    right: -21px;
+    margin-top: -207px;
+    width: 300px;
+    position: absolute;
+}
+.scheduleweek .hometeam .name {
+    margin: -30px 0 0 111px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    color: #2b4069;
+}
+.scheduleweek .awayteam .record {
+    margin-left: 14px;
+    color: #2b4069;
+    font-size: 16px;
+    top: -46px;
+    position: relative;
+}
+
+/*compare players*/
+#searchOverlay {
+    left: 10px;
+}
+#playerSearchContainer {
+    margin-left: 220%;
+    top: 800px;
+}
+.pinto th {    width: 25%;
+    max-width: 250px;
+    background: url() repeat-x scroll 0 0 rgb(43, 64, 105);
+}
+table.pinto {
+    font-size: 20px;
+    width: 100%;
+}
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 {
+    width: 50%;
+}
+.panel-title {
+    font-size: 25px;
+}
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 img {
+    width: 100%;
+    height: 100%;
+}
+/*records*/
+.col-xs-4 {
+    width: 100%;
+}
+.panel-dd h4.list-group-item-heading {
+    font-size: 35px;
+}
+span.dd-market-price {
+    margin-top: -44px;
+}
+h4, .h4 {
+    font-size: 40px;
+}
+/*teampage*/
+td.tbdy-sorted.team-logo-container img {
+    width: 87%;
+}
+h5, .h5 {
+    font-size: 30px;
+}
+.teamimage-left, .teamimage-right {
+    height: 160px;
+    width: 131px;
+}
+#teamspage-wrapper h4 {
+    font-size: 25px;
+    line-height: 30px;
+}
+#teamspage-wrapper {
+    width: 100%;
+}
+}
+
+
+/*other*/
+table.data-table1 { border: 0px solid;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+table.data-table1 {
+    border: 0px solid;
+    border-collapse: collapse;
+    border-bottom: 1px solid rgba(204, 204, 204, 0);
+    width: 100%;
+}
+.data-table1 th, table.data-table1 td {
+    font-size: 15px;
+}
+div#header {   
+    position: absolute;
+    margin-bottom: -115px;
+    width: 1275px;
+    height: 111px;
+    z-index: 1;
+}
+div#daddyleagues-navbar {
+    display: none;
+}
+
+div#leaguefooters img {
+    position: relative;
+    left: -1%;
+}
+/****EDITABLE SECTIONS****/
+/***body***/
+body {        font-family: DLSansCondMedium; background-image: url();
+    background-repeat: repeat;
+    background-attachment: fixed; font-size: 18px;
+    background-position: center top; 
+}
+
+/***scorelist***/
+.yui3-scorestrip-tile-visitor {
+    top: 0px;
+}
+.yui3-scorestrip-tile {       border-right: 1px solid #fff;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 46px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+    top: 3px;
+    text-transform: uppercase;
+}
+
+/***gameoftheweek***/
+.gameoftheweek .cfm-table tr td .score {
+    color: #000;
+    font-size: 50px;
+    line-height: 200%;
+}
+.cfm-table 
+{    color: #000;
+    font-size: 19px;
+    width: 100%;
+}
+.gameoftheweek {
+    background: rgba(0, 0, 0, 0) url(.);
+}
+
+
+
+
+/*images*/
+.img
+{max-width:100%;}
+
+/*footer*/
+.footer {
+    padding-bottom: .5%;
+    padding-top: 2.1%;
+    text-align: center;
+    MAX-WIDTH: 1275PX;
+    WIDTH: 100%;
+    MIN-HEIGHT: 100PX;
+    HEIGHT: 100%;
+}
+/*content*/
+.content {
+    MAX-WIDTH: 1275PX;
+    WIDTH: 100%;
+    HEIGHT: 100%;
+} 
+.row {
+    MAX-WIDTH: 1275PX;
+    WIDTH: 103%;
+    HEIGHT: 100%;
+}
+
+
+/*league font*/
+.yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-alert-box, .yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-content, .yui3-scorestrip-tile-content:hover, .yui3-scorestrip-tile-content:hover>span  {
+    background: none repeat scroll 0 0 rgba(198, 234, 253, 0)!important;
+}
+a.yui3-scorestrip-tile-content { background: none repeat scroll 0 0 rgba(240, 240, 240, 0);
+    font-family: DLSansCondMedium;
+}
+.data-table1 td.tbdy1, table.data-table1 .tbdy1 td, table.data-table1 .thd2 td, .panel-dl-stats > .panel-heading, .panel-dl-main > .panel-heading, .panel-dl-main > .panel-footer {
+    font-family: DLSansCondMedium;
+}
+.data-table1 td.tbdy1, table.data-table1 .tbdy1 td {
+    border-bottom: 0px dotted rgba(221, 221, 221, 0.09);
+    color: #ddd;
+}
+
+ 
+
+
+.playeroftheweek {
+    margin: 0;
+}
+.panel-player {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    display: block;
+    float: left;
+    margin-bottom: 0;
+    width: 50%;
+}
+.panel-player a {
+    color: inherit;
+}
+.panel-player .panel-heading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-radius: 0;
+    color: #222;
+    font-family: DLTechBold,sans-serif;
+    padding: 5px 10px 0;
+    text-align: center;
+    text-shadow: 1px 1px 0 #ccc;
+}
+.panel-player .panel-body {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin: 0 5px 5px;
+    padding: 0 5px 5px;
+}
+.panel-player .avatar {
+    background: rgba(0, 0, 0, 0) url("http://i.imgur.com/cp2BfmB.jpg") repeat scroll 0 0;
+    border-radius: 5px;
+    height: 203px;
+    position: relative;
+    width: 203px;
+}
+.panel-player .avatar img {
+    background-image: -moz-linear-gradient(center bottom , rgba(35, 35, 35, 0.5) 0%, rgba(153, 153, 153, 0) 80%);
+    border-radius: 5px;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+}
+.panel-player .avatar img.teamLogo {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: block;
+    opacity: 0.2;
+}
+.panel-player .playeroftheweek-name {
+    color: #222;
+    font-family: DLTechBold,sans-serif;
+}
+.panel-player .text .stat-value {
+    font-family: DLSansCondMedium,sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+.panel-player .text {
+    padding: 0 10px;
+}
