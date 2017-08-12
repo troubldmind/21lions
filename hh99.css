@@ -1,0 +1,97 @@
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: rgba(231, 231, 231, 0.12);
+    color: #e3e3e3;
+}
+img.menu
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #1d2e4e;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+ul.dropdown-menu.afc {
+    left: 200px;
+}
+.dropdown-menu {.dropdown-menu
+    min-width: 202px; top: 68px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ccc;
+    text-transform: uppercase;
+}
+.container {
+    width: 1200px;
+    background: #fff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+div#header {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 146px;
+    height: 157px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+    padding-top: 1%;
+    padding-right: 2%;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #999;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),linear-gradient( #2b4069, #1a2a48 ), url();
+    border-bottom: 2px solid #777;
+    background-size: 7px, 100%,100%;
+    background-position: 0 0,0 0, 0px 278px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 34px;
+    height: 5px;
+    border-radius: 1px;
+}
+
+.navbar-default .navbar-brand {
+    position: relative;
+    color: #fff;
+    font-style: italic;
+    top: 13px;
+    text-transform: uppercase;
+    left: 5px;
+    height: 65px;
+    padding-left: 72px;
+    background-image: url(https://s14.postimg.org/w7plr5wb5/WILLIS-jumbo_1_1.png);
+    background-size: 84px;
+    background-repeat: no-repeat;
+    background-position: -2px -3px;
+}
+.navbar-brand {
+    float: left;
+    padding: 15px;
+    font-size: 48px;
+    line-height: 20px;
+    height: 20px;
+}
+#daddyleagues-navbar .navbar-default {
+    display: none;
+}
+.navbar-header {
+    height: 80px;
+}
