@@ -94,7 +94,7 @@ li#game- {
     position: relative;
     text-align: left;
     font-size: 16px;
-    top: 0px;
+    top: -2px;
     text-transform: uppercase;
 }
 a.yui3-scorestrip-tile-content {    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
