@@ -266,6 +266,12 @@ div#header {
     height: none;
 }
 body {
+    font-family: DLSansCondMedium;
+    background-image: url();
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 18px;
+    background-position: center top;
     background-color: #000000;
 }
 .container {
