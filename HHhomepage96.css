@@ -149,7 +149,7 @@ a.yui3-scorestrip-tile-content {    background: none repeat scroll 0 0 rgba(255,
   margin: 15px 0;
   color: #FFF;
   text-align: center;
-  line-height: 300px;
+  line-height: 25px;
   transition: all .65s;
   opacity: 0;     margin-top: 0px;
 }
