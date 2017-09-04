@@ -1821,7 +1821,7 @@ span.headline.red {
 }
 .intro {
     width: 100%;
-    background: rgba(51, 51, 51, 0.31);
+    background: transparent;
     height: 100%;
     margin: 15px 0;
     color: #FFF;
