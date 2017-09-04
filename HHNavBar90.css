@@ -103,7 +103,15 @@ div#header {
     height: 5px;
     border-radius: 1px;
 }
-
+span.league.logo {
+    width: 75px;
+    height: 80px;
+    left: 7px;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    padding: 5px;
+}
 .navbar-default .navbar-brand {
     position: relative;
     color: #fff;
@@ -113,7 +121,7 @@ div#header {
     left: 5px;
     height: 65px;
     padding-left: 72px;
-    background-image: url(https://s14.postimg.org/w7plr5wb5/WILLIS-jumbo_1_1.png);
+    background-image: none;
     background-size: 84px;
     background-repeat: no-repeat;
     background-position: -2px -3px;
