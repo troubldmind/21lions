@@ -2281,9 +2281,9 @@ span.phi.gowh
 span.pit { background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PIT.svg);}
 
 /*san diego*/
-span.sd { background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SD.svg);
+span.lac { background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SD.svg);
     background-position: 0px -143px;}
-span.sd.gowh 
+span.lac.gowh 
 {      -webkit-mask-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));     -moz-transform: scaleX(-1);   -o-transform: scaleX(-1);  -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
 
 /*sf*/
@@ -2296,11 +2296,11 @@ span.sea.gowh
  {        -webkit-mask-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));  -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
 
 /*los angeles*/
-span.la {
+span.lar {
     background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Los_Angeles_Rams_logo.svg/800px-Los_Angeles_Rams_logo.svg.png);
     background-position: -99px -128px;
 }
-span.la.gowh
+span.lar.gowh
  {      -webkit-mask-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));     -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
 
 /*tampa bay*/
@@ -2457,12 +2457,12 @@ p.afc.kc{
     background-position: 55px 127px, 0, 72px -302px;
     transform: scaleX(1);
 }
-p.sd:before {
+p.lac:before {
     content: "CHARGERS";
     transform: scaleX(-1);
     MARGIN-LEFT: 5PX;
 }
-p.afc.sd{
+p.afc.lac{
     background: url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SD.svg) no-repeat,-webkit-linear-gradient(left, #0080c6, rgba(0, 0, 0, 0)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/SD.svg) no-repeat;
     background-size: 80%, 100%, 150%;
     background-position: 30px 63px, 0, -320px -155px;
