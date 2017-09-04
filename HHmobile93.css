@@ -369,26 +369,7 @@ div#hp-stories .blogpost p {
     height: -webkit-fill-available;
     overflow-y: scroll;
 }
-div#nfc-north-container {
-    position: relative;
-    top: 1107px;
-}
-div#nfc-east-container {
-    position: relative;
-    top: 1095px;
-}
-div#nfc-west-container {
-    position: relative;
-    top: 1292px;
-}
-div#nfc-south-container {
-    position: relative;
-    top: 1290px;
-}
-div#nfc-playoff-container {
-    position: relative;
-    top: 1496px;
-}
+
 .pinto td {
     border-bottom: 1px solid #fff;
     width: 20%;
