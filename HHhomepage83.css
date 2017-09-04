@@ -565,7 +565,7 @@ h1.cfm-player-name {
 }
 .cfm-player-attributes-item {
     background: rgba(255, 255, 255, 0);
-    border: 0px solid #adadad;
+    border: 0px solid #adadad;     height: 79px;
 }
 .teamprofileright {
     width: 498px;
