@@ -13,6 +13,12 @@ and (max-device-width : 420px)
      /* start of phone styles */
 
 
+.row.vfx-header .col-md-6.col-sm-6.col-xs-6,  .row.idx-header .col-md-6.col-sm-6.col-xs-6 {
+    HEIGHT: 100%;
+}
+ .author-avatar img {
+    width: 6em;
+}    
 .cfm-player-bio {
     color: #fff;
     left: -294px;
@@ -26,7 +32,7 @@ and (max-device-width : 420px)
     top: -450px;
 }
 .blogpost h3 strong a {
-  width: 100%;
+  width: 100%; font-size:75px;
 }
 li#game- {
     height: 87px;
@@ -199,10 +205,11 @@ transition: all 0.5s 1.4s;
     line-height: 38px;
     position: relative;
 }
+
 .playerskills .pinto th {
-    background: NONE;
+    background: transparent;
     text-align: center;
-    font-size: 54px;
+    font-size: 40px;
     position: relative;
     color: #cad7e1;
     width: 100%;
@@ -228,14 +235,14 @@ transition: all 0.5s 1.4s;
     position: relative;
     float: left;
     height: 106px;
-    font-size: 25px;
+    font-size: 30px;
     overflow: hidden;
 }
 .panel-heading .pull-right {
     float: left! important;
     font-size: 30px;
     position: absolute;
-    top: 273px;
+    top: 273px;text-transform:uppercase;
     left: 74px;
 }
 .playerskills {
