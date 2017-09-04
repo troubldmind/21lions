@@ -147,16 +147,25 @@ div#nfc-north-container {
 }
 div#nfc-west-container {
     position: relative;
-    top: 1090px;
+    top: 1315px;
 }
 div#nfc-south-container {
      position: relative;
-    top: 1084px;
+    top: 1326px;
 }
 div#nfc-playoff-container {
     position: relative;
-    top: 1064px;
+    top: 1538px;
 }
+.rulesscroll {
+z-index: 2;
+opacity: 1;
+ pointer-events: auto;
+-webkit-transition: all 0.5s 1.4s;
+transition: all 0.5s 1.4s;
+ height:-webkit-fill-available;
+ overflow-y: scroll;
+}    
 .pinto td {
     border-bottom: 0px solid #fff;
     width: 20%;
@@ -441,9 +450,18 @@ table.data-table1 .tbdy1 td {
 h2, .h2 {
     font-size: 40px;
 }
+.el.s--active .el__content {
+    z-index: 2;
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transition: all 0.5s 1.4s;
+    transition: all 0.5s 1.4s;
+    height: -webkit-fill-available;
+    overflow-y: hidden;
+}
 p {
-    margin: 0 0 10px;
-    font-size: 40px;
+ margin: 0 0 10px;
+font-size: 40px;
 }
 .btn-group>.btn:first-child {
     font-size: 40px;
