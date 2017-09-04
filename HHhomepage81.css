@@ -1,4 +1,37 @@
 /**misc**/
+.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper #team-main-nav li a, .cfm-player-attributes-item-rank, p {
+    font-size: 20px;
+}
+.blogpost h3 strong a {
+    width: 100%;
+    FONT-SIZE: 50PX;
+    TEXT-TRANSFORM: UPPERCASE;
+}
+.standings {
+    top: 22px;
+    position: relative;
+    height: -webkit-fill-available;
+    overflow-y: SCROLL;
+    padding: 6px;
+    background-image: url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png), url(https://s18.postimg.org/bjp0vrqc9/nfc-logohh_zps3vajdcsb.png);
+    background-size: 10%, 10%;
+    background-repeat: no-repeat;
+    background-position: -3px 25%, -4px 75%;
+}
+.secondlevel {
+    width: 924px;
+    height: 389px;
+    position: relative;
+    top: 414px;
+}
+div#afc-playoff-container , div#nfc-playoff-container {
+    height: 421px;
+    overflow: hidden;
+}
+.el__text {
+    top: 11px;
+    left: 118px;
+}
 #admin-main-nav .nav>li>a {
     display: block;
     font-size: 19px;
@@ -3358,10 +3391,10 @@ div#news-stream-container, div#gameoftheweek-container, .cont {
     font-size: 40px;
     -webkit-text-stroke: black .4px;
     height: 47px;
-    top: -13px;
+    top: 16px;
     width: 941px;
     position: relative;
-    left: 86px;
+    left: 116px;
     text-align: center;
     padding-left: 17px;
 }
@@ -4579,31 +4612,5 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title2 {
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title2 span {
     color: #cad7e1;
 }
-/***Standings***/
 
-div#afc-playoff-container , div#nfc-playoff-container {
-    height: 421px;
-    overflow: hidden;
-}
-.el__text {
-    top: 11px;
-    left: 118px;
-}
-.standings {
-    top: 22px;
-    position: relative;
-    height: -webkit-fill-available;
-    overflow-y: SCROLL;
-    padding: 6px;
-    background-image: url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png), url(https://s18.postimg.org/bjp0vrqc9/nfc-logohh_zps3vajdcsb.png);
-    background-size: 10%, 10%;
-    background-repeat: no-repeat;
-    background-position: -3px 25%, -4px 75%;
-}
-.secondlevel{
-    width: 924px;
-    
-    height: 389px;
-    position: relative;
-    top: 376px;
-}
+
