@@ -3891,9 +3891,6 @@ table.data-table1 .tbdy1 td {
     background: transparent;   
 }
 .data-table1 td.tbdy1, table.data-table1 .tbdy1 td {
-    background: -webkit-linear-gradient(#fff 33%,#ccc 52%, #fff 68% );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(0, 0, 0, 0);
     text-transform: uppercase;
     border-bottom: 0px dotted #ddd;
 }
