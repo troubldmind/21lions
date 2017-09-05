@@ -1938,7 +1938,7 @@ span.home.cpu {
     color: rgb(204, 51, 50);
     background-repeat: no-repeat, no-repeat;
 }
-.clickable.ng-scope {    width: 585px;
+.clickable.ng-scope {    width: 530px;
     height: 224px;
     position: relative;
     overflow: hidden;
@@ -1946,7 +1946,7 @@ span.home.cpu {
     animation: fadein-slide-in-right ease 5s;
 }
 .cfm-table tbody tr td>div.align-right, .cfm-table tbody tr th>div.align-right {
-           width: 585px;
+           width: 530px;
     height: 224px;
     position: relative;
     overflow: hidden;
@@ -2123,18 +2123,16 @@ span.use { top: -32px;
     color: #cad7e1;
     text-shadow: 0 2px 5px black;
 }
-.gameoftheweek .cfm-table tr td.cfm-at {  
-    width: 5vw;
+.gameoftheweek .cfm-table tr td.cfm-at {      width: 100px;
     background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png);
     background-repeat: no-repeat;
     background-size: 100%;
-      background-position: 2px 1px;
+    background-position: 2px 1px;
     z-index: 1;
-    height: 14vH;
+    height: 100px;
     display: block;
     position: relative;
-    top: 11vH;
-    animation: fadein ease 8s;
+    top: 80px;
 }
 
 /***GOW  images***arizona cardinals*/
