@@ -1,6 +1,17 @@
 /**misc**/
+span.headline.blue{
+    background: #005fa4;
+}
+.blue.triangle {
+    border-color: rgba(202, 215, 225, 0) transparent transparent #005fa4;
+}
 
-
+span.nfc {
+    border-top: 5px solid #005fa4;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: rgba(251, 251, 251, 0.23);
+}
 .idx>.category-title, .vfx>.forum-title {
     color: #fff;
     background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),linear-gradient( #2b4069, #1a2a48 ), url();
@@ -728,6 +739,7 @@ div#frontoffice_wrapper b, strong {
     text-decoration: none;
     height: 55px;
 }
+
 span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-score {     position: absolute;
     position: absolute;
     width: 30px;
@@ -741,9 +753,9 @@ span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-
 li#game- {
     height: 90px;
 }
-.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {        top: 29px;
+.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {        top: 55px;
     width: 21px;
-    left: 86px;
+    left: 58px;
     height: 25px;
 }
 .scorelist:before {
@@ -1644,7 +1656,7 @@ span.nfc { border-top: 5px solid #213355;
 }
 
 ul#players {    list-style: none;
-    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png) 0px 0px / 7px, url(https://s3.postimg.org/fl2blqyeb/stats_background_edited-1.gif) repeat, no-repeat 0 0;
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png) 0px 0px / 7px, url(https://s26.postimg.org/4t84wlvgp/statsbg_zpsczvbuhuh.png) repeat, no-repeat 0 0;
     position: relative;
     overflow-x: hidden;
     width: 95%;
