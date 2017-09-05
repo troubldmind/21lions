@@ -1966,7 +1966,7 @@ span.home.cpu {
     overflow: hidden;
     text-shadow: 0 2px 5px black;
 }
-.ari,.atl, .bal, .buf, .car, .chi, .cin, .cle, .dal, .den, .det, .gb, .hou, .ind, .jac, .kc, .mia, .min, .ne, .no, .nyg, .nyj, .oak, .phi, .pit, .sd, .sf, .sea, .la, .tb, .ten, .was, .mc, .por, .ldn, .sat, .bkn, .los {
+.lac, .lar, .ari,.atl, .bal, .buf, .car, .chi, .cin, .cle, .dal, .den, .det, .gb, .hou, .ind, .jac, .kc, .mia, .min, .ne, .no, .nyg, .nyj, .oak, .phi, .pit, .sd, .sf, .sea, .la, .tb, .ten, .was, .mc, .por, .ldn, .sat, .bkn, .los {
     width: 100%;
     height: 100%;
     font-size: 70px;
@@ -2743,9 +2743,7 @@ p.nfc.dal{
 p.dal:before {
     content: "COWBOYS";
 }
-.lar, .lac, .ari, .atl, .bal, .buf, .car, .chi, .cin, .cle, .dal, .den, .det, .gb, .hou, .ind, .jac, .kc, .mia, .min, .ne, .no, .nyg, .nyj, .oak, .phi, .pit, .sd, .sf, .sea, .la, .tb, .ten, .was, .mc, .por, .ldn, .sat, .bkn, .los {
-    text-shadow: none;
-}
+
 p.afcgamertag {
       FONT-SIZE: 21px;
     padding-left: 620px;
