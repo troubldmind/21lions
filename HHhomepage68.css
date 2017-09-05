@@ -1914,7 +1914,7 @@ span.away.cpu {
     padding-right: 69px;
     color: rgb(204, 51, 50);
     background-repeat: no-repeat, no-repeat;
-    background-position: 520px 38px;
+    background-position: 469px 38px;
 }
 span.home.cpu {
     background-image: url(http://img4.wikia.nocookie.net/__cb20130326132551/rating-system/images/3/3f/450px-White_X_in_red_background.svg.png);
@@ -2020,7 +2020,7 @@ span.home.cpu {
 }
 .align-right.clickable.ng-scope span.score.ng-binding {
     width: 585px;
-    padding-right: 38px;
+    padding-right: 84px;
     TOP: 162px;
     position: absolute;
     text-align: right;
@@ -2099,7 +2099,7 @@ span.use { top: -32px;
     letter-spacing: .09em;
     background-repeat: no-repeat, no-repeat;
     background-size: 5%;
-    background-position: 515px 34px;
+    background-position: 469px 34px;
     FONT-SIZE: 14px;
     text-transform: uppercase;
     text-align: right;
