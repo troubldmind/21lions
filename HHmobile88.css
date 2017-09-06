@@ -12,7 +12,17 @@ and (max-device-width : 420px)
 @media screen and (max-width: 767px) {
      /* start of phone styles */
 
-.lar, .lac, .home.lac, .home.lar {
+.gameoftheweek .cfm-table tr td.cfm-at {
+    width: 100px;
+    height: 50px;
+    top: 172px;
+}
+     .triangle {
+    MARGIN: -75PX 520PX 0PX;
+    border-width: 75px 0 0 105px;
+}
+    
+     .lar, .lac, .home.lac, .home.lar {
     top: 3px;
     font-size: 3.5em;
     padding-top: 214px;
@@ -472,8 +482,9 @@ h1.cfm-player-name {
     width: 127px;
 }
 .basic-brackets p{
-    font-size: 30px;
+    font-size: 30px;   width: 818px;
 }
+     
  .teamprofileright {
     width: 97%;
     left: 19px;
