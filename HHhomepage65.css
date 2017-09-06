@@ -1,4 +1,7 @@
 /**misc**/
+
+span.league.logo {    width: 90px; }
+
 span.headline.blue{
     background: #005fa4;
 }
@@ -3962,6 +3965,8 @@ span.headline {    background-color: #f8f8f8;
     border-color: rgba(202, 215, 225, 0) transparent transparent #213355;
 }
 /***nav bar and chat button***/
+.navbar-default .navbar-brand {    left: 19px; }
+
 .navbar-toggle .icon-bar {
     display: block;
     width: 47px;
