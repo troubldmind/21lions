@@ -3094,7 +3094,7 @@ div#news-stream-container .blogpostimage {
     -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.83)));
 }
 .blogpostbody img {
-    background-image: url(https://s14.postimg.org/w7plr5wb5/WILLIS-jumbo_1_1.png),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);
+    background-image: url(),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png);
     background-size: 13vW, .5vW;
     background-repeat: no-repeat, repeat;
     background-position: 85vW 17vW;
