@@ -482,9 +482,11 @@ h1.cfm-player-name {
     width: 127px;
 }
 .basic-brackets p{
-    font-size: 30px;   width: 818px;
+    font-size: 30px;
 }
-     
+.basic-brackets {
+    width: 818px;
+}     
  .teamprofileright {
     width: 97%;
     left: 19px;
