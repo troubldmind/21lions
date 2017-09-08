@@ -1,3 +1,222 @@
+/***game recap***/
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title1.gradient, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title1, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title2 {
+    background: rgba(250, 250, 250, 0);
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .button.selected {
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    box-shadow: inset 0 2px 0 0 rgba(187, 187, 187, 0);
+    -moz-box-shadow: inset 0 2px 0 0 #bbb;
+    -webkit-box-shadow: inset 0 2px 0 0 rgba(187, 187, 187, 0);
+    background: rgba(238, 238, 238, 0);
+    cursor: pointer;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap {       background-image: url(544854019);
+    height: 212px;
+    width: 100%;
+    z-index: 1;
+    top: 131px;
+    position: absolute;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    background-size: auto, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 80px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.recap-container {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap {
+    width: 100%;
+    float: left;
+    clear: left;
+    border: 0px solid #ddd;
+    background-image: url(/img/at.png), url(), url();
+    color: #F3F3F3;
+    background-color: transparent;
+    background-size: 8%, 100%, 100%;
+    height: 190px;
+    background-position: 51% 54%, 89% 33%, -1px -146px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    border-bottom: 0px solid #CECECE;
+    overflow: hidden;
+    padding: 9px 9px 0px 14px;
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: INHERIT;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {
+    height: 31px;
+    float: left;
+    font-size: 20px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .recaplabel {
+    float: left;
+    color: #2b4069;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 4px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left {
+    float: left;
+    overflow: visible;
+    width: 300px;
+    color: rgb(42, 139, 234);
+    text-transform: uppercase;
+    font-size: 15px;
+    height: 85px;
+    position: relative;
+    top: 48px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left .teamimage-left, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right .teamimage-right {    height: 210px;
+    margin-top: -80px;
+    background-size: 105%;
+    width: 140px;
+    margin-left: 20%;
+    top: -32px;
+    z-index: 2;
+    position: absolute;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.first {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238, 238, 238, 0)), color-stop(48%,rgba(255, 255, 255, 0)));
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.table-container-recap {
+    background: rgba(255, 255, 255, 0);
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .button {
+    float: left;
+    margin-top: 91px;
+    margin-left: 76px;
+    width: 88px;
+    position: relative;
+    height: 82px;
+    background: transparent;
+    cursor: pointer;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left div.name {
+    float: left;
+    font-size: 63px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    overflow: hidden;
+    width: 266px;
+    padding-left: 10px;
+    text-align: LEFT;
+    left: 146px;
+    POSITION: RELATIVE;
+    TOP:33PX;
+    COLOR: #FFFFFF;
+    text-shadow: -4px 2px 10px #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkgray;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left div.play {
+    color: #777777;
+    float: left;
+    font-family: Verdana;
+    font-size: 11px;
+    margin-left: 0px;
+    margin-top: -4px;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
+       float: left;
+    position: relative;
+    font-size: 81px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2b4069;
+    left: 10px;
+    z-index: 2;
+    top: 8px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right {
+    float: right;
+    text-align: right;
+    width: 300px;
+    overflow: visible;
+    height: 85px;
+    color: rgb(0, 129, 255);
+    text-transform: uppercase;
+    margin-top: 20px;
+    top: 48px;
+    font-size: 15px;
+    line-height: 17px;
+    margin-right: 20px;
+    position: relative;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .statictisc-title {
+    float: left;
+    font-size: 21px;
+    margin-left: 22px;
+    margin-right: 255px;
+    margin-top: -1px;
+    text-transform: uppercase;
+}
+
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right div.name {
+    float: right;
+    font-size: 63px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    overflow: VISIBLE;
+    width: 266px;
+    text-align: right;
+    POSITION: RELATIVE;
+    TOP: 70PX;
+    LEFT: -144PX;
+    COLOR: #F5F4F4;
+    text-shadow: 2px 2px 14px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkgray;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right div.play {
+    color: #777777;
+    float: right;
+    font-family: Verdana;
+    font-size: 11px;
+    margin-right: 0px;
+    margin-top: -4px;
+    overflow: hidden;
+    padding: 0;
+    text-align: right;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-right {
+    float: right;
+    font-size: 81px;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+    color: #2b4069;
+    left: -5px;
+    z-index: 2;
+    top: 8px;
+}
+
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.player-stats-list {
+    height: auto;
+    width: 82%;
+    display: none;
+    margin-left: 9%;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .big {
+    width: 100%;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {
+    height: 25px;
+    float: left;
+    font-size: 15px;
+}
 /**misc**/
 
 span.league.logo {    width: 90px; }
