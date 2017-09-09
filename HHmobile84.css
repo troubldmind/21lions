@@ -50,12 +50,16 @@ span.lac {
      
 span.league.logo {
     width: 150px;
-    height: 124px;
+    height: 136px;
     left: 7px;
     overflow: hidden;
-    object-fit: cover;
+    object-fit: fill;
     position: absolute;
     padding: 11px;
+}
+     #header img, .postimg img {
+    max-width: 100%;
+    height: 100%;
 }
 .yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {
     top: 23PX;
