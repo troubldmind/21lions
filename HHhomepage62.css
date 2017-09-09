@@ -1077,8 +1077,10 @@ background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/m
 .basic-brackets {
     position: relative;
     height: 46px;
-    width: 500px;
-      margin: 70px auto 0;
+    width: fit-content;
+    padding-left: 4%;
+    margin: 70px auto 0;
+    padding-right: 4%;
 }
 .basic-brackets:before {
   content: " ";
