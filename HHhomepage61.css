@@ -219,8 +219,19 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {
 }
 /**misc**/
 
-span.league.logo {    width: 90px; }
-
+span.league.logo {
+    width: 75px;
+    height: 80px;
+    left: 7px;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    padding: 5px;
+}
+#header img, .postimg img {
+    max-width: 100%;
+    height: 100%;
+}
 span.headline.blue{
     background: #005fa4;
 }
