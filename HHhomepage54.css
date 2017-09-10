@@ -20,7 +20,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap {       ba
     position: absolute;
     float: left;
     overflow: hidden;
-    border: 1px solid #ddd;
+    border: 0px solid #ddd;
     border-top: none;
     border-bottom: none;
     background-size: auto, 100%;
@@ -90,7 +90,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.first {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238, 238, 238, 0)), color-stop(48%,rgba(255, 255, 255, 0)));
 }
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.table-container-recap {
-    background: rgba(255, 255, 255, 0); margin-top:94px;
+    background: rgba(255, 255, 255, 0); margin-top:94px; border: 0px solid #ddd;
 }
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .button {
     float: left;
