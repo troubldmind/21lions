@@ -16,7 +16,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap {       ba
     height: 212px;
     width: 100%;
     z-index: 1;
-    top: 131px;
+    top: 185px;
     position: absolute;
     float: left;
     overflow: hidden;
@@ -161,7 +161,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .statictis
     font-size: 21px;
     margin-left: 22px;
     margin-right: 255px;
-    margin-top: -1px;
+    margin-top: 11px;
     text-transform: uppercase;
 }
 
