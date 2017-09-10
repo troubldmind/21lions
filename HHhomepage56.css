@@ -214,9 +214,8 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .big {
     width: 100%;
 }
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {
-    height: 25px;
+    height: 33px;
     float: left;
-    font-size: 15px;
 }
 /**misc**/
 
@@ -4606,7 +4605,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap {         
     position: absolute;
     float: left;
     overflow: hidden;
-    border: 1px solid #ddd;
+    border: 0px solid #ddd;
     border-top: none;
     border-bottom: none;
     background-size: auto, 100%;
