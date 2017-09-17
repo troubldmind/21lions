@@ -1,0 +1,842 @@
+/*RESPONSIVE LAYOUT/ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 420px) 
+/* start of desktop styles */.section
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+}
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+}
+@media screen and (max-width: 767px) {
+     /* start of phone styles */
+
+.gameoftheweek .cfm-table tr td.cfm-at {
+    width: 100px;
+    height: 50px;
+    top: 172px;
+}
+     .triangle {
+    MARGIN: -75PX 520PX 0PX;
+    border-width: 75px 0 0 105px;
+}
+    
+     .lar, .lac, .home.lac, .home.lar {
+    top: 3px;
+    font-size: 3.5em;
+    padding-top: 214px;
+}
+span.lar {
+    background-position: -99px -18px;
+}
+span.lac {
+    background-position: 0px -93px;
+}
+.navbar-brand {
+    font-size: 100px;
+}
+ .navbar-default .navbar-brand {
+    left: 0px;
+}
+
+.col-md-10.col-xs-10.col-sm-10 .row .col-md-6.col-xs-6.col-sm-6 {
+    width: 100%;
+    height: 100%;
+}
+ .row .col-md-6.col-xs-6.col-sm-6 {
+   height: 100%;
+}
+     
+span.league.logo {
+    width: 150px;
+    height: 136px;
+    left: 7px;
+    top: -37px;
+    overflow: hidden;
+    object-fit: fill;
+    position: absolute;
+    padding: 11px;
+}
+     #header img, .postimg img {
+    max-width: 100%;
+    height: 100%;
+}
+.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {
+    top: 23PX;
+    LEFT: 227PX;
+}
+.row.vfx-header .col-md-6.col-sm-6.col-xs-6,  .row.idx-header .col-md-6.col-sm-6.col-xs-6 {
+    HEIGHT: 100%;
+}
+ .author-avatar img {
+    width: 6em;
+}    
+.cfm-player-bio {
+    color: #fff;
+    left: -294px;
+    position: relative;
+}
+.cfm-player-bio h1.cfm-player-name span.pull-right {
+    top: 198px;
+    left: 31%;
+}
+.teamprofiles:before, .teamprofiles:after {
+    top: -450px;
+}
+.blogpost h3 strong a {
+  width: 100%; font-size:75px;
+}
+li#game- {
+    height: 87px;
+}
+.yui3-scorestrip-tile-index-0 {
+    width: 294px;
+    font-size: 25px;
+    padding: 1%;
+}
+.away.team, .home.team {
+    top: 139px;
+    font-size: 40px;
+    letter-spacing: normal;
+}
+.texanscover, .coltscover, .titanscover, .jaguarscover, .bengalscover, .ravenscover, .steelerscover, .cowboyscover, .redskinscover, .eaglescover, .giantscover, .seahawkscover, .cardinalscover, .ramscover, .ninerscover, .packerscover, .lionscover, .bearscover, .vikingscover, .falconscover, .pantherscover, .saintscover, .buccaneerscover, .patriotscover, .dolphinscover, .billscover, .jetscover, .broncoscover, .raiderscover, .chiefscover, .chargerscover {
+    background-size: 10px,75%, 60%, auto, 178%;
+    background-position: 0px 0%,246px -114px, 314px 1px, 0% 0%, -52px -144px;
+    background-repeat: repeat, no-repeat,no-repeat, repeat, no-repeat;
+}
+.lar,.lac,.ari, .atl, .bal, .buf, .car, .chi, .cin, .cle, .dal, .den, .det, .gb, .hou, .ind, .jac, .kc, .mia, .min, .ne, .no, .nyg, .nyj, .oak, .phi, .pit, .sd, .sf, .sea, .la, .tb, .ten, .was, .mc, .por, .ldn, .sat, .bkn, .los, .home.ari, .home.atl, .home.bal, .home.buf, .home.car, .home.chi, .home.cin, .home.cle, .home.dal, .home.den, .home.det, .home.gb, .home.hou, .home.ind, .jac, .home.kc, .home.mia, .home.min, .home.ne, .home.no, .home.nyg, .home.nyj, .home.oak, .home.phi, .home.pit, .home.sd, .home.sf, .home.sea,.home.lac, .home.lar {
+    padding-left: 14px;
+}
+.blogpost.clearfix h4 strong a {
+z-index:0;
+}
+.col-md-12.col-xs-12.col-sm-12 .img-responsive {
+    vertical-align: middle;
+    width: 100%;
+}
+.img-responsive {
+    height: 512px;    width: 100%;
+}
+.col-md-12.col-xs-12.col-sm-12 h4 strong {
+    font-size: 75px;
+}
+.col-md-12.col-xs-12.col-sm-12 h5 {
+    font-size: 35px;
+}
+.button {
+    margin: 24px auto;
+    font-size: 22px;
+    letter-spacing: 14px;
+    text-decoration: none;
+    color: #cad7e1;
+    font-family: inherit;
+    background-image: url(https://s14.postimg.org/w7plr5wb5/WILLIS-jumbo_1_1.png);
+    background-size: 100%;
+    cursor: pointer;
+    padding: 8px 11px 12px;
+    top: 66px;
+    text-transform: uppercase;
+    float: right;
+    z-index: 3333;
+    position: fixed;
+    height: 70px;
+    background: rgba(39, 56, 91, 0);
+    width: 296px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.modalbg:target .dialog {
+     width: 90%;
+    left: 0px;
+    top: 10px;
+}
+.col-md-10.col-xs-10.col-sm-10 .row .col-md-6.col-xs-6.col-sm-6 .cfm-player-attributes .cfm-player-attributes-item {
+    height: 126px;
+    width: 23%;
+}
+h1.cfm-player-name span.pull-right {
+    top: 220px;
+    left: 31%;
+}
+a.yui3-scorestrip-tile-content {       background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+    color: #ffffff;
+    width: 319px;
+    left: 3px;
+    top: 39px;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+    line-height: 21px;
+}
+.scorelist img {
+     width: 85px;
+    height: 72px;
+    display: block;
+    object-position: 0px -8px;
+    float: left;
+    padding: 4px;
+}
+.panel-title>a {
+    color: inherit;
+    font-size: 40px;
+}
+div#afc-west-container {
+    top: 528px;
+}
+div#afc-south-container {
+    top: 534px;
+}
+div#afc-playoff-container {
+    top: 1082px;
+}
+div#nfc-east-container {
+    position: relative;
+    top: 1095px;
+}
+div#nfc-north-container {
+    position: relative;
+    top: 1107px;
+}
+div#nfc-west-container {
+    position: relative;
+    top: 1315px;
+}
+div#nfc-south-container {
+     position: relative;
+    top: 1326px;
+}
+div#nfc-playoff-container {
+    position: relative;
+    top: 1538px;
+}
+.rulesscroll {
+z-index: 2;
+opacity: 1;
+ pointer-events: auto;
+-webkit-transition: all 0.5s 1.4s;
+transition: all 0.5s 1.4s;
+ height:-webkit-fill-available;
+ overflow-y: scroll;
+}    
+.pinto td {
+    border-bottom: 0px solid #fff;
+    width: 20%;
+    TEXT-TRANSFORM: UPPERCASE;
+    padding-right: 25px;
+    TEXT-ALIGN: LEFT;
+    border-right: 0 solid rgba(255, 255, 255, 0);
+    FONT-SIZE: 44PX;
+}
+.col-md-10.col-xs-10.col-sm-10 .row .col-lg-4.col-sm-4.col-md-4.col-xs-4 h3.panel-title {
+    font-size: 38px;
+    width: 412px;
+    text-align: center;
+    left: -8px;
+    position: absolute;
+    top: 48px;
+    z-index: 3;
+}
+.col-md-10.col-xs-10.col-sm-10 .row .col-lg-4.col-sm-4.col-md-4.col-xs-4 {
+    width: 33%;
+}
+.playerskills table.pinto {
+    width: 95%;
+}
+#player-profile-tabs li a {
+    color: #606060;
+    font-weight: 700;
+    text-shadow: 0 1px 0 #fff;
+    font-family: inherit;
+    font-size: 35px;
+    line-height: 38px;
+    position: relative;
+}
+
+.playerskills .pinto th {
+    background: transparent;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    color: #cad7e1;
+    width: 100%;
+    padding-bottom: 14px;
+}
+.cfm-player-wrapper .panel-heading .salary-info {
+   margin-left: -17px;
+    font-size: 30px;
+    top: -64px;
+    position: relative;
+}
+.cfm-player-img img {
+    width: 600px;
+    height: 600PX;
+    OBJECT-POSITION: 105PX -40PX;
+    position: absolute;
+    right: 121px;
+}
+.cfm-player-info {
+    width: 500px;
+    left: -226px;
+    top: -16px;
+    position: relative;
+    float: left;
+    height: 106px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.panel-heading .pull-right {
+    float: left! important;
+    font-size: 30px;
+    position: absolute;
+    top: 273px;text-transform:uppercase;
+    left: 74px;
+}
+.playerskills {
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    min-height: 1px;
+    border-bottom: 1px solid white;
+}
+.nav-pills>li>a {
+    FONT-SIZE: 40PX;
+}
+.col-md-9.col-xs-9.col-sm-9 .blogpost p {
+    top: -99px;
+}
+div#hp-stories .blogpost p {
+    left: 21px;
+    -webkit-line-clamp: 1;
+    max-height: 134px;
+}
+.blogpost p {
+    left: 21px;
+    max-height: 100%;
+}
+.blogpostbody p {
+    position: relative;
+    width: 738px;
+    float: initial;
+    line-height: 46px;
+    top: 382px;
+}
+body {
+    font-size: 35px;
+    color: #cad7e1;
+}
+.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper .row {
+    height: 399px;
+}
+.col-md-10.col-xs-10.col-sm-10 .row .col-md-6.col-xs-6.col-sm-6 {
+    width: 100%;
+}
+
+div#news-stream-container .blogpostfooter {
+    position: relative;
+    top: -8px;
+    float: initial;
+    padding-left: 48px;
+    left: -35px;
+}
+.col-xs-10 .col-xs-4 {
+    width: 98%;
+}
+span.commish {
+    font-size: 54px;
+    TOP: 87PX;
+    left: 18px;
+    width: 48px;
+    height: 63px;
+}
+
+.panel-dd h4.list-group-item-heading {
+    font-size: 45px;
+}
+td.tbdy-sorted.team-logo-container img {
+    width: 65%;
+}
+.row.idx-content.col-xs-6 {
+    width: 100%;
+}
+.cfm-team-medium img {
+    height: 280px;
+}
+.blogpostimage {
+    height: 450px;
+}
+.block {
+    display: none;
+}
+.blogpostfooter {
+    position: relative;
+    width: 101%;
+    float: right;
+    padding-left: 12px;
+}
+.data-table1 th, table.data-table1 td {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.blogpost {
+    width: 1160px;
+    max-width: 135%;
+}
+.cfm-player-attributes-item-rank {
+    font-size: 40px;
+}
+.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper #team-main-nav li a {
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0 4px 12px black;
+    text-transform: uppercase;
+}
+#team-main-nav {
+    height: 90px;
+}
+.panel-body .row {
+    height: 224px;
+}
+.cfm-player-attributes-item-level {
+    font-size: 50px;
+}
+.cfm-player-attributes-item-header {
+    font-size: 30px;
+}
+h1.cfm-player-name {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 76px;
+    background: none;
+    text-shadow: 0 7px 24px black;
+    -webkit-background-clip: inherit;
+    -webkit-text-fill-color: white;
+    padding-left: 15px;
+}
+.cfm-team-logo img {
+    height: 353px;     width: 468px;
+    margin: auto;
+    position: relative;
+    object-fit: cover;
+    object-position: 27px -57px;
+}
+.cfm-player-profile {
+    height: 383px;
+}
+.cfm-player-team, .cfm-team-logo {
+      height: 315px;
+    margin-top: -4px;
+}
+.cfm-player-team img {
+    height: 400px;
+    object-position: -16px 0px;
+}
+.scheduleweek .sosteams {
+    height: 291px;
+    width: 101px;
+    float: left;
+    padding-left: -10px;
+    background-color: rgba(220, 209, 209, 0.26);
+    background-repeat: no-repeat;
+    background-position: -143px -31px;
+    background-size: cover;
+    line-height: 13px;
+}
+.scheduleweek .teamsos .label {
+    margin-left: -105px;
+    font-size: 35px;
+    top: 233px;
+    padding-right: 16px;
+    padding: 13px;
+    text-shadow: 0 3px 12px black;
+    width: 103px;
+    border-radius: 0px 0px 0px 3px;
+    position: absolute;
+}
+.label-default {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 35px;
+    position: relative;
+    top: -50px;
+    color: white;
+    left: 3px;
+} .scheduleweek .gameteam {
+    height: 150px;
+    width: 145px;
+    float: left;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 8px 3px;
+    background-size: 100px;
+    line-height: 13px;
+}
+.scheduleweek .games {
+    left: 27px; height: 150px;
+}
+.scheduleweek .game {
+    float: left;
+    height: 150px;
+    width: 127px;
+}
+.basic-brackets p{
+    font-size: 30px;
+}
+.basic-brackets {
+    width: 818px;
+}     
+ .teamprofileright {
+    width: 97%;
+    left: 19px;
+    float: left;
+    position: relative;
+}
+ .teamprofileleft {display:none;
+}
+div#frontoffice_wrapper b, strong {
+    font-size: 35px;
+}
+.help-block {
+    color: #ffc900;
+}
+table.data-table1 .tbdy1 td {
+    font-size: 35px;
+    padding: 3px 3px;
+}
+h2, .h2 {
+    font-size: 40px;
+}
+.el.s--active .el__content {
+    z-index: 2;
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transition: all 0.5s 1.4s;
+    transition: all 0.5s 1.4s;
+    height: -webkit-fill-available;
+    overflow-y: hidden;
+}
+p {
+ margin: 0 0 10px;
+font-size: 40px;
+}
+.btn-group>.btn:first-child {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#admin-main-nav .nav>li>a {
+    display: block;
+    font-size: 40px;
+}
+.author-box.col-md-2.text-center {
+    position: absolute;
+    width: 25%;
+}
+.post-new .post-box {
+    min-height: 32em;
+    width: 75%;
+    position: relative;
+    float: right;
+}
+#brdbottom .breadcrumb, #brdtop .breadcrumb {
+    background: transparent;
+    margin-bottom: .5em;
+    font-size: 40px;
+}
+.post-content p {
+    font-size: 40px;
+}
+input.btn.btn-success.pull-right {
+    top: 5px;
+    left: 660px;
+    position: relative;
+}
+.post-content {
+    min-height: 10em;
+    font-size: 40px;
+}
+.post-content h3, .h3 {
+    font-size: 50px;
+}
+.post-menu.pull-right.col-md-3.col-sm-3.col-xs-3 {
+    position: relative;
+}
+.btn-group.postlink.pull-right {
+    left: 1015px;
+    top: 496px;
+}
+.post-meta .pull-right {
+    float: right! important;
+    font-size: 56px;
+    position: relative;
+    top: -7px;
+    left: -28px;
+}
+.author-title h5, .h5, .author-name h4, .h4 {
+    font-size: 40px;
+}
+.vtx .topic-title {
+    font-size: 50px;
+}
+.author-box.col-md-3.col-sm-3.col-xs-3 {
+    width: 25%;
+    position: relative;
+}
+
+a.btn.btn-primary.post-new {
+    left: -19px;
+    top: -200px;
+}
+.idx .idxpend {
+    display: none;
+}
+.idx .idx-content .forum-title, .vfx .vfx-content .topic-title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.idx .idx-content .forum-title {
+    line-height: 80px;
+}
+.idx>.row, .vfx>.row {
+    font-size: 30px;
+}
+.idx .forum-description {
+    font-size: 30px;
+}
+.col-xs-6 {
+    width: 50%;
+}
+.col-xs-4 {
+    width: 30%;
+}
+legend {
+    color: #ffffff;
+}
+.form-control {
+    font-size: 30px; height:60px;
+  }
+.col-xs-7 {
+    width: 75%;
+}
+.col-md-5 {
+    width: 41%;
+}
+
+.cfm-player-attributes .cfm-player-attributes-item {
+    height: 126px;
+    width: 6%;
+}
+.players-add-filter-select:last-child>.btn {
+    width: 100%;
+}
+input[type=submit] , a.btn, a.btn:hover, a.btn:visited {
+   font-size: 40px;
+}
+div#players-add-filter-select ul.players-add-filter.dropdown-menu {
+    width: 100%;
+    text-align: left;
+    background: rgba(24, 37, 63, 0.85);
+    color: white;
+}
+.players-add-filter>li {
+    font-size: 40px;     color: #fff;
+}
+.radio input[type=radio], .radio-inline input[type=radio], .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox] {
+    float: left;
+    margin-left: -20px;
+    width: 35px;
+    height: 40px;
+}
+.col-md-12.col-xs-12.col-sm-12 img {
+    vertical-align: middle;
+    width: 19px;
+}
+.col-xs-12 {
+    font-size: 40px;
+}
+h3, .h3 {
+    font-size: 50px;
+}
+.header.schedule h1 {
+    font-size: 50px;
+}
+.sub-menu ul li {
+    font-size: 40px;
+}
+.weekSelector.clearfix {
+    left: 19px;
+    font-size: 49px;
+}
+.scheduleweek .week {
+    height: 50px;
+    width: 129px;
+    background: rgba(246, 246, 246, 0) none repeat scroll 0 0;
+    color: #cad7e1;
+    font-size: 62px;
+    border: 0px solid #ccc;
+    position: absolute;
+    top: 41px;
+    LEFT: 107PX;
+}
+.scheduleweek {
+    height: 300px;
+}
+.scheduleweek .teamlogo img {
+    top: 21px;
+    position: relative;
+    width: 320px;
+    height: 320px;
+    object-position: 0px -16px;
+}
+.hometeam.pull-right .teamlogo {
+    height: 314px;
+    width: 545px;
+}
+.scheduleweek .awayteam {
+    width: 545px;
+}
+.teamlogo {
+    height: 314px;
+}
+.scheduleweek .awayteam .name {
+    margin-left: -143px;
+    margin-top: 45px;
+    font-size: 75px;
+    width: 100%;
+    position: absolute;
+}
+.scheduleweek .record {
+    left: 271px;
+}
+.scheduleweek .awayteam .record {
+    top: -109px;     margin-left: 79px;
+    color: #ffb300;
+    font-size: 40px;
+    width: 100px;
+}
+.scheduleweek .hometeam .name {
+    margin: 74px 0 0 -101px;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.scheduleweek .hometeam .record {
+    margin-left: -230px;
+    color: #e9ae03;
+    font-size: 40px;
+    TOP: 259PX;
+    width: 100px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {
+  font-size: 35px; height: 48px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .data, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .recaplabel {
+    font-size: 35px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .button{ left:0px;}
+
+.scheduleweek .at {
+      font-size: 70px;
+    left: 41px;
+    top: -10px;
+    padding-top: 192px;
+    height: 108%;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 2px 66px;
+}
+.scheduleweek .hometeam.pull-right .teamlogo img {
+    top: 21px;
+    right: -193px;
+    position: relative;
+    width: 320px;
+    height: 320px;
+    object-position: 0px -16px;
+}
+.scheduleweek .hometeam {
+    margin-top: -228px;
+}
+.scheduleweek .score {
+    font-size: 36px;
+}
+span.yui3-scorestrip-tile-vts.yui3-scorestrip-tile-visitor.yui3-scorestrip-tile-score {        position: absolute;
+    width: 79px;
+    font-size: 25px;
+    height: 52px;
+    text-shadow: 0 -6px 10px #000000;
+    background: rgba(202, 215, 225, 0);
+    left: 149px;
+    padding-top: 9px;
+    top: 15px;
+    color: white;
+    text-align: center;
+}
+
+.cfm-player-team, .cfm-team-logo {
+    height: 353px;
+    position: relative;
+    margin-top: -78px;
+    left: 604px;
+    top: 53px;
+}
+.yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor, .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home {       position: absolute;
+    width: 79px;
+    font-size: 25px;
+    height: 65px;
+    background: rgba(202, 215, 225, 0);
+    left: 197px;
+    text-shadow: 0 -6px 10px #000612;
+    top: 7px;
+    padding-top: 18px;
+    color: white;
+    text-align: center;
+}
+.yui3-scorestrip-tile {
+    border-right: 0px solid rgb(255, 255, 255);
+}
+.scorelist {
+    clear: both;
+    margin: 0;
+    display: -webkit-box;
+    padding: 0;
+    width: 319px;
+    height: 87px;
+    top: 7px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    right: 131px;
+    overflow: hidden;
+    float: right;
+}
+.scorelist:before {
+    font-size: 24px;    padding-top: 0px;
+}
+
+.cfm-player-attributes-item {
+    height: 126px;     background: rgba(255, 255, 255, 0);
+    border: 0px solid #adadad;
+}
+.cfm-player-img {
+     width: 481px;
+    height: 383px;
+    position: absolute;
+    float: right;
+    margin-left: -20px;
+    margin-top: 0px;
+    right: 6px;
+    OVERFLOW: HIDDEN;
+}
+.row .col-md-6.col-xs-6.col-sm-6 {
+    height: 198px;
+}
+
+6.col-sm-6.col-xs-6 {
+    height: 0px;
+}
