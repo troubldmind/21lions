@@ -24,9 +24,9 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .data, div.eas-plugin-ccmGamePl
 
 .cfm-player-attributes .cfm-player-attributes-item {
     height: 126px;
-    width: 6%;
+    width: 260px
 }
-.col-md-10.col-xs-10.col-sm-10 .row .col-md-6.col-xs-6.col-sm-6 .cfm-player-attributes .cfm-player-attributes-item {
+.col-md-10.col-xs-10.col-sm-10 .row .col-md-6.col-xs-6.col-sm-6 {
     height: 126px;
     width: 100%;
 }
@@ -822,9 +822,7 @@ li.closed:before {
     background-position: 0px 0%,246px -114px, 314px 1px, 0% 0%, -52px -144px;
     background-repeat: repeat, no-repeat,no-repeat, repeat, no-repeat;
 }
-span.away.use, span.home.use {
-    font-size: 20px;
-}
+
 .gameoftheweek .cfm-table tr td.cfm-at {
     width: 100px;
     height: 50px;
