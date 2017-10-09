@@ -13,7 +13,11 @@ and (max-device-width : 420px)
      /* start of phone styles */
 
 
- .intro {display:none;}
+.slideshow.section.section-1 {
+    display: -webkit-inline-box;
+}
+ 
+     .intro {display:none;}
      
      p.superbowlrecap {    display: none;}
 
