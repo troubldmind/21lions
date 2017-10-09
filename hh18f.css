@@ -16,6 +16,10 @@ ul.medium-logos img.teamlogo {
 .star.star-4 {    width: 24px;    height: 77px;    top: 70rem;    opacity: 1;    left: 434px;    z-index: 1;}
 .star.star-5 {    width: 46px;    height: 77px;    top: 70rem;    left: 804px;    z-index: 1;}
 
+.slideshow.section.section-1 {
+    display: none;
+}
+
 ul.available.dropdown-menu {
     width: max-content;
     position: absolute;
