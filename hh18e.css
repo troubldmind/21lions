@@ -2714,3 +2714,163 @@ a.btn, a.btn:hover, a.btn:visited {
 .playoff-img { text-align: CENTER;}
 a.phone {    display: none;}
 
+
+/***video background in intro section***/
+.intro {
+    width: 100%;
+    background: transparent;
+    height: 400px;
+    margin: 15px 0;
+    color: #FFF;
+    text-align: center;
+    line-height: 25px;
+    transition: ease-in 1.65s; 
+    animation: fadein 1900ms ease-out;
+    opacity: 1;
+    margin-top: 0px;
+}
+.video {
+  padding-top: 56.25%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+}
+.video__container {    width: 100%;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.19);
+    position: relative;
+    overflow: hidden;
+    margin-top: -45px;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(#233355));
+}
+.video__overlay {   background-position: 0px 0px, 0px 0px, 0px 278px;
+    opacity: .85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png) 0px 0px / 7px, linear-gradient(rgb(31, 49, 82), rgb(255, 255, 255)) 0px 0px / 100%, url() 0px 278px / 100%;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/***intro section***/
+.intro {
+    width: 100%;
+    background: transparent;
+    height: 100%;
+    margin: 15px 0;
+    color: #FFF;
+    text-align: center;
+    line-height: 25px;
+    transition: ease-in 1.65s; 
+    animation: fadein 1900ms ease-out;
+    opacity: 1;
+    margin-top: 0px;
+}.basic-brackets {
+    position: relative;
+    height: 46px;
+    width: fit-content;
+    padding-left: 4%;
+    margin: 70px auto 0;
+    padding-right: 4%;
+}
+.basic-brackets:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+    border-left: 5px solid #aaa;
+    border-top: 5px solid #ccc;
+    border-bottom: 5px solid #ccc;
+  padding: 0px 15px;
+}
+.basic-brackets:after {
+  content: " ";
+  padding: 0px 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+    border-right: 5px solid #ccc;
+    border-top: 5px solid #ccc;
+    border-bottom: 5px solid #ccc;
+}
+.basic-brackets h1, .basic-brackets h2, .basic-brackets h3, .basic-brackets h4, .basic-brackets h5, .basic-brackets h6, .basic-brackets p, .basic-brackets ul, .basic-brackets li, .basic-brackets a {
+padding: 0px 0px;
+    text-shadow: 0 1px 4px black;
+    top: 11px;
+    FONT-SIZE: 28PX;
+    FONT-FAMILY: DLSansCondMedium;
+    position: relative;
+    text-transform: uppercase;
+    color: #ef6161;
+}
+
+.brackets-using-mixin {
+  height: 150px;
+  width: 320px;
+  margin: 50px auto 0;
+  position: relative;
+}
+.brackets-using-mixin:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-left: 20px solid salmon;
+  border-top: 20px solid salmon;
+  border-bottom: 20px solid salmon;
+  padding: 0px 10px;
+}
+.brackets-using-mixin:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 20px solid salmon;
+  border-top: 20px solid salmon;
+  border-bottom: 20px solid salmon;
+  padding: 0px 10px;
+}
+.brackets-using-mixin h1, .brackets-using-mixin h2, .brackets-using-mixin h3, .brackets-using-mixin h4, .brackets-using-mixin h5, .brackets-using-mixin h6, .brackets-using-mixin p, .brackets-using-mixin ul, .brackets-using-mixin li, .brackets-using-mixin a {
+  padding: 20px 60px;
+}
+.brackets-using-mixin p {
+  font-size: 28px;
+  font-family: Arial;
+  padding-top: 45px;
+}
+
+span.small.text, span.top.text {
+    z-index: 2;
+    margin-top: 215px;
+}
+span.top.text {
+    POSITION: ABSOLUTE;
+    WIDTH: 100%;font-family:anton;
+    FONT-SIZE: 129PX;
+    LEFT: 0PX;    font-style: italic;
+       top: 176px;
+    TEXT-SHADOW: 0 4PX 7PX BLACK;
+}
+span.small.text {      POSITION: ABSOLUTE;
+    WIDTH: 100%;
+    FONT-FAMILY: DLSansCondMedium;
+    FONT-SIZE: 28PX;
+    LEFT: 0PX;
+    TOP: 261px;
+    color: #233355;
+    letter-spacing: .2em;
+}
