@@ -414,7 +414,8 @@ span.atl.gowh
 {    -webkit-mask-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));   -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
 
 /*baltimore*/
-span.bal {  background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BAL.svg);    background-position: 66px -49px;
+
+span.bal {  background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BAL.svg);    background-position: -22px -198px;
 }
 span.bal.gowh
 {       -webkit-mask-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));   background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(https://s1.postimg.org/9zty8cyqn/baltimore_zpsgwuicflu.png) ;}
@@ -579,14 +580,7 @@ span.was {   background-image:url(http://www.easports.com/madden-nfl/connected-f
 span.was.gowh 
 {      -webkit-mask-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));   -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";}
 
-/***top slideshow***/
-.outer {     width: 101%;
-    position: relative;
-    top: 0;
-    left: -14px;
-    height: 600px;
-    overflow: hidden;
-}
+.outer {    width: 100%;    position: relative;    top: 0;   left: -14px;    height: 467px;    overflow: hidden;}
 
 .inner {       display: block;
     position: relative;
@@ -598,45 +592,49 @@ span.was.gowh
 }
 
 pic img {      object-fit: cover;
-    object-position: 0rem 8%;
+    object-position: 0rem 26%;
     width: 100%;
     height: 600px;
     position: relative;
     overflow: hidden;
     animation: fadein ease-in 3s;
-    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(transparent), to(black));
-}
-b1 {       position: relative;
-    top: -283px;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(black));}
+
+
+b1 {
+    position: relative;
+    top: -395px;
     right: 0px;
     display: block;
     width: 100%;
     height: 193px;
-    color: #475879;
+    color: #ffffff;
     font-family: anton;
-    font-size: 10rem;
+    text-shadow: 0 1px 5px black;
+    font-size: 8vw;
     text-transform: uppercase;
     line-height: 1em;
-    letter-spacing: -1px;
+    letter-spacing: -5px;
     animation: fadein-slideup ease 3s;
     padding: 5% 5%;
     text-align: center;
 }
-b3 {       position: relative;
-    top: -304px;
+b3 {
+    position: relative;
+    top: -427px;
     width: 100%;
     display: block;
     height: 68px;
-    color: #d22d2a;
+    color: #223355;
     font-size: 25px;
     text-transform: uppercase;
-    line-height: 1.2em;
+    line-height: 26px;
     text-align: center;
     FONT-FAMILY: DLSansCondMedium;
     left: 0px;
-    PADDING-left: 20%;
+    PADDING-left: 6%;
     animation: fadein-slidedown ease 5s;
-    padding-right: 20%;
+    padding-right: 6%;
 }
 
 @keyframes fadein {
@@ -842,7 +840,7 @@ list-style: none;
 div.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper table tbody tr td img, 
 #schedules table tbody tr td img{margin:0 5px 0 0} 
 
-tr.thd2, table.data-table1 tr.thd2:nth-child(odd) {background:rgba(163, 163, 163, 0.24)}
+tr.thd2, table.data-table1 tr.thd2:nth-child(odd) { #eee;}
 table.data-table1{border:none} 
 .dropdown-header,table.data-table1 .thd2 td,.data-table1 td.tbdy1,table.data-table1 .tbdy1 td,table.data-table1 tr:nth-child(odd){font-family:inherit;background:none;color:#223355} 
 table.data-table1 .thd2 td{    padding: 1px 3px; border-bottom:none} 
@@ -892,8 +890,7 @@ h1,h2,h3,h5,h6{    font-family: anton;   color: #293d67}
 #oplayeroftheweek-container,#dplayeroftheweek-container{width:100%;float:left;overflow:hidden;height: 20rem} 
 #oplayeroftheweek-container{border-left:1px solid #4b4b4b;border-top:1px solid #4b4b4b;border-bottom:1px solid #4b4b4b;} 
 #dplayeroftheweek-container{border-right:1px solid #4b4b4b;border-top:1px solid #4b4b4b;border-bottom:1px solid #4b4b4b;} 
-.pow-player-logo img {      width: 188%;
-    object-position: -107px -32px;
+.pow-player-logo img {   width: 130%;   object-position: -37px -32px;
     object-fit: cover;
     height: 386px;}
 .pow-player-logo {width:100%!important;height:auto!important;margin-top:0%} 
@@ -1168,6 +1165,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right div.name {    
     z-index: 1;
 }
 
+.nfcpow.pow-player-logo, .afcpow.pow-player-logo {    overflow: hidden;}
 .afcpow.pow-player-logo {  width: 100%!important;    height: auto!important;    margin-top: 0%;    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
     background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png);
    background-size: 7px, 34%;    background-position: 0 0px, 3px 4%;    background-repeat: repeat,no-repeat;    z-index: 1;    position: relative;    top: -1px;}
@@ -2023,7 +2021,7 @@ span.superbowls9 {
     padding-left: 36px;
     left: 0px;
     height: 100%;
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, rgb(206, 11, 11)), url(https://bloggingdirty.com/wp-content/uploads/usat-images/2017/04/9861508-nfl-super-bowl-li-new-england-patriots-vs-atlanta-falcons.jpeg);
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, rgb(206, 11, 11)), url(https://realsport101.com/wp-content/uploads/2017/07/falcons.jpg);
     background-color: transparent;
     box-shadow: inset 0px 0px 172px rgba(0, 0, 0, 0.55);
     background-size: 5px, auto, 100%;
@@ -2698,6 +2696,23 @@ span.nfc { border-top: 5px solid #213355;
 }
 a.btn, a.btn:hover, a.btn:visited {
     text-decoration: none!important;
-    color: #428bca!important;
-    font-weight: 400!important;
+    font-weight: 400!important;   background: gray; color: #fff!important;
 }
+/*POWERRANKINGS*/
+#powerrankings >table > tbody >tr:nth-child(2):after,#powerrankings >table > tbody >tr:nth-child(3):after,#powerrankings >table > tbody >tr:nth-child(4):after,#powerrankings >table > tbody >tr:nth-child(5):after,#powerrankings >table > tbody >tr:nth-child(6):after,#powerrankings >table > tbody >tr:nth-child(7):after,#powerrankings >table > tbody >tr:nth-child(8):after,#powerrankings >table > tbody >tr:nth-child(9):after,#powerrankings >table > tbody >tr:nth-child(10):after,#powerrankings >table > tbody >tr:nth-child(11):after {
+    position: absolute;
+    display: -webkit-inline-box;
+    margin-top: -128px;
+    padding-left: 199px;
+}
+#powerrankings > table > tbody > tr:nth-child(2):before,#powerrankings > table > tbody > tr:nth-child(4):before,#powerrankings > table > tbody > tr:nth-child(6):before,#powerrankings > table > tbody > tr:nth-child(8):before,#powerrankings > table > tbody > tr:nth-child(10):before {
+     white-space: pre;    position: absolute;    color: #233355;    font-familY: DLSansCondMedium;    line-height: 24px;    height: 141px;    width: 329px;    left: 362px;    padding-left: 13px;    padding-top: 51px;    font-size: 20px;    text-align: left;    background: #eee;}
+
+#powerrankings > table > tbody > tr:nth-child(3):before,#powerrankings > table > tbody > tr:nth-child(5):before,#powerrankings > table > tbody > tr:nth-child(7):before,#powerrankings > table > tbody > tr:nth-child(9):before,#powerrankings > table > tbody > tr:nth-child(11):before {
+     white-space: pre;    position: absolute;    color: #233355;    font-familY: DLSansCondMedium;    line-height: 24px;    height: 141px;    width: 329px;    left: 938px;    padding-left: 13px;    padding-top: 51px;    font-size: 20px;    text-align: left;    background: #eee;}
+
+#powerrankings table.data-table1 .tbdy1 td:nth-child(3) {    float: left;    font-size: 31px !important   ;margin-top: -38px;    font-family: DLSansCondMedium;    margin-left: -5px;    font-style: normal;    position: relative;   top: -104px;    left: 264px;}
+#powerrankings > table > tbody > tr {;    width: 50%;}
+.playoff-img { text-align: CENTER;}
+a.phone {    display: none;}
+
