@@ -721,7 +721,7 @@ html, body {
 height: 100%; overflow: auto; margin: 0; 
 } 
 *{font-family: 'Roboto Condensed', sans-serif;} 
-iframe,ins,#daddyleagues-menu,#daddyleagues-navbar{display:none!important;} 
+ins,#daddyleagues-menu,#daddyleagues-navbar{display:none!important;} 
 	
 .content, body,.container{background:none;} 
 .content{float:left;width:100%;} 
