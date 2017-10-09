@@ -124,15 +124,3 @@ $('a>span:contains("WAS")').replaceWith('<img src="https://static.nfl.com/static
 
 
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-    $(".section").each(function(){
-      var x = $(window).scrollTop() + $(window).height();
-      var y = $(this).offset().top + ($(this).height() / 4);
-
-      if (x >= y) {
-        $(this).addClass('active');
-      };
-    });
-  });
-});
