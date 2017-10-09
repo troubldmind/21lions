@@ -10,13 +10,11 @@ ul.medium-logos img.teamlogo {
   background-size: contain;
   overflow: hidden;
 }
-.star.star-1 {    width: 47px;    height: 84px;    top: 98rem;    left: 690px;    z-index: 1;}
-.star.star-2 {width: 83px;    height: 77px;    top: 97rem;    left: 535px;   z-index: 1;}
-.star.star-3 {width: 33px;    height: 77px;    top: 98rem;    left: 885px;    z-index: 1;}
-.star.star-4 {    width: 24px;    height: 77px;    top: 98rem;    opacity: .3;    left: 434px;    z-index: 1;}
-.star.star-5 {    width: 46px;    height: 77px;    top: 102rem;    left: 804px;    z-index: 1;}
-.star.star-6{   width: 47px;   height: 84px;    top: 363rem;    left: 610px;    opacity: .8;    z-index: 1;}
-.star.star-7 {    width: 33px;    height: 84px;    top: 367rem;    left: 661px;    opacity: .8;    z-index: 1;}
+.star.star-1 {    width: 47px;    height: 84px;    top: 90rem;    left: 690px;    z-index: 1;}
+.star.star-2 {width: 83px;    height: 77px;    top: 89rem;    left: 535px;   z-index: 1;}
+.star.star-3 {width: 33px;    height: 77px;    top: 90rem;    left: 885px;    z-index: 1;}
+.star.star-4 {    width: 24px;    height: 77px;    top: 90rem;    opacity: 1;    left: 434px;    z-index: 1;}
+.star.star-5 {    width: 46px;    height: 77px;    top: 90rem;    left: 804px;    z-index: 1;}
 
 ul.available.dropdown-menu {
     width: max-content;
