@@ -13,7 +13,9 @@ and (max-device-width : 420px)
      /* start of phone styles */
 
 
-p.superbowlrecap {    display: none;}
+ .intro {display:none;}
+     
+     p.superbowlrecap {    display: none;}
 
 #powerrankings > table > tbody > tr:nth-child(2):before,#powerrankings > table > tbody > tr:nth-child(4):before,#powerrankings > table > tbody > tr:nth-child(6):before,#powerrankings > table > tbody > tr:nth-child(8):before,#powerrankings > table > tbody > tr:nth-child(10):before {display:none; }
 
