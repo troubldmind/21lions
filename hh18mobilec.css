@@ -92,10 +92,13 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
 .col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper .panel-body {
     padding: 12px;
 }
+
 b3 {
     position: relative;
-    top: -396px;
-    width: 100%;text-shadow:none;
+    top: -236px;
+    background: white;
+    width: 100%;
+    text-shadow: none;
     display: block;
     height: 68px;
     color: #233355;
@@ -110,8 +113,9 @@ b3 {
     padding-right: 6%;
 }
 b1 {
-    position: relative; text-shadow: none; 
-    top: -236px;
+    position: relative;
+    text-shadow: none;
+    top: -79px;
     right: 0px;
     display: block;
     width: 100%;
@@ -126,16 +130,8 @@ b1 {
     padding: 5% 5%;
     text-align: center;
 }
-pic img {
-    object-fit: contain;
-    object-position: 0rem 8%;
-    width: 100vw;
-    height: 460px;
-    position: relative;
-    overflow: hidden;
-    animation: fadein ease-in 3s;
-    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(black));
-}
+pic img {    object-fit: cover;   object-position: 0rem 8%;    width: 100vw;    height: 300px;    position: relative;    overflow: hidden;    animation: fadein ease-in 3s;    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(black));}
+
 .outer {
     width: 106%;
     position: relative;
