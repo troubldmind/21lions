@@ -154,7 +154,7 @@ a.btn, a.btn:hover, a.btn:visited {       text-decoration: none!important;  colo
 a.phone { display: -webkit-inline-box;  position: relative;    margin-top: -28px;}
 .panel-body img {      padding: 11px;   overflow: hidden;    object-fit: cover;   object-position: left;    width: 81px;    height: 70px;}
 .panel-body { padding: 0;    overflow: hidden;}
-#playerSearchContainer {   top: 714px;    background-color: #fff;    border: 0px solid #428bca;   margin-left: -184px;   width: 94%;}
+#playerSearchContainer {   top: 714px;    background-color: #fff;    border: 0px solid #428bca;   margin-left: -49vw;   width: 94%;}
 .navbar-brand {    background-size: 5rem;    background-position: 17px -1px;}
 .Teamcolors, .cfm-team-logo {    margin-top: -21px;}
 #player-profile-tabs {   background: #e8ecf1;   border-top: 0;    height: 89px;}
