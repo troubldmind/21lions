@@ -3,7 +3,7 @@ ul.medium-logos img.teamlogo {
     padding: 2px;
     WIDTH: 100PX;
 }
-#player-profile-tabs li.selected a {   color: #428bca;}
+#player-profile-tabs li.selected a {      color: #e8ecf1;    text-shadow: 0 1px 5px black;}
 
 /***starts***/
 .star {
@@ -2710,10 +2710,33 @@ a.btn, a.btn:hover, a.btn:visited {
     padding-left: 199px;
 }
 #powerrankings > table > tbody > tr:nth-child(2):before,#powerrankings > table > tbody > tr:nth-child(4):before,#powerrankings > table > tbody > tr:nth-child(6):before,#powerrankings > table > tbody > tr:nth-child(8):before,#powerrankings > table > tbody > tr:nth-child(10):before {
-     white-space: pre;    position: absolute;    color: #233355;    font-familY: DLSansCondMedium;    line-height: 24px;    height: 141px;    width: 329px;    left: 362px;    padding-left: 13px;    padding-top: 51px;    font-size: 20px;    text-align: left;    background: #eee;}
+    white-space: pre;
+    position: absolute;
+    color: #233355;
+    font-familY: DLSansCondMedium;
+    line-height: 24px;
+    height: 141px;
+    width: 329px;
+    left: 25vw;
+    padding-left: 1vw;
+    padding-top: 51px;
+    font-size: 18px;
+    text-align: left;
+    background: #eee;}
 
-#powerrankings > table > tbody > tr:nth-child(3):before,#powerrankings > table > tbody > tr:nth-child(5):before,#powerrankings > table > tbody > tr:nth-child(7):before,#powerrankings > table > tbody > tr:nth-child(9):before,#powerrankings > table > tbody > tr:nth-child(11):before {
-     white-space: pre;    position: absolute;    color: #233355;    font-familY: DLSansCondMedium;    line-height: 24px;    height: 141px;    width: 329px;    left: 938px;    padding-left: 13px;    padding-top: 51px;    font-size: 20px;    text-align: left;    background: #eee;}
+#powerrankings > table > tbody > tr:nth-child(3):before,#powerrankings > table > tbody > tr:nth-child(5):before,#powerrankings > table > tbody > tr:nth-child(7):before,#powerrankings > table > tbody > tr:nth-child(9):before,#powerrankings > table > tbody > tr:nth-child(11):before {    white-space: pre;
+    position: absolute;
+    color: #233355;
+    font-familY: DLSansCondMedium;
+    line-height: 24px;
+    height: 141px;
+    width: 329px;
+    left: 65vw;
+    padding-left: 1vw;
+    padding-top: 51px;
+    font-size: 18px;
+    text-align: left;
+    background: #eee;}
 
 #powerrankings table.data-table1 .tbdy1 td:nth-child(3) {    float: left;    font-size: 31px !important   ;margin-top: -38px;    font-family: DLSansCondMedium;    margin-left: -5px;    font-style: normal;    position: relative;   top: -104px;    left: 264px;}
 #powerrankings > table > tbody > tr {;    width: 50%;}
