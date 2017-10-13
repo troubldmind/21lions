@@ -3,6 +3,8 @@ ul.medium-logos img.teamlogo {
     padding: 2px;
     WIDTH: 100PX;
 }
+#player-profile-tabs li.selected a {   color: #428bca;}
+
 /***starts***/
 .star {
   position: absolute;
@@ -848,7 +850,7 @@ table.data-table1{border:none}
 table.data-table1 .thd2 td{    padding: 1px 3px; border-bottom:none} 
 tr.thd2,table.data-table1 tr.thd2:nth-child(odd){background:rgba(39, 39, 39, 0)} 
 .data-table1 td.tbdy1, table.data-table1 .tbdy1 td{1px solid rgba(56, 56, 56, 0)} 
-table.data-table1 .thd1 td{    background: rgba(24, 24, 24, 0);   color: #5c5c5c;} 
+table.data-table1 .thd1 td{    background: rgba(24, 24, 24, 0);   color: #ffffff;} 
 table.data-table1 .tbdy1 td {   padding: 3px 3px;}
 table.data-table1 .thd1 td a, table.data-table1 .thd1 th a {
     color: #428bca;
