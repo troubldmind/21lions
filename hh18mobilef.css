@@ -177,7 +177,7 @@ h1.cfm-player-name {    font-size: 7vw;    margin-left: 0px;    text-transform: 
 td.tbdy-sorted.team-logo-container,.cfm-team-medium img {    display: none;}
 
 .scheduleweek .score {    font-size: 4vw;}
-.scheduleweek .at {       position: relative; top: 15px;  width: 15vw; padding: 0px 0 0;}
+.scheduleweek .at {       position: relative; top: 27px;  width: 15vw; padding: 0px 0 0;}
 .scheduleweek .hometeam .name, .scheduleweek .hometeam .record {    margin-right: 82px;  font-size: 4vw;}
 .scheduleweek .awayteam .record {    font-size: 4vw;}
 .scheduleweek .awayteam .name, .scheduleweek .awayteam .record {    margin-left: 84px;}
