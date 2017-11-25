@@ -728,7 +728,7 @@ img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;  
 html, body { 
 height: 100%; overflow: auto; margin: 0; 
 } 
-*{font-family: 'Oswald', sans-serif;} 
+*{font-family: 'Roboto-Condensed', sans-serif;} 
 ins,#daddyleagues-menu,#daddyleagues-navbar{display:none!important;} 
 	
 .content, body,.container{background:none;} 
