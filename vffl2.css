@@ -378,9 +378,7 @@ b3 {
 
 /*FONTS*/
 .navbar-brand {  FONT-FAMILY: ANTON;}
-  [src*="/18.png"]{ 
- content: url(https://static.nfl.com/static/site/img/logos/svg/teams/DET.svg);
-}
+
 /*NAV BAR*/
 ul.dropdown-menu.transaction {    width: 30rem;}
 img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;    height: 100%;    overflow:hidden; object-position: 0px 0px;}
@@ -388,7 +386,7 @@ img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;  
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {    color: #ddd;    background-color: transparent;}
 .navbar-default {    background-color: #223355;    border-color: #e7e7e7;}
 .navbar-default .navbar-brand {   color: #fff;}
-.navbar-brand {font-size: 37px; height:50px;    background-image: url(https://s1.postimg.org/8vxv7crz7j/hh1.png); background-size: 6rem; background-position: 1px -5px; background-repeat: no-repeat;padding-left: 6rem;font-style:italic;}
+.navbar-brand {font-size: 37px; height:50px; padding-left: 3rem;font-style:italic;}
 .dropdown-menu {    background-color: #e7e7e7;}
 
 
