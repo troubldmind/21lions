@@ -14,7 +14,6 @@ ul.available.dropdown-menu {
 #team-logo {
     float: left;
     padding-left: 0;
-    display: none;
 }
 
 .tab_drawer_heading { display: none; }
@@ -774,7 +773,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-right {
     font-family: anton;
     padding-right: 62px;
 }
-.teamimage-left, .teamimage-right {    width: 150px;}
+.teamimage-left, .teamimage-right {     height: 123px;   width: 163px;}
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right {    height: 147px;}
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left div.name {     float: left;
     font-size: 55px;
