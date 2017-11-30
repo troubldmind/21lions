@@ -374,7 +374,17 @@ b3 {
     transform: translateY(0);
   }
 }
-
+a.navbar-brand {
+    font-size: 150px;
+    top: 62px;
+    text-shadow: black 0px 0px 70px;
+    letter-spacing: .1em;
+    position: absolute;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: 34px;
+}
 /*FONTS*/
 .navbar-brand {  FONT-FAMILY: ANTON;}
 
@@ -390,10 +400,15 @@ img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;  
 .navbar-fixed-bottom, .navbar-fixed-top {     margin-top: -51px;  position: relative;}
 .navbar {
     min-height: 193px;
-    margin-bottom: 80px;
+    margin-bottom: 13px;
     border: 1px solid transparent;
 }
-
+.navbar-nav {
+    float: left;
+    margin: 0;
+    margin-top: 145px;
+    margin-left: 17px;
+}
 html, body { 
 height: 100%; overflow: auto; margin: 0; 
 } 
