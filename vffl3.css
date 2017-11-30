@@ -455,15 +455,15 @@ span.headline {        background: #213355;     ANIMATION: fadein 2800ms ease-ou
 li#game-:before {content: ""; position: absolute;text-align: center;width: 100%;top: 3px;    z-index: 1;color: #428bca;}
 img.scoreboard {      display: -webkit-box;    margin-bottom: -4px;    position: relative;    left: -34px;    top: 9px;    width: 37px;   height: 25px;}
 .scorelist{    width: 100%;padding: 0; margin-top: 0px; left: 19px;} 
-.yui3-scorestrip-tile{border:0; height:67px;} 
+.yui3-scorestrip-tile{border:0; height:50px;} 
 a.yui3-scorestrip-tile-content{ color: #555; height: 100%; left: 0px;padding-left: 34px;line-height: 0px; padding-top: 5px;  position: absolute; text-decoration: none;  top: 0px;  width: 100%; font-size: 13px;} 
-.yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home, .yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor{color:#ee5f5c !important} 
-.yui3-scorestrip-tile-visitor{top:26px!important;} 
+.yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home, .yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor{color:#888 !important} 
+.yui3-scorestrip-tile-visitor{top:13px!important;} 
 .yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-alert-box,.yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-content,.yui3-scorestrip-tile-content:hover,.yui3-scorestrip-tile-content:hover>span{background:transparent !important;color:#ffb22a!important;} 
-.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home{top:27px;} 
+.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home{top:34px;} 
 .scorelist ol {float:left;margin:0px} 
-.yui3-scorestrip-tile-index-0 {min-width: 152px;}
-.yui3-scorestrip-tile-score{top:47px;right:8px;} 
+.yui3-scorestrip-tile-index-0 {min-width: 68px;}
+.yui3-scorestrip-tile-score{top:34px;right:8px;} 
 
 .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home, 
 .yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor { 
