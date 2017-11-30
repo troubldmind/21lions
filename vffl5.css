@@ -640,7 +640,8 @@ div#powerrankings tr.tbdy1 {   HEIGHT: 95PX;}
 #powerrankings table.data-table1 .tbdy1 td{padding:3px 3px;} 
 .cfm-player-team, .cfm-team-logo {    width: 151px;    float: left;    margin-top: -22px;}
 .cfm-team-logo img {
-    height: 170px;
+    height: 245px;
+    object-position: 6px -24px;
     margin: auto;
 }
 
