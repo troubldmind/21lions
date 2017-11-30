@@ -383,12 +383,16 @@ ul.dropdown-menu.transaction {    width: 30rem;}
 img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;    height: 100%;    overflow:hidden; object-position: 0px 0px;}
 .navbar-default .navbar-nav>li>a {    color: #fff;    text-transform: uppercase;}
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {    color: #ddd;    background-color: transparent;}
-.navbar-default {    background-color: #223355;    border-color: #e7e7e7;}
+.navbar-default {    background: url(https://s7.postimg.org/8dtk74gyj/VFFL.jpg);    border-color: #e7e7e7;}
 .navbar-default .navbar-brand {   color: #fff;}
 .navbar-brand {font-size: 37px; height:50px; padding-left: 3rem;font-style:italic;}
 .dropdown-menu {    background-color: #e7e7e7;}
-
-
+.navbar-fixed-bottom, .navbar-fixed-top {     margin-top: -51px;  position: relative;}
+.navbar {
+    min-height: 193px;
+    margin-bottom: 80px;
+    border: 1px solid transparent;
+}
 
 html, body { 
 height: 100%; overflow: auto; margin: 0; 
@@ -700,7 +704,11 @@ body > div.container > div > div.content > div.maincontent > div.col-md-10.col-x
 .playerskills table.pinto th{background:#272727} 
 .playerskills table.pinto tr:nth-child(2n+1),.pinto tr:nth-child(2n){background:none!important} 
 .playerskills table.pinto{border:0} 
-.cfm-player-team img{    height: 215px;    margin: auto; z-index: 100;opacity:unset} 
+.cfm-player-team img{       height: 252px;
+    object-position: -6px -38px;
+    margin: auto;
+    z-index: 100;
+    opacity: unset;} 
 h1.cfm-player-name span { font-size: 28px;  padding-right: 15px;   font-family: anton;}
 
 /* SCHEDULE */ 
