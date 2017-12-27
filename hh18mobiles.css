@@ -181,7 +181,7 @@ body > div.container > div > div.content > div.maincontent > div.col-md-10.col-x
 .cfm-player-wrapper .panel-heading .salary-info, .cfm-player-wrapper .panel-heading .pull-right {     max-width:400px;  top: -8px;    DISPLAY: BLOCK;    FONT-SIZE: 10PX;    width: 100%;    left: 2px;    text-align: center;}
 .cfm-player-wrapper .panel-heading .salary-info {      DISPLAY: BLOCK;   TOP: 30PX;   LEFT: 4PX;    width: 100%;    max-width: 400px;}
 .cfm-player-img img {    width: 100vw;    height: 99vw;    position: relative;    top: -87px;}
-.cfm-player-img {    float: left;    margin-left: 0px;    margin-top: -181px;    height: 168px;    width: 94vw;    overflow: hidden;}
+.cfm-player-img {    float: left;    margin-left: 0px;    margin-top: -181px;    height: 181px;    width: 94vw;    overflow: hidden;}
 .row .col-xs-7 form.form-horizontal {    width: 279px;}
      .panel.panel-default .collapse.in {    margin-left: 20px;}
      .cfm-player-team, .cfm-team-logo {    width: 94vw;    float: left;overflow: hidden;    margin-top: 0px;  height: 103px}
