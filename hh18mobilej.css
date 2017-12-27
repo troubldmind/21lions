@@ -330,14 +330,16 @@ span.rookie, span.veteran, span.computer {
  .col-md-6.col-xs-6.col-sm-6 .panel.panel-default {    position: relative;    top: -10px;    width: 331px;    left: -17px;}    
 p.nfcgamertag {   FONT-SIZE: 9px;} p.afcgamertag {   FONT-SIZE: 9px;}
 phone {      background-image: none;   padding-left: 6px;    padding-right: 6PX;   position: absolute;   top: -30px;    height: 31px;    width: 85px;  left: 0rem;}
-article.accordion section h2 a {  top: -4px;     font-size: 29px;  left: -46px;}
+article.accordion section h2 a {  top: -2px;     font-size: 29px;  left: -46px;}
 article.accordion section:target {   width: 234px;}
 span.nfc, span.afc {    width: 106vw;}
 article.accordion {    z-index:1; display: inherit;    width: 96%;   height: 216px;   left: 7px;   position: relative;}
 article.accordion section:target {    width: 55vw;}
 .broncoscover, .chiefscover,.raiderscover,.chargerscover,.patriotscover,.dolphinscover,.jetscover,.billscover,brownscover,.ravenscover,.steelerscover,.bengalscover,.coltscover,.titanscover,.jaguarscover,.texanscover,.cowboyscover,.eaglescover,.redskinscover,.giantscover,.ninerscover,.seahawkscover,.ramscover,.cardinalscover,.lionscover,.packerscover,.bearscover,.vikingscover,.falconscover,.saintscover,.pantherscover,.buccaneerscover { font-size: 27px; PADDING-TOP: 7PX;   background-size: 7px, auto, auto;}
 article.accordion a {    left: 39px;}
-     
+ div#gamesummary .col-md-12.col-xs-8.col-sm-10 {
+    width: auto;
+}    
      /*GOW*/
 .profiles.section.section-2 {    width: 100%;    PADDING-LEFT: 0PX;}
 span.away.use {    left: 39px;}
