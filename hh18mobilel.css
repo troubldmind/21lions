@@ -193,7 +193,7 @@ ul.gamerecap {    width: 100%;}
      
 #searchOverlay {    background-color: rgba(255, 255, 255, 0.88);}
 
-.cfm-player-profile {    height: 269px;    margin-top: -20px;}
+.cfm-player-profile {    height: 269px;    margin-top: 0px;}
 .cfm-player-info {    position: absolute;    font-family: 'Open Sans',Arial,sans-serif;    left: 33px;    margin-top: 186px;    width: 73%;     text-align: left;}
 h1.cfm-player-name {   padding-left:5px;  font-size: 7vw;    margin-left: 0px;    text-transform: uppercase;    width: 92%;    position: absolute;    text-align: left;    top: 92px;}
 .cfm-team-logo img {    top: 0px; width: 94vw;    object-fit: contain;    margin: auto;    position: relative;}
