@@ -12,7 +12,9 @@ and (max-device-width : 420px)
 @media screen and (max-width: 767px) {
      /* start of phone styles */
 
-.brownscover {    background-size: 5px, auto, 189%;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {    border: 0px solid #ddd;}
+     
+     .brownscover {    background-size: 5px, auto, 189%;}
 
      table.nfcstandings {    left: 0px;}
 table.afcstandings {    left: 0px;}
