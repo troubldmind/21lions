@@ -25,7 +25,34 @@ ul.medium-logos {    position: relative;   left: -39px;}
 
   ul.medium-logos img.teamlogo { position: absolute;  padding-top: 0px;    margin-top: -16px;   padding: 2px;    WIDTH: 20vw;    left: 76vw;   height: 137px;     background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),linear-gradient(#ccc 21%, rgba(234, 120, 65, 0) ), url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png);
 }   
-
+p.nfc.atl {    background-position: 0px 60px, 0, -112px 0px;}
+p.nfc.no{    background-position: 0px 60px, 0, -112px 0px;}
+p.nfc.tb{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.gb{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.det{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.min{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.dal{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.was{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.phi    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.nyg{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.sf{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.sea{    background-position: 0px 60px, 0, -124px 0px;}
+p.nfc.ari{    background-position: 0px 60px, 0, -124px  0px;}
+p.nfc.lar{    background-position: 0px 60px, 0, -124px 0px;}
+p.afc.ne {    background-position: 14px 84px, 0, -126px 4px;}
+p.afc.buf{    background-position: 14px 84px, 0, -132px 4px}
+p.afc.mia{    background-position: 14px 84px, 0, -132px 4px}
+p.afc.nyj{    background-position: 14px 84px, 0, 7px 4px;}
+p.afc.ten{    background-position: 14px 84px, 0, -2px 4px}
+p.afc.ind{    background-position: 14px 84px, 0, -32px 4px}
+p.afc.hou{    background-position: 14px 84px, 0, -21px 4px}
+p.afc.kc{    background-position: 14px 84px, 0, -12px 4px}
+p.afc.den{    background-position: 14px 84px, 0, -59px 4px}
+p.afc.lac{    background-position: 14px 84px, 0, -62px 4px}
+p.afc.cle{    background-position: 14px 84px, 0, -113px 4px}
+p.afc.pit{    background-position: 14px 84px, 0, -32px 4px}
+p.afc.bal{    background-position: 14px 84px, 0, 11px 63px}
+p.afc.cin{    background-position: 14px 84px, 0, -16px 4px}
      
      .slideshow.section.section-1 {
     display: inline;
