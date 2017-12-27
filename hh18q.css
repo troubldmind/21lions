@@ -960,8 +960,8 @@ div#powerrankings tr.tbdy1 {   HEIGHT: 95PX;}
 #powerrankings .data-table1 .tbdy1 td,#powerrankings .data-table1 td.tbdy1{font-size:19px;font-family:Roboto Condensed,sans-serif;} 
 #powerrankings > table > tbody > tr {background:transparent !important;width:10%} 
 #powerrankings > table {border:0;} 
-#powerrankings .playoff-img{  width: 50%;    display: -webkit-inline-box; height:30px;text-align: center;} 
-#powerrankings table.data-table1 .tbdy1 td:nth-child(3){    float: left;   top: -24px;
+#powerrankings .playoff-img{  width: 50%;    display: -webkit-inline-box; height:78px;text-align: center;} 
+#powerrankings table.data-table1 .tbdy1 td:nth-child(3){    float: left;   top: 0px;
     font-size: 31px !important;
     margin-top: -7px;
     font-family: anton;
