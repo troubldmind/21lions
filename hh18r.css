@@ -961,7 +961,7 @@ div#powerrankings tr.tbdy1 {   HEIGHT: 95PX;}
 #powerrankings > table > tbody > tr {background:transparent !important;width:10%} 
 #powerrankings > table {border:0;} 
 #powerrankings .playoff-img{  width: 50%;    display: -webkit-inline-box; height:78px;text-align: center;} 
-#powerrankings table.data-table1 .tbdy1 td:nth-child(3){    float: left;   top: 0px;
+#powerrankings table.data-table1 .tbdy1 td:nth-child(3){    float: left;   top: -28px;
     font-size: 31px !important;
     margin-top: -7px;
     font-family: anton;
