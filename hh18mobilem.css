@@ -187,7 +187,7 @@ body > div.container > div > div.content > div.maincontent > div.col-md-10.col-x
      .panel.panel-default .collapse.in {    margin-left: 20px;}
      .cfm-player-team, .cfm-team-logo {    width: 94vw;    float: left;overflow: hidden;    margin-top: 0px;  height: 103px}
 ul.gamerecap {    width: 100%;}
-     .cfm-player-team img {       height: 231px;    width: 94vw;    margin: auto;    z-index: 100;  
+     .cfm-player-team img {       height: 154px;    width: 94vw;    margin: auto;    z-index: 100;  
     OBJECT-POSITION: -0PX -28PX;
   object-fit: cover;  opacity: unset;}
      
