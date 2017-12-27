@@ -958,15 +958,17 @@ div#powerrankings tr.tbdy1 {   HEIGHT: 95PX;}
 #powerrankings .data-table1 .thd2,#powerrankings .data-table1 .thd2 td,#powerrankings > table > thead{display:none;} 
 #powerrankings .data-table1 td.tbdy1{display:none;} 
 #powerrankings .data-table1 .tbdy1 td,#powerrankings .data-table1 td.tbdy1{font-size:19px;font-family:Roboto Condensed,sans-serif;} 
-#powerrankings > table > tbody > tr {background:transparent !important;width:10%} 
+#powerrankings > table > tbody > tr {background:transparent !important;width:20%} 
 #powerrankings > table {border:0;} 
 #powerrankings .playoff-img{  width: 50%;    display: -webkit-inline-box; height:78px;text-align: center;} 
-#powerrankings table.data-table1 .tbdy1 td:nth-child(3){    float: left;   top: -28px;
+#powerrankings table.data-table1 .tbdy1 td:nth-child(3){ float: left;
+    top: -63px;
+    position: relative;
     font-size: 31px !important;
     margin-top: -7px;
     font-family: anton;
-    margin-left: 39px;
-    font-style: italic;} 
+    margin-left: 137px;
+} 
 #powerrankings > div:nth-child(2){margin-top:20px;} 
 #powerrankings table.data-table1 .tbdy1 td{padding:3px 3px;} 
 .cfm-player-team, .cfm-team-logo {    width: 151px;    float: left;    margin-top: -22px;}
