@@ -2722,7 +2722,6 @@ a.btn, a.btn:hover, a.btn:visited {
     text-align: left;
     background: #eee;}
 
-#powerrankings table.data-table1 .tbdy1 td:nth-child(3) {    float: left;    font-size: 31px !important   ;margin-top: -38px;    font-family: DLSansCondMedium;    margin-left: -5px;    font-style: normal;    position: relative;   top: -104px;    left: 264px;}
 #powerrankings > table > tbody > tr {;    width: 50%;}
 .playoff-img { text-align: CENTER;}
 a.phone {    display: none;}
