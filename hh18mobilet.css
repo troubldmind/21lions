@@ -159,18 +159,18 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row .subItem {    width: 
     content: "Career Record \A Super Bowl Record \A Playoff Record \A Division Titles";
     white-space: pre;    position: relative;   padding: 4px;    color: #badfff;    background-color: rgba(0, 0, 0, 0.3);    float: left;    text-align: left;    left: -10px;    line-height: 22px;   top: -100px;    border: 0px solid;    font-size: 18px;   padding-left: 6px;    padding-right: 74px;    font-style: normal;    font-family: DLSansCondMedium;
 }
-.gamerecap li img.gamerecap-logo {     height: 198px;   width: 99px;    position: relative;    top: -60px;  left: 9px;}
+.gamerecap li img.gamerecap-logo {     height: 198px;   position: relative;    top: -60px;   left:0px;  width: 75px;}
 .gamerecapscore .teaminfo h1 span {    font-family: anton;    font-size: 18px;    position: relative;    top: 33px;    left: 40px;    float: left;}
-     .gamerecapscore .teaminfo h1 {  color: #fff;    font-family: anton;    font-size: 20px;    text-transform: uppercase;    position: relative;    left: -185px;    top: 8px;}
+     .gamerecapscore .teaminfo h1 {  color: #fff;    font-family: anton;    font-size: 20px;    text-transform: uppercase;    position: relative;    left: -214px;   top: 12px;}
      
 .panel-default>.panel-heading {    font-size: 16px;}
 a.btn, a.btn:hover, a.btn:visited {       text-decoration: none!important;  color: #e8ecf1!important;   background: gray;    font-weight: 400!important;}
 a.phone { display: -webkit-inline-box;  position: relative;    margin-top: -28px;}
 .panel-body img {      padding: 11px;   overflow: hidden;    object-fit: cover;   object-position: left;    width: 81px;    height: 70px;}
 .panel-body { padding: 0;    overflow: hidden;}
-     .gamerecap h2 {      font-size: 19px;    top: 108px;    left: -91px;}
+     .gamerecap h2 {      font-size: 19px;    top: 85px;    left: -74px;}
 .gamerecap h2 span {    font-size: 18px;    left: 11px;}
-.gamerecapscore .teamscore h1 {  font-size: 50px;    position: relative;    left: -258px;    top: 36px;    background: #00000073;   padding: 6px;}
+.gamerecapscore .teamscore h1 {  font-size: 50px;    position: relative;    left: -251px;    top: 119px;    background: #00000073;   padding: 6px;}
 #playerSearchContainer {    top: 0px; border-radius: 0px;     background-color: #fff;    border: 0px solid #fffff;   margin-left: -47vw; padding: 5%;   width: 100%;}
 .navbar-brand {    background-size: 5rem;    background-position: 17px -1px;}
 .Teamcolors, .cfm-team-logo {    margin-top: -21px;}
