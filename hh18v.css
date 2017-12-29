@@ -1938,12 +1938,12 @@ ul.gamerecap {    position: relative;    top: -418px;}
 .gamerecap-state {   color: #235;    background-color: #a6aeb000;    font-family: unset;}
 .gamerecapscore .teamstats {  background-color: #a6aeb000!important;    color: #fff!important;    position: relative;    z-index: 1;    width: 95%;    left: 265px;    height: 215px;    display: inline-block;}
 .gamerecap h2 {    color: #fff;    font-family: DLSansCondMedium;    font-size: 25px;    margin: 0;    position: relative;      top: 72px;   left: 35px;}
-.gamerecap li {height: 215px;}
+.gamerecap li {background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png); height: 215px;}
 .gamerecapscore .teaminfo h1 {    color: #fff;    font-family: anton;    font-size: 56px;    text-transform: uppercase;}
 .gamerecapscore .teamscore h1 {    color: #fff;    font-family: EASPORTS;    font-size: 100px;    position: relative;   left: -296px; top: 40px;}
 .gamerecap li img.gamerecap-logo {    height: 198px;  width: 237px;}
-.gamerecap h2 span {    font-family: DLSansCondMedium;    font-size: 24px;    position: relative;    left: 11px;    color: #eee;}
-
+.gamerecap h2 span { letter-spacing: .03em;    font-family: DLSansCondMedium;    font-size: 24px;    position: relative;    left: 11px;    color: #eee;}
+.gamerecapscore .teaminfo h1 span, .gamerecapscore .teamscore h1, .gamerecap h2 span, .gamerecap h2, .gamerecapscore .teaminfo h1 {  text-shadow: 0 1px 1px black;}
 
 /*new contact list*/
 .saintscover{    POSITION: ABSOLUTE;
