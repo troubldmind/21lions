@@ -1918,6 +1918,9 @@ span.superbowls1 {
     font-size: 10px;
 }
 span.superbowls2 {    background-image: url(https://s1.postimg.org/2sjs7brwrj/Superbowl-_Trophy-psd91863.png);    background-repeat: no-repeat;    background-size: 100%;    width: 4vw;    height: 13vw;    background-position: 4% 0px;    position: absolute;    top: 2vw;    left: 24vw;    color: white;    text-align: center;    padding-top: 157px;    font-size: 10px;}
+span.superbowls3 {    background-image: url(https://s1.postimg.org/2sjs7brwrj/Superbowl-_Trophy-psd91863.png);    background-repeat: no-repeat;    background-size: 100%;    width: 4vw;    height: 13vw;    background-position: 4% 0px;    position: absolute;    top: 2vw;    left: 20vw;    color: white;    text-align: center;    padding-top: 157px;    font-size: 10px;}
+span.superbowls4 {    background-image: url(https://s1.postimg.org/2sjs7brwrj/Superbowl-_Trophy-psd91863.png);    background-repeat: no-repeat;    background-size: 100%;    width: 4vw;    height: 13vw;    background-position: 4% 0px;    position: absolute;    top: 3vw;    z-index: 5;    left: 22vw;    color: white;    text-align: center;    padding-top: 157px;    font-size: 10px;}
+span.superbowls5 {    background-image: url(https://s1.postimg.org/2sjs7brwrj/Superbowl-_Trophy-psd91863.png);    background-repeat: no-repeat;    background-size: 100%;    width: 4vw;    height: 13vw;    background-position: 4% 0px;    position: absolute;    top: 3vw;    z-index: 5;    left: 26vw;    color: white;    text-align: center;    padding-top: 157px;    font-size: 10px;}
 
 
 /*game recap*/
