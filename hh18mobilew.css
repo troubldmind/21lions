@@ -477,8 +477,10 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap #scrollbar .viewport {    heigh
 .col-md-10 .cfm-player-profile.Teamcolors .cfm-team-logo img {    width: 349px;}
     .col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper .cfm-player-profile.Teamcolors .cfm-team-logo img {   object-position: -4px -21px;}
      
-     span.superbowls2 {    top: 15vw;   left: 37vw;}
-
+span.superbowls2 {    top: 15vw;   left: 37vw;}
+span.superbowls3 {    top: 15vw;    left: 41vw;}
+span.superbowls4 {    top: 15vw;    left: 45vw;}
+span.superbowls5 {    top: 15vw;    left: 49vw;}
      
 .col-md-10 .cfm-team-logo img {    top: -8px;    height: 242px;    object-fit: contain;    margin: auto;}
 table.table.table-striped.table-bordered.table-condensed {    width: 100%;    max-width: 100%;    margin-bottom: 20px;    white-space: nowrap;    overflow-x: scroll;   display: block;}
