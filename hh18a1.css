@@ -6,6 +6,7 @@ ul.medium-logos img.teamlogo {
 ul.medium-logos h5 {    font-size: 19px;    font-family: DLSansCondMedium;    text-transform: uppercase;}
 .filter-fields button {    margin-bottom: 10px;    width: 21vw;    margin-right: 10px;   text-align: left;}
 #player-profile-tabs li.selected a {   color: #337ab7}
+span.home.use, span.away.use, .record, .home.team, .away.team {    text-shadow: 0px 1px 4px black;}
 
 /***starts***/
 .star {
@@ -354,7 +355,7 @@ span.home.use {        background-image: url(http://findicons.com/files/icons/12
     left: 8px;
 }
 span.away.use {    
-    left: 35px;     animation: slide-in-left 2600ms ease-out;
+    left: 30px;     animation: slide-in-left 2600ms ease-out;
     background-image: url(http://findicons.com/files/icons/1254/flurry_system/256/users.png);
 }
 span.use {     top: -32px;
