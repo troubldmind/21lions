@@ -37,6 +37,13 @@ ul.medium-logos {    position: relative;   left: -39px;}
  .section.section-1.titlebox {
     display: none;
 }
+     .cfm-player-wrapper .panel {
+    position: relative;
+    top: -10px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+     
      #teamspage-wrapper { left: -17px;}
           
      .navbar-default .navbar-nav .open .dropdown-menu > li > a {    color: rgb(0, 0, 0);}
