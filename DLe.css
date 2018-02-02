@@ -672,7 +672,6 @@ ul.dropdown-menu.transaction {    width: 30rem;}
 img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;    height: 100%;    overflow:hidden; object-position: 0px 0px;}
 .navbar-default .navbar-nav>li>a {    color: #fff;    text-transform: uppercase;}
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {    color: #ddd;    background-color: transparent;}
-.navbar-default {    background-color: #223355;    border-color: #e7e7e7;}
 .navbar-default .navbar-brand {   color: #fff;}
 .navbar-brand {font-size: 37px; height:50px;   background-image:none;    padding-left: 0rem; background-size: 6rem; background-position: 1px -5px; background-repeat: no-repeat;font-style:italic;}
 .dropdown-menu {   position: relative;  background-color: #e7e7e7;}
