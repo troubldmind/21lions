@@ -12,7 +12,8 @@ and (max-device-width : 420px)
 @media screen and (max-width: 767px) {
      /* start of phone styles */
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {    border: 0px solid #ddd;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {      color: #0089ff;
+    background-color: #fff0;  border: 0px solid #ddd;}
      
      .brownscover {    background-size: 5px, auto, 189%;}
 
@@ -180,7 +181,7 @@ a.phone { display: -webkit-inline-box;  position: relative;    margin-top: -28px
 #playerSearchContainer {    top: 0px; border-radius: 0px;     background-color: #fff;    border: 0px solid #fffff;   margin-left: -47vw; padding: 5%;   width: 100%;}
 .navbar-brand {  padding-left: 3rem;   background-size: 5rem;    background-position: 17px -1px;}
 .Teamcolors, .cfm-team-logo {    margin-top: -21px;}
-     .cfm-player-profile.Awayteam .cfm-team-logo img {    object-position: -27px -30px;}
+     .cfm-player-profile.Awayteam .cfm-team-logo img {    object-position: 9px -5px;}
 #player-profile-tabs {   background: #e8ecf1;   border-top: 0;    height: 89px;}
 #player-profile-tabs li {    float: left;    margin: -5px 0 0 5px;    padding: 7px 8px;   width: 31%;}
 body > div.container > div > div.content > div.maincontent > div.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper > div.panel.panel-default > div.panel-body > div > div.cfm-player-attributes-item {width: 62px;}
@@ -482,7 +483,7 @@ p.nfc.car {    background-position: 0px 60px, 0, -112px 0px;}
      .cfm-player-profile.Awayteam {      height: 148px;  width: 50%;}
    .cfm-player-profile.Awayteam span.pull-right {    font-size: 20px;    top: 5px;    left: -158px;    position: relative;}
      .cfm-player-profile.Hometeam {    height: 148px;    width: 50%;    margin-left: 165px;   margin-top: -148px;}
-    .cfm-player-profile.Hometeam img {    top: 0px;   height: 140px;    object-position: -27px -30px;    object-fit: contain;    margin: auto;}
+    .cfm-player-profile.Hometeam img {    top: 0px;   height: 140px;    object-position: 9px -5px;    object-fit: contain;    margin: auto;}
      .cfm-player-profile.Hometeam h1.cfm-player-name {       text-align: right;    padding-right: 15px;    top: -54px;    right: -15px;}
      .cfm-player-profile.Hometeam span.pull-right {     position: relative;    top: 3px;    left: -142px;   font-size: 20px;}
      div#scrollbar {    height: auto;}
