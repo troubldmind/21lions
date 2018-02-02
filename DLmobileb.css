@@ -32,6 +32,10 @@ ul.medium-logos {    position: relative;   left: -39px;}
  .section.section-1.titlebox {
     display: none;
 }
+     
+     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: rgb(255, 255, 255);
+}
      .intro {display:none;}
      
      p.superbowlrecap {    top: 228px;    font-size: 17px;    text-shadow: 0px 2px 9px #333;      left: 9PX;   PADDING: 5PX;    height: 197px;  width: 95%;    color: white;    background: #0000169e;    display: block;}
