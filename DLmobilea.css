@@ -320,7 +320,7 @@ p.afc.oak {   background-size: 75%, 100%, 170%;
     background-position: 1px 71px, 0, -17px 11px;}
 ul.list-group .list-group-item {    display: inline-block;    width: 311px;}
 .playeroftheweek {    background-size: 5px, 100%, 150%;    background-position: 0, 0, -143px -26%;}
-.pow-player-logo img {   left: -12px;   width: 285px; object-position: -97px -93px;}
+.pow-player-logo img {    left: -19px;   width: 285px;    object-position: -51px -46px;}
 .thumbnail {   overflow: hidden;}
      ul.thumbnails {   display: block;  position: relative;    left: -47px;    width: 374px;}
 .playeroftheweek-name {      margin: 0px auto;    text-shadow: 0px 0px 4px #000;    text-transform: uppercase;    text-align: right;    top: 10px;    height: 88px;    padding: 12px;    width: 100%;    right: 2px;}
