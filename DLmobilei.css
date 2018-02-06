@@ -65,12 +65,12 @@ display:none;
     margin-left: -23px;
     font-style: normal;
     position: relative;
-    top: -65px;  left: 77vw;
+    top: -36px;  left: 71vw;
 }
 #powerrankings table.data-table1 .tbdy1 td {    padding: 0px 3px;}
 #powerrankings .playoff-img { width: 59vw;   height: 36PX;    overflow: hidden; }
 
-#powerrankings > table > tbody > tr img {  top: 38px;   position: relative;   HEIGHT: 30PX; width: 100%;    OBJECT-FIT: COVER; }
+#powerrankings > table > tbody > tr img {  top: 2px;   position: relative;   HEIGHT: 30PX; width: 100%;    OBJECT-FIT: COVER; }
 #powerrankings > table > tbody > tr { background: transparent !important;    width: 100%;    HEIGHT: 45PX; }
 
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left .teamimage-left, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right .teamimage-right {    height: 125px;}
@@ -426,7 +426,7 @@ span.jac.gowa {
 p.nfc.chi {   background-position: 19px 67px, 0, -115px  0px;}
 span.jac.gowh {    background-position: -22px 16px;    background-size: 231px;    LEFT: 36PX;}
 div#powerrankings tr.tbdy1 {
-    HEIGHT: 44px; position: relative;    top: -32px;
+    HEIGHT: 44px; position: relative;    top: 16px;
 }
      tr.thd1 {    position: relative;    white-space: nowrap;}
      .col-xs-6 table.data-table1 {    border: none;    display: TABLE;    WIDTH: 86VW;}
