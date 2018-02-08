@@ -3,6 +3,7 @@ ul.medium-logos img.teamlogo {
     padding: 2px;
     WIDTH: 100PX; float:right; 
 }
+.cfm-team-medium img {    object-fit: contain;}
 ul.medium-logos h5 {    font-size: 19px;    font-family: DLSansCondMedium;    text-transform: uppercase;}
 .filter-fields button {    margin-bottom: 10px;    width: 21vw;    margin-right: 10px;   text-align: left;}
 #player-profile-tabs li.selected a {   color: #337ab7}
@@ -732,6 +733,8 @@ ins,#daddyleagues-menu,#daddyleagues-navbar{display:none!important;}
 .content, body,.container{background:none;} 
 .content{float:left;width:100%;} 
 .container{width:1260PX;} 
+.content { -webkit-animation:fadein 1s; animation:fadein 1s }@-webkit-keyframes fadein { from {opacity:0} to {opacity:1} }@keyframes fadein { from {opacity:0} to {opacity:1} }
+
 
 #teamspage-wrapper {    width: 100%;}
 img.teamlogo { position: relative;    padding: 2px;   WIDTH: 25PX;}
@@ -769,15 +772,12 @@ span.headline {        background: #213355;     ANIMATION: fadein 2800ms ease-ou
     width: 100%;
     background: white;
     height: 100%;
-    transition: all .65s;
     opacity: 1;
     margin-top: 0px;    margin-bottom: 40px;
     PADDING-LEFT: 0PX;
 }
 .active,
-.section:first-child{
-  opacity: 1;
-}
+
 .section-1{ }
 .section-2{    float: left;width: 50%;}
 .section-3{   float: left;width: 50%;}
