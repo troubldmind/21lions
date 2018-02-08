@@ -11,6 +11,8 @@ ul.medium-logos h5 {    font-size: 19px;    font-family: DLSansCondMedium;    te
 #player-profile-tabs li.selected a {   color: #337ab7}
 
 /***starts***/
+.panel-body img {    display: none;}
+
 .star {
   position: absolute;
   background: url(http://www.freeiconspng.com/uploads/sparkle-png-24.png) no-repeat;
