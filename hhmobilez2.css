@@ -204,7 +204,7 @@ h1.cfm-player-name {   padding-left:5px;  font-size: 7vw;    margin-left: 0px;  
 .teamprofileright {    width: 107%;    padding: 0 7px 0 21px;    margin-left: 3px;    position: relative;    left: -22px;}
 td.tbdy-sorted.team-logo-container,.cfm-team-medium img {    display: none;}
 
-.scheduleweek .week {    left: 93px;    top: 35px; transform: rotate(0deg);
+.scheduleweek .week {    left: 98px;    top: -5px; transform: rotate(0deg);
     transform-origin: 23% 201%;
     width: 81px;
     background: rgba(246, 246, 246, 0) none repeat scroll 0 0;
@@ -238,20 +238,19 @@ div#frontoffice_wrapper {    position: relative;    left: 31px;}
     overflow-x: auto;
 }
 div#schedules table.data-table1 {display: block;}
-.scheduleweek .teamlogo img {   height: 61px; object-position: 0px 8px;  width: 74px; }
+.scheduleweek .teamlogo img {   height: 61px;    object-position: 0px 4px;  width: 74px; }
 
 #scores .list-group-item {   width: 347px;
     background: rgba(128, 128, 128, 0.28);
     background-size: 100%;
-    top: 0px;
-    height: 61px;
+    top: 0px;  height: 50px; left: -2%;
     overflow: hidden;
 }
      .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {   margin-left: 0px;}
-.scheduleweek .hometeam { margin-right: -16px;    margin-top: -9px;}
+.scheduleweek .hometeam {margin-top:-10px;  margin-right: -26px;}
 img.created {    width: 261px;   object-position: 36px -56px;}
      .scheduleweek .score {    font-size: 4vw;}
-.scheduleweek .at {  left: -6px;  max-width: 55px; position: relative; top: 16px;  width: 15vw; padding: 0px 0 0;}
+.scheduleweek .at {  left: 0px;  max-width: 55px; position: relative; top: 16px;  width: 15vw; padding: 0px 0 0;}
 .scheduleweek .hometeam .name, .scheduleweek .hometeam .record {    margin-right: 82px;  font-size: 4vw;}
 .scheduleweek .awayteam .record {    font-size: 4vw;}
 .scheduleweek .awayteam .name, .scheduleweek .awayteam .record {    margin-left: 84px;}
