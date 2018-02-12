@@ -74,10 +74,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .statictis
     margin-right: 5px;    float: left;
     font-size: 11px;
 }
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-    background-color: #2c4273;
-    color: #cad7e1;
-}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {    background-color: #8a2421;    color: #deac45;}
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
     float: left;
     font-size: 30px;
@@ -424,7 +421,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
     LEFT: -7PX;
     font-family: anton;
     POSITION: RELATIVE;
-}.navbar-default .navbar-nav .open .dropdown-menu>li>a {color: #428bca;}
+}.navbar-default .navbar-nav .open .dropdown-menu>li>a {color: #f2b148;}
 table.data-table1 .thd1 td {    background: rgba(24, 24, 24, 0);  color: #555;}
 .dropdown-header, table.data-table1 .thd2 td, .data-table1 td.tbdy1, table.data-table1 .tbdy1 td, table.data-table1 tr:nth-child(odd) { color: #999;}
 table.data-table1 {    border: none;    display: block;    overflow-y: hidden;    overflow-x: auto;}
