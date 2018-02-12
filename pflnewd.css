@@ -684,7 +684,7 @@ b3 {
 ul.dropdown-menu.transaction {    width: 30rem;}
 img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;    height: 100%;    overflow:hidden; object-position: 0px 0px;}
 .navbar-default .navbar-nav>li>a {    color: #fff;    text-transform: uppercase;}
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {    color: #ddd;    background-color: transparent;}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {    color: #ffc141;    background-color: transparent;}
 .navbar-default {    background-color: #b9302b;    border-color: #e7e7e7;}
 .navbar-default .navbar-brand {   color: #fff;}
 .navbar-brand {font-size: 37px; height:50px;    background-image: url(https://s1.postimg.org/7tngifitdr/PFLLOGL_zpsqu7p580q.png); background-size: 4rem; background-position: 20px -1px; background-repeat: no-repeat;padding-left: 7rem;font-style:normal; font-family: EASports;}
