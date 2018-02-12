@@ -399,6 +399,7 @@ span.jac.gowa {
     position: relative;
     left: -14px;
 }
+     .playeroftheweek-name, .playeroftheweek-name a {    font-size: 26px;}
      .row table.data-table2 {  height: 100%;   border-collapse: collapse;    border: 1px solid #ccc;    overflow-x: scroll;    overflow: auto;    margin-left: 5px;    display: block;    white-space: nowrap;    width: 95%;}
      .row {    overflow: visible;  margin-left: 5px;   margin-right: 5px; }
      p.afc.jac {  background-position: 8px 69px, 0, -52px 27px;}
@@ -528,5 +529,5 @@ label.col-sm-2.col-md-2.col-xs-2.control-label {    position: relative;    left:
 
 .SL.section.section-1, .SL.profiles.section.section-3, .SL.profiles.section.section-2 {    LEFT: -12PX;}
 span.bkn {   background-position: 0 0, -41px 18px;}
-
+.panel.nopad.panel-player {    position: relative;    left: -7px;}
 ul.list-group .list-group-item {    display: inline-block;    width: 311px;}
