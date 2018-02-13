@@ -301,7 +301,7 @@ ul.tabs {    width: 94%;}
 .navbar-nav {    margin: 6.5px 9px;}
      .navbar { max-height:unset;}
 div#tab1 { background-image: none; }
-h3.tab_drawer_heading { background: rgba(128, 128, 128, 0);   color: #428bca;    font-family: EASports;    letter-spacing: 3px;    font-size: 5vw;    text-align: center;}
+h3.tab_drawer_heading { background: rgba(128, 128, 128, 0);   color: #b9302b;    font-family: EASports;    letter-spacing: 3px;    font-size: 5vw;    text-align: center;}
 .tab_drawer_heading {   padding: 10px 20px;  border-bottom: 1px solid #c2c2c2; border-top: 0px;    background-color: rgba(204, 204, 204, 0);}
 .section {   margin-bottom: 20px; position: unset;}
 .tab_content {   padding: 0px;}
