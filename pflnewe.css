@@ -6,7 +6,7 @@ ul.medium-logos img.teamlogo {
 .cfm-team-medium img {    object-fit: contain;}
 ul.medium-logos h5 {    font-size: 19px;    font-family: DLSansCondMedium;    text-transform: uppercase;}
 .filter-fields button {    margin-bottom: 10px;    width: 21vw;    margin-right: 10px;   text-align: left;}
-#player-profile-tabs li.selected a {   color: #337ab7}
+#player-profile-tabs li.selected a {  text-shadow: 0 1px 1px black;  color: #337ab7}
 span.home.use, span.away.use, .record, .home.team, .away.team {    text-shadow: 0px 1px 4px black;}
 
 /***starts***/
@@ -119,7 +119,7 @@ li.sb{
     font-size: 35px;
 }
 div#tab1 p {
-    width: 69%;
+    width: 100%; padding: 5%;    font-size: 17px;    text-align: center;
 }
 div#tab1 {
     background-image: url(https://s1.postimg.org/1z54tacrj3/sbbackground.gif);
@@ -137,7 +137,7 @@ div#tab1 {
     background: #fff;
     overflow: auto;
 }
-
+.tab_container h2 {    text-align: center;    font-size: 40px;}
 .tab_content {
 	padding: 20px;
 	display: none;
@@ -599,40 +599,37 @@ span.was.gowh
     height: 100%;
 }
 
-pic img {      object-fit: cover;
-    object-position: 0rem -46px;
-    width: 100%;
-    height: 600px;
-    position: relative;
-    overflow: hidden; -webkit-mask-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(black));}
+pic img {  ANIMATION: fadein-slidedown 2600ms ease-out;  object-fit: contain;    object-position: 0rem 0px;  width: 100%;    height: 100%;    object-fit: cover;
+    position: relative;    overflow: hidden; -webkit-mask-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(black));}
 
 
-b1 {
+b1 {top: 53px; left:-296px;  text-align: left;     animation: fadein 2900ms ease-out;
+    background: linear-gradient(to bottom, #ffcb00 , #db6e16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: EASports;
+    letter-spacing: -3px; height:200px;
+    font-size: 6vw; text-shadow:unset;
     position: relative;
-    top: -356px;
     right: 0px;
     display: block;
     width: 100%;
-    height: 193px;
     color: #ffffff;
-    font-family: anton;
     text-shadow: 0 1px 5px black;
-    font-size: 8vw;
     text-transform: uppercase;
     line-height: 1em;
-    letter-spacing: -5px;
     animation: fadein-slideup ease 3s;
     padding: 5% 5%;
-    text-align: center;
 }
+yr {   animation-delay: 2s;   ANIMATION: fadein-slidedown 2800ms ease-out;    background: #bababa00;    padding: 5px;    border-radius: 7%;    color: #dfaf52;    letter-spacing: 9px;    font-size: 1.5rem;    font-family: EASports;    position: relative;    float: left;    left: 266px;    margin-top: 89px;}
+
 b3 {
     position: relative;
     background: #ffffff00; top: -380px;
     width: 100%;
     display: block;
     height: 68px;
-    color: #223355;
-    font-size: 25px;
+      top: -239px;    color: #e6332c;    font-size: 20px;
     text-transform: uppercase;
     line-height: 26px;
     text-align: center;
@@ -1851,14 +1848,14 @@ span.dw{
 .arrow-prev {
     left: 0;
 }
-.arrow {     position: absolute;
+.arrow {    position: absolute;
     top: 174px;
     z-index: 2;
     display: -webkit-box;
     width: 120px;
     height: 99px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.78);
-    background: url(https://s10.postimg.org/l5m52gbm1/006763-3d-transparent-glass-icon-arrows-arrowhead-solid-left.png) 24% 50% / 60px no-repeat;
+    background: url(https://image.ibb.co/mtT9An/003401_glossy_silver_icon_media_a_media21_arrow_back.png) 24% 50% / 60px no-repeat;
 }
 .arrow-next {
     right: 0;
@@ -1874,6 +1871,176 @@ span.dw{
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
+ul#players {    list-style: none;
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png) 0px 0px / 7px, url(https://s26.postimg.org/4t84wlvgp/statsbg_zpsczvbuhuh.png) repeat, no-repeat 0 0;
+    position: relative;
+    overflow-x: hidden;
+    width: 85%;
+    left: 0px;
+    height: 300px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-position: 52px -322px;
+    animation: ease-in 3s;
+}
+
+ul#players li {
+	position: absolute;
+}
+
+ul#players li a{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+
+#passing {       width: 164px;
+    height: 243px;
+    top: 27px;
+    left: 80px;
+}
+
+#rushing {  width: 142px;
+    height: 243px;
+    top: 26px;
+    left: 240px;
+}
+
+#tackles {
+    width: 152px;
+    height: 261px;
+    top: 32px;
+    left: 879px;
+}
+
+#ints {
+    width: 160px;
+    height: 259px;
+    top: 33px;
+    left: 718px;
+}
+div#s-sacks-leaders-container {
+    margin-left: 29px;
+}
+#catches {
+    width: 142px;
+    height: 262px;
+    top: 35px;
+    left: 385px;
+}
+
+#sacks {
+    width: 160px;
+    height: 250px;
+    top: 34px;
+    left: 556px;
+}
+ul#players li a {
+    display: block;
+    height: 100%;
+    font-familY: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+ul#players li a:hover {
+    background: url(https://s27.postimg.org/tulg5g6qb/statsbg_zpsczvbuhuh.png) no-repeat 0 0;
+    }
+
+ul#players li#passing a:hover {         background-image: url(https://s3.postimg.org/u5nzubiqr/Matt_Ryan2_zps327bf45a.png);
+    background-position: -4px 0px;
+    animation: fadein-slideup-ease 5s;
+    background-size: 106%;
+}
+
+
+ul#players li#rushing a:hover {         background-image: url(https://s3.postimg.org/nf0o5t603/ezekiel-elliot.png);
+    background-position: -5px -6px;
+    animation: fadein-slideup-ease 5s;
+    background-size: 107%;
+}
+
+ul#players li#tackles a:hover {
+    background-image: url(https://s3.postimg.org/7kx7oqw83/bobby_zpsextjje8l.png);
+    background-repeat: no-repeat;
+    background-size: 97%;
+    animation: fadein-slideup-ease 5s;
+    background-position: -37px -2px;
+}
+
+ul#players li#ints a:hover {
+    background-image: url(https://s3.postimg.org/ss0ycr8v7/pat_p_zpso7hrr5my.png);
+    background-repeat: no-repeat;
+    background-size: 121%;
+    background-position: -53px 16px;
+    animation: fadein-slideup-ease 5s;
+}
+
+ul#players li#catches a:hover {
+    background-image: url(https://s3.postimg.org/64h3sv3xf/odb_zpsj9zap0go.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -5px 1px;
+    animation: fadein-slideup-ease 5s;
+}
+
+ul#players li#sacks a:hover {
+    background-image: url(https://s3.postimg.org/8uqfq20mb/von_zpsjpaofmi5.png);
+    background-repeat: no-repeat;
+    background-position: -88px 8px;
+    background-size: 138%;
+    animation: fadein-slideup-ease 5s;
+}
+
+ul#players li a span {
+	display: none;
+}
+
+ul#players li a:hover span {
+	display: block;
+}
+
+ul#players li a:hover span {
+    display: block;
+    padding: 5px;
+    width: 580px;
+    background:rgba(255, 255, 255, 0.78);
+    position: relative;
+    top: -38PX;
+    height: 300px;
+    font-size: 11px;
+    font-family: DLSansCondMedium,sans-serif;
+    opacity: .85;
+    filter: alpha(opacity=75);
+    color: #FFF;
+}
+span.passing {
+    left: 163px;
+}
+span.rushing {
+    left: 133px;
+}
+span.catches {
+    left: 140px;
+}
+span.sacks {
+    right: 579px;
+}
+span.ints {
+    right: 576px;
+}
+span.tackles {
+    right: 572px;
+}
+ul#players li a:hover span strong {
+	display: block;
+	margin-bottom: 2px;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
 #item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8, #item-9:target ~ .item-9, #item-10:target ~ .item-10, #item-11:target ~ .item-11, #item-12:target ~ .item-12, #item-13:target ~ .item-13, #item-14:target ~ .item-14, #item-15:target ~ .item-15, #item-16:target ~ .item-16{
     z-index: 3;
     opacity: 1;
@@ -2820,6 +2987,8 @@ span.home.use {    animation: slide-in-right 2600ms ease-out;}
     transform: translateY(0);
   }
 }
+
+.row, .content {    background-color: white;}
 
 .playoff-img { text-align: CENTER;}
 a.phone {    display: none;}
