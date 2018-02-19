@@ -93,12 +93,12 @@ $('a:contains("Toronto Thunderbirds")').replaceWith('<a href="http://daddyleague
 
 
 /***scorelist***/
-$('a>span:contains("SLC")').replaceWith('<img src="/img/nfl/teams/left/158.png" width="35" height="25"" class="scoreboard"> Washington </span>');
-$('a>span:contains("MEX")').replaceWith('<img src="/img/nfl/teams/left/152.png" width="35" height="25"" class="scoreboard"> Washington </span>');
-$('a>span:contains("SAT")').replaceWith('<img src="/img/nfl/teams/left/176.png" width="35" height="25"" class="scoreboard"> Washington </span>');
-$('a>span:contains("SDG")').replaceWith('<img src="/img/nfl/teams/left/136.png" width="35" height="25"" class="scoreboard"> Washington </span>');
-$('a>span:contains("MEM")').replaceWith('<img src="/img/nfl/teams/left/181.png" width="35" height="25"" class="scoreboard"> Washington </span>');
-$('a>span:contains("TOR")').replaceWith('<img src="/img/nfl/teams/left/182.png" width="35" height="25"" class="scoreboard"> Washington </span>');
+$('a>span:contains("SLC")').replaceWith('<img src="/img/nfl/teams/left/158.png" width="35" height="25"" class="scoreboard"> Salt Lake City </span>');
+$('a>span:contains("MEX")').replaceWith('<img src="/img/nfl/teams/left/152.png" width="35" height="25"" class="scoreboard"> Mexico City </span>');
+$('a>span:contains("SAT")').replaceWith('<img src="/img/nfl/teams/left/176.png" width="35" height="25"" class="scoreboard"> San Antonio </span>');
+$('a>span:contains("SDG")').replaceWith('<img src="/img/nfl/teams/left/136.png" width="35" height="25"" class="scoreboard"> San Diego </span>');
+$('a>span:contains("MEM")').replaceWith('<img src="/img/nfl/teams/left/181.png" width="35" height="25"" class="scoreboard"> Memphis </span>');
+$('a>span:contains("TOR")').replaceWith('<img src="/img/nfl/teams/left/182.png" width="35" height="25"" class="scoreboard"> Toronto </span>');
 $('a>span:contains("ARI")').replaceWith('<img src="/img/nfl/teams/left/6.png" width="35" height="25"" class="scoreboard">Arizona</span>');
 $('a>span:contains("ATL")').replaceWith('<img src="/img/nfl/teams/left/13.png" width="35" height="25"" class="scoreboard">Atlanta</span>');
 $('a>span:contains("BAL")').replaceWith('<img src="/img/nfl/teams/left/24.png" width="35" height="25"" class="scoreboard"> Baltimore </span>');
