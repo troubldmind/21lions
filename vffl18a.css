@@ -906,41 +906,6 @@ h4 {  font-family: DLSansCondMedium;  color: #f50a05;}
 .panel.nopad.panel-player .panel-heading {    TEXT-ALIGN: CENTER;    FONT-FAMILY: EASports;    letter-spacing: .2em;}
 .pow-team-logo img {    HEIGHT: 210PX;}
 
-/***TEAM IMAGES***/
-.pow-team-logo [src*="left/0.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/CHI.svg);}
-.pow-team-logo [src*="/1.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/CIN.svg);}
-.pow-team-logo [src*="/2.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/BUF.svg);}
-.pow-team-logo [src*="/3.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/DEN.svg);}
-.pow-team-logo [src*="/4.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/CLE.svg);}
-.pow-team-logo [src*="/5.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/TB.svg);}
-.pow-team-logo [src*="/6.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/ARI.svg);}
-.pow-team-logo [src*="/7.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/LAC.svg);}
-.pow-team-logo [src*="/8.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/KC.svg);}
-.pow-team-logo [src*="/9.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/IND.svg);}
-.pow-team-logo [src*="/10.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/DAL.svg);}
-.pow-team-logo [src*="/11.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/MIA.svg);}
-.pow-team-logo [src*="/12.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/PHI.svg);}
-.pow-team-logo [src*="/13.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/ATL.svg);}
-.pow-team-logo [src*="/14.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/SF.svg);}
-.pow-team-logo [src*="/15.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/NYG.svg);}
-.pow-team-logo [src*="/16.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/JAX.svg);}
-.pow-team-logo [src*="/17.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/NYJ.svg);}
-.pow-team-logo [src*="/18.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/DET.svg);}
-.pow-team-logo [src*="/19.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/GB.svg);}
-.pow-team-logo [src*="/20.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/CAR.svg);}
-.pow-team-logo [src*="/21.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/NE.svg);}
-.pow-team-logo [src*="/22.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/OAK.svg);}
-.pow-team-logo [src*="/23.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/LA.svg);}
-.pow-team-logo [src*="/24.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/BAL.svg);}
-.pow-team-logo [src*="/25.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/WAS.svg);}
-.pow-team-logo [src*="/26.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/NO.svg);}
-.pow-team-logo [src*="/27.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/SEA.svg);}
-.pow-team-logo [src*="/28.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/PIT.svg);}
-.pow-team-logo [src*="/29.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/TEN.svg);}
-.pow-team-logo [src*="/30.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/MIN.svg);}
-.pow-team-logo [src*="/31.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/HOU.svg);}
-.pow-team-logo [src*="/141.png"]{content:url(https://image.ibb.co/dKmdpG/bkn5.png);}
-
 
 
 @keyframes fontbulger {
