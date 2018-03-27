@@ -674,7 +674,7 @@ div#afc-playoff-container, div#nfc-playoff-container {   position: relative;    
 	.navbar-default {  background: linear-gradient(#ffc800, #ffb000); border-color: #000000;}
 	.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {    color: #fff;    text-shadow: 0 1px 1px black;}
 .navbar .nav .active>a:focus, .navbar .nav .active>a:hover {    background: #000!important;   color: #ffb400!important;}
-h1, h2, h3, h5, h6 {  color: #ffb500;    text-shadow: 0 1px 0px black;}
+h1, h2, h3, h5, h6 {  color: #ffb500;  font-family:anton;  text-shadow: 0 1px 0px black;}
 a:focus, a:hover {    color: #ffb200;   text-decoration: underline;}
 /***TEAM IMAGES***/
 	
