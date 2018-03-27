@@ -47,38 +47,15 @@ ul.medium-logos img.teamlogo {
 		width: 100%;
 	}
 	
-	ul.tabs li {      float: left;
-	    margin: 0;
-	    width: 20%;
-	    cursor: pointer;
-	    padding: 30px 4%;
-	    text-align: center;
-	    height: 150px;
-	    LEFT: 0REM;
-	    line-height: 31px;
-	    border-top: 0px solid #333;
-	    border-left: 0px solid #333;
-	    border-bottom: 0px solid #333;
-	    background-color: #283d67;
-	    color: #fff;
-	    overflow: hidden;
-	    position: relative;box-shadow: inset 0 0 344px #233355;
+	ul.tabs li {  float: left;    margin: 0;    width: 307px;    cursor: pointer;    padding: 4% 0%;    text-align: center;    display: table-cell;    vertical-align: middle;    height: 150px;    LEFT: 0REM;    line-height: 31px;    border-top: 0px solid #333;    border-left: 0px solid #333;    border-bottom: 0px solid #333;    background-color: #ffb300;    color: #fff;    overflow: hidden;    position: relative;    box-shadow: inset 0 0 344px #ffb400;    text-shadow: 0 2px 1px black;
 	}
 	
 	.tab_last { border-right: 1px solid #333; }
 	
-	ul.tabs li:hover {
-	    background-color: rgba(204, 204, 204, 0);
-	    color: #233355;
-	    text-shadow: 0 0px 63px #b0d7ff;
+	ul.tabs li:hover {  background-color: rgb(250, 250, 250);    color: #000000;    text-shadow: 0 0px 63px #ffffff;
 	}
 	
-	ul.tabs li.active {
-	background-color: #fff;
-	    color: #223355;
-	    border-bottom: 1px solid #fff;
-	    display: block;
-	    box-shadow: inset 0 0 344px #ffffff;
+	ul.tabs li.active { background-color: #fff;    color: #ffb400;    text-shadow: 0 2px 1px #000000;    border-bottom: 1px solid #fff;    display: block;    box-shadow: inset 0 0 344px #000000;
 	}
 	li.rules {
 	    background-image: url(https://images.iacpublishinglabs.com/reference-production-images/question/aq/700px-394px/much-nfl-referee-make-super-bowl_b8f676636ae479c1.jpg);
@@ -87,13 +64,7 @@ ul.medium-logos img.teamlogo {
 	    background-size: 166%;    font-family: anton;
 	    font-size: 35px;
 	}
-	li.standings{
-	    background-image: url(http://dailysnark.com/wp-content/uploads/2016/07/nflstandings.png);
-	    background-position: -2rem -2rem;
-	    background-repeat: no-repeat;
-	    background-size: 130%;
-	    font-family: anton;
-	    font-size: 35px;
+	li.standings{  background-image: url(https://help.twitter.com/content/dam/help-twitter/big-bird-card.jpeg);    background-position: -2rem -2rem;    background-repeat: no-repeat;    background-size: 130%;    font-family: anton;    font-size: 35px;
 	}
 	li.awards{
 	     background-image: url(https://i.ytimg.com/vi/UzZrUqYhez0/maxresdefault.jpg);
@@ -227,6 +198,9 @@ ul.medium-logos img.teamlogo {
 	    background-color: transparent;
 	    animation: fadein-slide-in-left ease 5s;
 	}
+.blogpost.clearfix h4 {    font-size: 44px;    text-transform: uppercase;}
+.blogpost.clearfix {    border-bottom: 1px solid;}
+.teamprofileleft div#hp-stories {    display: none;}
 	.home.lac, .home.lar,.home.ari, .home.atl,  .home.bal, .home.buf, .home.car, .home.chi, .home.cin, .home.cle, .home.dal, .home.den, .home.det, .home.gb, .home.hou, .home.ind, .jac, .home.kc, .home.mia, .home.min, .home.ne, .home.no, .home.nyg, .home.nyj, .home.oak, .home.phi, .home.pit, .home.sd, .home.sf, .home.sea, .home.la, .home.tb, .home.ten, .home.was, .home.mc, .home.por, .home.ldn, .home.sat,  .home.bkn, .home.los{    width: 100%;
 	    font-size: 70px;
 	    height: 100%;padding-left:15%;
@@ -235,8 +209,7 @@ ul.medium-logos img.teamlogo {
 	    z-index: 2;
 	    text-align: left;
 	    text-transform: uppercase;
-	    font-family: DLSansCondMedium;
-	    color: #fff;    text-shadow: 0 1px 3px black;
+	    font-family: DLSansCondMedium; color: #ffffff; -webkit-text-stroke: 1px #ffb100;  text-shadow: 0 2px 2px black;
 	    overflow: hidden;
 	}
 	.lar, .lac, .ari,.atl, .bal, .buf, .car, .chi, .cin, .cle, .dal, .den, .det, .gb, .hou, .ind, .jac, .kc, .mia, .min, .ne, .no, .nyg, .nyj, .oak, .phi, .pit, .sd, .sf, .sea, .la, .tb, .ten, .was, .mc, .por, .ldn, .sat, .bkn, .los {
@@ -249,7 +222,7 @@ ul.medium-logos img.teamlogo {
 	    text-align: RIGHT;
 	    text-transform: uppercase;
 	    font-family: DLSansCondMedium;
-	    color: #fff;     text-shadow: 0 1px 3px black;
+	     color: #ffffff; -webkit-text-stroke: 1px #ffb100;  text-shadow: 0 2px 2px black;
 	    overflow: hidden;
 	}
 	
@@ -267,10 +240,15 @@ ul.medium-logos img.teamlogo {
 	    left: -79px;
 	    color: #cbcbcc;
 	}
-	.gowh {
+
+.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper ul.list-group .list-group-item {    display: -webkit-inline-box;}
+img.blogpostimage {    float: right;   object-fit: cover;    height: 343px;    width: 700px;   left: 11px;    position: relative;    object-position: 0% 21%;    -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.83)));}
+.blogpostheader h3 {    font-size: 44px;    text-transform: uppercase;}
+img.img-responsive.img-rounded {   display: block;    max-width: 100%;    object-fit: contain;    height: 201px;    left: 11px;    object-position: 0% 21%;}
+.gowh {
 	    width: 649px;
 	    height: 100%;
-	    -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));
+	    -webkit-mask-image:none;
 	    position: absolute;
 	    right: -73px;
 	    z-index: 1;
@@ -278,6 +256,9 @@ ul.medium-logos img.teamlogo {
 	    BACKGROUND-SIZE: 8PX,100%,100%;
 	    background-repeat: REPEAT, no-repeat, no-REPEAT;
 	}
+img.banner2 {  display:none;}
+div#afc-playoff-container, div#nfc-playoff-container {   position: relative;    left: 16px;}
+.img-responsive {    display: block;    max-width: 100%;    object-fit: cover;    height: 450px;    width: 100%;    left: 11px;    position: relative;    object-position: 0% 21%;    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.83)));}
 	.gowa {    width: 648px;
 	    height: 100%;
 	    -webkit-mask-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));
@@ -295,7 +276,8 @@ ul.medium-logos img.teamlogo {
 	    position: absolute;
 	    text-align: right;
 	}
-	.clickable ng-scope, span.score.ng-binding {  TOP: 100px;
+	.clickable.ng-scope {    right: -3px;}
+.clickable ng-scope, span.score.ng-binding {  TOP: 100px;
 	    left: -23px;
 	    position: absolute;
 	    width: 576px;
@@ -309,9 +291,7 @@ ul.medium-logos img.teamlogo {
 	div#gameoftheweek-container{  background-position: 0px -388px; width: 100%;
 	    margin-bottom: 0%;
 	    z-index: 0;
-	    position: relative;
-	    left: -14px;
-	    background-image: url(https://s1.postimg.org/131ji2tddb/fantasy-sports_copy.jpg);
+	    position: relative; left:0px;  background-image: url(https://web-vassets.ea.com/Assets/Resources/EASO/Image/FIFA14_Products_Gen3_GameInfo_bg.jpg);
 	    background-size: 100%;
 	}
 	.gameoftheweek .cfm-table tr td .score { 
@@ -377,7 +357,7 @@ ul.medium-logos img.teamlogo {
 	    padding-top: 33px;
 	    padding-right: 69px;
 	    font-family: DLSansCondMedium;
-	    color: #ebebeb;
+	    color: black;
 	}
 	.home.team {  position: absolute;
 	    background-color: rgba(205, 206, 208, 0);
@@ -393,16 +373,16 @@ ul.medium-logos img.teamlogo {
 	    padding: 5px;
 	    color: #cbcbcc;
 	}
-	.gameoftheweek .cfm-table tr td.cfm-at {      background-size: 71%;
+	.gameoftheweek .cfm-table tr td.cfm-at {  background-size:50%;
 	    float: left;
-	    height: 60px;
+	    height: 60px; left: 36px;  
 	    margin-left: -30px;
 	    margin-top: 50px;
 	    position: relative;
-	    width: 100px;
+	    width: 120px;
 	    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png);
 	    background-repeat: no-repeat;
-	    background-position: 30px -8px;
+	    background-position: 30px -3px;
 	    z-index: 1;
 	    display: block;
 	    top: 50px;
@@ -681,16 +661,22 @@ ul.medium-logos img.teamlogo {
 	}
 	/*NAV BAR*/
 	ul.dropdown-menu.transaction {    width: 30rem;}
-	img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;    height: 100%;    overflow:hidden; object-position: 0px 0px;}
+	img.menu {    top: -9px;   width: 40px;  position: relative;    display: -webkit-inline-box; object-fit: cover; 
+		height: 100%;    overflow:hidden; object-position: 0px 0px;}
 	.navbar-default .navbar-nav>li>a {    color: #fff;    text-transform: uppercase;}
 	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {    color: #ddd;    background-color: transparent;}
 	.navbar-default {    background-color: #223355;    border-color: #e7e7e7;}
 	.navbar-default .navbar-brand {   color: #fff;}
-	.navbar-brand {font-size: 37px; height:50px;    background-image: url(https://s1.postimg.org/8vxv7crz7j/hh1.png); background-size: 6rem; background-position: 1px -5px; background-repeat: no-repeat;padding-left: 6rem;font-style:italic;}
+	.navbar-brand {font-size: 28px; height:50px;     text-transform: uppercase;  background-image: url(https://i.imgur.com/ZLwkjgH.gif); 
+	background-size: 6rem; background-position: 0px 3px; background-repeat: no-repeat;padding-left: 7rem;font-style:normal;}
 	.dropdown-menu {   position: relative;  background-color: #e7e7e7;}
 	.navbar { max-height: 50px;}
-	
-	/***TEAM IMAGES***/
+	.navbar-default {  background: linear-gradient(#ffc800, #ffb000); border-color: #000000;}
+	.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {    color: #fff;    text-shadow: 0 1px 1px black;}
+.navbar .nav .active>a:focus, .navbar .nav .active>a:hover {    background: #000!important;   color: #ffb400!important;}
+h1, h2, h3, h5, h6 {  color: #ffb500;    text-shadow: 0 1px 0px black;}
+a:focus, a:hover {    color: #ffb200;   text-decoration: underline;}
+/***TEAM IMAGES***/
 	
 	[src*="/1.png"]{content:url(http://i.nflcdn.com/static/site/7.5/img/logos/svg/teams-matte-mascot/bengals.svg);}
 	[src*="/2.png"]{content:url(http://i.nflcdn.com/static/site/7.5/img/logos/svg/teams-matte-mascot/bills.svg);}
@@ -748,9 +734,10 @@ ul.medium-logos img.teamlogo {
 	table.afcstandings {    position: relative;  left: -14px;}
 	table.nfcstandings {    position: relative;  left: -14px;}
 	.data-table1 th, table.data-table1 td{font-size:14px} 
-	
+	.caret {  color: black;}
 	/***sections****/
-	.trianglea {     float: left;
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {    color: #ffc000;}
+.trianglea {     float: left;
 	    ANIMATION: fadein 2800ms ease-out;
 	    position: absolute;
 	    display: block;
@@ -774,15 +761,17 @@ ul.medium-logos img.teamlogo {
 	    text-align: center;
 	}
 	 .profiles.section.section-2 {    width: 50%;    PADDING-LEFT: 0PX;}   .profiles.section.section-3 {    width: 50%;    PADDING-LEFT: 0PX;}
-	
+	.profile {    min-height: 257px;}
 	.section{
-	    width: 100%;
+	    width: 100%;text-align:center;
 	    background: #ffffff00; transition: unset;
 	    height: 100%;
 	    opacity: 1;
 	    margin-top: 0px;    margin-bottom: 40px;
 	    PADDING-LEFT: 0PX;
 	}
+p.bannertext {    padding-left: 5%;   padding-right: 5%;}
+img.banner {    width: 100%;}
 	.active,
 	
 	.section-1{ }
@@ -911,20 +900,19 @@ ul.medium-logos img.teamlogo {
 	    /* background: rgba(35, 51, 85, 0.95); */
 	    text-transform: uppercase;
 	    text-align: right;
-	    top: 47px;
+	    top: 40px;
 	    height: 88px;
 	    padding: 12px;
 	    width: 61%;
 	    right: -114px;} 
 	.playeroftheweek-name, .playeroftheweek-name a {
-	    font-size: 35px;
-	   color: #235;    text-shadow: 0px 0px 4px #0000;
+	    font-size: 35px; color: #ffb400;    text-shadow: 1px 2px 0px #000;
 	    font-weight: normal;
 	    font-family: anton;
 	    position: relative;
 	}
 	.playeroftheweek-name a:hover{    color: #ffffff;
-	    text-shadow: 0 0px 50px #a2daff;} 
+	    text-shadow: 0 1px 1px #000000;} 
 	.playeroftheweek{margin-left:0} 
 	.stat-value   {color: #ffffff;
 	    text-shadow: 0 0px 4px black;
@@ -942,7 +930,7 @@ ul.medium-logos img.teamlogo {
 	} 
 	.potw-title{width:100%;font:24px 'Saira Semi Condensed',Arial,sans-serif,sans-serif;color:#cecece;text-transform:uppercase} 
 	.potw-title-sub{width:50%;float:left;text-align:center} 
-	.text {    background-color: #223355;       margin-top: 12px;    BORDER-LEFT: 2PX SOLID WHITE;}
+	.text {    background-color: #000000;       margin-top: 12px;    BORDER-LEFT: 2PX SOLID WHITE;}
 	.panel.nopad.panel-player .panel-heading {    TEXT-ALIGN: CENTER;    FONT-FAMILY: EASports;    letter-spacing: .2em;}
 	.pow-team-logo img {    HEIGHT: 210PX;}
 	
@@ -1010,7 +998,7 @@ ul.medium-logos img.teamlogo {
 	    background: -moz-linear-gradient(top, #000 5%, transparent 95%);
 	    background: -ms-linear-gradient(top, #000 5%, transparent 95%);
 	    background: -o-linear-gradient(top, #000 5%, transparent 95%);} 
-	#powerrankings a{font-family:Roboto Condensed,sans-serif,serif;font-size:20px;text-transform:uppercase;color:#223355;} 
+	#powerrankings a{font-family:Roboto Condensed,sans-serif,serif;font-size:20px;text-transform:uppercase;color:#ffb300;} 
 	#powerrankings table.data-table1 tr:nth-child(even):hover,#powerrankings table.data-table1 tr:nth-child(odd):hover{background-color:transparent!important;} 
 	#powerrankings-container{height:auto;width:100%;float:left;padding:10px;} 
 	#powerrankings-container .data-table1 td.tbdy1,#powerrankings-container table.data-table1 .tbdy1 td{border:0!important;} 
@@ -1029,6 +1017,7 @@ ul.medium-logos img.teamlogo {
 	    font-family: anton;
 	    margin-left: 137px;
 	} 
+.title {width: 100%;max-width: 854px;margin: 0 auto;}
 	#powerrankings > div:nth-child(2){margin-top:20px;} 
 	#powerrankings table.data-table1 .tbdy1 td{padding:3px 3px;} 
 	.cfm-player-team, .cfm-team-logo {    width: 151px;    float: left;    margin-top: -22px;}
@@ -1037,7 +1026,8 @@ ul.medium-logos img.teamlogo {
 	    margin: auto;
 	}
 	.checkbox label, .radio label {  white-space: pre-line;}
-	.col-md-5.col-xs-5.col-sm-5 input#name, select#position, select#team { left: 0px;    position: relative;}
+	.col-md-5 {    width: 41.6%;}
+.col-md-5.col-xs-5.col-sm-5 input#name, select#position, select#team { left: 0px;    position: relative;}
 	.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {    margin-left: 25px;}
 	.form-horizontal .form-group {    margin-left: 0px;}
 	
@@ -1107,7 +1097,10 @@ ul.medium-logos img.teamlogo {
 	.teamRams{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/rams.png) no-repeat} 
 	
 	/* PLAYER PAGE */ 
-	#player-profile-tabs{background:#e8ecf1;border-top:0;height:34px} 
+	.dropdown-header, table.data-table1 .thd2 td, .data-table1 td.tbdy1, table.data-table1 .tbdy1 td, table.data-table1 tr:nth-child(odd) {    color: black; }
+
+body { color:black; font-size: 15px;  }
+#player-profile-tabs{background:#e8ecf1;border-top:0;height:34px} 
 	#player-profile-tabs ul{margin:7px 0 0 -40px;padding-top:8px} 
 	#player-profile-tabs li a,#player-profile-tabs li a:hover{color:#223355;font-weight:normal} 
 	#player-profile-tabs li a{    font-family: DLSansCondMedium;
@@ -1122,6 +1115,23 @@ ul.medium-logos img.teamlogo {
 	    position: relative;
 	    top: -141px;
 	}
+.modal-body img.img-responsive.img-rounded {    object-fit: contain;   object-position: center;  height: 115px;}
+#profile-grid { overflow: auto; white-space: normal; width: 100%: }
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+.modal-dialog {    width: 600px;    margin: 77px auto;}
+.panel-thumbnail div#nfc-playoff-container,  .panel-thumbnail div#afc-playoff-container, .panel-thumbnail div#nfc-north-container, .panel-thumbnail div#nfc-south-container, .panel-thumbnail div#nfc-east-container, .panel-thumbnail div#nfc-west-container, .panel-thumbnail div#afc-south-container, .panel-thumbnail div#afc-north-container, .panel-thumbnail div#afc-west-container, .panel-thumbnail div#afc-east-container {   display: none;}
+p.profile-name {    color: #000000;    font-size: 15px;   letter-spacing: 0.4em;}
+.modal-body img.teamlogo {  position: relative;    padding: 1px;    WIDTH: 35PX;}
+.modal-body {    min-height: 400px;    overflow: auto;}
+div#profile-grid .col-sm-4 {    width: 25%;}
+.col-sm-4.col-xs-12.po.profile {    width: 50%;}
+.modal-body img.img-responsive.img-rounded.po {    display: none;    height: 115px;}
 	.cfm-player-img{float: left;
 	    margin-left: -179px;
 	    margin-top: -2px;
@@ -1148,7 +1158,7 @@ ul.medium-logos img.teamlogo {
 	    display: -webkit-inline-box;
 	}
 	.list-group {   padding-left: 8px;}
-	ul.list-group .list-group-item {    display:contents;}
+	ul.list-group .list-group-item {    display:-webkit-inline-box;}
 	#scores .list-group-item{background:rgba(128, 128, 128, 0.28);background-size:100%;} 
 	.scheduleweek{color:#223355;margin-bottom:5px;border:none} 
 	.scheduleweek .week{float:none;font-weight:normal;margin-top:1px; transform-origin: 25% 269%;} 
@@ -1156,7 +1166,7 @@ ul.medium-logos img.teamlogo {
 	.scheduleweek .hometeam .name{      font-weight: unset;  margin: -68px 110px 0 -70px;
 	    font-size: 23px;
 	    font-family: anton;} 
-	.record {    color: #f75050!important}
+	.record {    color: #050504!important}
 	.scheduleweek .awayteam .name,.scheduleweek .awayteam .record{margin-left:110px;font-weight:normal} 
 	.scheduleweek .awayteam .record {
 	    font-size: 20px;
@@ -1242,6 +1252,80 @@ ul.medium-logos img.teamlogo {
 	    font-family: anton;
 	    z-index: 1;
 	}
+
+/*  VIDEO PLAYER CONTAINER############################### */
+.vid-container { position: relative;  padding-bottom: 52%;  padding-top: 30px;   height: 0; }
+		 
+.vid-container iframe,.vid-container object,.vid-container embed { border-radius: 0%;  position: absolute; top: 0;  left: 0;  width: 98%; height: 97%;}
+
+/*  VIDEOS PLAYLIST ############################### */
+.vid-list-container { width: 100%;overflow: hidden;margin-top: 20px;margin-left:0%;padding-bottom: 20px; overflow-x: scroll;}
+
+.vid-list {width: 1344px;position: relative;top:0;left: 0;}
+
+.vid-item {display: block;width: 148px;height: 148px;	float: left;margin: 0;padding: 10px; padding-top: 15px;}
+
+.thumb {overflow:hidden;	height: 71px;}
+
+.thumb img {width: 100%;position: relative;top: 0px;}
+
+.vid-item .desc {color: black;	font-size: 12px;margin-top:5px;}
+
+.vid-item:hover {cursor: pointer;}
+
+.caption {margin-top: 40px;}
+.vid-list-container {padding-bottom: 20px;}
+
+/*****/
+ul#players {    list-style: none;
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png) 0px 0px / 7px, url(https://s26.postimg.org/4t84wlvgp/statsbg_zpsczvbuhuh.png) repeat, no-repeat 0 0;    position: relative;    overflow-x: hidden;    width: 85%;    left: 0px;    height: 300px;    display: block;    margin: 0;    padding: 0;    background-position: 52px -322px;    animation: ease-in 3s;}
+
+ul#players li {	position: absolute;}
+
+ul#players li a{	display: block;	height: 100%;	text-decoration: none;}
+
+#passing {       width: 164px;    height: 243px;    top: 27px;    left: 80px;}
+
+#rushing {  width: 142px;    height: 243px;    top: 26px;    left: 240px;}
+
+#tackles {    width: 152px;    height: 261px;    top: 32px;    left: 879px;}
+
+#ints {    width: 160px;    height: 259px;    top: 33px;    left: 718px;}
+div#s-sacks-leaders-container {    margin-left: 29px}
+#catches {    width: 142px;    height: 262px;    top: 35px;    left: 385px;}
+
+#sacks {    width: 160px;    height: 250px;    top: 34px;    left: 556px;}
+ul#players li a {    display: block;    height: 100%;    font-familY: inherit;    text-decoration: none;    font-size: 18px;    line-height: 1.3em;}
+
+ul#players li a:hover {    background: url(https://s27.postimg.org/tulg5g6qb/statsbg_zpsczvbuhuh.png) no-repeat 0 0;    }
+
+ul#players li#passing a:hover {         background-image: url(https://s3.postimg.org/u5nzubiqr/Matt_Ryan2_zps327bf45a.png);    background-position: -4px 0px;    animation: fadein-slideup-ease 5s;    background-size: 106%;}
+
+
+ul#players li#rushing a:hover {         background-image: url(https://s3.postimg.org/nf0o5t603/ezekiel-elliot.png);    background-position: -5px -6px;    animation: fadein-slideup-ease 5s;    background-size: 107%;}
+
+ul#players li#tackles a:hover {    background-image: url(https://s3.postimg.org/7kx7oqw83/bobby_zpsextjje8l.png);    background-repeat: no-repeat;    background-size: 97%;    animation: fadein-slideup-ease 5s;    background-position: -37px -2px;}
+
+ul#players li#ints a:hover {    background-image: url(https://s3.postimg.org/ss0ycr8v7/pat_p_zpso7hrr5my.png);    background-repeat: no-repeat;    background-size: 121%;    background-position: -53px 16px;    animation: fadein-slideup-ease 5s;}
+
+ul#players li#catches a:hover {    background-image: url(https://s3.postimg.org/64h3sv3xf/odb_zpsj9zap0go.png);    background-repeat: no-repeat;    background-size: 100%;    background-position: -5px 1px;   animation: fadein-slideup-ease 5s;}
+
+ul#players li#sacks a:hover {    background-image: url(https://s3.postimg.org/8uqfq20mb/von_zpsjpaofmi5.png);    background-repeat: no-repeat;    background-position: -88px 8px;    background-size: 138%;    animation: fadein-slideup-ease 5s;}
+
+ul#players li a span {	display: none;}
+
+ul#players li a:hover span {	display: block;}
+
+ul#players li a:hover span {    display: block;    padding: 5px;    width: 580px;    background:rgba(255, 255, 255, 0.78);    position: relative;    top: -38PX;    height: 300px;    font-size: 11px;    font-family: DLSansCondMedium,sans-serif;    opacity: .85;    filter: alpha(opacity=75);    color: #FFF;}
+span.passing {   left: 163px;}
+span.rushing {    left: 133px;}
+span.catches {    left: 140px;}
+span.sacks {  right: 579px;}
+span.ints {    right: 576px;}
+span.tackles {    right: 572px;}
+ul#players li a:hover span strong {	display: block;	margin-bottom: 2px;	font-size: 12px;	text-decoration: underline;}
+
+
 	.btn-default {    color: #fff;    background-color: #ff1b1b;    border-color: #ccc;}
 	.nfcpow.pow-player-logo, .afcpow.pow-player-logo {    overflow: hidden;}
 	.afcpow.pow-player-logo {  width: 100%!important;    height: auto!important;    margin-top: 0%;    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
@@ -1260,7 +1344,7 @@ ul.medium-logos img.teamlogo {
 	    object-fit: cover;
 	    height: 127px;
 	}
-	.caption {
+	.caption {width: 100%;max-width: 854px;margin: 0 auto;padding: 20px 0;
 	  text-align: center;
 	}
 	
@@ -1793,6 +1877,8 @@ ul.medium-logos img.teamlogo {
 	    text-shadow: 1px 0px 5px black;
 	    left: 165px;
 	}
+img.MENU2 {    top: -2px;    width: 76px;    position: relative;}
+.section.section-4 {    width: 45%;}
 	p.superbowlscore-users {    position: absolute;
 	    width: 207px;
 	    line-height: 111PX;
@@ -1808,7 +1894,8 @@ ul.medium-logos img.teamlogo {
 	p.superbowlrecap {        position: absolute;
 	    font-family: DLSansCondMedium;
 	    top: 278px;
-	    font-size: 17px; height: 163px;  text-shadow: 0px 0px 12px white;    width: 29%; left: 36%;
+	    font-size: 17px; height: 163px;  
+		 text-shadow: 0px 1px 1px #333;    background-color: #0000008f;  color: white;width: 29%; left: 36%;
 	    z-index: 2;
 	    text-align: center;
 	    overflow: hidden;
@@ -1883,18 +1970,7 @@ ul.medium-logos img.teamlogo {
 	    z-index: 2;
 	}
 	
-	.carousel-wrapper {       height: 449px;
-	    top: 0px;
-	    left: 0px;
-	    overflow: hidden;
-	    position: relative;
-	    width: 1161px;
-	    margin: 0 auto;
-	    BACKGROUND-IMAGE: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Super_Bowl_logo.svg/843px-Super_Bowl_logo.svg.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/stadium-flare.png);
-	    background-repeat: repeat, no-repeat, no-repeat;
-	    background-size: 5px, 13%, 100%;
-	    background-position: 0 0, 512px 54px, 0 -360px;
-	    object-fit: contain;
+	.carousel-wrapper {    height: 449px;   top: 0px;    left: 0px;    overflow: hidden;    position: relative;    width: 1161px;    margin: 0 auto;    BACKGROUND-IMAGE: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Super_Bowl_logo.svg/843px-Super_Bowl_logo.svg.png), url(https://image.ibb.co/hkEcGG/f3068cc….png);    background-repeat: repeat, no-repeat, no-repeat;    background-size: 5px, 13%, cover;    background-position: 0 0, 512px 54px, -232px 0px;  object-fit: contain;
 	}
 	/***profiles***/
 	td img.ldn.teamlogo {    height: 25px;}
@@ -2776,8 +2852,8 @@ ul.medium-logos img.teamlogo {
 	    font-size: 18px;
 	    text-align: left;
 	    background: #eee;}
-	
-	
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {    color: #ffb500;}
+	.home.team, .away.team {    font-family: EASports;  color: #000000;   -webkit-text-stroke: .5px #ffb400;}
 	.playoff-img { text-align: CENTER;}
 	a.phone {    display: none;}
 	
@@ -2787,11 +2863,11 @@ ul.medium-logos img.teamlogo {
 	.list-group-item {    padding: 5px 15px;}
 	.cursor.list-group-item .h4, h4 {    font-size: 20px;}
 	
+h4 {    color: black;}
 	.gameoftheweek span.home.use, span.away.use, .record, .home.team, .away.team {   text-shadow: NONE;}
 	#dplayeroftheweek-container, #oplayeroftheweek-container {     border: 0px solid;
 	    background-image: url(https://web-vassets.ea.com/Assets/Resources/EASO/Image/FIFA14_Products_Gen3_GameInfo_bg.jpg);}
 	
-	
-	span.open {    color: red;    font-familY: EASports;    font-style: italic;    font-size: 17px;    text-shadow: 0 2px 25px #ffa7a7;}
+	span.open {   color: #090909;   font-style:normal; font-size: 17px; }
 	
 
