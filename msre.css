@@ -261,7 +261,6 @@ div#afc-playoff-container, div#nfc-playoff-container {   position: relative;    
 .img-responsive {    display: block;    max-width: 100%;    object-fit: cover;    height: 450px;    width: 100%;    left: 11px;    position: relative;    object-position: 0% 21%;    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.83)));}
 	.gowa {    width: 648px;
 	    height: 100%;
-	    -webkit-mask-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));
 	    position: absolute;
 	    left: -73px;
 	    z-index: 1;
