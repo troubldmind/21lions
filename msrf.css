@@ -242,7 +242,7 @@ ul.medium-logos img.teamlogo {
 	}
 
 .col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper ul.list-group .list-group-item {    display: -webkit-inline-box;}
-img.blogpostimage {    float: right;   object-fit: cover;    height: 343px;    width: 700px;   left: 11px;    position: relative;    object-position: 0% 21%;    -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.83)));}
+img.blogpostimage {    float: right;   object-fit: cover;    height: 343px;    width: 700px;   left: 11px;    position: relative;    object-position: 0% 21%; }
 .blogpostheader h3 {    font-size: 44px;    text-transform: uppercase;}
 img.img-responsive.img-rounded {   display: block;    max-width: 100%;    object-fit: contain;    height: 201px;    left: 11px;    object-position: 0% 21%;}
 .gowh {
@@ -258,7 +258,7 @@ img.img-responsive.img-rounded {   display: block;    max-width: 100%;    object
 	}
 img.banner2 {  display:none;}
 div#afc-playoff-container, div#nfc-playoff-container {   position: relative;    left: 16px;}
-.img-responsive {    display: block;    max-width: 100%;    object-fit: cover;    height: 450px;    width: 100%;    left: 11px;    position: relative;    object-position: 0% 21%;    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.83)));}
+.img-responsive {    display: block;    max-width: 100%;    object-fit: cover;    height: 450px;    width: 100%;    left: 11px;    position: relative;    object-position: 0% 21%;   }
 	.gowa {    width: 648px;
 	    height: 100%;
 	    position: absolute;
@@ -516,7 +516,7 @@ div#afc-playoff-container, div#nfc-playoff-container {   position: relative;    
 	span.oak{ background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/OAK.svg);}
 	
 	/*philadelphia*/
-	span.phi { background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PHI.svg);  -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";    background-position:0, 67px -270px; -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.0)), to(rgb(0, 0, 0)));
+	span.phi { background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/PHI.svg);  -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    filter: FlipH;    -ms-filter: "FlipH";    background-position:0, 67px -270px;
 	}
 	span.phi.gowh
 	 {        -moz-transform: scaleX(-1);    -o-transform: scaleX(-1);    -webkit-transform: scaleX(-1);    transform: scaleX(1);    filter: FlipH;    -ms-filter: "FlipH";}
